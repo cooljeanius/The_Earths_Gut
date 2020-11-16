@@ -1,0 +1,31 @@
+local units = {}
+
+	function units.main()
+	end
+
+------------------------------------------------------------------------------------------------------------------------
+
+	function units.sort_units_array(udArgs)
+		local sUnits = udArgs.variable
+		local wtUnits = helper.get_variable_array(sUnits)
+
+		local function is_more_experienced(wtSecondUnit, wtFirstUnit)
+			--helper function for sorting a units array
+			--first and second unit are reversed to achieve sorting in descending order
+			--return true if wtSecondUnit is more experienced than wtFirstUnit
+			local nFirstLevel = wtFirstUnit.level
+			local nSecondLevel = wtSecondUnit.level
+
+			if nFirstLevel == nSecondLevel  then
+				--Take the experience acquired - that unit is more likely to be the one that the player wants to level.
+				return wtFirstUnit.experience < wtSecondUnit.experience
+			end
+			return nFirstLevel < nSecondLevel
+		end
+
+		table.sort(wtUnits, is_more_experienced)
+
+		helper.set_variable_array(sUnits, wtUnits)
+	end
+
+return units
