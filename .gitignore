@@ -1,3 +1,6 @@
 *~
 *.cfg-bak
 *.swp
+
+# has private things in it:
+_server.pbl
