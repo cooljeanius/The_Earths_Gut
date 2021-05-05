@@ -8,7 +8,12 @@ Events marked with a cross are specific to TEG.
 40 YW    * Action of The Scepter of Fire takes place. Haldric II is informed that
            the Scepter was both completed and lost in the year 40.
          * With the death of Thursagan, the Runemaster, all runemasters are killed
-           and the art ofrunesmithing is lost for several centuries.
+           and the art of runesmithing is lost for several centuries.
+
+~50 YW   † The dwarf Kal Torlat founds a settlement; his followers name it after
+           him. Thus, any mentions of "the dwarves at Kal Torlat" later are
+           are referring to this settlement.
+           [TODO: more backstory for Kal Torlat the dwarf]
 	      
 ~200 YW  † The hammer of Thursagan is found for the first time by the dwarves of
            Kal Torlat. Some of the dwarves at Kal Torlat don't understand its
