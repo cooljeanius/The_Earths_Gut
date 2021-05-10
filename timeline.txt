@@ -1,5 +1,5 @@
-Timeline:
----------
+Timeline (warning, contains spoilers):
+--------------------------------------
 
 Events marked with an asterisk are on the main timeline there and included for
 reference.
@@ -10,10 +10,9 @@ Events marked with a cross are specific to TEG.
          * With the death of Thursagan, the Runemaster, all runemasters are killed
            and the art of runesmithing is lost for several centuries.
 
-~50 YW   † The dwarf Kal Torlat founds a settlement; his followers name it after
-           him. Thus, any mentions of "the dwarves at Kal Torlat" later are
-           are referring to this settlement.
-           [TODO: more backstory for Kal Torlat the dwarf]
+~50 YW   † The dwarf Torlatus founds a settlement; his followers name it
+           "Kal Torlat" after him.
+           [TODO: more backstory for Torlatus]
 	      
 ~200 YW  † The hammer of Thursagan is found for the first time by the dwarves of
            Kal Torlat. Some of the dwarves at Kal Torlat don't understand its
@@ -51,8 +50,9 @@ Events marked with a cross are specific to TEG.
 	   
 518 YW  * End of HttT
 
-        † TEG:
-          The Hammer of Thursagan is recovered from the corrupted dwarf-Lich;
+        † TEG (spoilers):
+          The Hammer of Thursagan is recovered from the corrupted dwarf-Lich, who
+          is revealed to have originally been Torlatus, the founder of Kal Torlat;
           the Ancient Lich is killed; Kal Torlat is free from enemies again.
           The Hammer of Thursagan goes to Karrag from Kal Kartha, because he is
           a descendant of the old runesmiths and studies their runelore.
