@@ -19,7 +19,7 @@ if not wesnoth then
 	wesnoth = require("wesnoth")
 end
 wml_actions = wesnoth.wml_actions
-_ = wesnoth.textdomain("wesnoth-The_Earths_Gut")
+local _ = wesnoth.textdomain("wesnoth-The_Earths_Gut")
 -- #textdomain wesnoth-The_Earths_Gut
 ------------------------------------------------------------------------------------------------------------------------
 --disabling compatibility-1.8.lua
