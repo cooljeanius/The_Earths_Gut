@@ -1,5 +1,8 @@
 if not wml_actions then wml_actions = {} end
 
+-- We need one of these in every file that uses one of these, apparently:
+local _ = wesnoth.textdomain("wesnoth-The_Earths_Gut")
+
 ------------------------------------------------------------------------------------------------------------------------
 
 local function calc_position_danger(side, x, y)
