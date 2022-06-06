@@ -2,3 +2,24 @@
 *.cfg-bak
 *.map-bak
 *.swp
+
+# default values not already specified:
+.+
+.+/
+__MACOSX/
+#*#
+*.pbl
+*.ign
+_info.cfg
+*.exe
+*.bat
+*.cmd
+*.com
+*.scr
+*.sh
+*.js
+*.vbs
+*.o
+Thumbs.db
+*.wesnoth
+*.project
