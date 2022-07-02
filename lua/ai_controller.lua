@@ -219,7 +219,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 	free_unneccessarily_occupied_villages()
 	handle_healing_units()
 
-	local filter = helper.shallow_literal(helper.get_child(cfg, "filter"))
+	local filter = wml.shallow_literal(helper.get_child(cfg, "filter"))
 	local forbidden_sides = cfg.forbidden_sides
 	filter.formula = "max_hitpoints > hitpoints"
 	table.insert(filter, { "not", { role = "force_heal_heals_side" .. tostring(side) }})

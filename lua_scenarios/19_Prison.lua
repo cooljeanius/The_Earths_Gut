@@ -38,7 +38,7 @@ function wml_actions.prison_put_prisoners(udArgs)
 		if level_threes_left and number_put <= 2 and put_level_prisoner(3, current_loc) then
 		elseif level_twos_left and number_put <= 6 and put_level_prisoner(2, current_loc) then
 		elseif level_ones_left and put_level_prisoner(1, current_loc) then
-		else wesnoth.units.to_map(current_loc[1], current_loc[2], {type = helper.rand("Dwarvish Fighter,Dwarvish Thunderer,Dwarvish Scout")})
+		else wesnoth.units.to_map(current_loc[1], current_loc[2], {type = mathx.random_choice("Dwarvish Fighter,Dwarvish Thunderer,Dwarvish Scout")})
 		end
 	end
 
@@ -93,7 +93,7 @@ function wml_actions.prison_execute_prisoner(udArgs)
 end
 
 function wml_actions.prison_put_wooden_middlechamber_units(udArgs)
-	local bFriendRight = helper.rand("true, false")
+	local bFriendRight = mathx.random_choice("true, false")
 	local variable = udArgs.variable
 	local tDwarves = wml.array_access.get(variable)
 	bFriendRight = false
@@ -113,7 +113,7 @@ function wml_actions.prison_put_wooden_middlechamber_units(udArgs)
 		end
 
 		for current_index, current_coords in ipairs(tEnemyPos) do
-			wesnoth.units.to_map({ type = helper.rand("Dwarvish Masked Lord,Dwarvish Masked Sentinel,Dwarvish Masked Dragonguard"), side = 3, upkeep = "loyal", random_traits = false, generate_name = false }, current_coords[1], current_coords[2])
+			wesnoth.units.to_map({ type = mathx.random_choice("Dwarvish Masked Lord,Dwarvish Masked Sentinel,Dwarvish Masked Dragonguard"), side = 3, upkeep = "loyal", random_traits = false, generate_name = false }, current_coords[1], current_coords[2])
 		end
 		for current_index, current_coords in ipairs(tDoorPos) do
 			wesnoth.units.find_on_map({ x = current_coords[1], y = current_coords[2] })[1].role = "wooden_floor_door"

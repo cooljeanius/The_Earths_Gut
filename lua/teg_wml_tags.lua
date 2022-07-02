@@ -43,7 +43,7 @@ function wml_actions.role_message(udArgs)
 	local else_speaker = udArgs.else_speaker
 	local message = udArgs.message
 
-	local cfg = helper.shallow_literal(udArgs)
+	local cfg = wml.shallow_literal(udArgs)
 	if type == "scout" then cfg.type = "Dwarvish Scout,Dwarvish Pathfinder,Dwarvish Explorer"
 	elseif type == "thunderer" then cfg.type = "Dwarvish Thunderer,Dwarvish Thunderguard,Dwarvish Dragonguard"
 	elseif type == "alchemist" then cfg.type = "Alchemist,Potion Smith,Master of Alchemy"
@@ -82,7 +82,7 @@ function wml_actions.nearest_hex(cfg, only_return, calc_via_reach)
 	local nY = tonumber(cfg.y_source) or helper.wml_error(error_msg)
 	local sVariable = cfg.variable or "nearest_hex"
 
-	local tPossibleNearestHexes = wesnoth.get_locations(cfg)
+	local tPossibleNearestHexes = wesnoth.map.find(cfg)
 	local tNearestHex
 	local nNearestHexDistance = MAX_NUMBER
 	local nPossibleNearestHexDistance = MAX_NUMBER
@@ -111,14 +111,14 @@ end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 function wml_actions.place_room_units(cfg)
-	local number = helper.rand(cfg.number)
+	local number = mathx.random_choice(cfg.number)
 
-	local cfg = helper.shallow_literal(cfg)
+	local cfg = wml.shallow_literal(cfg)
 
 	local width, heigth = wesnoth.get_map_size()
 	table.insert(cfg, { "and", { radius = math.ceil(math.sqrt(2) * math.max(width, heigth)), x = cfg.x_source, y = cfg.y_source, { "filter_radius", { terrain = cfg.terrain }} }})
 
-	local locs = wesnoth.get_locations(cfg)
+	local locs = wesnoth.map.find(cfg)
 
 	local size = #locs
 	for current = 1, number do
@@ -126,8 +126,8 @@ function wml_actions.place_room_units(cfg)
 			helper.warning("could not place all units required in [place_room_units]; source location: ".. tostring(cfg.x_source) .. ", " .. tostring(cfg.y_source))
 			return
 		end
-		local pos = helper.rand(string.format("1..%u", size))
-		wesnoth.units.to_map({ side = cfg.side, type = helper.rand(cfg.types), x = locs[pos][1], y = locs[pos][2], upkeep = "loyal", ai_special = "guardian", generate_name = false })
+		local pos = mathx.random_choice(string.format("1..%u", size))
+		wesnoth.units.to_map({ side = cfg.side, type = mathx.random_choice(cfg.types), x = locs[pos][1], y = locs[pos][2], upkeep = "loyal", ai_special = "guardian", generate_name = false })
 		size = size - 1; table.remove(locs, pos)
 	end
 end

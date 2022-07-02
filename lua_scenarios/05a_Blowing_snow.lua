@@ -11,7 +11,7 @@ function wml_actions.blowing_snow_snowfall(udArgs)
 
 	local sPattern = "[^%s,]+"
 	for nCurrentNewSnowyLoc = 1, nNewSnowyLocs do
-		local nRandomIndex = helper.rand(string.format("1..%u", #tSnowlessLocs))
+		local nRandomIndex = mathx.random_choice(string.format("1..%u", #tSnowlessLocs))
 		local sTerrain = wesnoth.get_terrain(tSnowlessLocs[nRandomIndex][1], tSnowlessLocs[nRandomIndex][2])
 
 		local sSnowlessCodeFunction, sSnowyCodeFunction = string.gmatch(sSnowless, sPattern), string.gmatch(sSnowy, sPattern)
