@@ -18,7 +18,7 @@ function wml_actions.prison_put_prisoners(udArgs)
 		for current_index, current_unit in ipairs(dwarves) do
 			if current_unit.race == "troll" then
 			elseif current_unit.level == level then
-				wesnoth.units.to_map(current_loc[1], current_loc[2], current_unit)
+				wesnoth.units.to_map(current_unit, current_loc[1], current_loc[2])
 				-- this requires a bit more advanced migration for BfW 1.16; hopefully this works:
 				wesnoth.current.map[{current_loc[1], current_loc[2]}] = "Rr"
 				number_put = number_put + 1
@@ -100,7 +100,7 @@ function wml_actions.prison_put_wooden_middlechamber_units(udArgs)
 	local function put_units(tFriendPos, tEnemyPos, sDirection, tDoorPos)
 		for current_index, current_unit in ipairs(tDwarves) do
 			if current_unit.race == "troll" then
-				wesnoth.units.to_map(tFriendPos[1], tFriendPos[2], current_unit)
+				wesnoth.units.to_map(current_unit, tFriendPos[1], tFriendPos[2])
 				wesnoth.set_variable(string.format("%s[%u]", variable, current_index - 1))
 				break
 			end
@@ -109,11 +109,11 @@ function wml_actions.prison_put_wooden_middlechamber_units(udArgs)
 		local udFriend = wesnoth.units.find_on_map({ x = tFriendPos[1], y = tFriendPos[2] })[1]
 		if udFriend then udFriend.side = 7
 		else
-			wesnoth.units.to_map(tFriendPos[1], tFriendPos[2], { type = "Dwarvish Fighter", side = 7 })
+			wesnoth.units.to_map({ type = "Dwarvish Fighter", side = 7 }, tFriendPos[1], tFriendPos[2])
 		end
 
 		for current_index, current_coords in ipairs(tEnemyPos) do
-			wesnoth.units.to_map(current_coords[1], current_coords[2], { type = helper.rand("Dwarvish Masked Lord,Dwarvish Masked Sentinel,Dwarvish Masked Dragonguard"), side = 3, upkeep = "loyal", random_traits = false, generate_name = false })
+			wesnoth.units.to_map({ type = helper.rand("Dwarvish Masked Lord,Dwarvish Masked Sentinel,Dwarvish Masked Dragonguard"), side = 3, upkeep = "loyal", random_traits = false, generate_name = false }, current_coords[1], current_coords[2])
 		end
 		for current_index, current_coords in ipairs(tDoorPos) do
 			wesnoth.units.find_on_map({ x = current_coords[1], y = current_coords[2] })[1].role = "wooden_floor_door"
