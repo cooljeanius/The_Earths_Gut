@@ -13,7 +13,7 @@ local function calc_position_danger(side, x, y)
 	end
 
 	local reach_units = {}
-	for i, u in ipairs(wesnoth.get_units({ { "filter_side", { { "enemy_of", { side = side }} }} })) do
+	for i, u in ipairs(wesnoth.units.find_on_map({ { "filter_side", { { "enemy_of", { side = side }} }} })) do
 		local ucfg = u.__cfg
 		local reachable = location_set.of_pairs(wesnoth.find_reach(u, { ignore_units = false, ignore_teleport = false, additional_turns = 0, viewing_side = 0 }))
 		--if u.x == 6 then
@@ -45,7 +45,7 @@ local function calc_position_danger(side, x, y)
 	end
 	table.sort(reach_units, compare)
 	--dbms(reach_units)
-	--for i, loc in ipairs(wesnoth.get_locations({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
+	--for i, loc in ipairs(wesnoth.map.find({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
 	--for i, loc in ipairs(reach_units[1]) do wml_actions.label({ x = loc[1], y = loc[2], text = "*" }) end
 	
 	local function calc_danger(adjacent)
@@ -139,7 +139,7 @@ local function calc_position_danger(side, x, y)
 		return adjacent
 	end
 	adjacent = distribute_units(reach_units, adjacent, true)
-	--for i, loc in ipairs(wesnoth.get_locations({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
+	--for i, loc in ipairs(wesnoth.map.find({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
 	--local function put_unit_names(x, y, data)
 		--if type(data) ~= "table" then return end
 		--wml_actions.label({ x = x, y = y, text = data.unit.name })
@@ -162,7 +162,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 			return
 		end
 		assert(#path >= 2)
-		local dest_length = wesnoth.get_variable("LUA_destinations.length")
+		local dest_length = wml.variables["LUA_destinations.length"]
 		wesnoth.set_variable(string.format("LUA_destinations[%u].x", dest_length), loc[1])
 		wesnoth.set_variable(string.format("LUA_destinations[%u].y", dest_length), loc[2])
 		for i, loc in ipairs(path) do
@@ -193,7 +193,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 	end
 
 	local function handle_healing_units()
-		local units = wesnoth.get_units({ role = "force_heal_heals_side" .. tostring(side) })
+		local units = wesnoth.units.find_on_map({ role = "force_heal_heals_side" .. tostring(side) })
 		for i, u in ipairs(units) do
 			if u.hitpoints == u.max_hitpoints then
 				u.role = ""
@@ -206,7 +206,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 		end
 	end
 	local function free_unneccessarily_occupied_villages()
-		local units = wesnoth.get_units({ side = side, { "filter_location", { terrain = "*^V*" }}, formula = "max_hitpoints = hitpoints" })
+		local units = wesnoth.units.find_on_map({ side = side, { "filter_location", { terrain = "*^V*" }}, formula = "max_hitpoints = hitpoints" })
 		for i, u in ipairs(units) do
 			for x, y in helper.adjacent_tiles(u.x, u.y, false) do
 				if not wesnoth.get_unit(x, y) then
@@ -223,7 +223,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 	local forbidden_sides = cfg.forbidden_sides
 	filter.formula = "max_hitpoints > hitpoints"
 	table.insert(filter, { "not", { role = "force_heal_heals_side" .. tostring(side) }})
-	local wounded_units = wesnoth.get_units(filter)
+	local wounded_units = wesnoth.units.find_on_map(filter)
 
 	for i, u in ipairs(wounded_units) do
 		assert(u.side == side)
@@ -265,7 +265,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 				if not heal_loc then return end
 				local danger = calc_position_danger(u.side, heal_loc[1], heal_loc[2])
 				if danger <= 1 then return heal_loc end
-				local dest_length = wesnoth.get_variable("LUA_destinations.length")
+				local dest_length = wml.variables["LUA_destinations.length"]
 				wesnoth.set_variable(string.format("LUA_destinations[%u].x", dest_length), heal_loc[1])
 				wesnoth.set_variable(string.format("LUA_destinations[%u].y", dest_length), heal_loc[2])
 				return calc_heal_loc()
@@ -284,11 +284,11 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 end
 
 function wml_actions.ai_controller_place_reserved_labels(cfg)
-	local locs = wesnoth.get_locations({ x = cfg.x, y = cfg.y })
+	local locs = wesnoth.map.find({ x = cfg.x, y = cfg.y })
 	local color = wesnoth.sides[cfg.side].color
 	local color_number = tonumber(color)
 	if color_number then color = color_number end
-	local rgb= helper.get_child(wesnoth.get_variable("team_colors"), "color_range", color).rgb
+	local rgb = helper.get_child(wml.variables["team_colors"], "color_range", color).rgb
 	color = string.sub(rgb, 1, 6)
 	local text = string.format(tostring(_"<span color='#%s'>reserved</span>"), color)
 	for i, loc in ipairs(locs) do

@@ -23,7 +23,7 @@ function wml_actions.blowing_snow_snowfall(udArgs)
 				break
 			end
 		end
-		wesnoth.set_terrain(tSnowlessLocs[nRandomIndex][1], tSnowlessLocs[nRandomIndex][2], sTerrain)
+		wesnoth.current.map[{tSnowlessLocs[nRandomIndex][1], tSnowlessLocs[nRandomIndex][2]}] = sTerrain
 		table.remove(tSnowlessLocs, nRandomIndex)
 	end
 end

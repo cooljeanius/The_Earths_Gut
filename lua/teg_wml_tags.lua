@@ -6,11 +6,11 @@ function wml_actions.place_door(udArgs)
 	local via_terrain = false
 	local function door(ground_type, type, wml)
 		wml.type = type
-		wesnoth.put_unit(wml)
+		wesnoth.units.to_map(wml)
 		if not via_terrain then wesnoth.set_terrain(wml.x, wml.y, ground_type, "overlay") end
 	end
 
-	local wml = helper.parsed(udArgs)
+	local wml = wml.parsed(udArgs)
 	wml.indestructible = nil; wml.direction = nil
 	local se = udArgs.direction == "se" or string.match(udArgs.direction, "[%a]*^egG/") -- whether door location and facing is determined via map terrain
 	wml.facing = "se"
@@ -51,7 +51,7 @@ function wml_actions.role_message(udArgs)
 	elseif type == "fighter" then cfg.type = "Dwarvish Fighter,Dwarvish Steelclad,Dwarvish Lord"
 	end
 	table.insert(cfg, {"not", { id = else_speaker }})
-	local role_speaker = wesnoth.get_units(cfg)[1]
+	local role_speaker = wesnoth.units.find_on_map(cfg)[1]
 	if role_speaker then
 		wml_actions.message({id = role_speaker.id, message = message})
 	else
@@ -64,14 +64,14 @@ end
 --~ locations or units, top-down-left-right on the map
 function wml_actions.sort_array(udArgs)
 	local variable = udArgs.variable
-	local tArray = helper.get_variable_array(variable)
+	local tArray = wml.array_access.get(variable)
 
 	local function top_down_left_right(uFirstElem, uSecElem)
 		if uFirstElem.x == uSecElem.x then return uFirstElem.y < uSecElem.y end
 		return uFirstElem.x < uSecElem.x
 	end
 	table.sort(tArray, top_down_left_right)
-	helper.set_variable_array(variable, tArray)
+	wml.array_access.set(variable, tArray)
 end
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -127,7 +127,7 @@ function wml_actions.place_room_units(cfg)
 			return
 		end
 		local pos = helper.rand(string.format("1..%u", size))
-		wesnoth.put_unit({ side = cfg.side, type = helper.rand(cfg.types), x = locs[pos][1], y = locs[pos][2], upkeep = "loyal", ai_special = "guardian", generate_name = false })
+		wesnoth.units.to_map({ side = cfg.side, type = helper.rand(cfg.types), x = locs[pos][1], y = locs[pos][2], upkeep = "loyal", ai_special = "guardian", generate_name = false })
 		size = size - 1; table.remove(locs, pos)
 	end
 end
@@ -162,21 +162,21 @@ function wml_actions.sc_transform_type(cfg)
 				else wml_actions.unstore_unit({ variable = "LUA_sc_transform_type", find_vacant = false, advance = true })
 				end
 				wesnoth.set_variable("LUA_sc_transform_type")
-				unit = wesnoth.get_units({ id = unit.id })[1]
+				unit = wesnoth.units.find_on_map({ id = unit.id })[1]
 				unit.experience = orig_exp
 				unit.advances_to = original_advances_to
-				if recalls then wesnoth.put_recall_unit(unit) end
+				if recalls then wesnoth.units.to_recall(unit) end
 			end
 		end
 	end
-	handle_array(wesnoth.get_units({}))
-	handle_array(wesnoth.get_recall_units({}), true)
+	handle_array(wesnoth.units.find_on_map({}))
+	handle_array(wesnoth.units.find_on_recall({}), true)
 
 	for variable in string.gmatch(cfg.variable, "[^%s,][^,]*") do
 		local max_i = wesnoth.get_variable(variable .. ".length") - 1
 		for i = 0, max_i do
 			local var_string = string.format("%s[%u]", variable, i)
-			local unit = wesnoth.get_variable(var_string)
+			local unit = wml.variables[var_string]
 			if unit.type == cfg.old then
 				unit.type = cfg.new
 				wesnoth.set_variable(var_string, unit)
@@ -197,7 +197,7 @@ function wml_actions.teg_recall_variable(cfg)
 	local unit
 	local var_string
 	local function recall()
-		wesnoth.put_recall_unit(unit)
+		wesnoth.units.to_recall(unit)
 		wesnoth.set_variable(var_string)
 		wml_actions.recall({ id = unit.id, x = x, y = y })
 		assert(wesnoth.get_variable(variable .. ".length") == max_i)
@@ -205,14 +205,14 @@ function wml_actions.teg_recall_variable(cfg)
 	if id then
 		for i = 0, max_i do
 			var_string = string.format("%s[%u]", variable, i)
-			unit = wesnoth.get_variable(var_string)
+			unit = wml.variables[var_string]
 			if unit.id == id then return recall() end
 		end
 	else
 		for type in string.gmatch(types, "[^%s,][^,]*") do
 			for i = 0, max_i do
 				var_string = string.format("%s[%u]", variable, i)
-				unit = wesnoth.get_variable(var_string)
+				unit = wml.variables[var_string]
 				if unit.type == type then return recall() end
 			end
 		end

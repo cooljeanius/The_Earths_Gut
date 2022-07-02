@@ -7,7 +7,7 @@ local units = {}
 
 	function units.sort_units_array(udArgs)
 		local sUnits = udArgs.variable
-		local wtUnits = helper.get_variable_array(sUnits)
+		local wtUnits = wml.array_access.get(sUnits)
 
 		local function is_more_experienced(wtSecondUnit, wtFirstUnit)
 			--helper function for sorting a units array
@@ -25,7 +25,7 @@ local units = {}
 
 		table.sort(wtUnits, is_more_experienced)
 
-		helper.set_variable_array(sUnits, wtUnits)
+		wml.array_access.set(sUnits, wtUnits)
 	end
 
 return units
