@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-07-03 05:43 UTC\n"
+"POT-Creation-Date: 2022-07-03 06:10 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. this description string is broken in two by interpolation of the required version;
 #. an example of how it would be put together would be:
-#. "Requires BfW 1.14.0 or greater."
+#. "Requires BfW 1.16.0 or greater."
 #: The_Earths_Gut/dist/name_icon_description.cfg:7
 msgid ""
 "It is 515YW, and you are the young dwarven leader Hamel. Your tribe in the Knalga caverns near the Dwarven Doors gets under pressure from its enemies, while resources are getting more and more rare at the same time. Guide your people on your quest for more and better minerals, to be able to forge new armor and weapons, and resist your opponents.\n"
@@ -7838,43 +7838,43 @@ msgstr ""
 
 #. [about]
 #. credits entry:
-#: The_Earths_Gut/about.cfg:27
+#: The_Earths_Gut/about.cfg:30
 msgid "Ideas, suggestions, corrections, testing"
 msgstr ""
 
 #. [about]
 #. credits entry:
-#: The_Earths_Gut/about.cfg:34
+#: The_Earths_Gut/about.cfg:37
 msgid "Many text and grammar corrections, some ideas"
 msgstr ""
 
 #. [about]
 #. credits entry:
-#: The_Earths_Gut/about.cfg:44
+#: The_Earths_Gut/about.cfg:47
 msgid "Some artwork made by"
 msgstr ""
 
 #. [about]
 #. credits entry:
-#: The_Earths_Gut/about.cfg:54
+#: The_Earths_Gut/about.cfg:57
 msgid "Art taken from various versions of the following:"
 msgstr ""
 
 #. [about]
 #. credits entry:
-#: The_Earths_Gut/about.cfg:75
+#: The_Earths_Gut/about.cfg:78
 msgid "Music"
 msgstr ""
 
 #. [about]
 #. credits entry:
-#: The_Earths_Gut/about.cfg:82
+#: The_Earths_Gut/about.cfg:85
 msgid "Porting to 1.14"
 msgstr ""
 
 #. [about]
 #. credits entry:
-#: The_Earths_Gut/about.cfg:92
+#: The_Earths_Gut/about.cfg:95
 msgid "Other contributions"
 msgstr ""
 
