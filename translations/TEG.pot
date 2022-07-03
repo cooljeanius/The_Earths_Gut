@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-07-03 06:10 UTC\n"
+"POT-Creation-Date: 2022-07-03 06:50 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -7869,7 +7869,7 @@ msgstr ""
 #. [about]
 #. credits entry:
 #: The_Earths_Gut/about.cfg:85
-msgid "Porting to 1.14"
+msgid "Porting to 1.14 and 1.16"
 msgstr ""
 
 #. [about]
