@@ -2,6 +2,7 @@
 *.cfg-bak
 *.map-bak
 *.swp
+.github/*
 
 # default values not already specified:
 .+
