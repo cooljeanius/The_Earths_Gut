@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-07-30 04:24 UTC\n"
+"POT-Creation-Date: 2022-08-28 20:31 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,8 +15,11 @@ msgstr ""
 #. The original author of this campaign (Anonymissimus) was a native/primary speaker of German.
 #. If a particular phrase doesn't make sense in English, try to imagine what the German original might have been,
 #. and then translate from that instead.
+#. Also, a note about the title: "The Earth's Gut" is a poetic way of saying "Deep in the Earth";
+#. if you are localizing the title in translation, it doesn't need to literally be "gut" but rather
+#. can be some other form of poetic/figurative speaking that makes more sense in your language:
 #: The_Earths_Gut/dist/name_icon_description.cfg:2
-#: The_Earths_Gut/_main.cfg:94
+#: The_Earths_Gut/_main.cfg:97
 msgid "The Earth's Gut"
 msgstr ""
 
@@ -7222,103 +7225,106 @@ msgid "Boomtshak"
 msgstr ""
 
 #. [message]: id=Boomtshak
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:196
-msgid "Halt! Who comes there?"
+#. was originally "Who comes there?" but "Who goes there?" is a more idiomatic phrase for a guard to say to an unidentified
+#. individual approaching his watchpost in English:
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:198
+msgid "Halt! Who goes there?"
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:200
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:202
 msgid "What! Orcs inside the caves here, too! Relgorn was mistaken."
 msgstr ""
 
 #. [message]: id=Boomtshak
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:204
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:206
 msgid "Heh, some dwarves! At last you've come to play, puny cowards! I will have the pleasure of watching you die!"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:209
+#. Boomtshak is not actually a goblin; Dulatus is only calling him that as an insult:
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:212
 msgid "No one can call us cowards and live, you stinking little goblin!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:213
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:216
 msgid "Anyways, the scum are blocking the way to the exit. We will need to kill them all."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:222
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:225
 msgid "Look! It seems that foul Boomtshak has only rather weak creatures among his companions. This will be easy!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:226
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:229
 msgid "Do you think we can defeat him within one day? I do not wish to deal with them at night. It is dark enough in here at twilight."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:230
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:233
 msgid "Eh... it might take a bit more than that, but it still shouldn't be too hard. In any case, a simple training exercise for our more inexperienced troops."
 msgstr ""
 
 #. [message]: id=Boomtshak
 #. Boomtshak's last breath:
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:242
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:245
 msgid "I... don't believe it! Defeated by sniveling halflings!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:252
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:255
 msgid "You should believe it, monster!"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:256
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:259
 msgid "Let us go, now that the passage is safe. We must make haste!"
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:276
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:279
 msgid "That is it. The orcish scum is dead, and we are on our way."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:280
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:283
 msgid "Now let us travel along the mountains towards the west."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:284
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:287
 msgid "Why did Relgorn give us advice for that direction, Dulatus?"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:288
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:291
 msgid "It has been long rumored among my kinsmen that there are mineral deposits of high amount and quality there. Have you not heard that before?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:292
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:295
 msgid "No. Anyway, we must go on now."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:321
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:324
 msgid "I'm out of the caves!"
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:325
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:328
 msgid "Fine, but are we going to leave with these orcs still alive?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:329
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:332
 msgid "Of course not!"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:333
+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:336
 msgid "Well, then let us finish the battle and leave this place!"
 msgstr ""
 
