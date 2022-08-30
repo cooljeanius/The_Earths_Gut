@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-08-28 21:24 UTC\n"
-"PO-Revision-Date: 2022-08-24 01:37+0900\n"
+"PO-Revision-Date: 2022-08-29 17:44+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -877,10 +877,6 @@ msgstr "ドワーフの上級装甲歩兵"
 #. [unit_type]: id=Advanced Dwarvish Steelclad
 #. describe the unit here rather than using its exact unit type:
 #: The_Earths_Gut/units/dwarves/Advanced_Steelclad.cfg:15
-#, fuzzy
-#| msgid ""
-#| "These advanced fighters are already skilled in using a hatchet, much "
-#| "earlier than other dwarfs."
 msgid ""
 "These advanced and well-armored fighting dwarves are already skilled at "
 "using hatchets, much earlier than other dwarves are."
@@ -1218,6 +1214,8 @@ msgid ""
 "Troll Fire Wizards. At the apex of their abilities, both their fist and fire "
 "attacks are now more powerful than when they were shamans."
 msgstr ""
+"トロルの呪術師が火の魔術に熟練すると、トロルの火炎魔術師になります。その能力"
+"を極めると、拳と炎の攻撃は呪術師よりも更に強力になります。"
 
 #. [unit_type]: id=Troll Boulderlobber, race=troll
 #: The_Earths_Gut/units/trolls/Troll_Boulderlobber.cfg:5
@@ -2233,10 +2231,6 @@ msgstr ""
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:777
-#, fuzzy
-#| msgid ""
-#| "Thanks, I've thought I'd die all alone down here... now we'll die "
-#| "together..."
 msgid ""
 "Thanks, I'd thought I'd die all alone down here... now we'll die together..."
 msgstr ""
@@ -2335,7 +2329,7 @@ msgstr "おや、何とも寛大な！"
 #. "them" = his weapons:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:896
 msgid "Hm, let me check them... actually, I think they're probably fine."
-msgstr ""
+msgstr "うーむ、確かめてみるか... いや、大丈夫だと思うがな。"
 
 #. [message]: id=Pelcatlus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:900
@@ -2343,6 +2337,8 @@ msgid ""
 "I guess that's true; my forge is mostly useful for removing rust, and I "
 "don't see much rust on your weapons..."
 msgstr ""
+"ああ、だと思うよ。俺の鍛冶場はサビ取りには持ってこいなんだが、あんたの武器は"
+"それほど錆びてる感じはしないな。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:906
@@ -2597,12 +2593,14 @@ msgid ""
 "spawning flying enemies at $possible_bat_locs[$random].x,"
 "$possible_bat_locs[$random].y"
 msgstr ""
+"飛行する敵を $possible_bat_locs[$random].x,$possible_bat_locs[$random].y に生"
+"成します"
 
 #. [message]: speaker=narrator
 #. debug message:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1442
 msgid "oops, there's nowhere left to spawn additional flying enemies"
-msgstr ""
+msgstr "しまった、飛行する敵を生成するヘクスが残っていません"
 
 #. [message]: speaker=narrator
 #. [wml_message]
@@ -2611,7 +2609,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1469
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1477
 msgid "side 4 still has $s4_units.length unit(s) left"
-msgstr ""
+msgstr "side 4 にはまだ $s4_units.length 体のユニットが残ってます"
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1502
@@ -2747,6 +2745,8 @@ msgid ""
 "(Recruit or recall these units, and then move them to ($cGoHere.x, $cGoHere."
 "y).)"
 msgstr ""
+"（これらのユニットを雇用または召喚して（$cGoHere.x, $cGoHere.y）に移動させ"
+"る）"
 
 #. [objectives]
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:98
@@ -3930,12 +3930,6 @@ msgstr ""
 # [ja] "as will"  --> or "as well" ?
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:820
-#, fuzzy
-#| msgid ""
-#| "Hint: You can now (again) recruit dwarvish scouts, but you can no longer "
-#| "recruit trolls. All your loyal units are available again as will the rest "
-#| "of the former recall list after this scenario. Your allied ai player "
-#| "doesn't control them."
 msgid ""
 "Hint: You can now (again) recruit dwarvish scouts, but you can no longer "
 "recruit trolls. All your loyal units are available again, as well as the "
@@ -4079,12 +4073,6 @@ msgstr "トロルの集落"
 #. [message]: speaker=narrator
 #. debug message; ok to skip translating:
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:517
-#, fuzzy
-#| msgid ""
-#| "If you are wondering what happened to Krolock in this scenario, debug "
-#| "mode being defined causes him to get re-created here. The removal of his "
-#| "hero ellipse happens regardless of whether debug mode is on or not, "
-#| "though, and it is intententional."
 msgid ""
 "If you are wondering what happened to Krolock in this scenario, debug mode "
 "being defined causes him to get re-created here. The removal of his hero "
@@ -4570,21 +4558,15 @@ msgstr ""
 #. [message]: speaker=narrator
 #. TODO: I need to review this hint to ensure that it is accurate:
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:461
-#, fuzzy
-#| msgid ""
-#| "Normal forest (and the fire on it) dies after having burned for three "
-#| "rounds, the giant sequoia tree survives for $i_Delay| additional turns. "
-#| "All forest needs to be a full turn without fire to regenerate after "
-#| "having burned in order to regain the full survivability."
 msgid ""
 "Normal forest (and the fire on it) dies after having burned for three turns, "
 "while the giant sequoia tree survives for $i_Delay| additional turns. All "
 "forest needs to be a full turn without fire to regenerate after having "
 "burned in order to regain the full survivability."
 msgstr ""
-"普通の森（と、その中の火）は3ラウンド経過すると消え、巨大セコイアは $i_Delay "
-"ターンの間は生き残っています。全ての森は、完全に生存能力を回復するには、燃え"
-"てから後に全く火のないターンが必要です。"
+"普通の森（と、その中の火）は3ラウンド経過すると消え、巨大セコイアは更に "
+"$i_Delay ターンの間は生き残っています。全ての森は、完全に生存能力を回復するに"
+"は、燃えてから後に全く火のないターンが必要です。"
 
 #. [message]: id=Kalenz
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:523
@@ -9553,8 +9535,6 @@ msgstr "Boomtshak"
 #. was originally "Who comes there?" but "Who goes there?" is a more idiomatic phrase for a guard to say to an unidentified
 #. individual approaching his watchpost in English:
 #: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:198
-#, fuzzy
-#| msgid "Halt! Who comes there?"
 msgid "Halt! Who goes there?"
 msgstr "止まれ！そこを行くのは誰だ？"
 
@@ -10449,10 +10429,8 @@ msgstr "音楽"
 #. [about]
 #. credits entry:
 #: The_Earths_Gut/about.cfg:85
-#, fuzzy
-#| msgid "Porting to 1.14"
 msgid "Porting to 1.14 and 1.16"
-msgstr "1.14 への移植"
+msgstr "1.14 と 1.16 への移植"
 
 #. [about]
 #. credits entry:
