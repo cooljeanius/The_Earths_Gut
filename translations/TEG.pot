@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-08-28 21:24 UTC\n"
+"POT-Creation-Date: 2022-09-23 07:13 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3107,7 +3107,7 @@ msgid "The Troll Settlement"
 msgstr ""
 
 #. [message]: speaker=narrator
-#. debug message; ok to skip translating:
+#. debug message intended for players who might accidentally have turned it on:
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:517
 msgid "If you are wondering what happened to Krolock in this scenario, debug mode being defined causes him to get re-created here. The removal of his hero ellipse happens regardless of whether debug mode is on or not, though, and it is intentional."
 msgstr ""

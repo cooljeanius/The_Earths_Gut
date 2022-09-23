@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-08-28 21:24 UTC\n"
+"POT-Creation-Date: 2022-09-23 07:13 UTC\n"
 "PO-Revision-Date: 2022-08-29 17:44+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -4071,7 +4071,7 @@ msgstr "トロルの集落"
 
 # [ja] intententional  --> intentional?
 #. [message]: speaker=narrator
-#. debug message; ok to skip translating:
+#. debug message intended for players who might accidentally have turned it on:
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:517
 msgid ""
 "If you are wondering what happened to Krolock in this scenario, debug mode "
