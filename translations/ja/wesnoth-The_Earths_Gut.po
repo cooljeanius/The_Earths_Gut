@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-09-23 07:13 UTC\n"
+"POT-Creation-Date: 2022-10-16 01:55 UTC\n"
 "PO-Revision-Date: 2022-08-29 17:44+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -8221,8 +8221,32 @@ msgstr ""
 "人数の友を連れて西門から洞窟を抜け出よ。この坑道がそこまで安全に導いてくれる"
 "はずだ。"
 
+#. [message]: id=Hamel
+#. Hamel refers to Stalrag as a friend in Northern Rebirth, so this is just to establish some continuity with it:
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:531
+msgid ""
+"Hm, a few of my friends... that reminds me, can I go and get Stalrag first "
+"before I leave for the west gate?"
+msgstr ""
+
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:530
+#. compare with opening story in S07a in Northern Rebirth, "Settling Disputes":
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:536
+msgid ""
+"Last I heard from Stalrag he'd said he was already heading to the west "
+"himself; apparently the people o’ the villages that lay along Highbrook Pass "
+"have requested that he take over as their chief..."
+msgstr ""
+
+#. [message]: id=Hamel
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:540
+msgid ""
+"Ah, I see, he sounds as though he's already pretty busy himself... in that "
+"case, what should I do after leaving the west gate?"
+msgstr ""
+
+#. [message]: id=Relgorn
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:544
 msgid ""
 "Take your way along the mountains and look for a suitable place where we can "
 "dig for minerals. Our mines here may hold us for a few decades, but don't "
@@ -8232,14 +8256,14 @@ msgstr ""
 "らのこの鉱山はあと数十年はもつだろうが、あまり時間は掛けるな。"
 
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:534
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:548
 msgid ""
 "Time is of the essence. These attacks from the orcs are getting stronger "
 "every day."
 msgstr "時間が鍵を握っている。オークのこの攻撃は日増しに強くなっていく。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:538
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:552
 msgid ""
 "Orcs are near! They are in the southern tunnel right now and you want me to "
 "leave?"
@@ -8248,7 +8272,7 @@ msgstr ""
 "しゃるのですか？"
 
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:542
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:556
 msgid ""
 "Do not worry about us, Hamel. My men and I are surely still strong enough to "
 "throw those beasts out of my holy caverns."
@@ -8257,7 +8281,7 @@ msgstr ""
 "ノを放り出せるくらいに、まだまだ強靭なのだぞ。"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:547
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:561
 msgid ""
 "As you know, Relgorn and his companions did survive the following battles - "
 "and left the remainder of the orcish patrol as skeletons in the tunnels."
@@ -8266,7 +8290,7 @@ msgstr ""
 "哨戒兵たちを骸骨として地下に残していきました。"
 
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:551
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:565
 msgid ""
 "You need to break through the siege as quickly as possible, Hamel. We may be "
 "hemmed in from many directions before long. Search for resources, and do not "
@@ -8278,7 +8302,7 @@ msgstr ""
 "たものを鍛造できるほど十分に採掘するまでは、ここに戻ってはならない。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:555
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:569
 msgid ""
 "Then we will be able to equip more guardsmen than we have at present, too."
 msgstr ""
@@ -8286,7 +8310,7 @@ msgstr ""
 "でしょう。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:559
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:573
 msgid ""
 "But excuse me, lord? Will you allow this youth to make such a dangerous "
 "journey alone? I wish to go with him."
@@ -8295,25 +8319,25 @@ msgstr ""
 "りですか？私を同行させてください。"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:569
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:583
 msgid "I wish to go, too. They will need my knowledge of healing to survive."
 msgstr ""
 "私も一緒に。お願いします。生き残るためには、私の治療の知識が必要でしょう。"
 
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:579
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:593
 msgid "Excellent. You two go with Hamel. Guide him well, Dulatus."
 msgstr ""
 "素晴らしい。お前たち二人は、Hamel と共に行きなさい。しっかりと指揮してくれ、"
 "Dulatus 。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:583
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:597
 msgid "We will prevail, my lord. I wish you well in your fight."
 msgstr "必ず我々が勝利します、閣下。ご武運をお祈りいたします。"
 
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:587
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:601
 msgid "Best wishes for you three. See you all in a few years."
 msgstr "君ら3人の成功を祈る。数年後に、一人も欠けること無く全員でまた会おう。"
 

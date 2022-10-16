@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-09-23 07:13 UTC\n"
+"POT-Creation-Date: 2022-10-16 01:55 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6250,63 +6250,80 @@ msgstr ""
 msgid "All right then, I suppose you are finally old enough for your first command. Listen carefully now. Take a few of your friends and leave the caves at the west gate. The tunnels leading there should be safe."
 msgstr ""
 
+#. [message]: id=Hamel
+#. Hamel refers to Stalrag as a friend in Northern Rebirth, so this is just to establish some continuity with it:
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:531
+msgid "Hm, a few of my friends... that reminds me, can I go and get Stalrag first before I leave for the west gate?"
+msgstr ""
+
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:530
+#. compare with opening story in S07a in Northern Rebirth, "Settling Disputes":
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:536
+msgid "Last I heard from Stalrag he'd said he was already heading to the west himself; apparently the people o’ the villages that lay along Highbrook Pass have requested that he take over as their chief..."
+msgstr ""
+
+#. [message]: id=Hamel
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:540
+msgid "Ah, I see, he sounds as though he's already pretty busy himself... in that case, what should I do after leaving the west gate?"
+msgstr ""
+
+#. [message]: id=Relgorn
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:544
 msgid "Take your way along the mountains and look for a suitable place where we can dig for minerals. Our mines here may hold us for a few decades, but don't take too long."
 msgstr ""
 
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:534
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:548
 msgid "Time is of the essence. These attacks from the orcs are getting stronger every day."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:538
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:552
 msgid "Orcs are near! They are in the southern tunnel right now and you want me to leave?"
 msgstr ""
 
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:542
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:556
 msgid "Do not worry about us, Hamel. My men and I are surely still strong enough to throw those beasts out of my holy caverns."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:547
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:561
 msgid "As you know, Relgorn and his companions did survive the following battles - and left the remainder of the orcish patrol as skeletons in the tunnels."
 msgstr ""
 
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:551
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:565
 msgid "You need to break through the siege as quickly as possible, Hamel. We may be hemmed in from many directions before long. Search for resources, and do not return until you have mined enough to forge far better armor than we have here."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:555
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:569
 msgid "Then we will be able to equip more guardsmen than we have at present, too."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:559
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:573
 msgid "But excuse me, lord? Will you allow this youth to make such a dangerous journey alone? I wish to go with him."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:569
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:583
 msgid "I wish to go, too. They will need my knowledge of healing to survive."
 msgstr ""
 
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:579
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:593
 msgid "Excellent. You two go with Hamel. Guide him well, Dulatus."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:583
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:597
 msgid "We will prevail, my lord. I wish you well in your fight."
 msgstr ""
 
 #. [message]: id=Relgorn
-#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:587
+#: The_Earths_Gut/scenarios/01t_The_old_home.cfg:601
 msgid "Best wishes for you three. See you all in a few years."
 msgstr ""
 
