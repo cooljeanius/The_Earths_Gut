@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-10-20 05:35 UTC\n"
+"POT-Creation-Date: 2022-10-20 05:42 UTC\n"
 "PO-Revision-Date: 2022-08-29 17:44+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -16,8 +16,8 @@ msgstr ""
 #. [editor_group]: id=earthsgut
 #. since this is the first string to get put into the potfile, a general translation note:
 #. The original author of this campaign (Anonymissimus) was a native/primary speaker of German.
-#. If a particular phrase doesn't make sense in English, try to imagine what the German original might have been,
-#. and then translate from that instead.
+#. If a particular phrase doesn't make sense in English, try to imagine what the German original
+#. might have been, and then translate from that instead.
 #. Also, a note about the title: "The Earth's Gut" is a poetic way of saying "Deep in the Earth";
 #. if you are localizing the title in translation, it doesn't need to literally be "gut" but rather
 #. can be some other form of poetic/figurative speaking that makes more sense in your language:
