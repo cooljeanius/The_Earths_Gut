@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-10-20 05:42 UTC\n"
-"PO-Revision-Date: 2022-08-29 17:44+0900\n"
+"PO-Revision-Date: 2022-10-22 01:56+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -1651,7 +1651,8 @@ msgid ""
 "We are dwarvish travelers, great monster. We only wish to travel over the "
 "mountains."
 msgstr ""
-"我々はドワーフの旅人だ、大きなモンスターさん。この山を越えて旅をしただけだ。"
+"我々はドワーフの旅人だ、大きなモンスターさん。この山を越えて旅をしたいだけ"
+"だ。"
 
 #. [message]: id=Uga_Uga
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:621
@@ -1674,6 +1675,8 @@ msgid ""
 "Ach, don't complain so much, Aiglathing! This could be an opportunity before "
 "us! In any case, it seems we have a decision to make."
 msgstr ""
+"まあ、そう文句を言わないでくれよ、Aiglathing！これは、いい機会かもしれないん"
+"だ！とにかく、どうするか決めないといけない気がする。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:634
@@ -8234,6 +8237,8 @@ msgid ""
 "Hm, a few of my friends... that reminds me, can I go and get Stalrag first "
 "before I leave for the west gate?"
 msgstr ""
+"うーん、少人数の友... あ、そう言えば、西門に向かう前に、先に Stalrag のところ"
+"へ行ってもかまいませんか？"
 
 #. [message]: id=Relgorn
 #. compare with opening story in S07a in Northern Rebirth, "Settling Disputes":
@@ -8243,6 +8248,9 @@ msgid ""
 "himself; apparently the people o’ the villages that lay along Highbrook Pass "
 "have requested that he take over as their chief..."
 msgstr ""
+"Stalrag から最後に聴いた話によると、彼はもう西に向かってると言っていた。どう"
+"やら、Highbrook Pass 沿いの村の住人たちから、村長を引き継いでくれるよう請われ"
+"ているらしいな..."
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:541
@@ -8250,6 +8258,8 @@ msgid ""
 "Ah, I see, he sounds as though he's already pretty busy himself... in that "
 "case, what should I do after leaving the west gate?"
 msgstr ""
+"あ、なるほど、そりゃあけっこう忙しいということですね... それなら、西門を抜け"
+"た後、私はどうすればいいんです？"
 
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:545
@@ -10375,7 +10385,7 @@ msgstr "やった、Kal Torlat は自由の身だ！"
 #. [message]: speaker=Dulatus
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1940
 msgid "Let's get out of here and go tell Hamel of our success!"
-msgstr ""
+msgstr "さあ、ここを出よう、そして、我々の成功を Hamel に伝えに行こう！"
 
 #. [campaign]: id=the_earths_gut
 #. this acronym probably actually shouldn't be translated:
