@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-10-20 05:42 UTC\n"
+"POT-Creation-Date: 2022-10-23 04:08 UTC\n"
 "PO-Revision-Date: 2022-10-22 01:56+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -137,13 +137,13 @@ msgstr "操作盤の開閉器が動作した。 "
 #. [message]: id=Dulatus
 #. this is Hamel's last breath, so Dulatus is referring to him:
 #: The_Earths_Gut/utils/deaths.cfg:12
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1025
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1026
 msgid "Oh no! I failed in my duty to protect the next king!"
 msgstr "なんてことだ！王様の後継者をお守りする責務が果たせなかった！"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/utils/deaths.cfg:16
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1017
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1018
 msgid "Argh! My tribe will vanish!"
 msgstr "グワーッ！我が一族が滅びてしまう！"
 
@@ -155,13 +155,13 @@ msgstr "ダメだよ、 Hamel ！ 君がいなけりゃ！"
 #. [message]: id=Clarissa
 #. "He" = Hamel:
 #: The_Earths_Gut/utils/deaths.cfg:29
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1029
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1030
 msgid "He really had potential..."
 msgstr "彼は本当に可能性を持っていたんだ..."
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/utils/deaths.cfg:33
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1033
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1034
 msgid "We are lost..."
 msgstr "我々は路頭に迷っている..."
 
@@ -185,8 +185,8 @@ msgstr "ドワーフ史上最高のすごいヤツが逝っちまう。"
 #. [message]: id=Aiglathing
 #. yes, that is actually the number "a hundred twenty-three", not just someone running their finger along the number row of their keyboard:
 #: The_Earths_Gut/utils/deaths.cfg:65
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:569
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1170
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:571
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1171
 msgid "And he was only 123..."
 msgstr "それにまだ123歳だってのに..."
 
@@ -240,7 +240,7 @@ msgstr "こいつは立派に戦ったよ。"
 #. [message]: id=Dulatus
 #. "he" = Pelcatlus, an ulfserker:
 #: The_Earths_Gut/utils/deaths.cfg:162 The_Earths_Gut/utils/deaths.cfg:289
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1661
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1662
 msgid "He was the most frenzied dwarf I've ever seen..."
 msgstr "俺の知る限り、コイツはドワーフで一番凶暴なヤツだったよ..."
 
@@ -282,7 +282,7 @@ msgstr "この先、大変な困難が待っているかもしれない..."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/utils/deaths.cfg:241
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1639
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1640
 msgid "Uahh! The cave has finished me..."
 msgstr "ウワァーッ！洞窟が洞窟が俺を..."
 
@@ -355,7 +355,8 @@ msgstr "<span foreground='red'>撃沈成功</span>"
 # [ja personal memo] a message when dwarf is positioned to a allies' 'reserved' village.
 # [ja personal memo] (Village can't belong to dwarves' side,but they can use to heal themselves.)
 #. [message]: speaker=narrator
-#: The_Earths_Gut/utils/ai_controller.cfg:53
+#. message from RESERVE_HEAL_LOCATIONS macro for when a "reserved" village is moved to:
+#: The_Earths_Gut/utils/ai_controller.cfg:54
 msgid "$unit.name| kindly leaves this village to allies allowing them to heal."
 msgstr "$unit.name は友軍の治癒・回復のため、彼らに快く明け渡します。"
 
@@ -685,7 +686,7 @@ msgstr "なぜだ？"
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:213
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:426
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:491
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:536
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:538
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:284
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:286
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1474
@@ -1767,7 +1768,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:211
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:50
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:178
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:997
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:998
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1273
 #: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:66
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1839
@@ -2004,19 +2005,20 @@ msgstr ""
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:216
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:559
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:34
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:508
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:510
 #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:117
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:455
 msgid "Dulatus"
 msgstr "Dulatus"
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:97
+#. string splicing here; LIMITED_TROLLS_MESSAGE connects two separate strings:
+#: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:98
 msgid "Recall troll units to stay with you:"
 msgstr "トロルのユニットを召喚して同行させる："
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:98
+#: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:99
 msgid ""
 ".\n"
 "You can also take level 1's of the same unit line. Recall "
@@ -2027,12 +2029,12 @@ msgstr ""
 "喚してください。"
 
 #. [note]
-#: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:108
+#: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:109
 msgid "Recalling is for free in this interlude scenario."
 msgstr "このシナリオでは、召喚に gold は不要です。"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:142
+#: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:143
 msgid ""
 "Since you have too few troll units, there's no need to choose anyone - "
 "leaving out this interlude scenario."
@@ -2041,7 +2043,7 @@ msgstr ""
 "略されます。"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:228
+#: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:229
 msgid "You have enough castle hexes to recall all units required in one turn!"
 msgstr "全てのユニットを１ターンで召喚するのに必要な城ヘクスがあります！"
 
@@ -2056,7 +2058,7 @@ msgid "Lost"
 msgstr "迷子"
 
 #. [part]
-#. FIXME: this sentence is worded kind of awkwardly and I'm not quite sure how to parse it myself; any clarifications are welcome:
+#. FIXME: the middle sentence in this string is worded kind of awkwardly and I'm not quite sure how to parse it myself; any clarifications are welcome:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:126
 msgid ""
 "Hamel and his friends were lucky. The rest on their way to the main hall "
@@ -2215,7 +2217,7 @@ msgstr "ゴウゴウと裂け目に流れ込む音が聞こえる... 水に違�
 #. [message]: id=Dulatus
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/08_Lost.cfg:740
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:828
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:829
 msgid "What? Who's there?"
 msgstr "何だ？誰かいるのか？"
 
@@ -2440,7 +2442,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:124
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:374
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:987
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:936
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:937
 msgid "Temporary Objectives:"
 msgstr "一時的な目標："
 
@@ -2621,13 +2623,14 @@ msgid "side 4 still has $s4_units.length unit(s) left"
 msgstr "side 4 にはまだ $s4_units.length 体のユニットが残ってます"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1502
+#. string splicing here:
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1503
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:294
 msgid "Hint:"
 msgstr "ヒント："
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1502
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1503
 msgid ""
 "\n"
 "After a following scenario, you will only be allowed to keep in your recall "
@@ -2640,7 +2643,7 @@ msgstr ""
 # [ja personal memo] トロルの子供になれる ー＞ トロルの子供からなれる。越えた数の分は元に戻る。という意味なら分かるが実際には違う。
 # [ja personal memo] 最後の部分も、おそらく、英文では意味が間違っている。（独英翻訳時のミスか。）
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1504
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1505
 msgid ""
 "\n"
 "in addition to Krolock. Remaining available Trolls, Troll Warriors, "
@@ -2658,17 +2661,17 @@ msgstr ""
 "か、または、その逆にもなれません。どのユニットを残すか選択可能です。"
 
 #. [unit]: type=TEG Troll Shaman, id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1527
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1528
 msgid "Tunnel Guard"
 msgstr "坑道衛兵"
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1539
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1540
 msgid "Thank you, friends."
 msgstr "友だちの皆さん、ありがとう。"
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1543
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1544
 msgid ""
 "The tunnel in the southwest of this base leads to a former dwarvish "
 "settlement, as far as I can tell."
@@ -2676,7 +2679,7 @@ msgstr ""
 "この拠点の南西にある坑道は、以前はドワーフの村につながっていたと思った。"
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1547
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1548
 msgid ""
 "Wait a moment, these are the dwarves that saved your life? Our patrol told "
 "me about that."
@@ -2685,12 +2688,12 @@ msgstr ""
 "言ってた。"
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1551
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1552
 msgid "Yes. They-"
 msgstr "うん、彼らが ―"
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1555
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1556
 msgid ""
 "Then you all take the way to the northwest; the leader of our tribe wants to "
 "know the dwarves who saved his son's life."
@@ -2700,29 +2703,29 @@ msgstr ""
 
 #. [message]: id=Krolock
 #. this is the last breath of the troll outpost leader:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1602
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1603
 msgid "Uncle, noooo!"
 msgstr "叔父さん、死んじゃダメだー！"
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1606
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1607
 msgid "Arghhh..."
 msgstr "ああぁ..."
 
 #. [message]: id=Dulatus
 #. this is Krolock's last breath:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1621
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1622
 msgid "Our last chance to get out is destroyed..."
 msgstr "我々が抜け出す最後の機会が消えてしまった..."
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1625
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1626
 msgid "Anyway, let's return to my home."
 msgstr "とにかく、我らが故郷に帰るとしよう。"
 
 #. [message]: id=Pelcatlus
 #. "His friends" = the other dwarves; "Him" = Dulatus:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1648
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1649
 msgid "His friends will never see him again..."
 msgstr "彼の友人たちは二度と彼に会えないんだな..."
 
@@ -3164,7 +3167,7 @@ msgstr ""
 #. [unit]: type=Dwarvish Scout, id=13t_Elvish_conference_messenger
 #. [event]: id=13t_Elvish_conference_messenger
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:9
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:871
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:872
 msgid "Gomating"
 msgstr "Gomating"
 
@@ -3938,7 +3941,8 @@ msgstr ""
 
 # [ja] "as will"  --> or "as well" ?
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:820
+#. there was a typo here previously; I think I've fixed it now, though:
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:821
 msgid ""
 "Hint: You can now (again) recruit dwarvish scouts, but you can no longer "
 "recruit trolls. All your loyal units are available again, as well as the "
@@ -3950,31 +3954,31 @@ msgstr ""
 "のユニット同様、召喚可能です。友軍の AI プレイヤーでは使用しません。"
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:833
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:834
 msgid "Hi there, we're some friends coming back and we have a big surprise."
 msgstr ""
 "やあどうも、我々はあなた方の友人です、戻ってきました。驚くような話があるんで"
 "すよ。"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:837
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:838
 msgid "Move on! The castle is just ahead."
 msgstr "前進するんだ！城はすぐ目の前だ。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:851
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:852
 msgid "Dulatus!?! You live!?"
 msgstr "Dulatus ？！　生きていたのか！？"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:856
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:857
 msgid ""
 "It is a VERY long story. And I've brought your lost expeditioners with me."
 msgstr ""
 "これが、まあ長い長い話なんだな。それから、迷子になったお前の遠征隊も一緒だ。"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:907
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:908
 msgid ""
 "What? Trolls and dwarves together? You're not our enemy, leave these dwarves "
 "and begone."
@@ -3983,7 +3987,7 @@ msgstr ""
 "から離れて立ち去るがいい。"
 
 #. [message]: race=troll
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:912
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:913
 msgid ""
 "These dwarves saved my life and are my friends. If you fight them, you'll "
 "have to fight me."
@@ -3992,33 +3996,33 @@ msgstr ""
 "俺と戦うってことだ。"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:916
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:917
 msgid "Traitor! Then you'll all die with them."
 msgstr "この、裏切り者め！ならばお前も、そいつらと一緒に死ぬがいい。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:930
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:931
 msgid "Ouch! The enemy attacks me, my reservists must join the fight!"
 msgstr "痛いなあ！敵が攻撃している、我が予備兵たちも戦闘に加われ！"
 
 #. [message]: role=r_Speaker
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:950
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:951
 msgid "Let the battle begin!"
 msgstr "さあ、戦闘開始だ！"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:954
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:990
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:955
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:991
 msgid "Who speaks there?"
 msgstr "そこで話しているのは誰なの？"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:966
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:967
 msgid "Time for me to fight! My reservists must join me!"
 msgstr "戦いの時がやって来た！予備兵たちよ、我が隊に集結せよ！"
 
 #. [message]: role=r_Speaker
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:986
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:987
 msgid "Let the battle commence!"
 msgstr "さあ、戦闘の始まりだ！"
 
@@ -6769,7 +6773,8 @@ msgstr ""
 
 # [ja personal memo] speaker=wose
 #. [message]: role=r_Speaker
-#: The_Earths_Gut/scenarios/17_Return.cfg:361
+#. r_Speaker is a Wose:
+#: The_Earths_Gut/scenarios/17_Return.cfg:362
 msgid ""
 "Hamel, I'm afraid that we won't be able to follow you any further. You are "
 "entering the caves again. Woses can hardly move there at all. Even worse, "
@@ -6782,7 +6787,7 @@ msgstr ""
 "置いていってほしい。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/17_Return.cfg:366
+#: The_Earths_Gut/scenarios/17_Return.cfg:367
 msgid ""
 "(<i>grmbl</i>) All right, then stay behind. Eowariand, take care for my "
 "forest beings."
@@ -6791,12 +6796,12 @@ msgstr ""
 "我が森の生き物たちのこと、頼んだよ。"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/17_Return.cfg:370
+#: The_Earths_Gut/scenarios/17_Return.cfg:371
 msgid "I promise you, they will all have a good time with us."
 msgstr "約束するよ、彼らは皆、私たちと一緒に良き時間を持てるだろう。"
 
 #. [message]: role=r_Speaker
-#: The_Earths_Gut/scenarios/17_Return.cfg:374
+#: The_Earths_Gut/scenarios/17_Return.cfg:375
 msgid ""
 "I assure you that, if you come back to the surface again, we will be there "
 "to aid you."
@@ -6854,7 +6859,8 @@ msgstr "直ちに渡らなければ、雪の中に埋もれてしまう！"
 
 # [ja personal memo] speaker=Dulatus
 #. [event]
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:231
+#. string here is the "REASON" argument to the REGEN_RING_TO_DULATUS macro, so Dulatus is the speaker:
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:232
 msgid ""
 "These mountains are very dangerous, and it will be difficult to fight in "
 "snow. I am better armored, and I have experience here. Let me go ahead of "
@@ -6864,29 +6870,29 @@ msgstr ""
 "し、ここでの経験もある。私が先行するよ、それと、その指輪を私に使わせてくれ。"
 
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:271
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:272
 msgid "At least the fog lifts in the day time, even this high up."
 msgstr "少なくとも霧は、日中はこの標高でも晴れている。"
 
 #. [role_message]: type=scout
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:290
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:291
 msgid "Must we be blinded by fog every night? I wish we took some other way..."
 msgstr ""
 "毎晩、霧に包まれて目隠し状態にならねばならんのだろうか？他の道を選べばよかっ"
 "たかも知れない..."
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:299
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:300
 msgid "We should make haste. Snow is falling!"
 msgstr "先を急がねば。雪が降り続けている！"
 
 #. [role_message]: type=alchemist
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:412
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:413
 msgid "Where has Dulatus gone? Anyone see him?"
 msgstr "Dulatus はどこに行ったんだ？誰か、見たものは居るか？"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:432
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:433
 msgid ""
 "I am over here, fellows! I followed this river a ways, and it comes to a "
 "cave! Too bad, there appears to be a deep chasm that the river pours into."
@@ -6896,7 +6902,8 @@ msgstr ""
 
 # [ja personal memo] speaker= ... or  Hamel
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:443
+#. speaker is a thunderer, unless the player doesn't have any thunderers, in which case it's Hamel:
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:445
 msgid ""
 "How did you get all the way over there?! In all respect, it was rather "
 "careless of you to wander so far away."
@@ -6905,7 +6912,7 @@ msgstr ""
 "えても、不注意にもほどがある。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:448
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:450
 msgid ""
 "I apologize, young Hamel. I suppose I was so excited to find a way out of "
 "these bloody peaks that I..."
@@ -6914,22 +6921,22 @@ msgstr ""
 "てしまったようだ..."
 
 #. [role_message]: type=scout
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:471
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:473
 msgid "An avalanche! Get away from there!"
 msgstr "雪崩が来るぞ！そこから逃げて！"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:509
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:511
 msgid "Aaaah..."
 msgstr "ああぁぁ..."
 
 #. [role_message]: type=alchemist
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:523
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:525
 msgid "What has happened? Is he - dead?"
 msgstr "何が起きたんだ？彼は.. 死んだのか？"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:528
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:530
 msgid ""
 "He's... gone! He must have been thrown into the river and carried over the "
 "chasm! There is no way to help him, I fear... What will we do without you, "
@@ -6939,18 +6946,18 @@ msgstr ""
 "い！助ける手立てがなくなった、なんという... Dulatus 無しでどうするんだ？"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:532
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:534
 msgid "Well now Hamel... I suppose you really are our leader, now."
 msgstr "おい、Hamel 、今、君が本当にリーダーとなった、そういうことだろう。"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:540
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:542
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:288
 msgid "The most impressive dwarf I ever met is gone."
 msgstr "私にとって一番印象深かったドワーフが、もういない。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:544
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:546
 msgid ""
 "These icy heights will surely show no better mercy to us. We must escape "
 "from here, now."
@@ -6959,19 +6966,19 @@ msgstr ""
 "きだ。"
 
 #. [role_message]: type=scout
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:560
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1161
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:562
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1162
 msgid "We have survived... or not..."
 msgstr "我々は生き延びてきた... か、どうか..."
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:564
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1165
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:566
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1166
 msgid "I still cannot believe it..."
 msgstr "まだ信じられません..."
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:573
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:575
 msgid ""
 "Taken by the mountains as a sacrifice for our foolishness. Let us do what we "
 "can to make his sacrifice any sense."
@@ -6980,7 +6987,7 @@ msgstr ""
 "我々の為せることを為そう。"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:577
+#: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:579
 msgid ""
 "I yearn for warmth. I hope we can find some rest in this valley in front of "
 "us."
@@ -6992,7 +6999,7 @@ msgstr ""
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:132
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:169
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1041
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1042
 msgid "Hurry up!"
 msgstr "ほら、急いで！"
 
@@ -7548,7 +7555,8 @@ msgid "Here we are..."
 msgstr "着いたぞ..."
 
 #. [event]
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:663
+#. string here is the "REASON" argument to the REGEN_RING_TO_DULATUS macro, so Dulatus is the speaker:
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:664
 msgid ""
 "These caverns are unkown to us, and we do not know what we will face. I am "
 "better armored, and I have experience here. Let me go ahead of you, and use "
@@ -7559,17 +7567,17 @@ msgstr ""
 "くれ。"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:666
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:667
 msgid "And now?"
 msgstr "で、どうするの？"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:670
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:671
 msgid "I must mobilize the men to prepare for whatever lies ahead."
 msgstr "これから起きることに備えて、兵に戦闘態勢をとらせければならんな。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:674
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:675
 msgid ""
 "If dwarves have indeed been here before us, then there must be a base where "
 "we can recruit from."
@@ -7577,58 +7585,58 @@ msgstr ""
 "本当に以前にもドワーフがここに居たとすると、雇用できる基地があるに違いない。"
 
 #. [message]: id=$second_unit.id
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:685
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:686
 msgid "There is a stone fortress in front of me."
 msgstr "この先に、石でできた要塞がある。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:689
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:690
 msgid "Good. We could use one."
 msgstr "いいねえ。使えるかもしれない。"
 
 #. [message]: id=$second_unit.id
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:693
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:694
 msgid "It looks like the work of dwarves."
 msgstr "ドワーフが作ったように見える。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:697
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:698
 msgid "Ah yes, this must be that base. Our kinsman have been this way."
 msgstr ""
 "あぁそうだな、この基地はそうに違いない。我々の一族がこの道を通ったんだな。"
 
 #. [message]: id=$second_unit.id
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:717
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:718
 msgid "The fortress is occupied... that shouldn't be a tough problem..."
 msgstr "要塞が占拠されてる... 大きな問題にはならないかもしれない..."
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:721
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:722
 msgid "Which direction should we choose from here then?"
 msgstr "さて、ここから先、どっちへ向かえばよいのだろう？"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:725
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:726
 msgid "It might be best to follow that old railway..."
 msgstr "あの古い鉄道に沿って行くのが最善かもしれない。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:736
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:737
 msgid "So far, so good..."
 msgstr "ここまでは、まずまずだ..."
 
 #. [objectives]
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:746
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:747
 msgid "Possibly Final Objectives:"
 msgstr "最終目標...かも:"
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:748
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:749
 msgid "Find and fight your way through the mountain and move Hamel outside."
 msgstr "山へ抜ける道を探して戦い、Hamel を外部に移動させよう。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:767
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:768
 msgid ""
 "These old castle ruins don't seem very firm... if we put the weight of our "
 "recruits onto them they will crumble down."
@@ -7637,7 +7645,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. EASY difficulty:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:773
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:774
 msgid ""
 "Having recruited or recalled here for the first time, you will only be able "
 "to recruit or recall for two additional turns after that."
@@ -7646,7 +7654,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. NORMAL or HARD difficulty:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:776
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:777
 msgid ""
 "Having recruited or recalled here for the first time, you will only be able "
 "to recruit or recall for one additional turn after that."
@@ -7654,17 +7662,17 @@ msgstr ""
 "ここで最初に雇用・召喚を行った場合、次のターンまでは雇用・召喚が可能です。"
 
 #. [message]: id=$second_unit.id
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:830
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:831
 msgid "I see enemies in front of me!"
 msgstr "目の前に敵がいるぞ！"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:834
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:835
 msgid "Well, I think we shouldn't move too far north or south..."
 msgstr "おお、南北へは遠くに移動すべきではないようだ..."
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:855
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:856
 msgid ""
 "I have just entered a large hall! The walls are cut smooth and the floor is "
 "paved. The ceiling is supported by some pillars."
@@ -7673,13 +7681,13 @@ msgstr ""
 "の柱石で支えられてる。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:859
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:860
 msgid "Maybe a former depot storing trading goods..."
 msgstr "交易用の品物の保管庫だったのかもしれないな..."
 
 #. [message]: speaker=second_unit
 #. caution: The speaker "second_unit" could be Clarissa, or it's possible that Clarissa is dead.
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:877
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:878
 msgid ""
 "There are trolls here! They are fighting with some... creatures... which do "
 "not look like living beings."
@@ -7688,123 +7696,123 @@ msgstr ""
 "ない。"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:881
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:882
 msgid "They must be undead. Nothing I can't handle."
 msgstr "アンデッドどもに違いないわ。私には、どうにもできない。"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:885
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:886
 msgid "Here we are, in the center of a battle between trolls and... undead..."
 msgstr "我々は、トロルと...アンデッドの戦闘の真っ只中にいるんだ..."
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:913
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:914
 msgid "Poor soul, your chains are broken. Your master vanishes."
 msgstr ""
 "哀れな魂たちよ、お前たちの鎖は断ち切られた。お前たちの主人は消滅するわ。"
 
 #. [message]: id=$u_Master.id
 #. this is the leader of the dying unit speaking:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:934
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:935
 msgid "Haha, in your dreams!"
 msgstr "ハッハッハ、夢でも見てるのか！"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:943
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:944
 msgid "Be released from pain and be blessed by the light of white magic."
 msgstr "痛みから解放され、白魔術の光に祝福されるでしょう。"
 
 #. [message]: id=$u_Master.id
 #. undead leader speaking:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:954
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:955
 msgid "Foolish mortals!"
 msgstr "愚かな庶民どもめ！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:958
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:959
 msgid "Shut up, vile creature!"
 msgstr "黙れ、下劣な者よ！"
 
 #. [role_message]: type=scout
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:963
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:964
 msgid "Such a petty creature."
 msgstr "なんという小心者。"
 
 #. [message]: speaker=narrator
 #. just a caption, not the actual message:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:991
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:992
 msgid "Free Soul"
 msgstr "自由な魂"
 
 #. [message]: speaker=narrator
 #. "Free Soul" speaking:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:994
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:995
 msgid "I am... free! Thank you, my deliverer."
 msgstr "やった...自由の身となった！ありがとう、あなたこそ救済者です。"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:998
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:999
 msgid "May you rest in peace now."
 msgstr "安らかに眠れますように。"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1002
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1003
 msgid "Interesting..."
 msgstr "興味深い..."
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1026
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1027
 msgid ""
 "This hall appears to have had an exit at the west end, but it has collapsed!"
 msgstr "この広間は、西の端の方に出口がありそうだけど、崩れてしまった！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1030
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1031
 msgid "Too bad. It might have been the only way out..."
 msgstr "最悪だな。他には脱出方法が無いかもしれない..."
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1034
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1035
 msgid "There must be another way, either to the north or south."
 msgstr "他にも通路があるはずです。北か南か、どちらかに。"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1055
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1056
 msgid "The tunnel ends there; it is completely filled with rocks."
 msgstr "坑道はここで尽きている。岩で完璧に閉ざされている。"
 
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1063
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1064
 msgid "This must be where the exit in the hall leads to."
 msgstr "広間の出口は、ここに続いているに違いない。"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1067
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1068
 msgid "We are nearly finished. Come on!"
 msgstr "終りが近付いているわ、もう少しよ！"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1099
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1100
 msgid "I can see a shimmer of daylight!"
 msgstr "陽の光が微かに見える！"
 
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1104
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1105
 msgid "We are almost through!"
 msgstr "さあ、もうすぐ出口だ！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1174
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1175
 msgid "We must go on, if only to give some meaning to his death."
 msgstr "先に進まなければ。あいつの死に意味があったと思うためにも。"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1203
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1204
 msgid "Who is the fool now?!"
 msgstr "おい、この馬鹿は誰だ？！"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1217
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1218
 msgid "You receive $i_GeneralBonusGold| gold pieces!"
 msgstr "$i_GeneralBonusGold gold を受け取りました！"
 
@@ -8635,8 +8643,8 @@ msgstr "あと $iTurns ターン生き延びる。"
 
 #. [note]
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:244
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:947
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1008
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:948
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1009
 msgid "There are no enemy leaders to defeat."
 msgstr "敵には倒すべきリーダーはいません。"
 
@@ -8954,17 +8962,18 @@ msgstr ""
 
 # [ja personal memo] Gomating = member's name
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:865
+#. "Gomating" = name of dwarf that Hamel is calling for:
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:866
 msgid "Gomating!"
 msgstr "おい、Gomating！"
 
 #. [message]: id=13t_Elvish_conference_messenger
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:905
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:906
 msgid "My lord?"
 msgstr "閣下、何でしょう？"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:909
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:910
 msgid ""
 "Hurry to the surface, and alert our elven allies! Tell them what has "
 "happened here, and request help with the undead!"
@@ -8973,12 +8982,12 @@ msgstr ""
 "てアンデッドからの救出を要請してきてくれ！"
 
 #. [message]: id=13t_Elvish_conference_messenger
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:913
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:914
 msgid "Aye. I will be back before you know it!"
 msgstr "了解しました。とびきりの早さで戻ってきます！"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:918
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:919
 msgid ""
 "You may want to keep Hamel and Dulatus near the southern exit, just in case "
 "they need to leave..."
@@ -8987,12 +8996,12 @@ msgstr ""
 "備えになります。"
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:938
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:939
 msgid "Survive until the messenger returns."
 msgstr "使者が戻るまで生き延びる。"
 
 #. [message]: id=13t_Elvish_conference_messenger
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:967
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:968
 msgid ""
 "(<i>gasp</i>) My lord, I'm back. (<i>gasp</i>) There's an important "
 "conference running, and the elvish lords want you to join."
@@ -9001,39 +9010,39 @@ msgstr ""
 "たれています、それと、エルフの領主が、あなたに出席して欲しいと。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:971
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:972
 msgid "Do I really have to? I'm desperately needed here you know."
 msgstr "私に、本当か？私がここにいなかったらどうなると思っているんだ。"
 
 #. [message]: id=13t_Elvish_conference_messenger
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:975
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:976
 msgid "There's also a great mage of the humans."
 msgstr "人間の大魔術師もいるのです。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:979
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:980
 msgid "Hm... yes Hamel, you and I should go there, despite the situation here."
 msgstr "うーむ、分かった、Hamel 、お前と二人で行かねばならん、この状況だがな。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:984
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:985
 msgid "(<i>grmbl</i>) Aiglathing, you take command while I am absent."
 msgstr ""
 "（<i>ブツブツと </i>） Aiglathing よ、私がいない間、指揮を執ってくれるよな。"
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:999
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1000
 msgid "Move Dulatus and Hamel to the GO HERE icon (in this order)."
 msgstr ""
 "Dulatus と Hamel を目標ヘクス（赤い✕印）に移動させる（この順番通りに）。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1049
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1050
 msgid "We'll be back as soon as possible."
 msgstr "なるべく早く戻ってくるからな。"
 
 #. [message]
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1079
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1080
 msgid ""
 "I think I just saw a new undead appear... this is getting serious, please "
 "hurry up you two. Possibly new portals to transport undead are being created."
@@ -9042,7 +9051,7 @@ msgstr ""
 "デッド転送の新たな出口が出現したようです。"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1084
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1085
 msgid ""
 "You cannot defeat all enemies in this scenario. Every turn 3 deactivated "
 "monoliths will regain their power. After a few more turns you'll be overrun "
@@ -9052,7 +9061,7 @@ msgstr ""
 "は３ターンごとに復活し、その数ターン後にリッチたちが出現します。"
 
 #. [message]
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1177
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1178
 msgid ""
 "What the...!? I think I just saw a lich appear out of nowhere!? Now they no "
 "longer even need their monoliths!?"
@@ -10482,6 +10491,12 @@ msgstr "1.14 と 1.16 への移植"
 #: The_Earths_Gut/about.cfg:95
 msgid "Other contributions"
 msgstr "その他の貢献者"
+
+#. [about]
+#. credits entry:
+#: The_Earths_Gut/about.cfg:103
+msgid "Japanese Translation"
+msgstr ""
 
 # [ja] This text is for "Troll shaman".
 #~ msgid ""
