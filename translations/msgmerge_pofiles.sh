@@ -4,4 +4,7 @@
 # ./wmlxgettext --domain=wesnoth-The_Earths_Gut --directory=/Users/ericgallager/Library/Containers/org.wesnoth.Wesnoth/Data/Library/Application\ Support/Wesnoth_1.16/data/add-ons/The_Earths_Gut --recursive --warnall --no-sort-by-file -o /Users/ericgallager/Library/Containers/org.wesnoth.Wesnoth/Data/Library/Application\ Support/Wesnoth_1.16/data/add-ons/The_Earths_Gut/translations/TEG.pot
 # (with edits to correct paths as necessary)
 
-for lang in ja; do msgmerge --previous --update --lang=${lang} ${lang}/wesnoth-The_Earths_Gut.po TEG.pot; done
+for mylang in ja; do
+	msgmerge --previous --update --lang=${mylang} wesnoth-The_Earths_Gut/${mylang}.po TEG.pot;
+	msgfmt -o wesnoth-The_Earths_Gut/${mylang}.mo wesnoth-The_Earths_Gut/${mylang}.po;
+done
