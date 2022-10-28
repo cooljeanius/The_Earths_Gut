@@ -15,28 +15,40 @@ local function calc_position_danger(side, x, y)
 	local reach_units = {}
 	for i, u in ipairs(wesnoth.units.find_on_map({ { "filter_side", { { "enemy_of", { side = side }} }} })) do
 		local ucfg = u.__cfg
-		local reachable = location_set.of_pairs(wesnoth.find_reach(u, { ignore_units = false, ignore_teleport = false, additional_turns = 0, viewing_side = 0 }))
-		--if u.x == 6 then
-			--reachable_pairs = reachable:to_pairs()
-			--for i, loc in ipairs(reachable_pairs) do
-				--wml_actions.label({ text = "*", x = loc[1], y = loc[2] })
-			--end
-		--end
+		local reachable = location_set.of_pairs(wesnoth.find_reach(u, { ignore_units = false, ignore_teleport = false, additional_turns = 0, ignore_visibility = true }))
+		if (wesnoth.game_config.debug) then
+			if u.x == 6 then
+				reachable_pairs = reachable:to_pairs()
+				for i, loc in ipairs(reachable_pairs) do
+					wml_actions.label({ text = "*", x = loc[1], y = loc[2] })
+				end
+			end
+		end
 		reachable:inter(adjacent)
 		if reachable:size() > 0 then
 			local reach_unit = { unit = u, level = ucfg.level}
 			local function mark_as_reachable(x, y)
-				--local data = adjacent:get(x, y)
-				--data[u] = ucfg.level
-				--adjacent:insert(x, y, data)
+				if false then
+					local data = adjacent:get(x, y)
+					data[u] = ucfg.level
+					adjacent:insert(x, y, data)
+				end
 				table.insert(reach_unit, { x, y })
 			end
 			reachable:iter(mark_as_reachable)
 			table.insert(reach_units, reach_unit)
+		else
+			if (wesnoth.game_config.debug) then
+				wesnoth.log("debug", "calc_position_danger " .. tostring(i) .. " nothing reachable found!" .. tostring(reachable:size()), false)
+			end
 		end
 	end
-	--wml_actions.message({ speaker = "narrator", message = tostring(reach_units[1].unit)})
-	--dbms(reach_units)
+	if (wesnoth.game_config.debug) then
+		if #reach_units > 0 then
+			wml_actions.message({ speaker = "narrator", message = tostring(reach_units[1].unit)})
+			dbms(reach_units)
+		end -- Hopefully we can avoid attempts to index a nil value in here...
+	end -- Wish I had a better debug check...
 	local function compare(u1, u2)
 		if u1.level == u2.level then
 			return #u1> #u2
@@ -44,9 +56,15 @@ local function calc_position_danger(side, x, y)
 		return u1.level < u2.level
 	end
 	table.sort(reach_units, compare)
-	--dbms(reach_units)
-	--for i, loc in ipairs(wesnoth.map.find({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
-	--for i, loc in ipairs(reach_units[1]) do wml_actions.label({ x = loc[1], y = loc[2], text = "*" }) end
+	if (wesnoth.game_config.debug) then
+		if #reach_units > 0 then
+			dbms(reach_units)
+		end
+		for i, loc in ipairs(wesnoth.map.find({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
+		if #reach_units > 0 then
+			for i, loc in ipairs(reach_units[1]) do wml_actions.label({ x = loc[1], y = loc[2], text = "*" }) end
+		end
+	end
 	
 	local function calc_danger(adjacent)
 		local danger = 0
@@ -73,81 +91,117 @@ local function calc_position_danger(side, x, y)
 						table.remove(u, j)
 					end
 				end
-				if #u == 0 then 
-					--dbms(reach_units[i], "removing")
+				if #u == 0 then
+					if (wesnoth.game_config.debug) then
+						if #reach_units > 0 then
+							dbms(reach_units[i], "removing")
+						end
+					end
 					table.remove(reach_units, i)
 				end
 				i = i - 1
 			end
 		end
 		while true do
-			--if toplevel then dbms(adjacent) end
+			if (wesnoth.game_config.debug) then
+				if toplevel then dbms(adjacent) end
+			end
 			if #reach_units < 1 then return adjacent end
 			local u = reach_units[#reach_units]
-			--if toplevel then dbms("processing: " .. u.unit.name) end
+			if (wesnoth.game_config.debug) then
+				if toplevel then dbms("processing: " .. u.unit.name) end
+			end
 			assert(#u >= 1)
 			local hex
 			if #u == 1 then
 				hex = u[1]
 			else
-				--dbms(u)
-				--dbms("entering multi-hex case")
+				if (wesnoth.game_config.debug) then
+					dbms(u)
+					dbms("entering multi-hex case")
+				end
 				local best_danger = 0
 				local best_hex
 				for i, loc in ipairs(u) do
-					--local adjacent_saved = adjacent
+					local adjacent_saved = adjacent
 					local adjacent = helper.deep_copy(adjacent)
-					--assert(helper.equals(adjacent, adjacent_saved))
-					--local reach_units_saved = reach_units
+					if (wesnoth.game_config.debug) then
+						assert(helper.equals(adjacent, adjacent_saved))
+					end
+					local reach_units_saved = reach_units
 					local reach_units = helper.deep_copy(reach_units)
-					--assert(helper.equals(reach_units_saved, reach_units))
+					if (wesnoth.game_config.debug) then
+						assert(helper.equals(reach_units_saved, reach_units))
+					end
 					local reach_unit = reach_units[#reach_units]
 					reach_unit = { unit = reach_unit.unit, level = reach_unit.level, loc }
-					--dbms(reach_unit)
+					if (wesnoth.game_config.debug) then
+						dbms(reach_unit)
+					end
 					reach_units[#reach_units] = reach_unit
 					assert(#reach_units[#reach_units] == 1)
-					--dbms("checking case " .. tostring(i) .. " for " .. dbms(u, true, false, true, false, true))
-					--dbms(dbms(reach_units, true, "reach_units", true, false, true))
+					if (wesnoth.game_config.debug) then
+						dbms("checking case " .. tostring(i) .. " for " .. dbms(u, true, false, true, false, true))
+						dbms(dbms(reach_units, true, "reach_units", true, false, true))
+					end
 					adjacent = distribute_units(reach_units, adjacent)
 					local danger = calc_danger(adjacent)
-					--dbms(adjacent, true, "resulting adjacent")
-					--dbms(danger, true, "resulting danger")
+					if (wesnoth.game_config.debug) then
+						dbms(adjacent, true, "resulting adjacent")
+						dbms(danger, true, "resulting danger")
+					end
 					if danger > best_danger then
 						best_danger = danger
 						best_hex = loc
 					end
 				end
 				hex = best_hex
-				--dbms(adjacent, true, "chosen adjacent")
-				--dbms(reach_units)
+				if (wesnoth.game_config.debug) then
+					dbms(adjacent, true, "chosen adjacent")
+					dbms(reach_units)
+				end
 			end
-			--dbms(adjacent)
+			if (wesnoth.game_config.debug) then
+				dbms(adjacent)
+			end
 			local previous = adjacent:get(hex[1], hex[2])
-			--if toplevel then dbms(previous) end
+			if (wesnoth.game_config.debug) then
+				if toplevel then dbms(previous) end
+			end
 			if type(previous) == "table" then
 				assert(previous.level >= u.level)
 				table.remove(reach_units)
-				--if toplevel then dbms("discarding: " .. previous.unit.name) end
+				if (wesnoth.game_config.debug) then
+					if toplevel then dbms("discarding: " .. previous.unit.name) end
+				end
 			else
-				--dbms("inserting:" .. u.unit.name)
+				if (wesnoth.game_config.debug) then
+					dbms("inserting:" .. u.unit.name)
+				end
 				adjacent:insert(hex[1], hex[2], u)
 				table.remove(reach_units)
-				--dbms(reach_units)
+				if (wesnoth.game_config.debug) then
+					dbms(reach_units)
+				end
 				remove_used_up_hexes_and_units_accordingly_to_hexes(reach_units, hex)
 			end
 		end
 		return adjacent
 	end
 	adjacent = distribute_units(reach_units, adjacent, true)
-	--for i, loc in ipairs(wesnoth.map.find({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
-	--local function put_unit_names(x, y, data)
-		--if type(data) ~= "table" then return end
-		--wml_actions.label({ x = x, y = y, text = data.unit.name })
-	--end
-	--dbms(adjacent)
-	--adjacent:iter(put_unit_names)
+	if (wesnoth.game_config.debug) then
+		for i, loc in ipairs(wesnoth.map.find({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
+		local function put_unit_names(x, y, data)
+			if type(data) ~= "table" then return end
+			wml_actions.label({ x = x, y = y, text = data.unit.name })
+		end
+		dbms(adjacent)
+		adjacent:iter(put_unit_names)
+	end
 	local danger = calc_danger(adjacent)
-	--dbms(danger)
+	if (wesnoth.game_config.debug) then
+		dbms(danger)
+	end
 	return danger
 end
 
@@ -155,8 +209,10 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 	local side = wesnoth.current.side
 
 	local function move_wounded_unit_to(u, loc)
-		local path = wesnoth.find_path(u, loc[1], loc[2], { ignore_teleport = true, viewing_side = 0 })
-		--wml_actions.message({ speaker = "narrator", message = string.format("found path: %s", dbms(path, false, "path", true, false, true)) })
+		local path = wesnoth.find_path(u, loc[1], loc[2], { ignore_teleport = true, ignore_visibility = true })
+		if (wesnoth.game_config.debug) then
+			wml_actions.message({ speaker = "narrator", message = string.format("found path: %s", dbms(path, false, "path", true, false, true)) })
+		end
 		if #path == 0 then
 			helper.warning("no path found to force " .. u.name .. " to heal")
 			return
@@ -168,25 +224,35 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 		for i, loc in ipairs(path) do
 			if i == 1 then
 			else
-				--wml_actions.message({ speaker = "narrator", message = string.format("checking loc: (%u, %u)", loc[1], loc[2]) })
+				if (wesnoth.game_config.debug) then
+					wml_actions.message({ speaker = "narrator", message = string.format("checking loc: (%u, %u)", loc[1], loc[2]) })
+				end
 				local cost = wesnoth.unit_movement_cost(u, wesnoth.get_terrain(loc[1], loc[2]))
 				local new_moves = u.moves - cost
-				--wml_actions.message({ speaker = "narrator", message = string.format("new moves: %i", new_moves) })
+				if (wesnoth.game_config.debug) then
+					wml_actions.message({ speaker = "narrator", message = string.format("new moves: %i", new_moves) })
+				end
 				if new_moves >= 0 then
-					--wml_actions.message({ speaker = "narrator", message = string.format("move step: (%u, %u)", loc[1], loc[2]) })
+					if (wesnoth.game_config.debug) then
+						wml_actions.message({ speaker = "narrator", message = string.format("move step: (%u, %u)", loc[1], loc[2]) })
+					end
 					u.moves = new_moves
 					wml_actions.move_unit({ id = u.id, to_x = loc[1], to_y = loc[2],
 						check_passability = false, fire_event = false })
 				else
 					u.moves = 0
-					--wml_actions.message({ speaker = "narrator", message = string.format("%s stopped on the way to heal before (%u, %u))", u.name, loc[1], loc[2]) })
+					if (wesnoth.game_config.debug) then
+						wml_actions.message({ speaker = "narrator", message = string.format("%s stopped on the way to heal before (%u, %u))", u.name, loc[1], loc[2]) })
+					end
 					break
 				end
 				if i == #path then
 					u.moves = 0
 					u.role = "force_heal_heals_side" .. tostring(side)
 					wml_actions.capture_village({ side = u.side, x = u.x, y = u.y })
-					--wml_actions.message({ speaker = "narrator", message = string.format("%s heals now at (%u, %u)", u.name, loc[1], loc[2]) })
+					if (wesnoth.game_config.debug) then
+						wml_actions.message({ speaker = "narrator", message = string.format("%s heals now at (%u, %u)", u.name, loc[1], loc[2]) })
+					end
 				end
 			end
 		end
@@ -197,11 +263,15 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 		for i, u in ipairs(units) do
 			if u.hitpoints == u.max_hitpoints then
 				u.role = ""
-				--wml_actions.message({ speaker = "narrator", message = string.format("%s has finished healing at (%u, %u))", u.name, u.x, u.y) })
+				if (wesnoth.game_config.debug) then
+					wml_actions.message({ speaker = "narrator", message = string.format("%s has finished healing at (%u, %u))", u.name, u.x, u.y) })
+				end
 			else
 				u.moves = 0
 				u.attacks_left = 0
-				--wml_actions.message({ speaker = "narrator", message = string.format("%s continues to heal at (%u, %u))", u.name, u.x, u.y) })
+				if (wesnoth.game_config.debug) then
+					wml_actions.message({ speaker = "narrator", message = string.format("%s continues to heal at (%u, %u))", u.name, u.x, u.y) })
+				end
 			end
 		end
 	end
@@ -227,7 +297,9 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 
 	for i, u in ipairs(wounded_units) do
 		assert(u.side == side)
-		--wml_actions.message({ speaker = "narrator", message = string.format("found unit to heal: %s", u.name) })
+		if (wesnoth.game_config.debug) then
+			wml_actions.message({ speaker = "narrator", message = string.format("found unit to heal: %s", u.name) })
+		end
 		local filter =
 		{
 			x_source = u.x,
@@ -242,7 +314,6 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 			},
 			x = cfg.x,
 			y = cfg.y,
-			--{ "filter_owner", { side = side }}
 			{ "and",
 				{
 					{ "filter_owner", { { "not", {}} }},
@@ -258,7 +329,9 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 				}
 			}
 		}
-		--dbms(filter)
+		if (wesnoth.game_config.debug) then
+			if false then dbms(filter) end
+		end
 		if not wesnoth.get_terrain_info(wesnoth.get_terrain(u.x, u.y)).village then
 			local function calc_heal_loc()
 				local heal_loc = wml_actions.nearest_hex(filter, true, true)
@@ -273,7 +346,9 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 			local heal_loc = calc_heal_loc()
 			u.attacks_left = 0 --in any case, especially if trapped
 			if heal_loc then
-				--wml_actions.message({ speaker = "narrator", message = string.format("found heal location: (%u,%u)", heal_loc[1], heal_loc[2]) })
+				if (wesnoth.game_config.debug) then
+					wml_actions.message({ speaker = "narrator", message = string.format("found heal location: (%u,%u)", heal_loc[1], heal_loc[2]) })
+				end
 				move_wounded_unit_to(u, heal_loc)
 			else
 				helper.warning("no location found to force " .. u.name .. " to heal")
