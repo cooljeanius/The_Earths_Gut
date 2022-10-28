@@ -19,7 +19,7 @@ local function calc_position_danger(side, x, y)
 		if (wesnoth.game_config.debug) then
 			if u.x == 6 then
 				reachable_pairs = reachable:to_pairs()
-				for i, loc in ipairs(reachable_pairs) do
+				for j, loc in ipairs(reachable_pairs) do
 					wml_actions.label({ text = "*", x = loc[1], y = loc[2] })
 				end
 			end
@@ -65,10 +65,10 @@ local function calc_position_danger(side, x, y)
 			for i, loc in ipairs(reach_units[1]) do wml_actions.label({ x = loc[1], y = loc[2], text = "*" }) end
 		end
 	end
-	
+
 	local function calc_danger(adjacent)
 		local danger = 0
-		local function do_it(x, y, data)
+		local function do_it(x1, y1, data)
 			if type(data) ~= "table" then danger = danger + 0.0
 			elseif data.level < 1 then danger = danger + 0.5
 			elseif data.level < 2 then danger = danger + 1.0
@@ -79,7 +79,7 @@ local function calc_position_danger(side, x, y)
 		adjacent:iter(do_it)
 		return danger
 	end
-	
+
 	local function distribute_units(reach_units, adjacent, toplevel)
 		local function remove_used_up_hexes_and_units_accordingly_to_hexes(reach_units, hex)
 			local i = #reach_units
@@ -118,7 +118,7 @@ local function calc_position_danger(side, x, y)
 			else
 				if (wesnoth.game_config.debug) then
 					dbms(u)
-					dbms("entering multi-hex case")
+					debug_utils.dbg("entering multi-hex case")
 				end
 				local best_danger = 0
 				local best_hex
@@ -223,6 +223,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 		wesnoth.set_variable(string.format("LUA_destinations[%u].y", dest_length), loc[2])
 		for i, loc in ipairs(path) do
 			if i == 1 then
+				-- ???
 			else
 				if (wesnoth.game_config.debug) then
 					wml_actions.message({ speaker = "narrator", message = string.format("checking loc: (%u, %u)", loc[1], loc[2]) })

@@ -113,6 +113,7 @@ end
 function wml_actions.place_room_units(cfg)
 	local number = mathx.random_choice(cfg.number)
 
+	-- FIXME: shadowing:
 	local cfg = wml.shallow_literal(cfg)
 
 	local width, heigth = wesnoth.get_map_size()

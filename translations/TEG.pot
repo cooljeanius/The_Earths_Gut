@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-10-23 04:08 UTC\n"
+"POT-Creation-Date: 2022-10-28 06:49 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -314,8 +314,9 @@ msgid "<span foreground='red'>instasunken</span>"
 msgstr ""
 
 #. [message]: speaker=narrator
-#. message from RESERVE_HEAL_LOCATIONS macro for when a "reserved" village is moved to:
-#: The_Earths_Gut/utils/ai_controller.cfg:54
+#. message from RESERVE_HEAL_LOCATIONS macro for when a "reserved" village is moved to;
+#. it doesn't look like it always coincides with the unit actually leaving the village though?
+#: The_Earths_Gut/utils/ai_controller.cfg:55
 msgid "$unit.name| kindly leaves this village to allies allowing them to heal."
 msgstr ""
 
@@ -632,8 +633,8 @@ msgstr ""
 #: The_Earths_Gut/utils/misc.cfg:184
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:220
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:213
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:426
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:491
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:449
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:514
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:538
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:284
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:286
@@ -668,7 +669,7 @@ msgstr ""
 #: The_Earths_Gut/utils/misc.cfg:278
 #: The_Earths_Gut/utils/misc.cfg:292
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:261
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:240
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:263
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:288
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:208
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:697
@@ -698,7 +699,7 @@ msgstr ""
 #. [objective]: condition=lose
 #: The_Earths_Gut/utils/misc.cfg:286
 #: The_Earths_Gut/utils/misc.cfg:296
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:244
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:267
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:293
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:212
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:701
@@ -753,7 +754,7 @@ msgid " or greater, or find an older version of this campaign instead."
 msgstr ""
 
 #. [lua]: wml_actions.ai_controller_place_reserved_labels
-#: The_Earths_Gut/lua/ai_controller.lua:293
+#: The_Earths_Gut/lua/ai_controller.lua:368
 msgid "<span color='#%s'>reserved</span>"
 msgstr ""
 
@@ -1476,7 +1477,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:251
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:181
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:554
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:234
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:257
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:281
 #: The_Earths_Gut/scenarios/17_Return.cfg:211
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:121
@@ -2511,7 +2512,7 @@ msgstr ""
 #. [unit]: type=Elvish Marshal, id=Eowariand
 #. [side]: type=Elvish Marshal, id=Eowariand
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:16
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:120
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:125
 #: The_Earths_Gut/scenarios/17_Return.cfg:10
 msgid "Eowariand"
 msgstr ""
@@ -3092,7 +3093,7 @@ msgstr ""
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:367
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:236
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:259
 msgid "Defeat all enemy leaders!"
 msgstr ""
 
@@ -3556,7 +3557,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:209
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:356
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:379
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:525
 msgid "Debug mode is on; skipping opening dialogue. Restart this scenario with debug mode turned off to see the intro cutscene."
 msgstr ""
@@ -4307,259 +4308,259 @@ msgid "Krog"
 msgstr ""
 
 #. [side]: type=Giant Spider, id=cave_spider
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:181
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:194
 msgid "Cave Spider"
 msgstr ""
 
 #. [side]: type=Orcish Sovereign, id=Grishnak
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:216
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:234
 msgid "Grishnak"
 msgstr ""
 
 #. [objective]: condition=lose
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:248
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:271
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:302
 #: The_Earths_Gut/scenarios/17_Return.cfg:229
 msgid "Death of Eowariand"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:364
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:387
 msgid "Fellows, we have made it this far, despite our great loss. Let us pay respect to Dulatus and fulfill our mission!"
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:368
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:391
 msgid "Behind you all the way, Hamel! By the way, where are we? I don't recognize this valley."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:372
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:395
 msgid "Look, everyone! There are several great openings into the mountains up north. Cut openings, surely the work of dwarves!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:376
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:399
 msgid "We may have found the mines Dulatus talked so much about."
 msgstr ""
 
 #. [message]: id=Clarissa
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:385
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:391
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:408
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:414
 msgid "So dwarves have been to this valley? Interesting, since it appears that these forests may be inhabited by elves."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:399
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:422
 msgid "There might be elves here? I hope they do not seek a quarrel with us. They are known not to be very friendly to my kind..."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:403
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:426
 msgid "Elves or no elves, I wonder why we have heard nothing from the dwarves who had built those caves?"
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:440
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:463
 msgid "That forest to the south may be the Wesmere Forest, if I remember correctly from my travels. If it is, we may soon have to deal with..."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:444
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:467
 msgid "Hark! Dwarves from the eastern mountains are entering our peaceful valley!"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:448
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:471
 msgid "Away with you, rock dwelling halflings! If you dare enter my forest, I will have you put to the sword!"
 msgstr ""
 
 #. [message]: id=Aiglathing
 #. "tree-hugging" would probably be more idiomatic, but I like the sound of "tree-cuddling", so I'll keep it:
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:453
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:476
 msgid "Damn tree-cuddling elf!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:457
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:480
 msgid "Calm down, Aiglathing!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:461
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:484
 msgid "What is your name, elf?"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:465
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:488
 msgid "I am Eowariand, marshal of Wesmere Forest. Who are you, and why have you come to my forest, dwarf?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:470
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:493
 msgid "I am Lord Hamel, leader of an expedition from Knalga. We are searching for mineral resources and ore veins for mining. I have no interest in your forest, and wish to travel to those caves in the northern mountains."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:474
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:497
 msgid "Why do you wish to enter those caves? The last of your kind who came here in ancient times carved those tunnels, only to flee many years later, terror written on their faces. They left us forced to defend our forests from some great evil they had awakened."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:479
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:502
 msgid "What evil is that?"
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:483
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:506
 msgid "We do not know. We have been attacked frequently by trolls, and unspeakable monsters of the night. They seem driven to madness and controlled on by something greater. We have held them back for years, but they have killed many of my kin already."
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:487
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:510
 msgid "(<i>whispers</i>) My lord, this could be an opportunity. These dwarves seem stronger and braver than those who came before. Perhaps they can drive away the monsters for us. We cannot fight well in caves, and we cannot go on much longer with those cave monsters attacking us."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:495
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:518
 msgid "Lord Hamel of Knalga, I will permit you to travel to the caves, on the condition that you help us to defeat the monsters that plague us. If you succeed, there will be peace between us."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:499
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:522
 msgid "The nerve of these elves! Do they think they can make us do their dirty work for them?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:503
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:526
 msgid "(<i>whispers</i>) That will be enough! We cannot afford to have the elves as enemies!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:507
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:530
 msgid "I accept your proposal, Eowariand. We will help you defeat your enemies."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:511
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:534
 msgid "So be it. It was wise not to fight us, dwarf."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:526
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:549
 msgid "(<i>whispers</i>) He speaks the truth, Hamel. These elves are no easy foe to beat, and there are many more of them deeper in the Wesmere Forest."
 msgstr ""
 
 #. [message]: id=cave_spider
 #. spider death sound:
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:540
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:563
 msgid "Sssssssssssssssssssss..."
 msgstr ""
 
 #. [message]: id=Krog
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:550
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:573
 msgid "Defeated by these weakling elves, with dwarves on their side! How..."
 msgstr ""
 
 #. [message]: id=Grishnak
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:560
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:583
 msgid "The dwarves... are returning! I must alert the others..."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:564
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:587
 msgid "You have failed to defeat us, and so will 'the others!'"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:578
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:601
 msgid "Strange, there must be a monster in that lake somewhere..."
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:582
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:605
 msgid "There was one for a while, but we got rid of it."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:597
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:620
 msgid "Oh, the old oak tree... green as ever. Even our elders cannot tell how many years it has seen."
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:609
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:632
 msgid "Oh no... I am finished... I have failed."
 msgstr ""
 
 #. [message]: role=r_Speaker
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:621
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:644
 msgid "(<i>giggles</i>) He he, such fragile elves."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:630
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:653
 msgid "Quiet! You should be ashamed!"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:644
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:667
 msgid "I must call in the reserves! This is too much!"
 msgstr ""
 
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:657
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:680
 msgid "At last, we will take back what was once ours!"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:661
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:684
 msgid "Dwarves, you have proven yourselves worthy in battle. We will accept you as friends, and you are welcome to come and go freely to the caves of the north."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:665
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:688
 msgid "Thank you, elf."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:669
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:692
 msgid "I will give you some supplies for your journey, and I look forward to trading goods with you in the future."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:673
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:696
 msgid "(<i>quiet</i>) These elves are a wonderful folk. I hope we meet again. They are a wise old race, and I could learn much from them."
 msgstr ""
 
 #. [message]: id=advisor_druid
 #. "neighborhood" in the sense of "the state of being neighbors with one another", NOT the usual sense of "a physical location where neighbors live next to one another":
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:679
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:702
 msgid "I'm looking forward to your neighborhood."
 msgstr ""
 
 #. [unit]: type=Elvish Shaman, id=Celylia
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:692
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:715
 msgid "Celylia"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:715
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:738
 msgid "This is Celylia, one of my wisest shamans. Allow her to accompany you as my representative."
 msgstr ""
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:719
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:742
 msgid "I have explored some caves before. That is certainly why I have been chosen to travel with you."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:723
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:746
 msgid "Thank you. I am sure you will be a great help to us."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:727
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:750
 msgid "Onward, men. I suspect we have much to reconquer."
 msgstr ""
 
