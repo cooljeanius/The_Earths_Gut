@@ -3,6 +3,7 @@
 *.map-bak
 *.swp
 .github/*
+.luacheckrc
 
 # default values not already specified:
 .+
