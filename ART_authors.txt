@@ -1,0 +1,5 @@
+Credits for where art came from:
+- Most of the images are just from mainline Wesnoth
+- I think I downloaded some sounds from opengameart.org but can't quite remember
+  for sure... I'm thinking it was https://opengameart.org/content/stream-sounds
+  by kurt, CC-BY 3.0
