@@ -1,4 +1,5 @@
 if not wml_actions then wml_actions = {} end
+local debug_utils = pcall(wesnoth.dofile, "~add-ons/Wesnoth_Lua_Pack/debug_utils.lua")
 
 -- We need one of these in every file that uses one of these, apparently:
 local _ = wesnoth.textdomain("wesnoth-The_Earths_Gut")
