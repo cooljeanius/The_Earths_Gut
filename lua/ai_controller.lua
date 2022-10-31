@@ -1,4 +1,4 @@
--- scenarios that use this file: S06 ("The Great Gates"), S15 ("Save The Heir"), S17 ("Return")
+-- scenarios that use this file: S06 ("The Great Gates"), S15 ("Save The Heir"), S17 ("Return"), S21 ("Wesnoth Soldiers")
 if not wml_actions then wml_actions = {} end
 local debug_utils = pcall(wesnoth.dofile, "~add-ons/Wesnoth_Lua_Pack/debug_utils.lua")
 
