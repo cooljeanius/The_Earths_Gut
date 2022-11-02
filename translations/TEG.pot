@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-02 22:12 UTC\n"
+"POT-Creation-Date: 2022-11-02 22:26 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -897,7 +897,7 @@ msgstr ""
 
 #. [unit_type]: id=Transport Ship, race=mechanical
 #: The_Earths_Gut/units/ships/Transport_Ship.cfg:21
-msgid "Transport Ships can carry troops, but they are rather poor fighters and slow because of their wide hull and load."
+msgid "Transport Ships are used to carry units, though they lack good offensive capability, and their wide hull and heavy load makes them slow."
 msgstr ""
 
 #. [attack]: type=blade
@@ -920,7 +920,7 @@ msgstr ""
 
 #. [attack]: type=impact
 #: The_Earths_Gut/units/ships/Battleship.cfg:47
-#: The_Earths_Gut/units/ships/Pirate_Ship.cfg:56
+#: The_Earths_Gut/units/ships/Pirate_Ship.cfg:54
 msgid "cannon ball"
 msgstr ""
 
@@ -930,14 +930,12 @@ msgid "Pirate Ship"
 msgstr ""
 
 #. [unit_type]: id=Pirate Ship, race=mechanical
-#. The first sentence is in the canonical form for analogies that one learns in grade school;
-#. it could also be written as "Pirate galleons : transport ships :: wolves : sheep" using the symbolic notation for analogies:
-#: The_Earths_Gut/units/ships/Pirate_Ship.cfg:26
-msgid "Pirate galleons are to transport ships what wolves are to sheep. The pirates who crew them are more than happy to help relieve other ships of their weighty cargo."
+#: The_Earths_Gut/units/ships/Pirate_Ship.cfg:24
+msgid "Pirate Galleons are the wolves of the sea, and transport ships are their sheep. The pirates who crew these ships are more than happy to relieve other ships of their cargo"
 msgstr ""
 
 #. [attack]: type=pierce
-#: The_Earths_Gut/units/ships/Pirate_Ship.cfg:43
+#: The_Earths_Gut/units/ships/Pirate_Ship.cfg:41
 msgid "grappling hook"
 msgstr ""
 
