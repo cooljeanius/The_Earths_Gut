@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-01 06:54 UTC\n"
+"POT-Creation-Date: 2022-11-02 22:12 UTC\n"
 "PO-Revision-Date: 2022-10-22 01:56+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -690,7 +690,7 @@ msgstr "なぜだ？"
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:538
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:284
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:287
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1474
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1475
 msgid "..."
 msgstr "....."
 
@@ -742,7 +742,7 @@ msgstr "Hamel の死"
 #: The_Earths_Gut/scenarios/19_Prison.cfg:250
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1291
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:343
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1846
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1847
 msgid "Death of Dulatus"
 msgstr "Dulatus の死"
 
@@ -757,7 +757,7 @@ msgstr "Dulatus の死"
 #: The_Earths_Gut/scenarios/19_Prison.cfg:242
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1283
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:348
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1850
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1851
 msgid "Death of Aiglathing"
 msgstr "Aiglathing の死"
 
@@ -1009,16 +1009,34 @@ msgstr ""
 "ダメージを与えられますが、戦隊の設計上、機動性はありません。"
 
 #. [attack]: type=pierce
-#: The_Earths_Gut/units/ships/Galley.cfg:59
+#: The_Earths_Gut/units/ships/Galley.cfg:37
 msgid "ram"
 msgstr "衝角"
 
 #. [attack]: type=fire
 #. Why was this complained about? "Greek" is correct.
 #. Maybe because "Greece" doesn't exist in the world of Wesnoth?
-#: The_Earths_Gut/units/ships/Galley.cfg:75
+#: The_Earths_Gut/units/ships/Galley.cfg:53
 msgid "Greek fire"
 msgstr "ギリシャの炎"
+
+#. [unit_type]: id=Transport Ship, race=mechanical
+#: The_Earths_Gut/units/ships/Transport_Ship.cfg:6
+msgid "Transport Ship"
+msgstr ""
+
+#. [unit_type]: id=Transport Ship, race=mechanical
+#: The_Earths_Gut/units/ships/Transport_Ship.cfg:21
+msgid ""
+"Transport Ships can carry troops, but they are rather poor fighters and slow "
+"because of their wide hull and load."
+msgstr ""
+
+#. [attack]: type=blade
+#: The_Earths_Gut/units/ships/Transport_Ship.cfg:39
+#: The_Earths_Gut/units/ships/Battleship.cfg:38
+msgid "fighting crew"
+msgstr "戦闘要員"
 
 #. [unit_type]: id=Battleship, race=mechanical
 #: The_Earths_Gut/units/ships/Battleship.cfg:5
@@ -1026,23 +1044,45 @@ msgid "Battleship"
 msgstr "戦艦"
 
 #. [unit_type]: id=Battleship, race=mechanical
-#: The_Earths_Gut/units/ships/Battleship.cfg:20
+#. the "for defending" part just refers the intent behind the "fighting crew" attack existing;
+#. it can actually be used for attacking, too, though:
+#: The_Earths_Gut/units/ships/Battleship.cfg:22
+#, fuzzy
+#| msgid ""
+#| "Battleships are the masters in naval fighting. Their cannon balls do "
+#| "heavy ranged damage and they have a melee attack for defending."
 msgid ""
-"Battleships are the masters in naval fighting. Their cannon balls do heavy "
-"ranged damage and they have a melee attack for defending."
+"Battleships are the masters in naval fighting. Their cannonballs do heavy "
+"ranged damage, and they have a melee attack for defending."
 msgstr ""
 "戦艦( Battleship )は海戦の主役です。砲丸は広範囲にわたって重大なダメージを与"
 "え、防御のために近接攻撃も行います。"
 
-#. [attack]: type=blade
-#: The_Earths_Gut/units/ships/Battleship.cfg:55
-msgid "fighting crew"
-msgstr "戦闘要員"
-
 #. [attack]: type=impact
-#: The_Earths_Gut/units/ships/Battleship.cfg:64
+#: The_Earths_Gut/units/ships/Battleship.cfg:47
+#: The_Earths_Gut/units/ships/Pirate_Ship.cfg:56
 msgid "cannon ball"
 msgstr "砲丸"
+
+#. [unit_type]: id=Pirate Ship, race=mechanical
+#: The_Earths_Gut/units/ships/Pirate_Ship.cfg:6
+msgid "Pirate Ship"
+msgstr ""
+
+#. [unit_type]: id=Pirate Ship, race=mechanical
+#. The first sentence is in the canonical form for analogies that one learns in grade school;
+#. it could also be written as "Pirate galleons : transport ships :: wolves : sheep" using the symbolic notation for analogies:
+#: The_Earths_Gut/units/ships/Pirate_Ship.cfg:26
+msgid ""
+"Pirate galleons are to transport ships what wolves are to sheep. The pirates "
+"who crew them are more than happy to help relieve other ships of their "
+"weighty cargo."
+msgstr ""
+
+#. [attack]: type=pierce
+#: The_Earths_Gut/units/ships/Pirate_Ship.cfg:43
+msgid "grappling hook"
+msgstr ""
 
 #. [unit_type]: id=Wose Shaman, race=wose
 #: The_Earths_Gut/units/woses/Wose_Shaman.cfg:5
@@ -1772,7 +1812,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:999
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1273
 #: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:66
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1839
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1840
 msgid "Final Objectives:"
 msgstr "最終目標："
 
@@ -6206,7 +6246,7 @@ msgstr "調査して生き残る方法を見つけよう！"
 #: The_Earths_Gut/scenarios/19_Prison.cfg:246
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1287
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:358
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1859
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1860
 msgid "Death of Elara"
 msgstr "Elara の死"
 
@@ -9768,7 +9808,7 @@ msgstr "敵のリーダーをすべて倒す。"
 #. [objectives]
 #. TODO: remove this note once it's possible to do so:
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:367
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1868
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1869
 msgid ""
 "Due to this campaign being incomplete, this is the final scenario for now. "
 "The intention is to develop one more scenario to go after it, though. So, "
@@ -10052,7 +10092,7 @@ msgstr "塵芥に戻るがいい！"
 
 #. [message]: speaker=second_unit
 #. speaker = side 1 unit that has seen Senim Airom, the southwest Death Knight (who's also the only one so far, but that may change):
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1324
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1325
 msgid ""
 "Hm, this Death Knight appears to have some dwarvish characteristics about "
 "him... I wonder if he was once a dwarf in life?"
@@ -10062,7 +10102,7 @@ msgstr ""
 
 #. [message]: speaker=swdeathknight
 #. make this Death Knight sound evil:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1330
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1331
 msgid "No, but I do know a thing or two about killing dwarves! Muahahahahaha!"
 msgstr ""
 "まさか。だが、ドワーフの料理の仕方くらい、一つや二つは知ってるぞ！むぁはっ"
@@ -10070,17 +10110,17 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that's attacking Senim Airom, the Death Knight:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1344
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1345
 msgid "This is for all the dwarves you claim to have killed!"
 msgstr "これは、お前が殺してきたというドワーフの分だ！"
 
 #. [message]: speaker=swdeathknight
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1348
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1349
 msgid "Bring it on, little ones!"
 msgstr "さあ掛かってこい、ドワーフのチビども！"
 
 #. [message]: speaker=swdeathknight
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1362
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1363
 msgid ""
 "Uggghh, beaten by dwarves... these runts are much... stronger than... "
 "<i>*clatter*</i>"
@@ -10090,17 +10130,17 @@ msgstr ""
 
 #. [message]: speaker=second_unit
 #. spoken by the side 1 unit that killed the Death Knight:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1377
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1378
 msgid "Let this be a lesson to all would-be dwarfkillers!"
 msgstr "ドワーフ殺しを気取る奴らの教訓になるがいいさ！"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1458
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1459
 msgid "A drake was hiding here! And it looks friendly!"
 msgstr "ドレークがここに隠れてた！しかも親しみのありそうな感じだけど！"
 
 #. [message]: speaker=Dulatus
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1463
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1464
 msgid ""
 "Hm, it looks rather small and weak... it's probably atrophied from being "
 "stuck in a cave for so long... oh well, I guess it could still be helpful!"
@@ -10110,7 +10150,7 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has discovered the Cave Drake:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1469
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1470
 msgid ""
 "Well, whaddaya say, li'l guy? Wanna come along and help us find the Hammer "
 "of Thursagan?"
@@ -10120,18 +10160,18 @@ msgstr ""
 
 #. [message]: speaker=crazydwarf1
 #. this dwarf has a flamethrower:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1498
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1499
 msgid "FIIIIIRE!!!"
 msgstr "ファイヤーーーー！！"
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has discovered the dwarf with the flamethrower:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1503
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1504
 msgid "A dwarf all the way down here?! How have you survived?!"
 msgstr "こんな所までドワーフが来たのか？！よくまあ生き延びたもんだ？！"
 
 #. [message]: speaker=crazydwarf1
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1507
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1508
 msgid ""
 "By harnessing the power of fire! The creepy-crawlies 'round here don't like "
 "it one bit! Say, you wouldn't happen to be having any trouble with them, "
@@ -10142,26 +10182,26 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has discovered the dwarf with the flamethrower:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1512
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1513
 msgid "Funny you should mention it. We were just hoping to borrow your power!"
 msgstr ""
 "面白いことを言う奴だな。ちょうどいい、君みたいな力を借りたいと思っていたん"
 "だ！"
 
 #. [message]: speaker=crazydwarf1
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1516
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1517
 msgid "My pleasure! FIIIIIRE!!!"
 msgstr "喜んで！ファイヤーーーー！！"
 
 #. [message]: speaker=crazydwarf2
 #. this is intentionally written as nonsense:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1539
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1540
 msgid "ARGLE BARGLE DARFIN' HARGLESTONE!"
 msgstr "アーグル バーグル ダーフィン ハーグルストーン！"
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has discovered the berserker:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1544
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1545
 msgid ""
 "Hm, this dwarf appears to have lost the ability to speak intelligently... he "
 "still appears to be able to fight, though! Let's take him along with us!"
@@ -10171,7 +10211,7 @@ msgstr ""
 
 #. [message]: speaker=crazydwarf2
 #. even though the berseker is now speaking more sensibly, their speech pattern remains interspersed with occasional nonsense words:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1549
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1550
 msgid ""
 "Whaddaya mean with that “lost the ability to speak intelligently” nonsense? "
 "I just occasionally... GANK! ...have random... BERGKONSTEIN! ...outbursts of "
@@ -10183,7 +10223,7 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. speaker is speaking kind of incredulously; they're kinda weirded out by this crazy dwarf:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1554
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1555
 msgid ""
 "...o...kay then. (<i>aside</i>) <small><i>...better be careful with this "
 "one...</i></small>"
@@ -10193,7 +10233,7 @@ msgstr ""
 
 #. [message]: speaker=crazydwarf3
 #. dwarf speaks with a bit of a dialect; "yeh" = "you", "yer" = "you're", "fer" = "for":
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1577
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1578
 msgid ""
 "So, just so yeh know, if yer lookin' fer the Hammer of Thursagan, this is "
 "the wrong way. There <b>is</b> a dragon around these ways, though!"
@@ -10203,36 +10243,36 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has discovered this dwarf:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1593
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1594
 msgid "We know, we've seen that dragon ourselves!"
 msgstr "ああ、知ってるよ。もう、ドラゴンを見てるからな！"
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has discovered this dwarf:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1605
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1606
 msgid "We know, we've seen that dragon ourselves, and we even killed it!"
 msgstr "ああ、知ってるよ。もう、ドラゴンを見てるし、殺したしな！"
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has discovered this dwarf:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1613
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1614
 msgid "We know, we've seen that dragon ourselves, and now it's dead!"
 msgstr "ああ、分かってる。もう、ドラゴンを見てるし、もう死んでるしな！"
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has discovered this dwarf:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1622
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1623
 msgid "A dragon?! We'll be sure to watch out for it!"
 msgstr "ドラゴンが？！十分に警戒しなければ！"
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has discovered this dwarf:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1629
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1630
 msgid "Anyways, how do you know about the Hammer of Thursagan?"
 msgstr "ところで、どうやって、Thursagan の槌のことを知ったんだ？"
 
 #. [message]: speaker=crazydwarf3
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1633
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1634
 msgid ""
 "I almost retrieved it myself! I've been exploring down here for years and "
 "came pretty close to it, but unfortunately it's just too dangerous for me to "
@@ -10244,39 +10284,39 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has discovered this dwarf:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1638
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1639
 msgid "Well, how about you join up with us, then?"
 msgstr "あー、我々と、一緒にやるってのはどうだ？"
 
 #. [message]: speaker=crazydwarf3
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1642
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1643
 msgid "I was hoping you'd ask! Follow me!"
 msgstr "そう言われるってよー、思ってたのよ、な。着いてこいよ！"
 
 #. [message]: speaker=crazydwarf3
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1652
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1653
 msgid "There's a way through the wall here!"
 msgstr "ここ、壁のとこに穴を開ける道がよー、な！"
 
 #. [message]: speaker=crazydwarf3
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1705
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1706
 msgid "This way! It's to the east from here!"
 msgstr "ほらよ、道だ！こっからよー、東だ！"
 
 #. [message]: speaker=unit
 #. "it" = The Hammer of Thursagan:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1735
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1736
 msgid "We found it!"
 msgstr "見つけた！"
 
 #. [message]: speaker=dwarflich
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1758
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1759
 msgid "Oh no you don't! That's <b>MY</b> hammer!"
 msgstr "駄目だ、やめろ！そいつは<b>俺 </b>の槌だ！"
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has found the hammer:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1763
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1764
 msgid ""
 "Wait... what? Who are you? And more importantly, WHAT are you? You seem "
 "dwarvish, and yet an aura of death and evil emanates from you..."
@@ -10285,7 +10325,7 @@ msgstr ""
 "フのようでもあるし、死と邪悪の気配が漂ってる..."
 
 #. [message]: speaker=dwarflich
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1767
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1768
 msgid ""
 "You don't recognize the bones of Torlatus, your founder? My, how the dwarves "
 "of Kal Torlat have declined since I left them above to dig down here!"
@@ -10296,7 +10336,7 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has found the hammer:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1772
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1773
 msgid ""
 "OK, first of all, we're not even from Kal Torlat! We're Knalgan dwarves, "
 "from the Dwarven Doors! And second, even if we had been from Kal Torlat, why "
@@ -10309,7 +10349,7 @@ msgstr ""
 "ときには、お前はまだ生きていたはずだ！"
 
 #. [message]: speaker=dwarflich
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1776
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1777
 msgid ""
 "What, I finally encounter dwarves again for the first time in decades, and "
 "they're not even from my settlement?! Impossible! Kal Torlat is the greatest "
@@ -10322,7 +10362,7 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has found the hammer:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1781
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1782
 msgid ""
 "Uh, Torlatus, buddy, I dunno how to break this to you, but... Kal Torlat is "
 "destroyed. It's a ghost town now. There haven't been any dwarves living "
@@ -10333,7 +10373,7 @@ msgstr ""
 "人、いや、ドワーフっ子一人、ネズミ一匹すら住んでいない。"
 
 #. [message]: speaker=ancientlichboss
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1791
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1792
 msgid ""
 "Kekekeke! Overrun them, we did! If you hadn't been so devoted to guarding "
 "your precious hammer, Torlatus, you could have joined us in the destruction "
@@ -10344,7 +10384,7 @@ msgstr ""
 "一翼を担えたろうにな、ケッケッケ！"
 
 #. [message]: speaker=dwarflich
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1795
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1796
 msgid ""
 "Shut up, Muff Gorlab! Just because I awakened you and joined you in undeath "
 "doesn't mean I'll join you in going and killing every dwarf you feel like! I "
@@ -10356,12 +10396,12 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has found the hammer:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1800
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1801
 msgid "So... does this mean you'll let us go with the hammer, then?"
 msgstr "つまり、我々に槌を譲る、ということだな？"
 
 #. [message]: speaker=dwarflich
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1804
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1805
 msgid ""
 "Hell no! Anyone trying to take my hammer must die, whether they be dwarf or "
 "not!"
@@ -10370,18 +10410,18 @@ msgstr ""
 "うと！"
 
 #. [message]: speaker=dwarflich
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1810
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1811
 msgid "Kal Torlat, destroyed? Impossible! I refuse to believe you!"
 msgstr "Kal Torlat が、壊滅しただと？嘘だ！信じるわけにはいかぬ！"
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has found the hammer:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1815
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1816
 msgid "Come with us, and we'll show you."
 msgstr "一緒に来てくれ、見れば分かる。"
 
 #. [message]: speaker=dwarflich
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1819
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1820
 msgid ""
 "Come with you? This seems like a trick to take my hammer! I won't stand for "
 "it!"
@@ -10389,35 +10429,35 @@ msgstr "一緒に、だと？どうやら、私のこの槌を奪う策略だな
 
 #. [message]: speaker=unit
 #. "Welp" = a portmanteau of "Well" and "gulp":
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1826
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1827
 msgid "Welp, it looks like we're doing this, then..."
 msgstr "よく聞くんだ、我々が行おうとしていることは、それは..."
 
 #. [objective]: condition=win
 #. TODO: Maybe adjust wording (the part where it says "Kill") since dwarf-lich is already (un)dead:
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1842
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1843
 msgid ""
 "Kill Torlatus, the corrupted dwarf-lich who guards the Hammer of Thursagan"
 msgstr "Thursagan の槌を守護する穢れたドワーフのリッチ Torlatus を倒す"
 
 #. [message]: speaker=dwarflich
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1878
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1879
 msgid "Noooo! My hammer!"
 msgstr "くそーーー！俺様の槌がー！"
 
 #. [message]: speaker=Dulatus
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1927
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1928
 msgid "We have the hammer! Let's bring this back to the others."
 msgstr "よし、槌は我々のものだ！他の者たちの許へ持って帰ろう。"
 
 #. [message]: race=dwarf
 #. "free" as in "liberated":
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1936
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1937
 msgid "Huzzah, Kal Torlat is free!"
 msgstr "やった、Kal Torlat は自由の身だ！"
 
 #. [message]: speaker=Dulatus
-#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1940
+#: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1941
 msgid "Let's get out of here and go tell Hamel of our success!"
 msgstr "さあ、ここを出よう、そして、我々の成功を Hamel に伝えに行こう！"
 
