@@ -1,0 +1,31 @@
+If you are an artist and want to contribute, please look at this list and
+counsider whether you could do these portraits or other artwork.
+
+PORTRAITS
+---------
+* unique portrait for Hamel (He currently uses Aiglondur's from THoT)
+* unique portrait for Relgorn (He currently uses Hamel's from THoT)
+* unique portrait for Dulatus (He currently uses Baglur's from SoF)
+* unique portrait for Clarissa (She currently uses the default mage portraits)
+* unique portrait for Celylia (She currently uses Anlindë's from IftU)
+* unique portrait for Pelcatlus (He currently uses Stalrag's from NR)
+* unique portrait for Krolock (He currently uses Grüü's from SotBE)
+* unique portrait for Elara (She currently uses the default White Mage portraits)
+
+STORY IMAGES
+------------
+* Fire for the Caverns of Flame
+* S07, "The Bridge is Broken": "Leaving their elvish allies behind, the group
+  explored deep into the caves, following a wide carved path of dwarven design..."
+* S09i, "Trolls Leave": "The trolls led Dulatus into the tunnel leading southwest,
+  starting at the known outpost... most of them [would be] leaving when the group
+  came into range of old dwarvish buildings again."
+* S10, "Old Friends": "Then at some point, the surroundings changed so that even
+  the most experienced trolls hadn't ever seen them before. Dulatus was afraid
+  that they might have lost their way..."
+* S12, "Under Pressure" (Hamel & friends adventuring too deep into the abandoned
+  mines and catching the attention of the undead... I'm thinking the dwarves would
+  be in the well-lit center, while the undead would be lurking in the shadows
+  around the edges)
+* S23, "Epilogue" (Hamel & Dulatus meeting up again & agreeing to take the hammer
+  back to Relgorn)
