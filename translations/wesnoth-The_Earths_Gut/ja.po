@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-04 01:38 UTC\n"
+"POT-Creation-Date: 2022-11-04 03:33 UTC\n"
 "PO-Revision-Date: 2022-10-22 01:56+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -462,8 +462,7 @@ msgstr "この地点."
 msgid "Elara"
 msgstr "Elara"
 
-#. string splicing here allows the probability to be substituted between the two string fragments:
-#: The_Earths_Gut/utils/special-notes.cfg:5
+#: The_Earths_Gut/utils/special-notes.cfg:6
 #, fuzzy
 #| msgid "Whenever this ship successfully hits another ship, there is a "
 msgid ""
@@ -471,7 +470,7 @@ msgid ""
 "ship, there is a "
 msgstr "他の船に体当たり攻撃を行うと、 "
 
-#: The_Earths_Gut/utils/special-notes.cfg:5
+#: The_Earths_Gut/utils/special-notes.cfg:6
 #, fuzzy
 #| msgid ""
 #| "% chance of its troops being able to enter the ship and take it over, but "
@@ -483,7 +482,6 @@ msgstr ""
 "% の確率で船に乗り込んで拿捕することができます。これは攻撃のときのみ有効で、"
 "海賊船（ Pirate Ship ）は拿捕できません。"
 
-#. string splicing here allows the probability to be substituted between the two string fragments:
 #: The_Earths_Gut/utils/special-notes.cfg:9
 msgid "Whenever this ship successfully hits another ship, there is a "
 msgstr "他の船に体当たり攻撃を行うと、 "
@@ -770,7 +768,7 @@ msgstr "なぜだ？"
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:518
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:538
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:284
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:287
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:291
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1629
 msgid "..."
 msgstr "....."
@@ -1985,7 +1983,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:121
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:193
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:50
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:179
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:181
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:999
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1273
 #: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:66
@@ -2850,7 +2848,7 @@ msgstr "side 4 にはまだ $s4_units.length 体のユニットが残ってま�
 #. [message]: speaker=narrator
 #. string splicing here:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1515
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:295
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:299
 msgid "Hint:"
 msgstr "ヒント："
 
@@ -8632,30 +8630,30 @@ msgid "Nessie"
 msgstr "Nessie"
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:181
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:183
 msgid ""
 "Move all of your non-ship, on-map units onto dry land at the northeastern "
 "shore!"
 msgstr "船以外の全てのユニットを、北東海岸の陸地に移動させよう！"
 
 #. [objective]: condition=lose
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:185
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:187
 msgid "Death of Hamel or of a ship that's carrying him"
 msgstr "Hamel の死、または Hamel の乗った船の沈没"
 
 #. [objective]: condition=lose
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:189
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:191
 msgid "Death of Elara or of a ship that's carrying her"
 msgstr "Elara の死、または Elara の乗った船の沈没"
 
 #. [objective]: condition=lose
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:193
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:195
 msgid "A ship carrying Hamel or Elara is captured."
 msgstr "Hamel または Elara の乗った船が拿捕される。"
 
 #. [objectives]
-#. unused; feel free to skip translating:
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:203
+#. an extra hint for a player on EASY with DEBUG_MODE on:
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:206
 msgid ""
 "(After unloading the last unit to the northeastern shore, make a move with "
 "it to trigger the win event.)"
@@ -8664,12 +8662,12 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. signpost message:
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:211
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:215
 msgid "Something's written here:"
 msgstr "ここに何か書いてある："
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:211
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:215
 msgid ""
 "\n"
 "West: Carcyn, South: Gray Woods, East: Gryphon Mountain, North: Wesmere "
@@ -8679,12 +8677,12 @@ msgstr ""
 "西：Carcyn 、南：Gray Woods 、東：Gryphon Mountain 、北：Wesmere Forest"
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:237
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:241
 msgid "This is the great river - again - from your point of view..."
 msgstr "これが \"大いなる川\" ね ― もう一度 ― そっちから見てみてよ..."
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:241
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:245
 msgid ""
 "It is very slow, wide and deep at this point. But we can't return to "
 "Bregalad's ford; Dulatus may need our help urgently. We will need to build "
@@ -8697,7 +8695,7 @@ msgstr ""
 "術師にとっては。"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:246
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:250
 msgid ""
 "You can now recruit several types of ships. You won't keep them in your "
 "recall list after this scenario, though, and they wouldn't be of much "
@@ -8707,43 +8705,43 @@ msgstr ""
 "れませんが、使用する機会はもう無いでしょう。"
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:250
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:254
 msgid ""
 "Watch out! It seems Asheviere's troops have already manned the northeastern "
 "shore!"
 msgstr "気を付けて！ 既に Ashviere の軍隊が北東海岸に待ち構えているようよ！"
 
 #. [message]: id=Gweoran
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:254
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:258
 msgid "Ah, the rebels are approaching! Block the lake, sailors!"
 msgstr "あっ、反乱軍が近付いてくるぞ！湖を塞ぐんだ、水兵たち！"
 
 #. [message]: id=Anne Bonny
 #. I'm not entirely sure what she means by "customers" here, whether she's referring to Gweoran and the humans,
 #. or to Hamel and the dwarves:
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:260
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:264
 msgid "There are the new customers!"
 msgstr "新しいお客さんのお出ましね！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:264
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:268
 msgid "Why does Eowariand have such scum at his borders?"
 msgstr "Eowariand はどうしてこんなクズを境界に配置してるんだ？"
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:268
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:272
 msgid "Elves are not known for their sea-skills..."
 msgstr "エルフは、海での技術に明るくなさそうだし..."
 
 #. [message]: id=Hamel
 #. a bit more fourth-wall breaking here; Hamel doesn't actually know that there'll be a monster here,
 #. he's just assuming that there will be, since this is a Wesnoth campaign:
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:274
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:278
 msgid "And where's the monster?"
 msgstr "モンスターどもはどこにいる？"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:295
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:299
 msgid ""
 "\n"
 "You should not recruit or recall too many land units since you will need to "
@@ -8754,12 +8752,12 @@ msgstr ""
 "する必要があるからです。"
 
 #. [set_menu_item]: id=ferry_crossing_help
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:304
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:308
 msgid "help"
 msgstr "ヘルプ"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:314
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:318
 msgid ""
 "In this scenario, you need to put land units into transport ships since they "
 "can't move over deep water. To board a ship, right-click onto a ship, select "
@@ -8774,7 +8772,7 @@ msgstr ""
 "送できます。"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:314
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:318
 msgid ""
 "\n"
 "If there is more than one possible choice for a unit to board a ship, one of "
@@ -8784,28 +8782,38 @@ msgstr ""
 "乗船させる船が複数ある場合は、乗せたい船の一つを任意に選択してください。"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:347
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:351
 msgid "I've landed. I'm the last one."
 msgstr "上陸した。私で最後だ。"
 
 #. [message]: speaker=narrator
 #. sound effect:
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:364
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:368
 msgid "Crassshhhh!"
 msgstr "船が壊れる！"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:368
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:372
 msgid "Ahhh! They've broken through the door to my cabin! Help! I-"
 msgstr "アーーッ！客室の扉が壊れてしまった！助けてー！ 私は--"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:372
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:376
 msgid "No... nooo, don't - argh..."
 msgstr "うわうわっ...だめだ...あぁぁ......"
 
+#. [message]: speaker=Gweoran
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:439
+msgid "These monsters are poisonous!"
+msgstr ""
+
+#. [message]: speaker=Anne Bonny
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:482
+msgid "The monsters, they be sendin' their poisonous ones here!"
+msgstr ""
+
 #. [message]: id=Gweoran
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:425
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:515
 msgid "Ooh... warn the queen, the rebels are getting tough..."
 msgstr "おぉ...女王様に警告してくれ、反乱軍が強くなっていく..."
 
@@ -8813,7 +8821,7 @@ msgstr "おぉ...女王様に警告してくれ、反乱軍が強くなってい
 # [ja] bug report (same as the previous one):When a unit disembarked and saved, and then reloaded, the disembarked unit is gone.
 #. [message]: id=Hamel
 #. FIXME: possible bug here?
-#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:445
+#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:535
 msgid ""
 "All right! Hide the boats somewhere here in the swamp, and let's hurry back "
 "to Kal Torlat, everyone!"
