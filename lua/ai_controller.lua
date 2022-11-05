@@ -48,7 +48,7 @@ local function calc_position_danger(side, x, y)
 	if (wesnoth.game_config.debug) then
 		if #reach_units > 0 then
 			wml_actions.message({ speaker = "narrator", message = tostring(reach_units[1].unit)})
-			dbms(reach_units)
+			if toplevel then dbms(reach_units) end
 		end -- Hopefully we can avoid attempts to index a nil value in here...
 	end -- Wish I had a better debug check...
 	local function compare(u1, u2)
@@ -60,7 +60,7 @@ local function calc_position_danger(side, x, y)
 	table.sort(reach_units, compare)
 	if (wesnoth.game_config.debug) then
 		if #reach_units > 0 then
-			dbms(reach_units)
+			if toplevel then dbms(reach_units) end
 		end
 		for i, loc in ipairs(wesnoth.map.find({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
 		if #reach_units > 0 then
@@ -119,7 +119,9 @@ local function calc_position_danger(side, x, y)
 				hex = u[1]
 			else
 				if (wesnoth.game_config.debug) then
-					dbms(u)
+					if (#u > 0) then
+						if toplevel then dbms(u) end
+					end
 					debug_utils.dbg("entering multi-hex case")
 				end
 				local best_danger = 0
@@ -138,19 +140,27 @@ local function calc_position_danger(side, x, y)
 					local reach_unit = reach_units[#reach_units]
 					reach_unit = { unit = reach_unit.unit, level = reach_unit.level, loc }
 					if (wesnoth.game_config.debug) then
-						dbms(reach_unit)
+						if toplevel then dbms(reach_unit) end
 					end
 					reach_units[#reach_units] = reach_unit
 					assert(#reach_units[#reach_units] == 1)
 					if (wesnoth.game_config.debug) then
-						dbms("checking case " .. tostring(i) .. " for " .. dbms(u, true, false, true, false, true))
-						dbms(dbms(reach_units, true, "reach_units", true, false, true))
+						if (i > 0) then
+							if (#u > 0) then
+								dbms("checking case " .. tostring(i) .. " for " .. dbms(u, true, false, true, false, true))
+							end
+						end
+						if (#reach_units > 0) then
+							dbms(dbms(reach_units, true, "reach_units", true, false, true))
+						end
 					end
 					adjacent = distribute_units(reach_units, adjacent)
 					local danger = calc_danger(adjacent)
 					if (wesnoth.game_config.debug) then
-						dbms(adjacent, true, "resulting adjacent")
-						dbms(danger, true, "resulting danger")
+						if toplevel then dbms(adjacent, true, "resulting adjacent") end
+						if (danger > 0) then
+							dbms(danger, true, "resulting danger")
+						end
 					end
 					if danger > best_danger then
 						best_danger = danger
@@ -159,12 +169,14 @@ local function calc_position_danger(side, x, y)
 				end
 				hex = best_hex
 				if (wesnoth.game_config.debug) then
-					dbms(adjacent, true, "chosen adjacent")
-					dbms(reach_units)
+					if toplevel then dbms(adjacent, true, "chosen adjacent") end
+					if (#reach_units > 0) then
+						dbms(reach_units)
+					end
 				end
 			end
 			if (wesnoth.game_config.debug) then
-				dbms(adjacent)
+				if toplevel then dbms(adjacent) end
 			end
 			local previous = adjacent:get(hex[1], hex[2])
 			if (wesnoth.game_config.debug) then
@@ -178,12 +190,14 @@ local function calc_position_danger(side, x, y)
 				end
 			else
 				if (wesnoth.game_config.debug) then
-					dbms("inserting:" .. u.unit.name)
+					if (#u > 0) then
+						dbms("inserting:" .. u.unit.name)
+					end
 				end
 				adjacent:insert(hex[1], hex[2], u)
 				table.remove(reach_units)
 				if (wesnoth.game_config.debug) then
-					dbms(reach_units)
+					if (#reach_units > 1) then dbms(reach_units) end
 				end
 				remove_used_up_hexes_and_units_accordingly_to_hexes(reach_units, hex)
 			end
@@ -197,12 +211,14 @@ local function calc_position_danger(side, x, y)
 			if type(data) ~= "table" then return end
 			wml_actions.label({ x = x, y = y, text = data.unit.name })
 		end
-		dbms(adjacent)
+		if (#adjacent > 0) then dbms(adjacent) end
 		adjacent:iter(put_unit_names)
 	end
 	local danger = calc_danger(adjacent)
 	if (wesnoth.game_config.debug) then
-		dbms(danger)
+		if (danger > 0) then
+			if toplevel then dbms(danger) end
+		end
 	end
 	return danger
 end
