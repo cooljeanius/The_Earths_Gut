@@ -17,7 +17,7 @@ local function calc_position_danger(side, x, y)
 	local reach_units = {}
 	for i, u in ipairs(wesnoth.units.find_on_map({ { "filter_side", { { "enemy_of", { side = side }} }} })) do
 		local ucfg = u.__cfg
-		local reachable = location_set.of_pairs(wesnoth.find_reach(u, { ignore_units = false, ignore_teleport = false, additional_turns = 0, ignore_visibility = true }))
+		local reachable = location_set.of_pairs(wesnoth.paths.find_reach(u, { ignore_units = false, ignore_teleport = false, additional_turns = 0, ignore_visibility = true }))
 		if (wesnoth.game_config.debug) then
 			if u.x == 6 then
 				reachable_pairs = reachable:to_pairs()
@@ -48,7 +48,7 @@ local function calc_position_danger(side, x, y)
 	if (wesnoth.game_config.debug) then
 		if #reach_units > 0 then
 			wml_actions.message({ speaker = "narrator", message = tostring(reach_units[1].unit)})
-			if toplevel then dbms(reach_units) end
+			if false then dbms(reach_units) end
 		end -- Hopefully we can avoid attempts to index a nil value in here...
 	end -- Wish I had a better debug check...
 	local function compare(u1, u2)
@@ -60,7 +60,7 @@ local function calc_position_danger(side, x, y)
 	table.sort(reach_units, compare)
 	if (wesnoth.game_config.debug) then
 		if #reach_units > 0 then
-			if toplevel then dbms(reach_units) end
+			if false then dbms(reach_units) end
 		end
 		for i, loc in ipairs(wesnoth.map.find({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
 		if #reach_units > 0 then
@@ -82,6 +82,7 @@ local function calc_position_danger(side, x, y)
 		return danger
 	end
 
+	-- toplevel first available here, but not before this:
 	local function distribute_units(reach_units, adjacent, toplevel)
 		local function remove_used_up_hexes_and_units_accordingly_to_hexes(reach_units, hex)
 			local i = #reach_units
@@ -122,7 +123,7 @@ local function calc_position_danger(side, x, y)
 					if (#u > 0) then
 						if toplevel then dbms(u) end
 					end
-					debug_utils.dbg("entering multi-hex case")
+					wesnoth.log("debug", "entering multi-hex case", false)
 				end
 				local best_danger = 0
 				local best_hex
@@ -147,10 +148,12 @@ local function calc_position_danger(side, x, y)
 					if (wesnoth.game_config.debug) then
 						if (i > 0) then
 							if (#u > 0) then
+								wesnoth.log("debug", "checking case " .. tostring(i) .. " for you.", false)
 								dbms("checking case " .. tostring(i) .. " for " .. dbms(u, true, false, true, false, true))
 							end
 						end
 						if (#reach_units > 0) then
+							wesnoth.log("debug", "which units are reachable?", false)
 							dbms(dbms(reach_units, true, "reach_units", true, false, true))
 						end
 					end
@@ -204,6 +207,7 @@ local function calc_position_danger(side, x, y)
 		end
 		return adjacent
 	end
+	-- end distribute_units(); toplevel is now no longer available
 	adjacent = distribute_units(reach_units, adjacent, true)
 	if (wesnoth.game_config.debug) then
 		for i, loc in ipairs(wesnoth.map.find({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
@@ -217,7 +221,7 @@ local function calc_position_danger(side, x, y)
 	local danger = calc_danger(adjacent)
 	if (wesnoth.game_config.debug) then
 		if (danger > 0) then
-			if toplevel then dbms(danger) end
+			if false then dbms(danger) end
 		end
 	end
 	return danger
@@ -227,9 +231,11 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 	local side = wesnoth.current.side
 
 	local function move_wounded_unit_to(u, loc)
-		local path = wesnoth.find_path(u, loc[1], loc[2], { ignore_teleport = true, ignore_visibility = true })
+		local path = wesnoth.paths.find_path(u, loc[1], loc[2], { ignore_teleport = true, ignore_visibility = true })
 		if (wesnoth.game_config.debug) then
-			wml_actions.message({ speaker = "narrator", message = string.format("found path: %s", dbms(path, false, "path", true, false, true)) })
+			if (#path > 0) then
+				wml_actions.message({ speaker = "narrator", message = string.format("found path: %s", dbms(path, false, "path", true, false, true)) })
+			end
 		end
 		if #path == 0 then
 			helper.warning("no path found to force " .. u.name .. " to heal")
@@ -295,10 +301,11 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 		end
 	end
 	local function free_unneccessarily_occupied_villages()
+		-- TODO: include side 1, too?
 		local units = wesnoth.units.find_on_map({ side = side, { "filter_location", { terrain = "*^V*" }}, formula = "max_hitpoints = hitpoints" })
 		for i, u in ipairs(units) do
 			for x, y in helper.adjacent_tiles(u.x, u.y, false) do
-				if not wesnoth.get_unit(x, y) then
+				if not wesnoth.units.get(x, y) then
 					wml_actions.move_unit({ id = u.id, to_x = x, to_y = y })
 					break
 				end
@@ -308,7 +315,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 	free_unneccessarily_occupied_villages()
 	handle_healing_units()
 
-	local filter = wml.shallow_literal(helper.get_child(cfg, "filter"))
+	local filter = wml.shallow_literal(wml.get_child(cfg, "filter"))
 	local forbidden_sides = cfg.forbidden_sides
 	filter.formula = "max_hitpoints > hitpoints"
 	table.insert(filter, { "not", { role = "force_heal_heals_side" .. tostring(side) }})
@@ -362,6 +369,9 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 				wesnoth.set_variable(string.format("LUA_destinations[%u].y", dest_length), heal_loc[2])
 				return calc_heal_loc()
 			end
+			if (wesnoth.game_config.debug) then
+				wesnoth.log("debug", "finding heal location...", false)
+			end
 			local heal_loc = calc_heal_loc()
 			u.attacks_left = 0 --in any case, especially if trapped
 			if heal_loc then
@@ -382,7 +392,7 @@ function wml_actions.ai_controller_place_reserved_labels(cfg)
 	local color = wesnoth.sides[cfg.side].color
 	local color_number = tonumber(color)
 	if color_number then color = color_number end
-	local rgb = helper.get_child(wml.variables["team_colors"], "color_range", color).rgb
+	local rgb = wml.get_child(wml.variables["team_colors"], "color_range", color).rgb
 	color = string.sub(rgb, 1, 6)
 	local text = string.format(tostring(_"<span color='#%s'>reserved</span>"), color)
 	for i, loc in ipairs(locs) do

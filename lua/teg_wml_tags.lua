@@ -88,7 +88,7 @@ function wml_actions.nearest_hex(cfg, only_return, calc_via_reach)
 	local nPossibleNearestHexDistance = MAX_NUMBER
 	for nCurrentHex, tCurrentHex in ipairs(tPossibleNearestHexes) do
 		if calc_via_reach then
-			path, nPossibleNearestHexDistance = wesnoth.find_path(nX, nY, tCurrentHex[1], tCurrentHex[2],
+			path, nPossibleNearestHexDistance = wesnoth.paths.find_path(nX, nY, tCurrentHex[1], tCurrentHex[2],
 				{ ignore_teleport = true, ignore_visibility = true, ignore_units = false })
 		else
 			nPossibleNearestHexDistance = helper.distance_between(nX, nY, tCurrentHex[1], tCurrentHex[2])
