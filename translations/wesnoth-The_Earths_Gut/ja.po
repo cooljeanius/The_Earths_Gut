@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-11-04 18:41 UTC\n"
+"POT-Creation-Date: 2022-11-06 18:35 UTC\n"
 "PO-Revision-Date: 2022-10-22 01:56+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -893,7 +893,7 @@ msgstr ""
 
 # [ja personal memo] A label for occupied village by elves
 #. [lua]: wml_actions.ai_controller_place_reserved_labels
-#: The_Earths_Gut/lua/ai_controller.lua:371
+#: The_Earths_Gut/lua/ai_controller.lua:397
 msgid "<span color='#%s'>reserved</span>"
 msgstr "<span color='#%s'>確保済</span>"
 
@@ -1174,9 +1174,9 @@ msgstr ""
 #. [unit_type]: id=Pirate Ship, race=mechanical
 #: The_Earths_Gut/units/ships/Pirate_Ship.cfg:24
 msgid ""
-"Pirate Galleons are the wolves of the sea, and transport ships are their "
-"sheep. The pirates who crew these ships are more than happy to relieve other "
-"ships of their cargo"
+"Pirate Ships are the wolves of the sea, and transport ships are their sheep. "
+"The pirates who crew these ships are more than happy to relieve other ships "
+"of their cargo."
 msgstr ""
 
 #. [attack]: type=pierce
@@ -1644,7 +1644,7 @@ msgstr "山へ向かう道"
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:324
 #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:81
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:35
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:171
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:161
 #: The_Earths_Gut/scenarios/19_Prison.cfg:66
 #: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:103
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:66
@@ -1667,7 +1667,7 @@ msgstr "Uga Uga"
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:864
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:606
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:566
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:233
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:223
 #: The_Earths_Gut/scenarios/19_Prison.cfg:232
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:357
 msgid "Starting Objectives:"
@@ -2007,7 +2007,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:193
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:50
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:181
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:999
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:989
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1273
 #: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:66
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:2017
@@ -2839,7 +2839,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:124
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:382
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:1053
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:938
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:928
 msgid "Temporary Objectives:"
 msgstr "一時的な目標："
 
@@ -3564,14 +3564,14 @@ msgstr ""
 #. [unit]: type=Dwarvish Scout, id=13t_Elvish_conference_messenger
 #. [event]: id=13t_Elvish_conference_messenger
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:9
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:873
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:863
 msgid "Gomating"
 msgstr "Gomating"
 
 #. [unit]: type=Elvish Marshal, id=Eowariand
 #. [side]: type=Elvish Marshal, id=Eowariand
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:16
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:126
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:125
 #: The_Earths_Gut/scenarios/17_Return.cfg:10
 msgid "Eowariand"
 msgstr "Eowariand"
@@ -5141,13 +5141,17 @@ msgstr "殺されたモンスター。"
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:294
-msgid "death of Woomtshak."
+#, fuzzy
+#| msgid "death of Woomtshak."
+msgid "death of Woomtshak"
 msgstr "Woomtshak の死。"
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:305
-msgid "death of Gogdush."
+#, fuzzy
+#| msgid "death of Gogdush."
+msgid "death of Gogdush"
 msgstr "Gogdush の死。"
 
 #. [unit]: type=Sea Serpent, id=The_Usual_Monster
@@ -6043,12 +6047,12 @@ msgid "Krog"
 msgstr "Krog"
 
 #. [side]: type=Giant Spider, id=cave_spider
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:196
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:195
 msgid "Cave Spider"
 msgstr "洞窟グモ"
 
 #. [side]: type=Orcish Sovereign, id=Grishnak
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:236
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:237
 msgid "Grishnak"
 msgstr "Grishnak"
 
@@ -6058,6 +6062,15 @@ msgstr "Grishnak"
 #: The_Earths_Gut/scenarios/17_Return.cfg:229
 msgid "Death of Eowariand"
 msgstr "Eowariand の死"
+
+#. [message]: speaker=narrator
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:381
+msgid ""
+"\n"
+"Also, note that having debug mode on in this scenario may also cause the "
+"printing of excess debug messages from certain AI routines, which may be "
+"another reason to turn debug mode off."
+msgstr ""
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:391
@@ -6338,12 +6351,12 @@ msgid "I must call in the reserves! This is too much!"
 msgstr "予備軍を召喚しなければ！これでは手に負えない！"
 
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:690
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:694
 msgid "At last, we will take back what was once ours!"
 msgstr "遂にやったぞ、かつて奪われたもの、それを取り戻すのだ！"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:694
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:698
 msgid ""
 "Dwarves, you have proven yourselves worthy in battle. We will accept you as "
 "friends, and you are welcome to come and go freely to the caves of the north."
@@ -6353,12 +6366,12 @@ msgstr ""
 "ましょう。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:698
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:702
 msgid "Thank you, elf."
 msgstr "感謝します、エルフ殿。"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:702
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:706
 msgid ""
 "I will give you some supplies for your journey, and I look forward to "
 "trading goods with you in the future."
@@ -6367,7 +6380,7 @@ msgstr ""
 "と思います。"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:706
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:710
 msgid ""
 "(<i>quiet</i>) These elves are a wonderful folk. I hope we meet again. They "
 "are a wise old race, and I could learn much from them."
@@ -6377,17 +6390,17 @@ msgstr ""
 
 #. [message]: id=advisor_druid
 #. "neighborhood" in the sense of "the state of being neighbors with one another", NOT the usual sense of "a physical location where neighbors live next to one another":
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:712
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:716
 msgid "I'm looking forward to your neighborhood."
 msgstr "お近付きになれるのが楽しみだわ。"
 
 #. [unit]: type=Elvish Shaman, id=Celylia
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:725
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:729
 msgid "Celylia"
 msgstr "Celylia"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:748
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:752
 msgid ""
 "This is Celylia, one of my wisest shamans. Allow her to accompany you as my "
 "representative."
@@ -6396,7 +6409,7 @@ msgstr ""
 "お仲間にしてあげてください。"
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:752
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:756
 msgid ""
 "I have explored some caves before. That is certainly why I have been chosen "
 "to travel with you."
@@ -6405,13 +6418,13 @@ msgstr ""
 "選ばれたのでしょう。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:756
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:760
 msgid "Thank you. I am sure you will be a great help to us."
 msgstr ""
 "ありがとう。我々にとって、あなたが大きな助けとなることは間違いありません。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:760
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:764
 msgid "Onward, men. I suspect we have much to reconquer."
 msgstr "さあ、歩を進めよう。いろいろと取り返すべきものが有るだろうからな。"
 
@@ -7415,7 +7428,7 @@ msgstr ""
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:114
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:151
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1043
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1033
 msgid "Hurry up!"
 msgstr "ほら、急いで！"
 
@@ -8994,12 +9007,12 @@ msgstr ""
 "な！"
 
 #. [scenario]: id=12_Under_pressure
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:141
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:131
 msgid "Under Pressure"
 msgstr "抑圧のもとで"
 
 #. [part]
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:153
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:143
 msgid ""
 "In a short time, the efforts to reclaim the old mines began to be rewarded. "
 "The dwarves met minor or no enemies at all down in the caverns. Trading "
@@ -9019,7 +9032,7 @@ msgstr ""
 "です。"
 
 #. [part]
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:157
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:147
 msgid ""
 "Yet Hamel and Dulatus wondered about their mines' history and worried about "
 "what they had heard about it from the elves. Dulatus had a dark inkling of "
@@ -9033,7 +9046,7 @@ msgstr ""
 "の名称が必要でしたが、友人たちにはそのことを告げていませんでした。"
 
 #. [part]
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:160
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:150
 msgid ""
 "Then one day, Hamel's band was on an expedition into the deeper mines, too "
 "far away this time - and the fate of those ancient dwarves reached out its "
@@ -9044,7 +9057,7 @@ msgstr ""
 "た..."
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:209
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:199
 msgid ""
 "Debug mode is on, so the enemy side will be under your control. Restart this "
 "scenario with debug mode turned off to play normally."
@@ -9053,24 +9066,24 @@ msgstr ""
 "てシナリオを開始し直すと、通常のプレイに戻ります。"
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:235
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:225
 msgid "Survive for $iTurns| turns."
 msgstr "あと $iTurns ターン生き延びる。"
 
 #. [note]
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:244
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:949
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1010
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:234
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:939
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1000
 msgid "There are no enemy leaders to defeat."
 msgstr "敵には倒すべきリーダーはいません。"
 
 #. [unit]: type=Dwarvish Scout, id=wounded_dwarf
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:415
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:405
 msgid "Deathly Wounded Scout"
 msgstr "致命傷を負った斥候"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:426
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:416
 msgid ""
 "What is happening? These caves have become as foggy as those accursed "
 "mountains we traveled before!"
@@ -9080,7 +9093,7 @@ msgstr ""
 
 #. [message]: id=wounded_dwarf
 #. attention! "unicode ellipsis" in front of "stones":
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:438
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:428
 msgid ""
 "Master! Undead... everywhere! We're surrounded... they appear... out of... "
 "the... …stones......... ahhh..."
@@ -9089,38 +9102,38 @@ msgstr ""
 "てくるんです...あうぅ......"
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:446
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:436
 msgid "What? Undead are coming?"
 msgstr "何だと？アンデッドだと？"
 
 #. [message]: id=Aiglathing
 #. "they" = the undead:
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:453
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:443
 msgid "There they are!"
 msgstr "あそこに奴らが！"
 
 #. [event]: id=RoKorath
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:458
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:448
 msgid "Ro'Korath"
 msgstr "Ro'Korath"
 
 #. [message]: id=RoKorath
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:475
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:465
 msgid "Surprise! Die, mortals!"
 msgstr "驚いただろ！死ね、人間ども！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:480
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:470
 msgid "Ready your axes, men! The undead hordes arrive!"
 msgstr "斧の準備だ、野郎ども！アンデッドは大挙してやって来てるぞ！"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:484
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:474
 msgid "(<i>mutters in his beard</i>) I was afraid this would happen..."
 msgstr "（<i>髭面でつぶやく </i>）やっぱり、こうなっちまった..."
 
 #. [message]: role=magical_unit
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:497
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:487
 msgid ""
 "If I understood the poor scout right, the undead are coming out of some "
 "stones!? If I could get to any spawn point or portal, then I might be able "
@@ -9131,31 +9144,31 @@ msgstr ""
 "を打ち破れるかもしれない。"
 
 #. [message]: type=Elvish Enchantress,Elvish Sylph,Elvish Shyde,Mage of Light,Silver Mage,Arch Mage,Great Mage
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:512
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:502
 msgid "I might be able to do it, too."
 msgstr "俺にもできるかもしれない。"
 
 #. [message]: type=Elvish Druid,Elvish Sorceress,Red Mage,White Mage
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:528
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:518
 msgid "If I get a bit stronger, then I might be able to do it, too."
 msgstr "もう少し自分も強ければ、できるかもしれない。"
 
 #. [message]: type=Elvish Shaman,Mage
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:538
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:528
 msgid ""
 "If I manage to get a whole lot stronger really quickly, then I might be able "
 "to do it, too."
 msgstr "もう少し私も総合的に強くなれれば、できるかもしれないな。"
 
 #. [message]: role=magical_unit
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:544
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:534
 msgid ""
 "This fog doesn't seem natural to me, too... it's as if it's made by evil "
 "magic..."
 msgstr "この霧は不自然な気がするんだが... まるで黒魔術でできてるような..."
 
 #. [message]: speaker=Aiglathing
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:550
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:540
 msgid ""
 "If I understood the poor scout right, the undead are coming out of some "
 "stones!? If only we had some magic users from other races, then they might "
@@ -9166,7 +9179,7 @@ msgstr ""
 "を解き放てるかもしれないな。"
 
 #. [message]: speaker=Aiglathing
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:559
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:549
 msgid ""
 "...come to think of it, if we had such allies, they could probably do "
 "something about this fog, too."
@@ -9174,7 +9187,7 @@ msgstr ""
 "...そうか、もしそういう同盟国を持てば、この霧にも何かしら対応できるわけだな。"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:567
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:557
 msgid ""
 "This scenario is designed to shrink your gold and army - at least on the "
 "harder difficulties. Don't be surprised if you lose some valuable units."
@@ -9183,7 +9196,7 @@ msgstr ""
 "高い場合）。強いユニットを失ってもがっかりしないでくださいね。"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:609
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:599
 msgid ""
 "My respected elvish fairy, do you think we could do something about this "
 "nasty fog?"
@@ -9192,13 +9205,13 @@ msgstr ""
 "か？"
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:613
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:603
 msgid "Perhaps yes, if we concentrate a bit..."
 msgstr "おそらく可能でしょう、ちょっと集中すれば..."
 
 #. [message]: speaker=narrator
 #. this is both Clarissa and Celylia doing a magical incantation together:
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:620
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:610
 msgid ""
 "(<i>together</i>) ... ... ... By the powers of nature and the light of the "
 "great sun Sela, we declare these chambers to be filled with light!"
@@ -9207,31 +9220,31 @@ msgstr ""
 "Sela の光により、この部屋は光で満たされるであろう！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:633
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:623
 msgid "Amazing, it worked! I can see better now!"
 msgstr "凄い、効いたぞ！ほら、視界が開けてきた！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:639
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:629
 msgid "This fog is rather nasty; it's a shame we can't do anything about it..."
 msgstr "この霧は質が悪い、悔しいな、どうにもできない..."
 
 #. [message]: speaker=Clarissa
 #. [message]: speaker=Celylia
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:649
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:686
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:639
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:676
 msgid ""
 "I feel as though, if I had become a bit stronger, I might have been able to "
 "figure something out by now..."
 msgstr "私にもう少し力があったら、何か対処できただろうと、そんな気がするわ。"
 
 #. [message]: speaker=Celylia
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:653
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:643
 msgid "Yes, I feel similarly!"
 msgstr "ええ、同感ね！"
 
 #. [message]: speaker=Clarissa
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:671
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:661
 msgid ""
 "I feel as though, if Celylia had become a bit stronger, the two of us might "
 "have been able to figure something out by now..."
@@ -9240,12 +9253,12 @@ msgstr ""
 "わ。"
 
 #. [message]: speaker=Celylia
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:675
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:665
 msgid "I'm sorry, Clarissa! I'll try harder next time!"
 msgstr "御免なさい Clarissa！ 次はもっと頑張るわ！"
 
 #. [message]: speaker=Aiglathing
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:693
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:683
 msgid ""
 "Unfortunately, my magic isn't the right kind to deal with it; if only we had "
 "some other types of magic-users with us..."
@@ -9255,7 +9268,7 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. at this point the only units that can say this would be Clarissa & Celylia, both female:
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:731
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:721
 msgid ""
 "Well, now... By the powers of magic I possess and control, I command the "
 "ground beneath this evil stone to shatter, and the moss of the cave to smash "
@@ -9266,7 +9279,7 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. at this point the only units that can say this would be Clarissa & Celylia, both female:
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:743
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:733
 msgid ""
 "Although it seems that I can't destroy the monolith, I think its powers are "
 "gone... for a while at least."
@@ -9274,13 +9287,13 @@ msgstr ""
 "モノリスは破壊できないだろうけど、少なくとも、その魔力は暫く回復しないはず。"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:753
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:743
 msgid "What is this tall stone structure? It was not there before..."
 msgstr "この背の高い石造物は何だ？以前はこんなものは無かったが..."
 
 #. [message]: speaker=unit
 #. at this point the only units that can say this would be Clarissa & Celylia, both female:
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:758
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:748
 msgid ""
 "It is a dark monolith... it is used as a type of portal to transport undead. "
 "I have seen something like this before. They can be destroyed with powerful "
@@ -9290,7 +9303,7 @@ msgstr ""
 "に見たことがある。強い魔術で破壊できるんだ、私が持ってるような。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:762
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:752
 msgid ""
 "That is good news. Perhaps if we can disable them all, we will be safe for "
 "now?"
@@ -9300,7 +9313,7 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. at this point the only units that can say this would be Clarissa & Celylia, both female:
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:767
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:757
 msgid ""
 "For now, yes. However, whoever summoned these monoliths certainly has the "
 "ability to do it again."
@@ -9309,18 +9322,18 @@ msgstr ""
 "同じことをするでしょうね。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:771
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:761
 msgid "Onward, then! We have to clear these vermin from our caverns!"
 msgstr "よし、前進あるのみ！我らが洞窟から、ダニどもを追っ払おうじゃないか！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:775
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:765
 msgid "Yes, then we must find out a way to prevent them from returning."
 msgstr "ああ、ヤツラが二度と戻らない方法を見出さないとな。"
 
 #. [message]: speaker=unit
 #. at this point the only units that can say this would be Clarissa & Celylia, both female:
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:793
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:783
 msgid ""
 "(<i>to herself</i>) <small>If only I were stronger, then I could probably do "
 "something about this monolith...</small>"
@@ -9329,7 +9342,7 @@ msgstr ""
 "も...</small>"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:810
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:800
 msgid ""
 "Hm, a wielder of the right kind of magic could probably do something about "
 "this monolith... Unfortunately dwarven alchemy isn't the right kind..."
@@ -9338,7 +9351,7 @@ msgstr ""
 "ドワーフの錬金術では対処できない..."
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:827
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:817
 msgid ""
 "Hm, a wielder of the right kind of magic could probably do something about "
 "this monolith... Unfortunately neither troll shamanism nor troll wizardry "
@@ -9348,18 +9361,18 @@ msgstr ""
 "トロルの魔術や呪術では対処できない..."
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:840
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:830
 msgid ""
 "It's of no use. We can't defeat them when they're coming from all sides."
 msgstr "無駄だ。あらゆる方向から攻め込まれたら、我々に成す術はない。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:844
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:834
 msgid "Only the pathway back to the main hall seems safe."
 msgstr "本堂に引き返す通路だけは安全のようだ。"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:853
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:843
 msgid ""
 "We are too far from Alduin to expect any help from my fellow mages, so we "
 "must turn to the elves for help. It is the only way."
@@ -9368,7 +9381,7 @@ msgstr ""
 "フのもとに戻るべきね、それしか無いわ。"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:859
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:849
 msgid ""
 "Hamel, we need more magic to fight these abominations. The academy of Alduin "
 "is far away, but maybe the elves can help us."
@@ -9379,17 +9392,17 @@ msgstr ""
 # [ja personal memo] Gomating = member's name
 #. [message]: id=Hamel
 #. "Gomating" = name of dwarf that Hamel is calling for:
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:867
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:857
 msgid "Gomating!"
 msgstr "おい、Gomating！"
 
 #. [message]: id=13t_Elvish_conference_messenger
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:907
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:897
 msgid "My lord?"
 msgstr "閣下、何でしょう？"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:911
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:901
 msgid ""
 "Hurry to the surface, and alert our elven allies! Tell them what has "
 "happened here, and request help with the undead!"
@@ -9398,12 +9411,12 @@ msgstr ""
 "てアンデッドからの救出を要請してきてくれ！"
 
 #. [message]: id=13t_Elvish_conference_messenger
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:915
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:905
 msgid "Aye. I will be back before you know it!"
 msgstr "了解しました。とびきりの早さで戻ってきます！"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:920
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:910
 msgid ""
 "You may want to keep Hamel and Dulatus near the southern exit, just in case "
 "they need to leave..."
@@ -9412,12 +9425,12 @@ msgstr ""
 "備えになります。"
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:940
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:930
 msgid "Survive until the messenger returns."
 msgstr "使者が戻るまで生き延びる。"
 
 #. [message]: id=13t_Elvish_conference_messenger
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:969
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:959
 msgid ""
 "(<i>gasp</i>) My lord, I'm back. (<i>gasp</i>) There's an important "
 "conference running, and the elvish lords want you to join."
@@ -9426,39 +9439,39 @@ msgstr ""
 "たれています、それと、エルフの領主が、あなたに出席して欲しいと。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:973
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:963
 msgid "Do I really have to? I'm desperately needed here you know."
 msgstr "私に、本当か？私がここにいなかったらどうなると思っているんだ。"
 
 #. [message]: id=13t_Elvish_conference_messenger
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:977
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:967
 msgid "There's also a great mage of the humans."
 msgstr "人間の大魔術師もいるのです。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:981
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:971
 msgid "Hm... yes Hamel, you and I should go there, despite the situation here."
 msgstr "うーむ、分かった、Hamel 、お前と二人で行かねばならん、この状況だがな。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:986
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:976
 msgid "(<i>grmbl</i>) Aiglathing, you take command while I am absent."
 msgstr ""
 "（<i>ブツブツと </i>） Aiglathing よ、私がいない間、指揮を執ってくれるよな。"
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1001
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:991
 msgid "Move Dulatus and Hamel to the GO HERE icon (in this order)."
 msgstr ""
 "Dulatus と Hamel を目標ヘクス（赤い✕印）に移動させる（この順番通りに）。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1051
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1041
 msgid "We'll be back as soon as possible."
 msgstr "なるべく早く戻ってくるからな。"
 
 #. [message]
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1081
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1071
 msgid ""
 "I think I just saw a new undead appear... this is getting serious, please "
 "hurry up you two. Possibly new portals to transport undead are being created."
@@ -9467,7 +9480,7 @@ msgstr ""
 "デッド転送の新たな出口が出現したようです。"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1086
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1076
 msgid ""
 "You cannot defeat all enemies in this scenario. Every turn 3 deactivated "
 "monoliths will regain their power. After a few more turns you'll be overrun "
@@ -9477,7 +9490,7 @@ msgstr ""
 "は３ターンごとに復活し、その数ターン後にリッチたちが出現します。"
 
 #. [message]
-#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1179
+#: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1169
 msgid ""
 "What the...!? I think I just saw a lich appear out of nowhere!? Now they no "
 "longer even need their monoliths!?"
