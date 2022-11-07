@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-11-06 18:35 UTC\n"
-"PO-Revision-Date: 2022-10-22 01:56+0900\n"
+"PO-Revision-Date: 2022-11-07 04:18+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2\n"
 
 #. [editor_group]: id=earthsgut
 #. since this is the first string to get put into the potfile, a general translation note:
@@ -29,18 +29,6 @@ msgstr "地球の奥底"
 #. an example of how it would be put together would be:
 #. "Requires BfW 1.16.0 or greater."
 #: The_Earths_Gut/dist/name_icon_description.cfg:7
-#, fuzzy
-#| msgid ""
-#| "It is 515YW, and you are the young dwarven leader Hamel. Your tribe in "
-#| "the Knalga caverns near the Dwarven Doors gets under pressure from its "
-#| "enemies, while resources are getting more and more rare at the same time. "
-#| "Guide your people on your quest for more and better minerals, to be able "
-#| "to forge new armor and weapons, and resist your opponents.\n"
-#| "The campaign focuses on 'dwarvish dungeon crawling', and the developer "
-#| "intention is to make it playable for newbies on easy while to keep it "
-#| "challenging for experienced players on hard. (Beginner level, 22 "
-#| "scenarios (unfinished))\n"
-#| "Requires BfW "
 msgid ""
 "It is 515YW and you are Hamel, a young dwarven leader. Your tribe resides in "
 "the Knalga caverns near the Dwarven Doors and is constantly under threat of "
@@ -53,12 +41,13 @@ msgid ""
 "(unfinished))\n"
 "Requires BfW "
 msgstr ""
-"時は Wesnoth 暦 515年、あなたは若きドワーフのリーダー Hamel 。「ドワーフの"
-"扉」に近い Knalga 洞窟に住むあなたの一族は外敵の圧力を受けて、片や、資源はさ"
-"らに希少となっています。もっと良質で豊かな鉱物を探しに一族を率いてください。"
-"新しい鎧や武器の鍛造を可能にして、敵対者を迎え撃つのです。\n"
-"このキャンペーンはドワーフの地下牢をだらだらと巡ります。初心者でも熟練者でも"
-"それぞれに楽しめるように、というのが開発者の意図です。（初心者向け 22シナリオ"
+"時は Wesnoth 暦 515年、あなたは若きドワーフのリーダー Hamel です。「ドワーフ"
+"の扉」に近い Knalga 洞窟に住むあなたの一族は常に攻撃の脅威に晒されています。"
+"資源も不足しているため、さらなる鉱物を求めて仲間を率いていかねばなりません。"
+"入手できれば新しい鎧や武器の鍛造が可能になり、敵対者を撃退できるようになるの"
+"です。\n"
+"このキャンペーンはドワーフ流のダンジョン巡りに焦点が当たっていて、初心者でも"
+"熟練者でも楽しめるように、というのが開発者の意図です。（初心者向け 22シナリオ"
 "（未完）\n"
 "以下のBfWが必要です。 "
 
@@ -143,8 +132,6 @@ msgstr "育ててみる...それなりに"
 #. [message]: speaker=narrator
 #. trailing space is intentional; additional message may be spliced on via macro usage:
 #: The_Earths_Gut/utils/items.cfg:106
-#, fuzzy
-#| msgid "Touchplate triggered. "
 msgid "Pressure plate triggered. "
 msgstr "操作盤の開閉器が動作した。 "
 
@@ -171,7 +158,7 @@ msgstr "ダメだよ、 Hamel ！ 君がいなけりゃ！"
 #: The_Earths_Gut/utils/deaths.cfg:29
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:1028
 msgid "He really had potential..."
-msgstr "彼は本当に可能性を持っていたんだ..."
+msgstr "彼は本当に可能性を持っていたの..."
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/utils/deaths.cfg:33
@@ -195,12 +182,12 @@ msgstr "ダメだよー！Dulatus 、どうすればいいんだよ！君無し�
 #. but it doesn't seem to be working; translators may need to retrieve the translation from the "discarded translations" section in the
 #. comment at the bottom of the pofile:
 #: The_Earths_Gut/utils/deaths.cfg:63
-#, fuzzy
-#| msgid "He was the most frenzied dwarf I've ever seen..."
 msgid ""
 "I can't believe he's gone. This Dulatus... he surely must have been the most "
 "impressive dwarf I'd met yet, and now he's gone..."
-msgstr "俺の知る限り、コイツはドワーフで一番凶暴なヤツだったよ..."
+msgstr ""
+"彼が死んでしまったなんて信じられない。この Dulatus...彼はきっと、今まで出会っ"
+"た中で最も印象的なドワーフだったのに、今彼は逝ってしまった..."
 
 #. [message]: id=Aiglathing
 #. yes, that is actually the number "a hundred twenty-three", not just someone running their finger along the number row of their keyboard:
@@ -230,12 +217,10 @@ msgstr "なんて哀れなんだ..."
 #. [message]: id=Aiglathing
 #. "we" = dwarves in general; "she" = Clarissa, a Mage:
 #: The_Earths_Gut/utils/deaths.cfg:110
-#, fuzzy
-#| msgid ""
-#| "I know we're skeptical towards magic, but she was just great at that."
 msgid "I know we're skeptical of magic, but I'll miss her tricks all the same."
 msgstr ""
-"我々が魔術に対して懐疑的ってのは分かってる、だが彼女の能力は凄かったよな。"
+"我々が魔術に懐疑的ってのは分かってるが、いずれにしろ彼女の手品が見られないの"
+"は寂しいな。"
 
 #. [message]: id=Aiglathing
 #. "this" = the fact that Celylia just died:
@@ -251,16 +236,14 @@ msgstr "クッソー！"
 #. [message]: id=Dulatus
 #. "his" = Krolock's; "this time" is because Dulatus originally met him by saving his life:
 #: The_Earths_Gut/utils/deaths.cfg:144
-#, fuzzy
-#| msgid "This time I could not save his life again..."
 msgid "I couldn't save him this time..."
-msgstr "今度ばかりはヤツを守れなかった..."
+msgstr "ヤツを守れなかった、今度ばかりは..."
 
 #. [message]: id=Krolock
 #. "he" = Pelcatlus, who just died:
 #: The_Earths_Gut/utils/deaths.cfg:159
 msgid "He fought well until the end."
-msgstr ""
+msgstr "こいつは最後まで立派に戦ったよ。"
 
 #. [message]: id=Dulatus
 #. "he" = Pelcatlus, an ulfserker:
@@ -277,10 +260,8 @@ msgstr "さて、原点に戻るとするか...そろそろ..."
 #. [message]: id=Hamel
 #. This is the last breath for Bregalad, an Elder Wose, so Hamel is referring to him:
 #: The_Earths_Gut/utils/deaths.cfg:183
-#, fuzzy
-#| msgid "He was the most strange being I've seen in my life."
 msgid "I've never seen a stranger being in all my life."
-msgstr "こんなに不思議な奴、見たことなかったな..."
+msgstr "こんなに不思議な奴、生まれて初めて見たよ。"
 
 #. [message]: id=Elara
 #. this line is stolen from ToaM ("Tale of a Mage" by Skele_Ranger); Anonymissimus liked this phrase:
@@ -297,12 +278,8 @@ msgstr "Konrad の怒った姿が目に見えるようだ..."
 #. [message]: id=Eowariand
 #. Apparently Eowariand blames the dwarves for his death if he dies:
 #: The_Earths_Gut/utils/deaths.cfg:217
-#, fuzzy
-#| msgid "Ugh! I knew it was a mistake to trust you, vile dungeon-crawlers!"
 msgid "Ugh! I never should have trusted you, vile dungeon crawlers!"
-msgstr ""
-"ウーッ！ やっぱりな。お前を信じたのが間違いだった。薄汚い、地下牢ネズミ野郎"
-"め！"
+msgstr "ウーッ！ お前らを信じるんじゃなかった。薄汚い、地下牢ネズミ野郎め！"
 
 #. [role_message]: type=alchemist
 #: The_Earths_Gut/utils/deaths.cfg:226
@@ -344,14 +321,6 @@ msgstr "地下牢サバイバル"
 
 #. [dummy]: id=teg_ability_dungeon_survival
 #: The_Earths_Gut/utils/abilities.cfg:12
-#, fuzzy
-#| msgid ""
-#| "This unit has lived so long alone underground that it has developed "
-#| "special abilities. Their melee weapon has been improved to arcane type "
-#| "for fighting against undead and trolls; their evasion capabilities are "
-#| "increased for some terrain, above all the ones which are characteristic "
-#| "of caves: flat, village, castle, cave and fungus: +20%; forest, hills and "
-#| "mountains: +10%"
 msgid ""
 "This unit has lived alone underground for so long that it has developed "
 "special abilities. Their melee weapon has been improved to arcane type for "
@@ -373,18 +342,13 @@ msgstr "洞窟経験"
 
 #. [dummy]: id=teg_ability_cave_experience
 #: The_Earths_Gut/utils/abilities.cfg:46
-#, fuzzy
-#| msgid ""
-#| "This unit has been traveling through dungeons before: Movement costs are "
-#| "decreased by 1 and defense increased by 10% for terrain types cave and "
-#| "fungus."
 msgid ""
 "This unit has some experience traveling through dungeons: Movement costs are "
 "decreased by 1 and defense increased by 10% for terrain types cave and "
 "fungus."
 msgstr ""
-"このユニットは以前に地下牢を巡ったことがあって移動コストが減少し、抵抗力が増"
-"加します。\n"
+"このユニットは以前に地下牢巡りを経験していて移動コストが減少し、抵抗力が増加"
+"します。\n"
 "　移動コスト： -1\n"
 "　抵抗力： +10%\n"
 "但し、発揮される地形は洞窟とキノコのみです。"
@@ -417,9 +381,6 @@ msgstr "<span foreground='red'>撃沈成功</span>"
 #. message from RESERVE_HEAL_LOCATIONS macro for when a "reserved" village is moved to;
 #. it doesn't look like it always coincides with the unit actually leaving the village though?
 #: The_Earths_Gut/utils/ai_controller.cfg:55
-#, fuzzy
-#| msgid ""
-#| "$unit.name| kindly leaves this village to allies allowing them to heal."
 msgid ""
 "$unit.name| kindly leaves this village to allies, allowing them to heal."
 msgstr "$unit.name は友軍の治癒・回復のため、彼らに快く明け渡します。"
@@ -463,18 +424,12 @@ msgid "Elara"
 msgstr "Elara"
 
 #: The_Earths_Gut/utils/special-notes.cfg:6
-#, fuzzy
-#| msgid "Whenever this ship successfully hits another ship, there is a "
 msgid ""
 "Whenever this ship's grappling hook is successfully used against another "
 "ship, there is a "
-msgstr "他の船に体当たり攻撃を行うと、 "
+msgstr "他の船に対して引っ掛け鈎を使った攻撃を行うと、 "
 
 #: The_Earths_Gut/utils/special-notes.cfg:6
-#, fuzzy
-#| msgid ""
-#| "% chance of its troops being able to enter the ship and take it over, but "
-#| "only on offense. Pirate Ships cannot be captured."
 msgid ""
 "% chance of its troops being able to enter the ship and take control. This "
 "can only be used offensively, and Pirate Ships cannot be captured."
@@ -487,10 +442,6 @@ msgid "Whenever this ship successfully hits another ship, there is a "
 msgstr "他の船に体当たり攻撃を行うと、 "
 
 #: The_Earths_Gut/utils/special-notes.cfg:9
-#, fuzzy
-#| msgid ""
-#| "% chance of the attacked hull breaking apart completely, causing the ship "
-#| "to sink immediately, but only on offense."
 msgid ""
 "% chance of the target's hull breaking apart completely, causing the ship to "
 "sink immediately. This can only be used offensively."
@@ -677,7 +628,7 @@ msgstr "乗車を拒否する"
 #. this is in a "time over" event that results in defeat:
 #: The_Earths_Gut/utils/misc.cfg:9
 msgid "We have taken too long; our quest will surely fail now!"
-msgstr ""
+msgstr "時間がかかりすぎた。俺たちの探索は確実に失敗する！"
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/utils/misc.cfg:13
@@ -687,8 +638,6 @@ msgstr "ドワーフはノロマだからな！"
 #. [message]: speaker=unit
 #. we are inside the definition of the GO_HERE_RUNES macro here:
 #: The_Earths_Gut/utils/misc.cfg:38
-#, fuzzy
-#| msgid "I feel this spot has a strong relation to some mystic runes:"
 msgid "I feel that this spot has a strong connection to some mystic runes:"
 msgstr "この場所は、神秘的なルーンに強く結びついたものを感じる："
 
@@ -712,18 +661,14 @@ msgstr "一体全体、どういうことなんだ？"
 #. [message]: id=Hamel
 #. "higher power" was "superior force" originally, but I think this phrasing is more idiomatic:
 #: The_Earths_Gut/utils/misc.cfg:57
-#, fuzzy
-#| msgid "Maybe a hint from a higher power?"
 msgid "Perhaps a hint from a higher power?"
-msgstr "もっと大きな力がヒントをくれてるとか？"
+msgstr "ひょっとして、もっと大きな力がヒントをくれてるとか？"
 
 #. [message]: speaker=unit
 #. alternate message for GO_HERE_RUNES when DEBUG_MODE is off:
 #: The_Earths_Gut/utils/misc.cfg:63
-#, fuzzy
-#| msgid "I think Hamel is supposed to move here instead..."
 msgid "I think Hamel should come and see this..."
-msgstr "Hamel は代わりにここから移動するつもりなのかも..."
+msgstr "Hamel はこれを見にくるべきだと思うが..."
 
 #. [object]
 #: The_Earths_Gut/utils/misc.cfg:75
@@ -779,6 +724,8 @@ msgid ""
 "You don't serve in the front row in battle, while Dulatus generally does. "
 "Thus, he may need it more."
 msgstr ""
+"おまえは戦場で最前線に立つことはないが、Dulatus はそうじゃない。つまり、彼が"
+"持ってた方が役に立つってことだ。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/utils/misc.cfg:195
@@ -848,8 +795,6 @@ msgstr "だめだ、時間がかかり過ぎた！"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/utils/misc.cfg:333
-#, fuzzy
-#| msgid "Time is over, dwarves are just too slow!"
 msgid "Time is up, dwarves are just too slow!"
 msgstr "時間切れだな、ドワーフはノロマすぎる！"
 
@@ -904,16 +849,6 @@ msgstr "錬金術の達人"
 
 #. [unit_type]: id=Master of Alchemy, race=dwarf
 #: The_Earths_Gut/units/dwarves/Master_of_Alchemy.cfg:29
-#, fuzzy
-#| msgid ""
-#| "After having at least five decades of experience, an Alchemist may "
-#| "finally be able to earn the title 'Master of Alchemy', awarded yearly to "
-#| "elder Alchemists who have proven their worth on the battlefield. The rare "
-#| "few who attain this level of experience often retire to train initiate "
-#| "Alchemists, while some remain on the battlefield for even several more "
-#| "decades. Masters of Alchemy are revered by even the strongest Dwarvish "
-#| "Lords, and protecting a Master in battle is considered an honor for only "
-#| "the bravest of dwarvish warriors."
 msgid ""
 "After having at least five decades of experience, an Alchemist may finally "
 "be able to earn the title 'Master of Alchemy', awarded yearly to elder "
@@ -929,7 +864,7 @@ msgstr ""
 "されるものです。これほどの経験を重ねられる者は数少ないのですが、引退して若手"
 "育成に励む者や、さらに数十年を戦場で過ごす者もいます。錬金術の達人は最強のド"
 "ワーフの領主からも敬愛され、戦場でこの達人を警護することは、ドワーフの戦士で"
-"勇猛な者に与えられる名誉とされています。"
+"勇猛な者だけに許される名誉とされています。"
 
 #. [attack]: type=impact
 #: The_Earths_Gut/units/dwarves/Master_of_Alchemy.cfg:45
@@ -952,17 +887,12 @@ msgstr "ドワーフの上級戦士"
 
 #. [unit_type]: id=Advanced Dwarvish Fighter
 #: The_Earths_Gut/units/dwarves/Advanced_Fighter.cfg:14
-#, fuzzy
-#| msgid ""
-#| "Few dwarves are born with a special potential, to become leaders "
-#| "someday..."
 msgid ""
 "Few dwarves are born with the special potential to become leaders someday..."
 msgstr ""
 "ドワーフの上級戦士( Advanced Dwarvish Fighter )\n"
 "\n"
-"ドワーフには、生来、特別な素質を持つものなど殆どいません。いつかはリーダーに"
-"なるといったような..."
+"ドワーフは生来、将来はリーダーとなる特別な素質を持った者など、殆どいません..."
 
 #. [unit_type]: id=Advanced Dwarvish Steelclad
 #: The_Earths_Gut/units/dwarves/Advanced_Steelclad.cfg:8
@@ -1097,16 +1027,12 @@ msgstr "ガレー船"
 
 #. [unit_type]: id=Galley, race=mechanical
 #: The_Earths_Gut/units/ships/Galley.cfg:23
-#, fuzzy
-#| msgid ""
-#| "Galleys are traditional navy ships. Their ram can do a lot of damage, but "
-#| "due to the design of the hull they are not very agile."
 msgid ""
 "Galleys are traditional navy ships. They have a powerful ram which can do a "
 "lot of damage, but the design of their hull limits their agility."
 msgstr ""
-"ガレー船( Galleys )は伝統的な海軍の船です。艦首にある衝角( ram )は敵に大きな"
-"ダメージを与えられますが、戦隊の設計上、機動性はありません。"
+"ガレー船( Galleys )は伝統的な海軍の船です。艦首に備えた強力な衝角( ram )で、"
+"敵に大きな損害を与えることができますが、戦隊の設計上、機動性はありません。"
 
 #. [attack]: type=pierce
 #: The_Earths_Gut/units/ships/Galley.cfg:37
@@ -1120,12 +1046,12 @@ msgstr "衝角"
 #. We are using the GOT stuff as a stand in for now.
 #: The_Earths_Gut/units/ships/Galley.cfg:54
 msgid "Wildfire"
-msgstr ""
+msgstr "野炎"
 
 #. [unit_type]: id=Transport Ship, race=mechanical
 #: The_Earths_Gut/units/ships/Transport_Ship.cfg:6
 msgid "Transport Ship"
-msgstr ""
+msgstr "輸送船"
 
 #. [unit_type]: id=Transport Ship, race=mechanical
 #: The_Earths_Gut/units/ships/Transport_Ship.cfg:21
@@ -1133,6 +1059,8 @@ msgid ""
 "Transport Ships are used to carry units, though they lack good offensive "
 "capability, and their wide hull and heavy load makes them slow."
 msgstr ""
+"輸送船( Transport Ships )はユニットの運搬に使われますが攻撃能力に乏しく、幅広"
+"の船体と重い積載物のため、ゆっくりと航行します。"
 
 #. [attack]: type=blade
 #: The_Earths_Gut/units/ships/Transport_Ship.cfg:39
@@ -1149,16 +1077,12 @@ msgstr "戦艦"
 #. the "for defending" part just refers the intent behind the "fighting crew" attack existing;
 #. it can actually be used for attacking, too, though:
 #: The_Earths_Gut/units/ships/Battleship.cfg:22
-#, fuzzy
-#| msgid ""
-#| "Battleships are the masters in naval fighting. Their cannon balls do "
-#| "heavy ranged damage and they have a melee attack for defending."
 msgid ""
 "Battleships are masters of naval combat. Their cannons do heavy ranged "
 "damage, and they have a melee attack for defending."
 msgstr ""
-"戦艦( Battleship )は海戦の主役です。砲丸は広範囲にわたって重大なダメージを与"
-"え、防御のために近接攻撃も行います。"
+"戦艦( Battleship )は海戦の主役です。砲丸は遠隔攻撃で重大な損害を与え、防御の"
+"ために近接攻撃も行います。"
 
 #. [attack]: type=impact
 #: The_Earths_Gut/units/ships/Battleship.cfg:47
@@ -1169,7 +1093,7 @@ msgstr "砲丸"
 #. [unit_type]: id=Pirate Ship, race=mechanical
 #: The_Earths_Gut/units/ships/Pirate_Ship.cfg:6
 msgid "Pirate Ship"
-msgstr ""
+msgstr "海賊船"
 
 #. [unit_type]: id=Pirate Ship, race=mechanical
 #: The_Earths_Gut/units/ships/Pirate_Ship.cfg:24
@@ -1178,11 +1102,13 @@ msgid ""
 "The pirates who crew these ships are more than happy to relieve other ships "
 "of their cargo."
 msgstr ""
+"海賊船( Pirate Ship )は海の狼であり、輸送船はその羊と言えます。これらの船に乗"
+"る海賊たちは、他の船から積荷を奪うことで喜びを得るのです。"
 
 #. [attack]: type=pierce
 #: The_Earths_Gut/units/ships/Pirate_Ship.cfg:41
 msgid "grappling hook"
-msgstr ""
+msgstr "引っ掛け鈎"
 
 #. [unit_type]: id=Wose Shaman, race=wose
 #: The_Earths_Gut/units/woses/Wose_Shaman.cfg:5
@@ -1218,18 +1144,6 @@ msgstr "ウーズの若木"
 
 #. [unit_type]: id=Wose Sapling, race=wose
 #: The_Earths_Gut/units/woses/Wose_Sapling.cfg:19
-#, fuzzy
-#| msgid ""
-#| "Rarely seen, even by elves, a Wose is an order of creature about which "
-#| "little is known. The elves are the source of most of this knowledge; they "
-#| "know that these beings are not descended from trees, despite the "
-#| "similarity in form, and they know that a wose is more closely tied to the "
-#| "faerie world than the elves themselves, though in a different way. The "
-#| "motives and workings of their kind are unknown, though most posit the "
-#| "obvious idea that woses are wardens of the natural world.\n"
-#| "\n"
-#| "Woses are utterly unwarlike, but possess a great strength. They are, "
-#| "however, neither used to, nor quick at moving around."
 msgid ""
 "Rarely seen, even by elves, a Wose is a type of creature about which little "
 "is known. The elves are the most abundant source of knowledge about them; "
@@ -1242,14 +1156,14 @@ msgid ""
 "Woses are extremely peaceful, but possess great strength. They are neither "
 "used to moving around, nor are they quick at it."
 msgstr ""
-"エルフでさえも滅多に見ないウーズは、ほとんど未知の生物の一種です。彼らに最も"
-"精通するエルフによれば、その存在は形状こそ木に似ているけれど樹木類には由来せ"
-"ず、系譜は異なるだろうけれど、エルフよりもむしろ妖精世界に近い、という話で"
-"す。ウーズ種族の生存動機や役割は未知ですが、自然界の監視を行っているという説"
-"が大勢を占めています。\n"
+"エルフでさえも滅多に見ないウーズは、ほとんど未知の生物の一種です。エルフは彼"
+"らに最も精通していて、エルフによると、その存在は形状こそ木に似ているけれど樹"
+"木類には由来せず、系譜は異なるだろうけれど、エルフ界よりもむしろ妖精世界に近"
+"い、とのことです。ウーズ種族の生存意義や役割は未知ですが、自然界の監視を行っ"
+"ているという説が有力です。\n"
 "\n"
-"ウーズは殆ど戦闘を行いませんが偉大な力の持ち主です。ただ、日頃から機敏ではな"
-"く、移動することもありません。"
+"ウーズは非常に平和主義的ですが偉大な力の持ち主です。日常的に動き回ることも、"
+"素早く移動することもありません。"
 
 #. [unit_type]: id=Elder Wose Shaman, race=wose
 #: The_Earths_Gut/units/woses/Elder_Wose_Shaman.cfg:5
@@ -1268,13 +1182,6 @@ msgstr "洞窟ドレーク"
 
 #. [unit_type]: id=Cave Drake, race=drake
 #: The_Earths_Gut/units/drakes/Cave.cfg:22
-#, fuzzy
-#| msgid ""
-#| "Those drakes that are born and raised in caves often suffer from stunted "
-#| "growth and other deformities, as their internal fire never burns quite as "
-#| "intensely as the fires of surface-dwellers. Although these drakes are "
-#| "frail and weak aboveground (by drake standards), their small size makes "
-#| "them perfectly suited for scouting caves ahead of the warriors of a tribe."
 msgid ""
 "The drakes born and raised in caves often suffer from stunted growth and "
 "deformities, and their internal fire never burns with the same intensity as "
@@ -1283,10 +1190,9 @@ msgid ""
 "ahead of a tribe's warriors."
 msgstr ""
 "洞窟で生まれ育ったドレークは、しばしば、発育が悪かったり体格の異常を起こして"
-"悩むことがあります。体内の炎が、地上に住む者ほど強く燃えないためです。それで"
-"も、そうしたドレークはその虚弱さや小さな体格（標準的なドレークに比べれば、で"
-"すが。）を活かして、一族の戦士たちの先頭を切って洞窟内を偵察するという、理想"
-"的な体と言えるのです。"
+"悩むことがありますし、体内の炎の燃える強さは、地上に住む者に比べると弱いもの"
+"です。標準的なドレークに比べれば虚弱ですが、その小柄な体格は、一族の戦士たち"
+"の先頭を切って洞窟内を偵察する、理想的とものと言えるでしょう。"
 
 #. [attack]: type=blade #impact
 #: The_Earths_Gut/units/drakes/Cave.cfg:31
@@ -1300,19 +1206,14 @@ msgstr "トロルの見習い呪術師"
 
 #. [unit_type]: id=Apprentice Shaman, race=troll
 #: The_Earths_Gut/units/trolls/Apprentice_Shaman.cfg:20
-#, fuzzy
-#| msgid ""
-#| "An Apprentice Shaman may once become a mystical leader of the trolls. "
-#| "Though not as strong or tough as other trolls, its true power lies in its "
-#| "fire magic, used to burn its enemies."
 msgid ""
 "An Apprentice Shaman has the potential to become a mystical leader of the "
 "trolls. Though not as strong or tough as other trolls, its true power lies "
 "in its fire magic, which it uses to burn its enemies."
 msgstr ""
-"トロルの見習い呪術師（ Apprentice Shaman ）は、かつてはトロルの神秘的なリー"
-"ダーになることが一般的でした。といっても他のトロルほど強靭なのではなく、火炎"
-"の魔法に真の力を発揮するのです。勿論、敵を焼き尽くすためでした。"
+"トロルの見習い呪術師（ Apprentice Shaman ）は、トロルの神秘的なリーダーになる"
+"能力を秘めています。といっても他のトロルほど強靭なのではなく、火炎の魔法に真"
+"の力を発揮するのです。勿論、敵を焼き尽くすために。"
 
 #. [attack]: type=impact
 #: The_Earths_Gut/units/trolls/Apprentice_Shaman.cfg:31
@@ -1335,14 +1236,6 @@ msgstr "氷のトロル"
 
 #. [unit_type]: id=Ice Troll, race=troll
 #: The_Earths_Gut/units/trolls/Ice_Troll.cfg:21
-#, fuzzy
-#| msgid ""
-#| "Few trolls choose to practice this sort of magic. Ice trolls give up "
-#| "their fire spells and use their magical talent to keep their inner cold "
-#| "alive, which they can breathe at their enemies to let them shudder in "
-#| "frost, making them almost unable to move. Their low body temperature also "
-#| "allows ice trolls to spend more energy in order to move faster than most "
-#| "other trolls."
 msgid ""
 "Few trolls choose to practice this sort of magic. Ice Trolls give up their "
 "fire magic in favor of keeping their inner cold alive, which can be used "
@@ -1351,10 +1244,10 @@ msgid ""
 "on movement, making them faster than most other trolls."
 msgstr ""
 "氷結ブレス（ freezing breath ）など、この種の魔法を使用するトロルは極小数で"
-"す。氷のトロル（ Ice Troll ）は、炎の呪文の代わりに体内に冷気を溜め込む魔力を"
-"使用します。敵に氷結ブレスを吹き付けて霜で身震いさせ、動きを鈍らせます。氷の"
-"トロルは体温が低いことで、他のトロルよりも素早く移動することに多くのエネル"
-"ギーを消費することができます。"
+"す。氷のトロル（ Ice Troll ）は、炎の魔力は捨て去り、体内に冷気を溜め込むこと"
+"を選択しました。冷たいその氷結ブレスを敵に吹き付けて霜で覆い尽くし、動きを鈍"
+"らせます。氷のトロルは体温が低いため、多くのエネルギーを移動に使用できるの"
+"で、他のトロルよりも素早く移動することができます。"
 
 #. [attack]: type=cold
 #: The_Earths_Gut/units/trolls/Ice_Troll.cfg:40
@@ -1369,14 +1262,6 @@ msgstr "トロルの氷結魔術師"
 
 #. [unit_type]: id=Troll Frost Wizard, race=troll
 #: The_Earths_Gut/units/trolls/Troll_Frost_Wizard.cfg:19
-#, fuzzy
-#| msgid ""
-#| "Few trolls choose to practice this sort of magic. Ice trolls give up "
-#| "their fire spells and use their magical talent to keep their inner cold "
-#| "alive, which they can breathe at their enemies to let them shudder in "
-#| "frost, making them almost unable to move. Their low body temperature also "
-#| "allows ice trolls to spend more energy in order to move faster than most "
-#| "other trolls."
 msgid ""
 "Few trolls choose to practice this sort of magic. Troll Frost Wizards are "
 "Ice Trolls who have continued to hone their inner cold, which they use to "
@@ -1384,11 +1269,10 @@ msgid ""
 "coating of ice. Their low body temperature allows Troll Frost Wizards to "
 "spend more energy on movement, making them faster than most other trolls."
 msgstr ""
-"氷結ブレス（ freezing breath ）など、この種の魔法を使用するトロルは極小数で"
-"す。氷のトロル（ Ice Troll ）は、炎の呪文の代わりに体内に冷気を溜め込む魔力を"
-"使用します。敵に氷結ブレスを吹き付けて霜で身震いさせ、動きを鈍らせます。氷の"
-"トロルは体温が低いことで、他のトロルよりも素早く移動することに多くのエネル"
-"ギーを消費することができます。"
+"この種の魔法を使用するトロルは極小数です。トロルの氷結魔術師（ Troll Frost "
+"Wizard ）は、体内に溜め込んだ冷気を極め、その冷気を敵に吹き付けて固結 ― まさ"
+"に氷結させてしまいます。トロルの氷結魔術師は体温が低いため、多くのエネルギー"
+"を移動に使用できるので、他のトロルよりも素早く移動することができます。"
 
 #. [attack]: type=impact
 #: The_Earths_Gut/units/trolls/Troll_Frost_Wizard.cfg:30
@@ -1402,18 +1286,13 @@ msgstr "トロルの火炎魔術師"
 
 #. [unit_type]: id=Troll Fire Wizard, race=troll
 #: The_Earths_Gut/units/trolls/Troll_Fire_Wizard.cfg:26
-#, fuzzy
-#| msgid ""
-#| "As Troll Shamans become more skilled at wielding flame magic, they become "
-#| "Troll Fire Wizards. At the apex of their abilities, both their fist and "
-#| "fire attacks are now more powerful than when they were shamans."
 msgid ""
 "As Troll Shamans become more skilled at wielding their fire magic, they "
 "become Troll Fire Wizards. Now at the apex of their abilities, both their "
 "fist and fire attacks are much more powerful than when they were shamans."
 msgstr ""
 "トロルの呪術師が火の魔術に熟練すると、トロルの火炎魔術師になります。その能力"
-"を極めると、拳と炎の攻撃は呪術師よりも更に強力になります。"
+"は頂点にまで達し、拳と炎の攻撃は呪術師だった頃より遥かに強力になります。"
 
 #. [unit_type]: id=Troll Boulderlobber, race=troll
 #: The_Earths_Gut/units/trolls/Troll_Boulderlobber.cfg:5
@@ -1422,11 +1301,6 @@ msgstr "トロルの大投石手"
 
 #. [unit_type]: id=Troll Boulderlobber, race=troll
 #: The_Earths_Gut/units/trolls/Troll_Boulderlobber.cfg:20
-#, fuzzy
-#| msgid ""
-#| "Some trolls show an uncommon ability in throwing boulders. These "
-#| "Boulderlobbers throw enormous rocks, that common trolls could not even "
-#| "lift and that are often bigger than a man."
 msgid ""
 "Some trolls show an uncommon ability in throwing boulders. These "
 "Boulderlobbers throw enormous rocks, oftentimes larger than a man, that "
@@ -1469,13 +1343,6 @@ msgstr "死の男爵"
 
 #. [unit_type]: id=Death Baron, race=undead
 #: The_Earths_Gut/units/undead/Death_Baron.cfg:22
-#, fuzzy
-#| msgid ""
-#| "Sometimes the mightiest warriors and generals, cursed with hate and "
-#| "angst, come back to this world as Death Knights. Death Barons serve them "
-#| "whilst accruing enough unholy power to become Death Knights. In the "
-#| "process they pick up a good deal of the Knight's power, including the "
-#| "ability to command underlings."
 msgid ""
 "Sometimes the mightiest warriors and generals come back to this world as "
 "Death Knights, cursed with hatred and angst. Death Barons serve them while "
@@ -1485,8 +1352,8 @@ msgid ""
 msgstr ""
 "時折、かつての最強の戦士や将軍たちが憎しみや苦悩に呪われ、この世に死の騎士と"
 "して戻ってくることがあります。死の男爵（ Death Baron ）は彼らに仕えながら邪悪"
-"な力を増大させ、死の騎士となります。その中で、部下を指揮する能力などの騎士の"
-"持てる力を会得していきます。"
+"な力を増大させ、死の騎士となります。その中で、指揮能力を含む、騎士の大部分の"
+"力が受け継がれます。"
 
 #. [attack]: type=pierce
 #: The_Earths_Gut/units/undead/Death_Baron.cfg:39
@@ -1545,14 +1412,6 @@ msgstr "若手のグリフォン"
 
 #. [unit_type]: id=Young Gryphon
 #: The_Earths_Gut/units/Young_Gryphon.cfg:16
-#, fuzzy
-#| msgid ""
-#| "Gryphons, when young, are covered with white and gray feathers. As soon "
-#| "as they can fly, they become able to defend their nests and to attack "
-#| "intruders. Though not yet powerful as adult Gryphons, underestimating "
-#| "them is a dangerous thing to do, a foolish move that led many poachers to "
-#| "death, either by facing their claws or falling down from a mountain while "
-#| "trying to escape a Gryphon's rage."
 msgid ""
 "When young, Gryphons are covered with downy white and gray feathers. As soon "
 "as they are able to fly, they defend their nests and attack intruders. "
@@ -1561,11 +1420,10 @@ msgid ""
 "to a painful death at the youthful Gryphon's claws, or a fall from the "
 "mountain while trying to escape."
 msgstr ""
-"グリフォンは、若いときに白と灰色羽で覆われています。飛べるようになるとすぐ、"
-"侵入者を攻撃して巣を守ることができるようになります。まだ大人のグリフォンほど"
-"の力はありませんが、だからといって見くびると危険です。爪の攻撃を受けたり、グ"
-"リフォンの怒りから逃れようとして山から転落したり、多くの密猟者が浅はかな行為"
-"で死に追いやられました。"
+"グリフォンは、若いときには白と灰色の綿毛で覆われています。飛べるようになると"
+"すぐ、巣を守って侵入者を攻撃します。この若いグリフォンは、まだ大人たちほどの"
+"力はありませんが、多くの密猟者が若鳥を見くびったために、しばしば、その爪で痛"
+"ましい死を遂げたり、逃げようとして山から転落することがあるのです。"
 
 #. [unit_type]: id=Spider Hatchling, race=monster
 #: The_Earths_Gut/units/Spider_Hatchling.cfg:5
@@ -1698,9 +1556,6 @@ msgstr "で、これからどうするの？"
 #. There are two separate exits to the scenario, one more west-northwest,
 #. and one more north-northwest, so averaging the two as just "northwest" is fine:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:292
-#, fuzzy
-#| msgid ""
-#| "We need to travel somewhat to the northwest. However, we must be careful."
 msgid "We need to travel somewhat northwest. However, we must be careful."
 msgstr "少しばかり北西方向に向かわなきゃならない。だが、用心しないと。"
 
@@ -1719,19 +1574,14 @@ msgstr "せめて道がもっと見えやすければいいんだがな..."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:304
-#, fuzzy
-#| msgid ""
-#| "There is nothing that way but swamps and forests, and there will be orcs "
-#| "to greet us! We just escaped them, and now you would go back to them? I "
-#| "insist we travel the mountains, where at least we can fight well!"
 msgid ""
 "There is nothing that way but swamps, forests, and more orcs. I did not "
 "escape them only to go back towards more. I insist we travel the mountains, "
 "where at least we can fight well!"
 msgstr ""
-"森と沼以外には無い、それにオークが待ち構えてることだろう！逃げてきたばかりな"
-"のに、戻るつもりか？山に向かうべきなんだ、その方が我々にとって戦いに有利なん"
-"だ！"
+"この先は森と沼ばかりだ、それにもっとオークが待ち構えている！私は、更に対抗す"
+"るため、彼らから逃げることなどしなかった。さっさと山に向かうんだ、そこなら、"
+"少なくともまともに戦える！"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:308
@@ -1787,10 +1637,8 @@ msgstr "Narcatsol"
 
 #. [role_message]: type=scout
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:398
-#, fuzzy
-#| msgid "Ho! One of the scouts has found a pet!"
 msgid "Ho! It seems that one of the scouts has found a pet!"
-msgstr "ホッホー！斥候がペットを一匹見つけたぞ！"
+msgstr "ホッホー！斥候がペットを一匹見つけたようだぞ！"
 
 #. [message]: id=Narcatsol
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:402
@@ -1978,15 +1826,10 @@ msgstr ""
 #. [message]: id=Dulatus
 #. by "enemies" Dulatus means the bandits:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:712
-#, fuzzy
-#| msgid ""
-#| "The path up the mountain is free now, but we shouldn't leave enemies "
-#| "alive behind our back."
 msgid ""
 "The path up the mountain is free now, but we shouldn't leave enemies alive "
 "who could flank us from behind."
-msgstr ""
-"山に向かう道は確保したが、背後からの敵を放っておくわけにはいかんだろう。"
+msgstr "山に向かう道は確保したが、背後からも来る敵を生かしてはおけない。"
 
 #. [objectives]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:719
@@ -2271,8 +2114,6 @@ msgstr ""
 
 #. [note]
 #: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:109
-#, fuzzy
-#| msgid "Recalling is for free in this interlude scenario."
 msgid "Recalling is free in this interlude scenario."
 msgstr "このシナリオでは、召喚に gold は不要です。"
 
@@ -2293,13 +2134,13 @@ msgstr "全てのユニットを１ターンで召喚するのに必要な城ヘ
 #. [scenario]: id=23_Epilogue
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:5
 msgid "Epilogue"
-msgstr ""
+msgstr "エピローグ"
 
 #. [part]
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:16
 msgid ""
 "And thus Dulatus retrieved the Hammer of Thursagan and returned it to Hamel."
-msgstr ""
+msgstr "こうして Dulatus は、Thusagan の槌を取り戻し、Hmale へ引き渡しました。"
 
 #. [part]
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:19
@@ -2308,6 +2149,8 @@ msgid ""
 "in fact the Hammer of Thursagan, the two of them decided to bring it to "
 "Relgorn."
 msgstr ""
+"Dulatus の取り返したものが 真のThusagan の槌であることを Hamel が確認した後、"
+"二人は Relgorn の許へ持っていくことに決めました。"
 
 #. [side]: type=Dwarvish Lord, id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:56
@@ -2325,12 +2168,12 @@ msgstr "Aiglathing"
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:203
 msgid "Let's send the hammer to Karrag in Kal Kartha."
-msgstr ""
+msgstr "Kal Kartha のKarrag にこの槌を届けよう。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:207
 msgid "Okay."
-msgstr ""
+msgstr "承知しました。"
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:213
@@ -2338,16 +2181,18 @@ msgid ""
 "The fate met by the hammer in Kal Kartha is described in the campaign 'The "
 "Hammer of Thursagan'."
 msgstr ""
+"この Kal Kartha の槌がもたらす運命は、キャンペーン「Thursagan の槌」で語られ"
+"ています。"
 
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:221
 msgid "Oh, by the way, I'm retiring."
-msgstr ""
+msgstr "あぁ、そうそう、私は退位するのだ。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:225
 msgid "But, my lord..."
-msgstr ""
+msgstr "しかし、陛下..."
 
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:229
@@ -2355,11 +2200,13 @@ msgid ""
 "Ha, do not worry, young Hamel! I have a well-qualified successor in mind to "
 "replace me."
 msgstr ""
+"まあ、心配するな、若き Hamel よ！私の後継ぎとなるに足る、十分な資質を持った者"
+"が一人いるのだ。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:233
 msgid "...and that successor would be...?"
-msgstr ""
+msgstr "...後継者がいる、とおっしゃると...？"
 
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:237
@@ -2367,13 +2214,14 @@ msgid ""
 "...why, you, of course, Hamel! I hereby name you Lord of Knalga, and bestow "
 "upon you all privileges and responsibilities associated with the title."
 msgstr ""
+"...何を申すのだ、Hamel 、お前に決まっているではないか！　私はここに、お前を "
+"Knalga の領主とし、そしてその称号に付随する全権および全責任をおまえに譲ること"
+"とする。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:241
-#, fuzzy
-#| msgid "My lord?"
 msgid "...my lord!"
-msgstr "閣下、何でしょう？"
+msgstr "...いや、しかし、陛下！"
 
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:245
@@ -2382,25 +2230,25 @@ msgid ""
 "hands. You'll be more than up to the job. And besides, you'll have "
 "Aiglathing and Dulatus to help you!"
 msgstr ""
+"心配いらんさ、Hamel 。お前の有能な腕で Knalga は必ずやうまくいく。申し分なし"
+"にな。それに、Aiglathing と Dulatus がいるではないか！"
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:249
-#, fuzzy
-#| msgid "That's it. Move on."
 msgid "That's right."
-msgstr "よし、開始しよう。"
+msgstr "おっしゃるとおりです。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:253
 msgid "Indeed."
-msgstr ""
+msgstr "ええ確かに。"
 
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:260
 msgid ""
 "Anyways, I am very tired now, so please excuse me while I retire to my "
 "chambers."
-msgstr ""
+msgstr "とにかく、私は疲れているのだ。失礼して自分の部屋に退くとする。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:265
@@ -2409,6 +2257,8 @@ msgid ""
 "find that book of Thursagan's that explains the runelore required to use "
 "that hammer!"
 msgstr ""
+"よし、では指揮を執るとしよう...最初の命令を出すぞ、Thursagan の書物を見つける"
+"のだ。あの槌を使うためのルーンの知恵が書かれているからな！"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:272
@@ -2416,16 +2266,18 @@ msgid ""
 "...actually, I guess we probably should have done that before sending the "
 "hammer off to Karrag in Kal Kartha... oops... oh well..."
 msgstr ""
+"...実際、槌を Kal Kartha の Karrag へ送る前に、そうすべきだったかもしれない"
+"が... あぁ...まあいいだろう..."
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:276
 msgid "We shall continue to search for this book nonetheless, Lord Hamel!"
-msgstr ""
+msgstr "何にしろ、我々はその書物の探索を続けますので、Hamel 卿！"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:280
 msgid "Indeed, we shall."
-msgstr ""
+msgstr "ええそうですよ、そうしますので。"
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:286
@@ -2434,6 +2286,9 @@ msgid ""
 "until 534 YW, when he became involved in the events portrayed in the "
 "campaign 'Northern Rebirth'."
 msgstr ""
+"その後数年間は、Hamel の Knalga 統治は比較的平穏に続きましたが、Wesnoth 暦 "
+"534年、キャンペーン「北部の再興」に描かれている出来事に、彼は巻き込まれること"
+"になるのです。"
 
 #. [message]: speaker=narrator
 #. A bit of a reference to the campaign's title here, but I'm not doing it word-for-word because "The Earth's Gut"
@@ -2443,6 +2298,8 @@ msgid ""
 "And thus ends the tale of Hamel's journey into the gut of the earth at Kal "
 "Torlat, and his ascension to Lord of Knalga."
 msgstr ""
+"Hamel が、Kal Kartha での地球のはらわたへと向かう旅に始まり、 Knalga の領主と"
+"なるまでの物語は、こうして終わりを迎えるのでした。"
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/08_Lost.cfg:71
@@ -5141,18 +4998,14 @@ msgstr "殺されたモンスター。"
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:294
-#, fuzzy
-#| msgid "death of Woomtshak."
 msgid "death of Woomtshak"
-msgstr "Woomtshak の死。"
+msgstr "Woomtshak の死"
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:305
-#, fuzzy
-#| msgid "death of Gogdush."
 msgid "death of Gogdush"
-msgstr "Gogdush の死。"
+msgstr "Gogdush の死"
 
 #. [unit]: type=Sea Serpent, id=The_Usual_Monster
 #. this name is kind of tongue-in-cheek:
@@ -5458,7 +5311,7 @@ msgstr "この砦には仕掛け扉がある、厄介な生き物が守ってい
 #. "them" = the "nasty creatures":
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:66
 msgid "We have to destroy them!"
-msgstr "全部やっつけないなきゃね！"
+msgstr "全部やっつけなきゃね！"
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:72
@@ -5577,8 +5430,7 @@ msgid ""
 "I sense the presence of a great evil, perhaps a powerful necromancer. "
 "Finally, a challenge!"
 msgstr ""
-"巨悪の存在を感じるぞ、おそらく強力なネクロマンサーだろう。遂に挑戦する時が来"
-"た！"
+"巨悪の存在を感じる、おそらく強力なネクロマンサーね。遂に挑戦する時が来たわ！"
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:572
@@ -6071,6 +5923,10 @@ msgid ""
 "printing of excess debug messages from certain AI routines, which may be "
 "another reason to turn debug mode off."
 msgstr ""
+"\n"
+"また、このシナリオでデバッグモードをオンにすると、特定のAIルーチンから大量の"
+"デバッグメッセージが表示される可能性がありますので、ご注意ください。これは、"
+"デバッグモードをオフにするもう一つの理由かもしれません。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:391
@@ -6517,20 +6373,20 @@ msgstr "[for debug]; Asheviere の新しい恋人の死."
 #. speaker = unit that has killed one of the last enemy units on an enemy side:
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:519
 msgid "This is it! We're getting there!"
-msgstr ""
+msgstr "これで全部だ！さあ、行くぞ！"
 
+# [ja]???
 #. [message]: speaker=unit
 #. speaker = unit that has moved next to an enemy leader (or advisor):
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:548
-#, fuzzy
-#| msgid "We have to get out of here!"
 msgid "We have you now!"
-msgstr "ここから脱出しないと！"
+msgstr "よし、つかまえたぞ！"
 
+# [ja]???
 #. [message]: id=Asheviere's new Flame
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:570
 msgid "Hm, we've been fighting for awhile now, haven't we?"
-msgstr ""
+msgstr "ふむ、我々はしばらくのあいだ戦っていた、そうだろ？"
 
 #. [message]: id=AshevieresNewFlameAdvisor
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:581
@@ -8982,12 +8838,12 @@ msgstr "うわうわっ...だめだ...あぁぁ......"
 #. [message]: speaker=Gweoran
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:440
 msgid "These monsters are poisonous!"
-msgstr ""
+msgstr "このモンスターどもには毒があるぞ！"
 
 #. [message]: speaker=Anne Bonny
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:484
 msgid "The monsters, they be sendin' their poisonous ones here!"
-msgstr ""
+msgstr "モンスターどもめ、毒をもった奴らをここに送り込んできている！"
 
 #. [message]: id=Gweoran
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:517
@@ -9274,8 +9130,8 @@ msgid ""
 "ground beneath this evil stone to shatter, and the moss of the cave to smash "
 "this stone to powder!"
 msgstr ""
-"さてどうするか...我が魔術の力で、この悪しき石が横たわる地を打ち壊し、洞窟の苔"
-"に、この石を粉砕するよう命じましょう！"
+"さてどうするか...我が魔術の力で悪しき石が横たわる地を打ち壊し、洞窟の苔に石を"
+"粉砕するよう命じましょう！"
 
 #. [message]: speaker=unit
 #. at this point the only units that can say this would be Clarissa & Celylia, both female:
@@ -9319,7 +9175,7 @@ msgid ""
 "ability to do it again."
 msgstr ""
 "今のところはそうでしょうね。でも、このモノリスに魔術を掛けた者は、きっとまた"
-"同じことをするでしょうね。"
+"同じことをするでしょう。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:761
@@ -10490,7 +10346,7 @@ msgstr "ドワーフ殺しを気取る奴らの教訓になるがいいさ！"
 #. [message]: speaker=second_unit
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1542
 msgid "Help! Some wyverns have risen out of this lava chamber!"
-msgstr ""
+msgstr "助けて！この溶岩の部屋から飛竜が何匹か飛び出してきた！"
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1625
@@ -10913,7 +10769,7 @@ msgstr "その他の貢献者"
 #. credits entry:
 #: The_Earths_Gut/about.cfg:103
 msgid "Japanese Translation"
-msgstr ""
+msgstr "日本語翻訳"
 
 #~ msgid ""
 #~ "Due to this campaign being incomplete, this is the final scenario for "
