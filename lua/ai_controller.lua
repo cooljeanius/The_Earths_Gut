@@ -208,7 +208,9 @@ local function calc_position_danger(side, x, y)
 				adjacent:insert(hex[1], hex[2], u)
 				table.remove(reach_units)
 				if (wesnoth.game_config.debug) then
-					if (#reach_units > 1) then dbms(reach_units) end
+					if (#reach_units > 1) then
+						if toplevel then dbms(reach_units) end
+					end
 				end
 				remove_used_up_hexes_and_units_accordingly_to_hexes(reach_units, hex)
 			end
@@ -223,7 +225,9 @@ local function calc_position_danger(side, x, y)
 			if type(data) ~= "table" then return end
 			wml_actions.label({ x = x, y = y, text = data.unit.name })
 		end
-		if (#adjacent > 0) then dbms(adjacent) end
+		if (#adjacent > 0) then
+			if toplevel then dbms(adjacent) end
+		end
 		adjacent:iter(put_unit_names)
 	end
 	local danger = calc_danger(adjacent)
@@ -242,7 +246,11 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 		local path = wesnoth.paths.find_path(u, loc[1], loc[2], { ignore_teleport = true, ignore_visibility = true })
 		if (wesnoth.game_config.debug) then
 			if (#path > 0) then
-				wml_actions.message({ speaker = "narrator", message = string.format("found path: %s", dbms(path, false, "path", true, false, true)) })
+				if false then
+					wml_actions.message({ speaker = "narrator", message = string.format("found path: %s", dbms(path, false, "path", true, false, true)) })
+				else
+					wml_actions.message({ speaker = "narrator", message = string.format("found path (%s items).", tostring(#path)) })
+				end
 			end
 		end
 		if #path == 0 then
@@ -370,6 +378,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 			local function calc_heal_loc()
 				local heal_loc = wml_actions.nearest_hex(filter, true, true)
 				if not heal_loc then return end
+				wesnoth.log("debug", "calculating danger...", false)
 				local danger = calc_position_danger(u.side, heal_loc[1], heal_loc[2])
 				if danger <= 1 then return heal_loc end
 				local dest_length = wml.variables["LUA_destinations.length"]
