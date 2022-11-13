@@ -97,7 +97,7 @@ local function calc_position_danger(side, x, y)
 				if #u == 0 then
 					if (wesnoth.game_config.debug) then
 						if #reach_units > 0 then
-							dbms(reach_units[i], "removing")
+							if toplevel then dbms(reach_units[i], "removing") end
 						end
 					end
 					table.remove(reach_units, i)
@@ -149,12 +149,20 @@ local function calc_position_danger(side, x, y)
 						if (i > 0) then
 							if (#u > 0) then
 								wesnoth.log("debug", "checking case " .. tostring(i) .. " for you.", false)
-								dbms("checking case " .. tostring(i) .. " for " .. dbms(u, true, false, true, false, true))
+								if toplevel then
+									dbms("checking case " .. tostring(i) .. " for " .. dbms(u, true, false, true, false, true))
+								else
+									wesnoth.log("debug", tostring(#u) .. ".", false)
+								end
 							end
 						end
 						if (#reach_units > 0) then
 							wesnoth.log("debug", "which units are reachable?", false)
-							dbms(dbms(reach_units, true, "reach_units", true, false, true))
+							if toplevel then
+								dbms(dbms(reach_units, true, "reach_units", true, false, true))
+							else
+								wesnoth.log("debug", tostring(#reach_units) .. " of them", false)
+							end
 						end
 					end
 					adjacent = distribute_units(reach_units, adjacent)
@@ -162,7 +170,7 @@ local function calc_position_danger(side, x, y)
 					if (wesnoth.game_config.debug) then
 						if toplevel then dbms(adjacent, true, "resulting adjacent") end
 						if (danger > 0) then
-							dbms(danger, true, "resulting danger")
+							if toplevel then dbms(danger, true, "resulting danger") end
 						end
 					end
 					if danger > best_danger then
@@ -174,7 +182,7 @@ local function calc_position_danger(side, x, y)
 				if (wesnoth.game_config.debug) then
 					if toplevel then dbms(adjacent, true, "chosen adjacent") end
 					if (#reach_units > 0) then
-						dbms(reach_units)
+						if toplevel then dbms(reach_units) end
 					end
 				end
 			end
@@ -194,7 +202,7 @@ local function calc_position_danger(side, x, y)
 			else
 				if (wesnoth.game_config.debug) then
 					if (#u > 0) then
-						dbms("inserting:" .. u.unit.name)
+						if toplevel then dbms("inserting:" .. u.unit.name) end
 					end
 				end
 				adjacent:insert(hex[1], hex[2], u)
