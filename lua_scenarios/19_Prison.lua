@@ -37,8 +37,11 @@ function wml_actions.prison_put_prisoners(udArgs)
 	--~ 	the unit array had been sorted according to level
 	for current_index, current_loc in ipairs(locations) do
 		if level_threes_left and number_put <= 2 and put_level_prisoner(3, current_loc) then
+			wesnoth.log("debug", "(on level threes) number_put: " .. to_string(number_put), false)
 		elseif level_twos_left and number_put <= 6 and put_level_prisoner(2, current_loc) then
+			wesnoth.log("debug", "(on level twos) number_put: " .. to_string(number_put), false)
 		elseif level_ones_left and put_level_prisoner(1, current_loc) then
+			wesnoth.log("debug", "(on level ones) number_put: " .. to_string(number_put), false)
 		else wesnoth.units.to_map(current_loc[1], current_loc[2], {type = mathx.random_choice("Dwarvish Fighter,Dwarvish Thunderer,Dwarvish Scout")})
 		end
 	end
