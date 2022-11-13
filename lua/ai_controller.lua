@@ -41,7 +41,8 @@ local function calc_position_danger(side, x, y)
 			table.insert(reach_units, reach_unit)
 		else
 			if (wesnoth.game_config.debug) then
-				wesnoth.log("debug", "calc_position_danger " .. tostring(i) .. " nothing reachable found!" .. tostring(reachable:size()), false)
+				-- use Wesnoth's `--log-debug=wml` flag to display messages like this:
+				wesnoth.log("debug", "calc_position_danger " .. tostring(i) .. " nothing reachable found! " .. tostring(reachable:size()), false)
 			end
 		end
 	end
@@ -97,6 +98,7 @@ local function calc_position_danger(side, x, y)
 				if #u == 0 then
 					if (wesnoth.game_config.debug) then
 						if #reach_units > 0 then
+							wesnoth.log("debug", "removing " .. tostring(#reach_units), false)
 							if toplevel then dbms(reach_units[i], "removing") end
 						end
 					end
@@ -107,11 +109,13 @@ local function calc_position_danger(side, x, y)
 		end
 		while true do
 			if (wesnoth.game_config.debug) then
-				if toplevel then dbms(adjacent) end
+				wesnoth.log("debug", "number of adjacent: " .. tostring(#adjacent), false)
+				if (toplevel and false) then dbms(adjacent) end
 			end
 			if #reach_units < 1 then return adjacent end
 			local u = reach_units[#reach_units]
 			if (wesnoth.game_config.debug) then
+				wesnoth.log("debug", "processing: " .. u.unit.name, false)
 				if toplevel then dbms("processing: " .. u.unit.name) end
 			end
 			assert(#u >= 1)
@@ -121,6 +125,7 @@ local function calc_position_danger(side, x, y)
 			else
 				if (wesnoth.game_config.debug) then
 					if (#u > 0) then
+						wesnoth.log("debug", "number of u: " .. tostring(#u), false)
 						if toplevel then dbms(u) end
 					end
 					wesnoth.log("debug", "entering multi-hex case", false)
@@ -141,6 +146,7 @@ local function calc_position_danger(side, x, y)
 					local reach_unit = reach_units[#reach_units]
 					reach_unit = { unit = reach_unit.unit, level = reach_unit.level, loc }
 					if (wesnoth.game_config.debug) then
+						wesnoth.log("debug", "reach_unit", false)
 						if toplevel then dbms(reach_unit) end
 					end
 					reach_units[#reach_units] = reach_unit
@@ -170,6 +176,7 @@ local function calc_position_danger(side, x, y)
 					if (wesnoth.game_config.debug) then
 						if toplevel then dbms(adjacent, true, "resulting adjacent") end
 						if (danger > 0) then
+							wesnoth.log("debug", "danger: " .. tostring(danger), false)
 							if toplevel then dbms(danger, true, "resulting danger") end
 						end
 					end
@@ -182,26 +189,31 @@ local function calc_position_danger(side, x, y)
 				if (wesnoth.game_config.debug) then
 					if toplevel then dbms(adjacent, true, "chosen adjacent") end
 					if (#reach_units > 0) then
+						wesnoth.log("debug", "reach_units: " .. tostring(#reach_units), false)
 						if toplevel then dbms(reach_units) end
 					end
 				end
 			end
 			if (wesnoth.game_config.debug) then
+				wesnoth.log("debug", "adjacent", false)
 				if toplevel then dbms(adjacent) end
 			end
 			local previous = adjacent:get(hex[1], hex[2])
 			if (wesnoth.game_config.debug) then
+				wesnoth.log("debug", "previous", false)
 				if toplevel then dbms(previous) end
 			end
 			if type(previous) == "table" then
 				assert(previous.level >= u.level)
 				table.remove(reach_units)
 				if (wesnoth.game_config.debug) then
+					wesnoth.log("debug", "discarding: " .. previous.unit.name, false)
 					if toplevel then dbms("discarding: " .. previous.unit.name) end
 				end
 			else
 				if (wesnoth.game_config.debug) then
 					if (#u > 0) then
+						wesnoth.log("debug", "inserting: " .. u.unit.name .. "; number of u: " .. tostring(#u), false)
 						if toplevel then dbms("inserting:" .. u.unit.name) end
 					end
 				end
@@ -209,6 +221,7 @@ local function calc_position_danger(side, x, y)
 				table.remove(reach_units)
 				if (wesnoth.game_config.debug) then
 					if (#reach_units > 1) then
+						wesnoth.log("debug", "reach_units: " .. tostring(#reach_units), false)
 						if toplevel then dbms(reach_units) end
 					end
 				end
@@ -226,7 +239,7 @@ local function calc_position_danger(side, x, y)
 			wml_actions.label({ x = x, y = y, text = data.unit.name })
 		end
 		if (#adjacent > 0) then
-			if toplevel then dbms(adjacent) end
+			if false then dbms(adjacent) end
 		end
 		adjacent:iter(put_unit_names)
 	end
@@ -249,7 +262,11 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 				if false then
 					wml_actions.message({ speaker = "narrator", message = string.format("found path: %s", dbms(path, false, "path", true, false, true)) })
 				else
-					wml_actions.message({ speaker = "narrator", message = string.format("found path (%s items).", tostring(#path)) })
+					if (#path > 1) then
+						wml_actions.message({ speaker = "narrator", message = string.format("found path (%s items).", tostring(#path)) })
+					else
+						wml_actions.message({ speaker = "narrator", message = string.format("found path.") })
+					end
 				end
 			end
 		end
@@ -263,12 +280,12 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 		wesnoth.set_variable(string.format("LUA_destinations[%u].y", dest_length), loc[2])
 		for i, loc in ipairs(path) do
 			if i == 1 then
-				-- ???
+				wesnoth.log("debug", "i is 1.", false)
 			else
 				if (wesnoth.game_config.debug) then
 					wml_actions.message({ speaker = "narrator", message = string.format("checking loc: (%u, %u)", loc[1], loc[2]) })
 				end
-				local cost = wesnoth.unit_movement_cost(u, wesnoth.get_terrain(loc[1], loc[2]))
+				local cost = wesnoth.units.movement_on(u, wesnoth.get_terrain(loc[1], loc[2]))
 				local new_moves = u.moves - cost
 				if (wesnoth.game_config.debug) then
 					wml_actions.message({ speaker = "narrator", message = string.format("new moves: %i", new_moves) })
@@ -318,6 +335,9 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 	end
 	local function free_unneccessarily_occupied_villages()
 		-- TODO: include side 1, too?
+		if (wesnoth.game_config.debug) then
+			wesnoth.log("warning", "side 1 units occupying villages might not be freed", false)
+		end
 		local units = wesnoth.units.find_on_map({ side = side, { "filter_location", { terrain = "*^V*" }}, formula = "max_hitpoints = hitpoints" })
 		for i, u in ipairs(units) do
 			for x, y in helper.adjacent_tiles(u.x, u.y, false) do

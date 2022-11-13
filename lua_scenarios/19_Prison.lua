@@ -17,7 +17,7 @@ function wml_actions.prison_put_prisoners(udArgs)
 	local function put_level_prisoner(level, current_loc)
 		for current_index, current_unit in ipairs(dwarves) do
 			if current_unit.race == "troll" then
-				-- ???
+				wesnoth.log("debug", "unit is troll, skipping", false)
 			elseif current_unit.level == level then
 				wesnoth.units.to_map(current_unit, current_loc[1], current_loc[2])
 				-- this requires a bit more advanced migration for BfW 1.16; hopefully this works:
