@@ -49,7 +49,7 @@ local function calc_position_danger(side, x, y)
 	if (wesnoth.game_config.debug) then
 		if #reach_units > 0 then
 			wml_actions.message({ speaker = "narrator", message = tostring(reach_units[1].unit)})
-			if false then dbms(reach_units) end
+			if (wesnoth.game_config.debug_lua and wesnoth.game_config.mp_debug and wesnoth.user_can_invoke_commands) then dbms(reach_units) end
 		end -- Hopefully we can avoid attempts to index a nil value in here...
 	end -- Wish I had a better debug check...
 	local function compare(u1, u2)
@@ -61,7 +61,7 @@ local function calc_position_danger(side, x, y)
 	table.sort(reach_units, compare)
 	if (wesnoth.game_config.debug) then
 		if #reach_units > 0 then
-			if false then dbms(reach_units) end
+			if (wesnoth.game_config.debug_lua and wesnoth.game_config.mp_debug and wesnoth.user_can_invoke_commands) then dbms(reach_units) end
 		end
 		for i, loc in ipairs(wesnoth.map.find({})) do wml_actions.label({ x = loc[1], y = loc[2], text = "" }) end
 		if #reach_units > 0 then
@@ -110,7 +110,7 @@ local function calc_position_danger(side, x, y)
 		while true do
 			if (wesnoth.game_config.debug) then
 				wesnoth.log("debug", "number of adjacent: " .. tostring(#adjacent), false)
-				if (toplevel and false) then dbms(adjacent) end
+				if (toplevel and wesnoth.game_config.debug_lua and wesnoth.game_config.mp_debug and wesnoth.user_can_invoke_commands) then dbms(adjacent) end
 			end
 			if #reach_units < 1 then return adjacent end
 			local u = reach_units[#reach_units]
@@ -239,14 +239,14 @@ local function calc_position_danger(side, x, y)
 			wml_actions.label({ x = x, y = y, text = data.unit.name })
 		end
 		if (#adjacent > 0) then
-			if false then dbms(adjacent) end
+			if (wesnoth.game_config.debug_lua and wesnoth.game_config.mp_debug and wesnoth.user_can_invoke_commands) then dbms(adjacent) end
 		end
 		adjacent:iter(put_unit_names)
 	end
 	local danger = calc_danger(adjacent)
-	if (wesnoth.game_config.debug) then
+	if (wesnoth.game_config.debug and not wesnoth.game_config.strict_lua) then
 		if (danger > 0) then
-			if false then dbms(danger) end
+			if (wesnoth.game_config.debug_lua and wesnoth.game_config.mp_debug and wesnoth.user_can_invoke_commands) then dbms(danger) end
 		end
 	end
 	return danger
@@ -259,7 +259,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 		local path = wesnoth.paths.find_path(u, loc[1], loc[2], { ignore_teleport = true, ignore_visibility = true })
 		if (wesnoth.game_config.debug) then
 			if (#path > 0) then
-				if false then
+				if (wesnoth.game_config.debug_lua and wesnoth.game_config.mp_debug and wesnoth.user_can_invoke_commands) then
 					wml_actions.message({ speaker = "narrator", message = string.format("found path: %s", dbms(path, false, "path", true, false, true)) })
 				else
 					if (#path > 1) then
@@ -299,7 +299,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 						check_passability = false, fire_event = false })
 				else
 					u.moves = 0
-					if (wesnoth.game_config.debug) then
+					if (wesnoth.game_config.debug and wesnoth.game_config.do_healing) then
 						wml_actions.message({ speaker = "narrator", message = string.format("%s stopped on the way to heal before (%u, %u))", u.name, loc[1], loc[2]) })
 					end
 					break
@@ -308,7 +308,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 					u.moves = 0
 					u.role = "force_heal_heals_side" .. tostring(side)
 					wml_actions.capture_village({ side = u.side, x = u.x, y = u.y })
-					if (wesnoth.game_config.debug) then
+					if (wesnoth.game_config.debug and wesnoth.game_config.do_healing) then
 						wml_actions.message({ speaker = "narrator", message = string.format("%s heals now at (%u, %u)", u.name, loc[1], loc[2]) })
 					end
 				end
@@ -321,13 +321,13 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 		for i, u in ipairs(units) do
 			if u.hitpoints == u.max_hitpoints then
 				u.role = ""
-				if (wesnoth.game_config.debug) then
+				if (wesnoth.game_config.debug and wesnoth.game_config.do_healing) then
 					wml_actions.message({ speaker = "narrator", message = string.format("%s has finished healing at (%u, %u))", u.name, u.x, u.y) })
 				end
 			else
 				u.moves = 0
 				u.attacks_left = 0
-				if (wesnoth.game_config.debug) then
+				if (wesnoth.game_config.debug and wesnoth.game_config.do_healing) then
 					wml_actions.message({ speaker = "narrator", message = string.format("%s continues to heal at (%u, %u))", u.name, u.x, u.y) })
 				end
 			end
@@ -335,7 +335,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 	end
 	local function free_unneccessarily_occupied_villages()
 		-- TODO: include side 1, too?
-		if (wesnoth.game_config.debug) then
+		if (wesnoth.game_config.debug and wesnoth.game_config.do_healing) then
 			wesnoth.log("warning", "side 1 units occupying villages might not be freed", false)
 		end
 		local units = wesnoth.units.find_on_map({ side = side, { "filter_location", { terrain = "*^V*" }}, formula = "max_hitpoints = hitpoints" })
@@ -359,7 +359,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 
 	for i, u in ipairs(wounded_units) do
 		assert(u.side == side)
-		if (wesnoth.game_config.debug) then
+		if (wesnoth.game_config.debug and wesnoth.game_config.do_healing) then
 			wml_actions.message({ speaker = "narrator", message = string.format("found unit to heal: %s", u.name) })
 		end
 		local filter =
@@ -391,8 +391,8 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 				}
 			}
 		}
-		if (wesnoth.game_config.debug) then
-			if false then dbms(filter) end
+		if (wesnoth.game_config.debug and not wesnoth.game_config.strict_lua) then
+			if (wesnoth.game_config.debug_lua and wesnoth.game_config.mp_debug and wesnoth.user_can_invoke_commands) then dbms(filter) end
 		end
 		if not wesnoth.get_terrain_info(wesnoth.get_terrain(u.x, u.y)).village then
 			local function calc_heal_loc()
@@ -412,7 +412,7 @@ function wml_actions.ai_controller_new_force_to_heal_wounded_units(cfg)
 			local heal_loc = calc_heal_loc()
 			u.attacks_left = 0 --in any case, especially if trapped
 			if heal_loc then
-				if (wesnoth.game_config.debug) then
+				if (wesnoth.game_config.debug and wesnoth.game_config.do_healing) then
 					wml_actions.message({ speaker = "narrator", message = string.format("found heal location: (%u,%u)", heal_loc[1], heal_loc[2]) })
 				end
 				move_wounded_unit_to(u, heal_loc)
