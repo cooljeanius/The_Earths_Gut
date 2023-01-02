@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-12-30 07:31 UTC\n"
-"PO-Revision-Date: 2022-11-07 04:18+0900\n"
+"PO-Revision-Date: 2023-01-02 18:29+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. [editor_group]: id=earthsgut
 #. since this is the first string to get put into the potfile, a general translation note:
@@ -102,12 +102,12 @@ msgstr "lua を実行する"
 #. [set_menu_item]: id=inspect
 #: The_Earths_Gut/utils/lua.cfg:78
 msgid "set an [inspect] tag"
-msgstr "[inspect] タグを設定する"
+msgstr "[inspect]タグを設定する"
 
 #. [set_menu_item]: id=remove_inspect
 #: The_Earths_Gut/utils/lua.cfg:89
 msgid "remove all [inspect] tags"
-msgstr "[inspect] タグを取り除く"
+msgstr "[inspect]タグを取り除く"
 
 #: The_Earths_Gut/utils/items.cfg:57
 msgid "forge"
@@ -2248,31 +2248,29 @@ msgstr "ええ確かに。"
 #. [message]: speaker=Clarissa
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:436
 msgid "Don't forget about us!"
-msgstr ""
+msgstr "私たちもいるわよ！"
 
 #. [message]: speaker=Celylia
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:441
 msgid "Your elf allies will be available for whenever you need us!"
-msgstr ""
+msgstr "私たちエルフの味方も、いつでも駆けつけますわ！"
 
 #. [message]: speaker=Pelcatlus
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:446
 msgid ""
 "Call on me, if you ever need someone to crack the skulls of a few more "
 "baddies!"
-msgstr ""
+msgstr "俺にも声をかけてくれよな、悪党どもの頭をかち割りたいときに必要だろ！"
 
 #. [message]: speaker=Krolock
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:451
-#, fuzzy
-#| msgid "Ah, Krolock, it's you!"
 msgid "Krolock help, too!"
-msgstr "おぅ、Krolock 、君か！"
+msgstr "Krolock も助けに行くからね！"
 
 #. [message]: speaker=Elara
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:456
 msgid "Feel free to call on me whenever you are in need of human magic!"
-msgstr ""
+msgstr "人間の魔術が必要なときには、いつでも遠慮せずに呼んでくださいね！"
 
 #. [message]: speaker=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:460
@@ -2280,13 +2278,15 @@ msgid ""
 "Wow, everyone... I don't know what to say! Thank you all very much, from the "
 "bottom of my heart."
 msgstr ""
+"おぅ、皆んな... なんと言ったらいいんだ！ 本当にありがとう、心の底から感謝する"
+"よ。"
 
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:470
 msgid ""
 "Anyways, I am very tired now, so please excuse me while I retire to my "
 "chambers."
-msgstr "とにかく、私は疲れているのだ。失礼して自分の部屋に退くとする。"
+msgstr "まあとにかく、私はとても疲れた。失礼して自分の部屋に退くとしよう。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:492
@@ -2294,21 +2294,18 @@ msgid ""
 "All right, now that I'm in command... well, let's assemble all my forces "
 "first to hear my first decree!"
 msgstr ""
+"よし、私が指揮を執ることになったぞ...よし、まずは全軍隊を集合させて、一番最初"
+"の命令をきかせよう！"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:497
-#, fuzzy
-#| msgid ""
-#| "All right, now that I'm in command... I guess my first decree should be "
-#| "to find that book of Thursagan's that explains the runelore required to "
-#| "use that hammer!"
 msgid ""
 "All right, now that everyone's here... I guess my first decree should be to "
 "find that book of Thursagan's that explains the runelore required to use "
 "that hammer!"
 msgstr ""
-"よし、では指揮を執るとしよう...最初の命令を出すぞ、Thursagan の書物を見つける"
-"のだ。あの槌を使うためのルーンの知恵が書かれているからな！"
+"よし、みな、集まったな...　最初の命令はこれだ、Thursagan の書物を見つけよ。あ"
+"の槌を使うためのルーンの知恵が書かれている！"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:519
@@ -4136,7 +4133,7 @@ msgstr "[for debug]; ミニ・エンド"
 #. [event]
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:566
 msgid "undead"
-msgstr "[for debug];  アンデッド"
+msgstr "[for debug]; アンデッド"
 
 #. [event]
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:567
@@ -6699,7 +6696,7 @@ msgstr "あぁ、鍛冶場だな。我々の鍛冶師は火を使って鎧や武
 #. [message]: speaker=second_unit
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:759
 msgid "And some nasties are polluting it."
-msgstr "そして、嫌な奴らがこれを汚している。"
+msgstr "そして、嫌な奴らがここを汚している。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:763
@@ -6709,7 +6706,8 @@ msgstr "奴らを殺すんだ。"
 #. [message]: speaker=Elara
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:769
 msgid "And some nasties are polluting it; you'd better kill them!"
-msgstr "そして、嫌な奴らがこれを汚している。奴らを殺したほうがいいな！"
+msgstr ""
+"そして、嫌な者たちがここを汚している。奴らを生かしておいてはいけません！"
 
 #. [message]: speaker=unit
 #. "unit" is Elara here:
