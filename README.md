@@ -8,6 +8,6 @@ With the new minerals you will be able to forge new weapons and armor to push ba
 The campaign focuses on "dwarvish dungeon crawling", and the developer intention is to make it playable for newbies on easy while also keeping it challenging for experienced players on hard.
 (Beginner level, 23 scenarios (nearly finished, but not quite))
 Requires BfW 1.16 or greater. Requires 'The Hammer of Thursagan' to be installed (which is part of mainline now, so it should already be there unless you've deleted it or something).
-Former working title: 'Dwarven Kingdom'
+Former working title: "Dwarven Kingdom" (which is now the title of a separate campaign by Ashmyr/Myrian).
 
 Link to forum thread: https://forums.wesnoth.org/viewtopic.php?f=8&t=26800
