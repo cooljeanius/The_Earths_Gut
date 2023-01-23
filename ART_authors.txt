@@ -3,3 +3,5 @@ Credits for where art came from:
 - I think I downloaded some sounds from opengameart.org but can't quite remember
   for sure... I'm thinking it was https://opengameart.org/content/stream-sounds
   by kurt, CC-BY 3.0
+- foom_0.wav is from opengameart.org: https://opengameart.org/content/spell-4-fire
+  by Bart K., available under multiple licenses
