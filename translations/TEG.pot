@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-04 18:51 UTC\n"
+"POT-Creation-Date: 2023-02-04 19:04 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -647,8 +647,8 @@ msgstr ""
 #: The_Earths_Gut/utils/misc.cfg:187
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:220
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:214
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:455
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:531
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:457
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:533
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:538
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:284
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:291
@@ -1423,66 +1423,68 @@ msgid "All you will get from us is the cold steel of our axes!"
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:587
-msgid "And the wrathful fire of my spells, which even the fastest foe cannot avoid!"
+#. "blaze" should cover both "fire" and "light", since Clarissa has 2 separate advancement
+#. paths that she can take (Red Mage or White Mage):
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:589
+msgid "And the wrathful blaze of my spells, which even the fastest foe cannot avoid!"
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:612
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:614
 msgid "Huh?"
 msgstr ""
 
 #. [message]: id=Dulatus
 #. NORMAL difficulty; this is first watch:
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:618
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:620
 msgid "The fog seems to come back every night..."
 msgstr ""
 
 #. [message]: id=Dulatus
 #. HARD difficulty; this is dusk:
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:624
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:626
 msgid "The fog seems to come back every evening..."
 msgstr ""
 
 #. [message]: id=Uga_Uga
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:652
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:654
 msgid "Uh, who comes to Uga Uga?"
 msgstr ""
 
 #. [message]: speaker=Dulatus
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:656
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:658
 msgid "We are dwarvish travelers, great monster. We only wish to travel over the mountains."
 msgstr ""
 
 #. [message]: id=Uga_Uga
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:660
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:662
 msgid "Heh heh! These mountains belong to Uga Uga! I will smash you to pieces if you don't pay me $i_Fee| gold pieces."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:664
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:666
 msgid "Bothersome monsters! Do we really have to come this way, Dulatus?"
 msgstr ""
 
 #. [message]: id=Dulatus
 #. a bit of a hint that Uga Uga might have something for the player:
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:669
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:671
 msgid "Ach, don't complain so much, Aiglathing! This could be an opportunity before us! In any case, it seems we have a decision to make."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:673
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:675
 msgid "I need to think about this..."
 msgstr ""
 
 #. [option]
 #. "pay" option:
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:676
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:678
 msgid "I do not wish to fight you, Uga Uga. I will pay the fee."
 msgstr ""
 
 #. [option]
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:676
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:678
 msgid ""
 "\n"
 "<small>(Defeat the bandits; you will be allowed to freely choose the next scenario.)</small>"
@@ -1490,43 +1492,43 @@ msgstr ""
 
 #. [option]
 #. "fight" option:
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:686
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:688
 msgid "Who are you to say these mountains belong to you, monster?"
 msgstr ""
 
 #. [option]
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:686
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:688
 msgid ""
 "\n"
 "This is the domain of the dwarves, and we will travel wherever we want!"
 msgstr ""
 
 #. [option]
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:687
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:689
 msgid ""
 "\n"
 "<small>(Defeat the monsters or defeat the bandits, the next scenario is decided by whom you defeat.)</small>"
 msgstr ""
 
 #. [message]: id=Uga_Uga
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:692
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:694
 msgid "Hah! If you attack Uga Uga, you'll be smashed to bits!"
 msgstr ""
 
 #. [message]: id=Uga_Uga
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:738
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:740
 msgid "Heh, good choice! Uga Uga loves bright gold more than smashing tiny dwarves."
 msgstr ""
 
 #. [message]: id=Dulatus
 #. by "enemies" Dulatus means the bandits:
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:749
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:751
 msgid "The path up the mountain is free now, but we shouldn't leave enemies alive who could flank us from behind."
 msgstr ""
 
 #. [objectives]
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:756
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:812
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:758
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:814
 #: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:95
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1310
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:87
@@ -1551,58 +1553,58 @@ msgid "Final Objectives:"
 msgstr ""
 
 #. [objectives]
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:757
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:814
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:759
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:816
 msgid "The turn limit has been set to $final_turn_limit|."
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:759
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:761
 msgid "Defeat the bandits"
 msgstr ""
 
 #. [message]: id=Uga_Uga
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:773
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:775
 msgid "You stupid dwarves can't trick Uga Uga! Gimme all the gold I want, or die!"
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:816
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:818
 msgid "Defeat the monsters (Next scenario is 'Blowing Snow'.)"
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:820
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:822
 msgid "Defeat the bandits (Next scenario is 'Unknown Tunnels'.)"
 msgstr ""
 
 #. [message]: id=Lidda
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:843
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:845
 msgid "Uarghh! I cannot die to these halflings..."
 msgstr ""
 
 #. [message]: id=Uga_Uga
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:861
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:863
 msgid "All Uga Uga ever wanted was bright gold!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:869
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:871
 msgid "Look, there is something on the ground where the monster fell! It's a large purse full of gold!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:881
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:883
 msgid "The purse contains $i_UgaUgaPurse| gold pieces!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:885
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:887
 msgid "I wish every monster was so rich!"
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:889
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:891
 msgid "I wonder how long that brute has forced travelers to pay..."
 msgstr ""
 
@@ -1610,85 +1612,85 @@ msgstr ""
 #. time over: If we paid, Lidda must be the remaining enemy.
 #. If we didn't pay, the remaining enemies would be both Lidda and UgaUga.
 #. Otherwise, the leader death events would have ended the scenario.
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:906
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:908
 msgid "We cannot continue with enemies behind us..."
 msgstr ""
 
 #. [role_message]: type=fighter
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:918
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:920
 msgid "Where do we go from here now?"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:922
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:924
 msgid "There must be a cave entrance here, somewhere below the mountains! I faintly remember it being discovered years ago."
 msgstr ""
 
 #. [message]: id=04_Up_the_mountain_cave_discoverer
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:954
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:956
 msgid "Yes, I've seen it, here it is!"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:961
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:963
 msgid "Does it look like our kind has been there before?"
 msgstr ""
 
 #. [message]: id=04_Up_the_mountain_cave_discoverer
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:965
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:967
 msgid "Maybe... there are some ruins at the opening."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:969
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:971
 msgid "I am not sure, but it could be a path to the mines that were rumored to be in those mountains. Those ruins could indeed be dwarvish."
 msgstr ""
 
 #. [role_message]: type=fighter
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:974
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:976
 msgid "Shall we take this way?"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:983
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:985
 msgid "Since the monsters are still blocking the pass, we have no choice, so... yes."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:987
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1003
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:989
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1005
 msgid "I do not mean to sound like a coward, but I dread entering that cave. I feel a strong evil lurks inside."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1007
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1009
 msgid "Since the monsters are gone, the pass is free, so we'd better choose this way. Likely the bandits won't dare to follow."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1029
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1031
 msgid "Since the monsters and the bandits are gone, we are free to decide which path to take."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1033
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1035
 msgid "Shall we travel over the mountains, or explore the cave?"
 msgstr ""
 
 #. [option]
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1035
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1037
 msgid "There is something disturbing about that cave."
 msgstr ""
 
 #. [option]
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1035
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1037
 msgid ""
 "\n"
 "While I do not fear danger, I feel it would be better for all of us to travel over the mountains instead."
 msgstr ""
 
 #. [option]
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1036
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1038
 msgid ""
 "\n"
 "<small>(Next scenario is 'Blowing snow'.)</small>"
@@ -1697,25 +1699,25 @@ msgstr ""
 #. [message]: id=Dulatus
 #. [message]: speaker=unit
 #. spoken by the executioner:
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1041
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1043
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1072
 msgid "So be it."
 msgstr ""
 
 #. [option]
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1051
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1053
 msgid "We will be able to travel faster through those caves than over those mountains."
 msgstr ""
 
 #. [option]
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1051
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1053
 msgid ""
 "\n"
 "<small>(Next scenario is 'Unknown tunnels'.)</small>"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1056
+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1058
 msgid "I hope it is safe."
 msgstr ""
 
@@ -4604,237 +4606,239 @@ msgid "Fellows, we have made it this far, despite our great loss. Let us pay res
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:395
+#. "Behind you all the way" doesn't mean literally "behind"; it's a figure of speech
+#. meaning "supporting" or "in favor of" or "going where you're leading":
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:397
 msgid "Behind you all the way, Hamel! By the way, where are we? I don't recognize this valley."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:399
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:401
 msgid "Look, everyone! There are several great openings into the mountains up north. Cut openings, surely the work of dwarves!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:403
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:405
 msgid "We may have found the mines Dulatus talked so much about."
 msgstr ""
 
 #. [message]: id=Clarissa
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:412
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:418
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:414
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:420
 msgid "So dwarves have been to this valley? Interesting, since it appears that these forests may be inhabited by elves."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:426
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:428
 msgid "There might be elves here? I hope they do not seek a quarrel with us. They are known not to be very friendly to my kind..."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:430
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:432
 msgid "Elves or no elves, I wonder why we have heard nothing from the dwarves who had built those caves?"
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:474
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:476
 msgid "That forest to the south may be the Wesmere Forest, if I remember correctly from my travels. If it is, we may soon have to deal with..."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:481
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:483
 msgid "Hark! Dwarves from the eastern mountains are entering our peaceful valley!"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:485
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:487
 msgid "Away with you, rock dwelling halflings! If you dare enter my forest, I will have you put to the sword!"
 msgstr ""
 
 #. [message]: id=Aiglathing
 #. "tree-hugging" would probably be more idiomatic, but I like the sound of "tree-cuddling", so I'll keep it:
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:490
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:492
 msgid "Damn tree-cuddling elf!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:494
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:496
 msgid "Calm down, Aiglathing!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:498
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:500
 msgid "What is your name, elf?"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:502
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:504
 msgid "I am Eowariand, marshal of Wesmere Forest. Who are you, and why have you come to my forest, dwarf?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:507
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:509
 msgid "I am Lord Hamel, leader of an expedition from Knalga. We are searching for mineral resources and ore veins for mining. I have no interest in your forest, and wish to travel to those caves in the northern mountains."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:511
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:513
 msgid "Why do you wish to enter those caves? The last of your kind who came here in ancient times carved those tunnels, only to flee many years later, terror written on their faces. They left us forced to defend our forests from some great evil they had awakened."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:516
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:518
 msgid "What evil is that?"
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:523
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:525
 msgid "We do not know. We have been attacked frequently by trolls, and unspeakable monsters of the night. They seem driven to madness and controlled on by something greater. We have held them back for years, but they have killed many of my kin already."
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:527
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:529
 msgid "(<i>whispers</i>) My lord, this could be an opportunity. These dwarves seem stronger and braver than those who came before. Perhaps they can drive away the monsters for us. We cannot fight well in caves, and we cannot go on much longer with those cave monsters attacking us."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:535
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:537
 msgid "Lord Hamel of Knalga, I will permit you to travel to the caves, on the condition that you help us to defeat the monsters that plague us. If you succeed, there will be peace between us."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:539
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:541
 msgid "The nerve of these elves! Do they think they can make us do their dirty work for them?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:543
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:545
 msgid "(<i>whispers</i>) That will be enough! We cannot afford to have the elves as enemies!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:547
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:549
 msgid "I accept your proposal, Eowariand. We will help you defeat your enemies."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:551
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:553
 msgid "So be it. It was wise not to fight us, dwarf."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:572
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:574
 msgid "(<i>whispers</i>) He speaks the truth, Hamel. These elves are no easy foe to beat, and there are many more of them deeper in the Wesmere Forest."
 msgstr ""
 
 #. [message]: id=cave_spider
 #. spider death sound:
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:586
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:588
 msgid "Sssssssssssssssssssss..."
 msgstr ""
 
 #. [message]: id=Krog
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:596
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:598
 msgid "Defeated by these weakling elves, with dwarves on their side! How..."
 msgstr ""
 
 #. [message]: id=Grishnak
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:606
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:608
 msgid "The dwarves... are returning! I must alert the others..."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:610
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:612
 msgid "You have failed to defeat us, and so will 'the others!'"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:624
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:626
 msgid "Strange, there must be a monster in that lake somewhere..."
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:628
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:630
 msgid "There was one for a while, but we got rid of it."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:643
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:645
 msgid "Oh, the old oak tree... green as ever. Even our elders cannot tell how many years it has seen."
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:655
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:657
 msgid "Oh no... I am finished... I have failed."
 msgstr ""
 
 #. [message]: role=r_Speaker
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:667
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:669
 msgid "(<i>giggles</i>) He he, such fragile elves."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:676
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:678
 msgid "Quiet! You should be ashamed!"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:690
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:692
 msgid "I must call in the reserves! This is too much!"
 msgstr ""
 
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:707
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:709
 msgid "At last, we will take back what was once ours!"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:711
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:713
 msgid "Dwarves, you have proven yourselves worthy in battle. We will accept you as friends, and you are welcome to come and go freely to the caves of the north."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:715
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:717
 msgid "Thank you, elf."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:719
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:721
 msgid "I will give you some supplies for your journey, and I look forward to trading goods with you in the future."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:723
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:725
 msgid "(<i>quiet</i>) These elves are a wonderful folk. I hope we meet again. They are a wise old race, and I could learn much from them."
 msgstr ""
 
 #. [message]: id=advisor_druid
 #. "neighborhood" in the sense of "the state of being neighbors with one another", NOT the usual sense of "a physical location where neighbors live next to one another":
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:729
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:731
 msgid "I'm looking forward to your neighborhood."
 msgstr ""
 
 #. [unit]: type=Elvish Shaman, id=Celylia
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:742
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:744
 msgid "Celylia"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:765
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:767
 msgid "This is Celylia, one of my wisest shamans. Allow her to accompany you as my representative."
 msgstr ""
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:769
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:771
 msgid "I have explored some caves before. That is certainly why I have been chosen to travel with you."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:773
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:775
 msgid "Thank you. I am sure you will be a great help to us."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:777
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:779
 msgid "Onward, men. I suspect we have much to reconquer."
 msgstr ""
 
