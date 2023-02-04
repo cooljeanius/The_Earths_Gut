@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-04 19:04 UTC\n"
+"POT-Creation-Date: 2023-02-04 21:31 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1423,10 +1423,10 @@ msgid "All you will get from us is the cold steel of our axes!"
 msgstr ""
 
 #. [message]: id=Clarissa
-#. "blaze" should cover both "fire" and "light", since Clarissa has 2 separate advancement
-#. paths that she can take (Red Mage or White Mage):
+#. "radiance" should cover both "fire" and "light", since Clarissa has 2 separate
+#. advancement paths that she can take (Red Mage or White Mage):
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:589
-msgid "And the wrathful blaze of my spells, which even the fastest foe cannot avoid!"
+msgid "And the wrathful radiance of my spells, which even the fastest foe cannot avoid!"
 msgstr ""
 
 #. [message]: id=Aiglathing
