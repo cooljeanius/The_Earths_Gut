@@ -1,4 +1,5 @@
 if not wml_actions then wml_actions = {} end
+local debug_utils = pcall(wesnoth.dofile, "~add-ons/Wesnoth_Lua_Pack/debug_utils.lua")
 
 function wml_actions.prison_put_prisoners(udArgs)
 	local variable = udArgs.variable
