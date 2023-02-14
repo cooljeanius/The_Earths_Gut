@@ -8,3 +8,6 @@ for mylang in ja; do
 	msgmerge --previous --update --lang=${mylang} wesnoth-The_Earths_Gut/${mylang}.po TEG.pot;
 	msgfmt -o wesnoth-The_Earths_Gut/${mylang}.mo wesnoth-The_Earths_Gut/${mylang}.po;
 done
+if test -e ~/Downloads/TEG_old.pot; then
+	diff -u ~/Downloads/TEG_old.pot TEG.pot > TEG.pot.diff
+fi
