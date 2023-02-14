@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-14 03:29 UTC\n"
+"POT-Creation-Date: 2023-02-14 03:55 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2489,7 +2489,7 @@ msgstr ""
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:91
-msgid "(Recruit or recall these units, and then move them to ($cGoHere.x, $cGoHere.y).)"
+msgid "(Recruit or recall these units, and they'll be moved to ($cGoHere.x, $cGoHere.y), or move existing units there manually.)"
 msgstr ""
 
 #. [objectives]
@@ -2515,7 +2515,7 @@ msgstr ""
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:152
-msgid "We should probably continue with this strategy. Now - we had agreed that we need to find out the fate of the Hammer of Thursagan. If our enemies possess this artifact, it might indeed grant them unimaginable powers. If we could retrieve it, it would seriously weaken them."
+msgid "We should probably continue with this strategy. Now - we had agreed that we need to find out about the fate of the Hammer of Thursagan. If our enemies possess this artifact, it might indeed grant them unimaginable powers. If we could retrieve it, it would seriously weaken them."
 msgstr ""
 
 #. [message]: id=Hamel
@@ -2580,28 +2580,34 @@ msgid "What about sending a small, inconspicuous team after the hammer? In the p
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:236
-msgid "It is fine. Dulatus, you take command of the expedition, since you know the most about the possible fate of the hammer. You and Elara choose further followers to come with you until you have $nDulatusUnits in your group in all. Good luck. All others - into the battle!"
+#. "That works for me" could also be "That is acceptable":
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:237
+msgid "That works for me. Dulatus, you take command of the expedition, since you know the most about the possible fate of the hammer. You and Elara choose further followers to come with you until you have $nDulatusUnits in your group in all. Good luck. All others - into the battle!"
 msgstr ""
 
 #. [message]: id=20t_Elvish_messenger
 #. addressing Hamel:
-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:241
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:242
 msgid "I continue to be impressed by your loyalty. I'll quickly deliver the good news to my people."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:255
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:256
 msgid "Let them feel the harsh cold of our new-and-improved axes."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:268
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:269
 msgid "The following battle scenario will be the last surface scenario, while Dulatus' mission will be in the underground."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:337
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:325
+msgid "That's $uDulatusUnits.length of $nDulatusUnits|."
+msgstr ""
+
+#. [message]: id=Hamel
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:342
 msgid "That's it. Move on."
 msgstr ""
 

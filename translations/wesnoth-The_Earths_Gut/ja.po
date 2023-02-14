@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-14 03:29 UTC\n"
+"POT-Creation-Date: 2023-02-14 03:55 UTC\n"
 "PO-Revision-Date: 2023-01-02 18:29+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -3128,9 +3128,13 @@ msgstr ""
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:91
+#, fuzzy
+#| msgid ""
+#| "(Recruit or recall these units, and then move them to ($cGoHere.x, "
+#| "$cGoHere.y).)"
 msgid ""
-"(Recruit or recall these units, and then move them to ($cGoHere.x, $cGoHere."
-"y).)"
+"(Recruit or recall these units, and they'll be moved to ($cGoHere.x, "
+"$cGoHere.y), or move existing units there manually.)"
 msgstr ""
 "（これらのユニットを雇用または召喚して（$cGoHere.x, $cGoHere.y）に移動させ"
 "る）"
@@ -3160,11 +3164,17 @@ msgstr "私たち、まだ十分静かにしてるとは思うわよ。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:152
+#, fuzzy
+#| msgid ""
+#| "We should probably continue with this strategy. Now - we had agreed that "
+#| "we need to find out the fate of the Hammer of Thursagan. If our enemies "
+#| "possess this artifact, it might indeed grant them unimaginable powers. If "
+#| "we could retrieve it, it would seriously weaken them."
 msgid ""
 "We should probably continue with this strategy. Now - we had agreed that we "
-"need to find out the fate of the Hammer of Thursagan. If our enemies possess "
-"this artifact, it might indeed grant them unimaginable powers. If we could "
-"retrieve it, it would seriously weaken them."
+"need to find out about the fate of the Hammer of Thursagan. If our enemies "
+"possess this artifact, it might indeed grant them unimaginable powers. If we "
+"could retrieve it, it would seriously weaken them."
 msgstr ""
 "この作戦を続行しなければならん。今は... Thursagan の槌の行方を突き止める必要"
 "があるということで皆一致している。もし敵が所持しているなら、想像以上の力を敵"
@@ -3285,12 +3295,19 @@ msgstr ""
 "槌に関心があるし、私の呪文の攻撃は、人間の兵士にはあまり効かないのよ。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:236
+#. "That works for me" could also be "That is acceptable":
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:237
+#, fuzzy
+#| msgid ""
+#| "It is fine. Dulatus, you take command of the expedition, since you know "
+#| "the most about the possible fate of the hammer. You and Elara choose "
+#| "further followers to come with you until you have $nDulatusUnits in your "
+#| "group in all. Good luck. All others - into the battle!"
 msgid ""
-"It is fine. Dulatus, you take command of the expedition, since you know the "
-"most about the possible fate of the hammer. You and Elara choose further "
-"followers to come with you until you have $nDulatusUnits in your group in "
-"all. Good luck. All others - into the battle!"
+"That works for me. Dulatus, you take command of the expedition, since you "
+"know the most about the possible fate of the hammer. You and Elara choose "
+"further followers to come with you until you have $nDulatusUnits in your "
+"group in all. Good luck. All others - into the battle!"
 msgstr ""
 "それがいい。Dulatus 、遠征軍の指揮を執れ、槌の行方については、お前が一番詳し"
 "いからな。お前と Elara で、共に連れ立つメンバーの総数が $nDulatusUnits 人にな"
@@ -3298,7 +3315,7 @@ msgstr ""
 
 #. [message]: id=20t_Elvish_messenger
 #. addressing Hamel:
-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:241
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:242
 msgid ""
 "I continue to be impressed by your loyalty. I'll quickly deliver the good "
 "news to my people."
@@ -3307,12 +3324,12 @@ msgstr ""
 "もとへ届けましょう。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:255
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:256
 msgid "Let them feel the harsh cold of our new-and-improved axes."
 msgstr "人間どもに、我々の新改良型斧の無情の冷たさを味わってもらおう。"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:268
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:269
 msgid ""
 "The following battle scenario will be the last surface scenario, while "
 "Dulatus' mission will be in the underground."
@@ -3321,7 +3338,12 @@ msgstr ""
 "広げられます。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:337
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:325
+msgid "That's $uDulatusUnits.length of $nDulatusUnits|."
+msgstr ""
+
+#. [message]: id=Hamel
+#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:342
 msgid "That's it. Move on."
 msgstr "よし、開始しよう。"
 
