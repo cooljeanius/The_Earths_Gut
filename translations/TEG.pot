@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-11 18:36 UTC\n"
+"POT-Creation-Date: 2023-02-14 02:09 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -220,7 +220,7 @@ msgstr ""
 #. "he" = Pelcatlus, an ulfserker:
 #: The_Earths_Gut/utils/deaths.cfg:164
 #: The_Earths_Gut/utils/deaths.cfg:292
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1678
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1705
 msgid "He was the most frenzied dwarf I've ever seen..."
 msgstr ""
 
@@ -260,7 +260,7 @@ msgstr ""
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/utils/deaths.cfg:244
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1656
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1683
 msgid "Uahh! The cave has finished me..."
 msgstr ""
 
@@ -692,7 +692,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:646
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:1109
 #: The_Earths_Gut/scenarios/19_Prison.cfg:238
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1304
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1308
 msgid "Death of Hamel"
 msgstr ""
 
@@ -703,7 +703,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1318
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:371
 #: The_Earths_Gut/scenarios/19_Prison.cfg:250
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1316
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1320
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:365
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:2026
 msgid "Death of Dulatus"
@@ -719,7 +719,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:843
 #: The_Earths_Gut/scenarios/17_Return.cfg:221
 #: The_Earths_Gut/scenarios/19_Prison.cfg:242
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1308
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1312
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:370
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:2030
 msgid "Death of Aiglathing"
@@ -1546,7 +1546,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:50
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:184
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1129
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1298
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1302
 #: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:68
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:2019
 msgid "Final Objectives:"
@@ -1700,7 +1700,7 @@ msgstr ""
 #. [message]: speaker=unit
 #. spoken by the executioner:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1043
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1097
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1101
 msgid "So be it."
 msgstr ""
 
@@ -2376,82 +2376,87 @@ msgstr ""
 msgid "side 4 still has $s4_units.length unit(s) left"
 msgstr ""
 
+#. [message]: speaker=troll_outpost_leader
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1526
+msgid "Argh, these undead have gotten peskier as of late!"
+msgstr ""
+
 #. [message]: speaker=narrator
 #. string splicing here:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1519
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1546
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:302
 msgid "Hint:"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1519
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1546
 msgid ""
 "\n"
 "After a following scenario, you will only be allowed to keep in your recall list at maximum"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1521
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1548
 msgid ""
 "\n"
 "in addition to Krolock. Remaining available Trolls, Troll Warriors, Boulderlobbers or Rocklobbers can be Troll Whelps, remaining Troll Fire Wizards, Troll Shamans, Troll Frost Wizards or Ice Trolls can be Apprentice Shamans (if there are enough). Remaining Troll Whelps can't be transferred to Apprentice Shamans or vice versa. You will be able to choose the units that stay."
 msgstr ""
 
 #. [unit]: type=TEG Troll Shaman, id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1544
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1571
 msgid "Tunnel Guard"
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1556
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1583
 msgid "Thank you, friends."
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1560
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1587
 msgid "The tunnel in the southwest of this base leads to a former dwarvish settlement, as far as I can tell."
 msgstr ""
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1564
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1591
 msgid "Wait a moment, these are the dwarves that saved your life? Our patrol told me about that."
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1568
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1595
 msgid "Yes. They-"
 msgstr ""
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1572
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1599
 msgid "Then you all take the way to the northwest; the leader of our tribe wants to know the dwarves who saved his son's life."
 msgstr ""
 
 #. [message]: id=Krolock
 #. this is the last breath of the troll outpost leader:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1619
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1646
 msgid "Uncle, noooo!"
 msgstr ""
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1623
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1650
 msgid "Arghhh..."
 msgstr ""
 
 #. [message]: id=Dulatus
 #. this is Krolock's last breath:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1638
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1665
 msgid "Our last chance to get out is destroyed..."
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1642
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1669
 msgid "Anyway, let's return to my home."
 msgstr ""
 
 #. [message]: id=Pelcatlus
 #. "His friends" = the other dwarves; "Him" = Dulatus:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1665
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1692
 msgid "His friends will never see him again..."
 msgstr ""
 
@@ -4992,7 +4997,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:650
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:1113
 #: The_Earths_Gut/scenarios/19_Prison.cfg:246
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1312
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1316
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:380
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:2039
 msgid "Death of Elara"
@@ -7347,251 +7352,251 @@ msgstr ""
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/19_Prison.cfg:795
+#: The_Earths_Gut/scenarios/19_Prison.cfg:799
 msgid "killing the first contact dwarf."
 msgstr ""
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/19_Prison.cfg:811
+#: The_Earths_Gut/scenarios/19_Prison.cfg:815
 msgid "the dwarf leader being killed."
 msgstr ""
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/19_Prison.cfg:823
+#: The_Earths_Gut/scenarios/19_Prison.cfg:827
 msgid "getting the key."
 msgstr ""
 
 #. [message]: id=first_contact
 #. speaker = masked dwarf; male:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:895
+#: The_Earths_Gut/scenarios/19_Prison.cfg:899
 msgid "What...? Alarm! There are still dwarves here!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/19_Prison.cfg:905
+#: The_Earths_Gut/scenarios/19_Prison.cfg:909
 msgid "What's this? A dwarf hiding his face? How deep have you fallen to do that? Show us your face and name!"
 msgstr ""
 
 #. [message]: id=first_contact
-#: The_Earths_Gut/scenarios/19_Prison.cfg:909
+#: The_Earths_Gut/scenarios/19_Prison.cfg:913
 msgid "My... name? ...it does not matter any more..."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/19_Prison.cfg:913
+#: The_Earths_Gut/scenarios/19_Prison.cfg:917
 msgid "Where do you come from?"
 msgstr ""
 
 #. [message]: id=first_contact
-#: The_Earths_Gut/scenarios/19_Prison.cfg:917
+#: The_Earths_Gut/scenarios/19_Prison.cfg:921
 msgid "(<i>keeps quiet</i>)"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/19_Prison.cfg:921
+#: The_Earths_Gut/scenarios/19_Prison.cfg:925
 msgid "Overcome that traitor to loosen his tongue!"
 msgstr ""
 
 #. [event]
-#: The_Earths_Gut/scenarios/19_Prison.cfg:933
+#: The_Earths_Gut/scenarios/19_Prison.cfg:937
 msgid "Glamdurus"
 msgstr ""
 
 #. [message]: speaker=unit
 #. this is the first masked dwarf's last breath:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:942
+#: The_Earths_Gut/scenarios/19_Prison.cfg:946
 msgid "Ohhh..."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/19_Prison.cfg:946
+#: The_Earths_Gut/scenarios/19_Prison.cfg:950
 msgid "No, that can't be! Glamdurus, I know you, you were one of my bravest fighters..."
 msgstr ""
 
 #. [message]: speaker=unit
 #. first masked dwarf's (Glamdurus's) last breath, continued:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:951
+#: The_Earths_Gut/scenarios/19_Prison.cfg:955
 msgid "Thank you for freeing... me..."
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. this is the unit that killed him speaking:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:960
+#: The_Earths_Gut/scenarios/19_Prison.cfg:964
 msgid "Did you see the poor dwarf's face? What must have been done to him..."
 msgstr ""
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/19_Prison.cfg:964
+#: The_Earths_Gut/scenarios/19_Prison.cfg:968
 msgid "It seems that our enemies torture their captives to break their will until they turn against us... I didn't know it was even possible to break a dwarf's will. We must find out whether we can save the remaining ones. We'd better be both quiet and fast."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/19_Prison.cfg:984
+#: The_Earths_Gut/scenarios/19_Prison.cfg:988
 msgid "This gate is firmly closed and looks massive. There is obviously no way for us to cut down this heavy gate, fortified with metal armor. There is a lock on it however."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/19_Prison.cfg:997
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1001
 msgid "Let me see whether I can open the lock on this heavy gate with my key..."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1002
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1006
 msgid "Click!"
 msgstr ""
 
 #. [message]: speaker=unit
 #. "things" = the item being discussed:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1017
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1021
 msgid "Why do they let things lie around here?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1021
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1025
 msgid "They've probably not expected to see us again, and so deep in their territory..."
 msgstr ""
 
 #. [message]: role=key_room_door_guard
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1041
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1045
 msgid "Alarm! We're being invaded! Call the guards!"
 msgstr ""
 
 #. [message]: speaker=unit
 #. spoken by the executioner:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1063
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1067
 msgid "You there, you come with me!"
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. spoken by the unit being led away to be executed:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1072
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1076
 msgid "Hmpf, no! Uff, no! Hmpf, hmpf, grrr! Blasted pack of bones!"
 msgstr ""
 
 #. [message]: speaker=unit
 #. spoken by the executioner:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1080
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1084
 msgid "This is your last chance to surrender and join us."
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. spoken by the unit to be executed:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1091
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1095
 msgid "%$|%|(=*?#~ !!! (<i>tries to escape</i>) I'd rather die!"
 msgstr ""
 
 #. [message]: speaker=unit
 #. spoken by the executioner:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1104
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1108
 msgid "There... I can hear them. They are coming. They are coming to get you. They won't find you, nobody's gonna find you, YOU ARE MINE!"
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. represents noises made by the unit being executed:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1110
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1114
 msgid "%$|%|(=*?#~ !!!"
 msgstr ""
 
 #. [message]: id=executioner
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1122
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1126
 msgid "What a stubborn fool."
 msgstr ""
 
 #. [message]
 #. speaker = any side 7 unit; this is after a wooden floor door has just been destroyed:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1146
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1150
 msgid "Thanks for freeing me."
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. "this" = a Sea Serpent:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1180
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1184
 msgid "Was this their pet?"
 msgstr ""
 
 #. [message]: id=Ro'Boreth
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1206
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1210
 msgid "What?! We are under attack?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1224
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1228
 msgid "We should really make haste now to surprise the prison guards when finally freeing our kinsmen... but due to all this noise which we make..."
 msgstr ""
 
 #. [message]: id=Hamel
 #. extra warning on EASY difficulty:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1234
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1238
 msgid "No, but really, we should hurry... we have no idea what might happen to our imprisoned comrades if we let them stay imprisoned much longer!"
 msgstr ""
 
 #. [message]: id=Ro'Boreth
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1257
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1261
 msgid "I think I heard something... I can sense nearby enemies..."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1261
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1265
 msgid "Blast! We must have been too slow, or they noticed all this noise we made..."
 msgstr ""
 
 #. [message]: id=Ro'Boreth
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1274
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1278
 msgid "Quick! Finish off those dwarves!"
 msgstr ""
 
 #. [message]: id=executioner
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1285
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1289
 msgid "Didn't we want to convert them all?"
 msgstr ""
 
 #. [message]: id=Ro'Boreth
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1289
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1293
 msgid "It was very hard to make the others join our cause, there is no point in continuing. These remaining ones are simply way too stubborn."
 msgstr ""
 
 #. [message]: id=executioner
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1293
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1297
 msgid "Well, as you command, then."
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1300
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1304
 msgid "Save Dulatus from being executed."
 msgstr ""
 
 #. [objectives]
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1323
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1327
 msgid "The turn limit will technically stay infinite."
 msgstr ""
 
 #. [objectives]
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1323
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1327
 msgid ""
 "\n"
 "Execution stops only once that the executioner is dead."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1374
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1378
 msgid "Thank god you have arrived in time!"
 msgstr ""
 
 #. [role_message]: type=scout
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1387
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1391
 msgid "We're done here."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1391
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1395
 msgid "This was certainly not their main camp, there were too few here... let's hope that the liches capable of creating the portals don't notice we're back too soon..."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. "They" = the dwarves:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1404
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1408
 msgid "They freed the rest of their kinsmen and turned around back to the main hall."
 msgstr ""
 
