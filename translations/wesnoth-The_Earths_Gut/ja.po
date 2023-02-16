@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-02-14 03:55 UTC\n"
-"PO-Revision-Date: 2023-01-02 18:29+0900\n"
+"PO-Revision-Date: 2023-02-16 18:00+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -29,19 +29,6 @@ msgstr "地球の奥底"
 #. an example of how it would be put together would be:
 #. "Requires BfW 1.16.0 or greater."
 #: The_Earths_Gut/dist/name_icon_description.cfg:7
-#, fuzzy
-#| msgid ""
-#| "It is 515YW and you are Hamel, a young dwarven leader. Your tribe resides "
-#| "in the Knalga caverns near the Dwarven Doors and is constantly under "
-#| "threat of attack. Resources are also becoming scarce in your area, so you "
-#| "must guide your people on a quest for more minerals. With the new "
-#| "minerals you will be able to forge new weapons and armor to push back "
-#| "your enemies.\n"
-#| "The campaign focuses on 'dwarvish dungeon crawling', and the developer "
-#| "intention is to make it playable for newbies on easy while also keeping "
-#| "it challenging for experienced players on hard. (Beginner level, 22 "
-#| "scenarios (unfinished))\n"
-#| "Requires BfW "
 msgid ""
 "It is 515YW and you are Hamel, a young dwarven leader. Your tribe resides in "
 "the Knalga caverns near the Dwarven Doors and is constantly under threat of "
@@ -60,8 +47,8 @@ msgstr ""
 "入手できれば新しい鎧や武器の鍛造が可能になり、敵対者を撃退できるようになるの"
 "です。\n"
 "このキャンペーンはドワーフ流のダンジョン巡りに焦点が当たっていて、初心者でも"
-"熟練者でも楽しめるように、というのが開発者の意図です。（初心者向け 22シナリオ"
-"（未完）\n"
+"熟練者でも楽しめるように、というのが開発者の意図です。（初心者向け 23シナリオ"
+"（未完ですが、もう少しで完成します）\n"
 "以下のBfWが必要です。 "
 
 #: The_Earths_Gut/dist/name_icon_description.cfg:9
@@ -72,6 +59,10 @@ msgid ""
 "Former working title: 'Dwarven Kingdom' (which is now the title of a "
 "separate campaign by Ashmyr/Myrian)."
 msgstr ""
+" 又は、それ以降。”Thursaganの槌” がインストールされている必要があります（標準"
+"付属の公式キャンペーンですので、削除等を行なっていない限りは大丈夫です）。\n"
+"旧タイトル： 'Dwarven Kingdom'（現在は Ashmyr/Myrian 氏によって別キャンペーン"
+"になっています）"
 
 #. [terrain_type]: id=stone-bridge-s-n
 #. [terrain_type]: id=stone-bridge-sw-ne
@@ -87,12 +78,12 @@ msgstr "[unused]; 石橋"
 #. deprecated; don't bother translating:
 #: The_Earths_Gut/utils/deprecated/deprecated.cfg:144
 msgid "Max HP bonus +"
-msgstr "最大HPの追加 +"
+msgstr "HPの追加 +"
 
 #. [advancement]: id=tough_{HP_ADVANCE_NUMBER}
 #: The_Earths_Gut/utils/deprecated/deprecated.cfg:144
 msgid ", MAX XP +25%"
-msgstr "最大XP +25%"
+msgstr "XP +25%"
 
 #. [message]: speaker=narrator
 #. This message probably won't ever be seen, since 'The Hammer of Thursagan' is part of mainline:
@@ -388,8 +379,6 @@ msgstr "敵船撃沈"
 msgid "<span foreground='red'>instasunken</span>"
 msgstr "<span foreground='red'>撃沈成功</span>"
 
-# [ja personal memo] a message when dwarf is positioned to a allies' 'reserved' village.
-# [ja personal memo] (Village can't belong to dwarves' side,but they can use to heal themselves.)
 #. [message]: speaker=narrator
 #. message from RESERVE_HEAL_LOCATIONS macro for when a "reserved" village is moved to;
 #. it doesn't look like it always coincides with the unit actually leaving the village though?
@@ -464,27 +453,27 @@ msgstr ""
 #. [advancement]: id=teg_amla_heal_full
 #: The_Earths_Gut/utils/amla.cfg:14
 msgid "max hitpoints +0, max experience +0%; heal full, unpoison, unslow"
-msgstr "最大HP +0、最大XP +0%、全回復、無毒化、遅化解除"
+msgstr "HP +0、XP +0%、全回復、無毒化、遅化解除"
 
 #. [advancement]: id=teg_amla_default
 #: The_Earths_Gut/utils/amla.cfg:42
 msgid "max hitpoints +3, max experience +5%; no heal, unpoison or unslow"
-msgstr "最大HP +3、最大XP +5%、無毒化、遅化解除（、回復なし）"
+msgstr "HP +3、XP +5%、無毒化、遅化解除（、回復なし）"
 
 #. [advancement]: id=teg_amla_battle_axe
 #: The_Earths_Gut/utils/amla.cfg:63
 msgid "max experience +15%; axe +1 damage"
-msgstr "最大XP +15%、斧攻撃ダメージ +1"
+msgstr "XP +15%、斧攻撃ダメージ +1"
 
 #. [advancement]: id=teg_amla_hammer
 #: The_Earths_Gut/utils/amla.cfg:81
 msgid "max experience +20%; hammer +1 damage"
-msgstr "最大XP +20%、槌攻撃ダメージ +1"
+msgstr "XP +20%、槌攻撃ダメージ +1"
 
 #. [advancement]: id=teg_amla_hatchet
 #: The_Earths_Gut/utils/amla.cfg:99
 msgid "max experience +20%; hatchet +1 damage"
-msgstr "最大XP +20%、手斧攻撃ダメージ +1"
+msgstr "XP +20%、手斧攻撃ダメージ +1"
 
 #. [advancement]: id=teg_amla_movement
 #. [advancement]: id=teg_amla_magic_resistance
@@ -501,12 +490,12 @@ msgstr "最大XP +20%、手斧攻撃ダメージ +1"
 #: The_Earths_Gut/utils/amla.cfg:323 The_Earths_Gut/utils/amla.cfg:342
 #: The_Earths_Gut/utils/amla.cfg:361
 msgid "max experience +"
-msgstr "最大XP +"
+msgstr "XP +"
 
 #. [advancement]: id=teg_amla_movement
 #: The_Earths_Gut/utils/amla.cfg:118
 msgid "%; train skillfulness further: max moves +1"
-msgstr "%、熟練度向上、最大MP +1"
+msgstr "%、熟練度向上、MP +1"
 
 #. [advancement]: id=teg_amla_magic_resistance
 #: The_Earths_Gut/utils/amla.cfg:135
@@ -522,19 +511,19 @@ msgstr "%、剣・打撃・刺突の耐性 +10%"
 #. [advancement]: id=teg_amla_spear
 #: The_Earths_Gut/utils/amla.cfg:179
 msgid "max experience +15%; spear +1 damage"
-msgstr "最大XP +15%、槍攻撃ダメージ +1"
+msgstr "XP +15%、槍攻撃ダメージ +1"
 
 #. [advancement]: id=teg_amla_javelin
 #: The_Earths_Gut/utils/amla.cfg:197
 msgid "max experience +20%; javelin +1 damage"
-msgstr "最大XP +20%、投げ槍攻撃ダメージ +1"
+msgstr "XP +20%、投げ槍攻撃ダメージ +1"
 
 #. [advancement]: id=teg_amla_evasion
 #: The_Earths_Gut/utils/amla.cfg:215
 msgid ""
 "max experience +30%; train skillfulness: +10% defense on flat, forest, "
 "village, castle and fungus"
-msgstr "最大XP +30%、熟練度向上、平地・森・村・城・キノコでの回避能力 +10%"
+msgstr "XP +30%、熟練度向上、平地・森・村・城・キノコでの回避能力 +10%"
 
 #. [resistance]: id=extra_steadfast
 #: The_Earths_Gut/utils/amla.cfg:243
@@ -549,7 +538,7 @@ msgstr "超装甲"
 #. [resistance]: id=extra_steadfast
 #: The_Earths_Gut/utils/amla.cfg:245
 msgid "This unit's resistances are doubled, up to a maximum of "
-msgstr "このユニットの耐性は倍増します。防御時に最大で "
+msgstr "このユニットの耐性は倍増します。防御時にで "
 
 #. [resistance]: id=extra_steadfast
 #: The_Earths_Gut/utils/amla.cfg:245
@@ -559,7 +548,7 @@ msgstr "% まで倍増します。弱点には影響がありません。"
 #. [advancement]: id=teg_amla_extra_steadfast
 #: The_Earths_Gut/utils/amla.cfg:256
 msgid "%; improve steadfast ability: max resistances 60% when defending"
-msgstr "%、装甲能力の向上、防御時の最大耐性 60%"
+msgstr "%、装甲能力の向上、防御時の耐性 60%"
 
 #. [advancement]: id=teg_amla_chainmace
 #: The_Earths_Gut/utils/amla.cfg:304
@@ -596,7 +585,7 @@ msgstr "あなた！あーーっ！"
 
 #: The_Earths_Gut/utils/dialogue.cfg:23
 msgid "$cRacialTrollsToTake[0].number Trolls or Troll Warriors"
-msgstr "$cRacialTrollsToTake[0].number 体のトロルまたはトロルの戦士"
+msgstr "・$cRacialTrollsToTake[0].number 体のトロル、又はトロルの戦士"
 
 #: The_Earths_Gut/utils/dialogue.cfg:23
 msgid ""
@@ -604,7 +593,7 @@ msgid ""
 "$cRacialTrollsToTake[1].number Rocklobbers or Boulderlobbers"
 msgstr ""
 "\n"
-"$cRacialTrollsToTake[1].number 体の投石手または大投石手"
+"・$cRacialTrollsToTake[1].number 体の投石手、又は大投石手"
 
 #: The_Earths_Gut/utils/dialogue.cfg:24
 msgid ""
@@ -612,7 +601,7 @@ msgid ""
 "$cRacialTrollsToTake[2].number Troll Fire Wizards or Troll Shamans and"
 msgstr ""
 "\n"
-"$cRacialTrollsToTake[2].number 体のトロルの火炎使いまたはトロルの呪術師と"
+"・$cRacialTrollsToTake[2].number 体のトロルの火炎使い、又はトロルの呪術師と"
 
 #: The_Earths_Gut/utils/dialogue.cfg:25
 msgid ""
@@ -620,7 +609,7 @@ msgid ""
 "$cRacialTrollsToTake[3].number Troll Frost Wizards or Ice Trolls"
 msgstr ""
 "\n"
-"$cRacialTrollsToTake[3].number 体のトロルの冷気使いまたは冷気トロル"
+"・$cRacialTrollsToTake[3].number 体のトロルの冷気使い、又は冷気トロル"
 
 #. [set_menu_item]: id=unload
 #: The_Earths_Gut/utils/units.cfg:284
@@ -849,7 +838,6 @@ msgstr ""
 " か、それ以降のものを使用してください。あるいは、このキャンペーンの古いバー"
 "ジョンを探してみてください。"
 
-# [ja personal memo] A label for occupied village by elves
 #. [lua]: wml_actions.ai_controller_place_reserved_labels
 #: The_Earths_Gut/lua/ai_controller.lua:434
 msgid "<span color='#%s'>reserved</span>"
@@ -912,21 +900,17 @@ msgstr ""
 msgid "Advanced Dwarvish Steelclad"
 msgstr "ドワーフの上級装甲歩兵"
 
-# [ja] "Advanced Dwarvish Steelclabs" may be a better description than "advanced fighters".
 #. [unit_type]: id=Advanced Dwarvish Steelclad
 #. describe the unit here rather than using its exact unit type:
 #: The_Earths_Gut/units/dwarves/Advanced_Steelclad.cfg:15
-#, fuzzy
-#| msgid ""
-#| "These advanced and well-armored fighting dwarves are already skilled at "
-#| "using hatchets, much earlier than other dwarves are."
 msgid ""
 "These advanced and well-armored fighting dwarves are already skilled at "
 "using hatchets, much earlier (and to a greater extent) than other dwarves "
 "are."
 msgstr ""
 "このドワーフの上級装甲歩兵（ Advanced Dwarvish Steelclad ）は、既に手斧の扱い"
-"に熟達しています。その熟達の早さは他のドワーフの比ではありません。"
+"に熟達しています。その熟達の早さ（及び、強さ）は他のドワーフの比ではありませ"
+"ん。"
 
 #. [attack]: type=blade
 #: The_Earths_Gut/units/dwarves/Advanced_Steelclad.cfg:30
@@ -1361,13 +1345,6 @@ msgstr "死の男爵"
 
 #. [unit_type]: id=Death Baron, race=undead
 #: The_Earths_Gut/units/undead/Death_Baron.cfg:43
-#, fuzzy
-#| msgid ""
-#| "Sometimes the mightiest warriors and generals come back to this world as "
-#| "Death Knights, cursed with hatred and angst. Death Barons serve them "
-#| "while gathering enough unholy power to become Death Knights themselves. "
-#| "In the process they inherit a good portion of the Knight's power, "
-#| "including the ability to command underlings."
 msgid ""
 "Sometimes the mightiest warriors and generals, cursed with hate and angst, "
 "come back to this world as Death Knights. Death Barons serve them whilst "
@@ -1376,9 +1353,9 @@ msgid ""
 "ability to easily and effectively command underlings."
 msgstr ""
 "時折、かつての最強の戦士や将軍たちが憎しみや苦悩に呪われ、この世に死の騎士と"
-"して戻ってくることがあります。死の男爵（ Death Baron ）は彼らに仕えながら邪悪"
-"な力を増大させ、死の騎士となります。その中で、指揮能力を含む、騎士の大部分の"
-"力が受け継がれます。"
+"して戻ってくることがあります。死の男爵（ Death Baron ）は彼らに仕えるあいだ、"
+"主人と同レベルとなるために邪悪な力を蓄積させていきます。その過程で、容易かつ"
+"効果的に指揮するなどの、騎士の能力を身につけていくのです。"
 
 #. [attack]: type=pierce
 #: The_Earths_Gut/units/undead/Death_Baron.cfg:58
@@ -1564,18 +1541,14 @@ msgstr "探検しよう！"
 
 #. [note]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:226
-#, fuzzy
-#| msgid ""
-#| "Hint: Instead of spending all your gold on recruiting or recalling units, "
-#| "you may want to keep a minimum of $i_Fee| gold pieces available in this "
-#| "scenario."
 msgid ""
 "Hint: Instead of immediately spending all your gold on recruiting/recalling "
 "units, you may want to keep a minimum of $i_Fee| gold pieces available for "
 "the first few turns of this scenario."
 msgstr ""
-"ヒント：このシナリオではユニットの召喚に gold を全て消費せずに、最低でも "
-"$i_Fee gold を確保しておきましょう。"
+"ヒント：このシナリオではユニットの雇用・召喚に gold の全てをすぐには消費せず"
+"に、最低でも $i_Fee gold を確保しておき、シナリオ開始後の数ターンで使用できる"
+"ようにしましょう。"
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:311
@@ -1743,16 +1716,12 @@ msgstr "お前ら全員、食らうのは、俺たちの冷たい鋼鉄の斧だ
 #. "radiance" should cover both "fire" and "light", since Clarissa has 2 separate
 #. advancement paths that she can take (Red Mage or White Mage):
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:589
-#, fuzzy
-#| msgid ""
-#| "And the wrathful fire of my spells, which even the fastest foe cannot "
-#| "avoid!"
 msgid ""
 "And the wrathful radiance of my spells, which even the fastest foe cannot "
 "avoid!"
 msgstr ""
-"それに、私のこの怒りの炎に満ちた呪文から逃れることなんか、どんなに素早い者で"
-"もできないわ！"
+"それに、私のこの怒りに満ちた呪文の炎や光から逃れることなんか、どんなに素早い"
+"者でもできないわ！"
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:614
@@ -2051,7 +2020,7 @@ msgstr "モンスターも山賊もいなくなった、好きな方の道を選
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1035
 msgid "Shall we travel over the mountains, or explore the cave?"
-msgstr "山道を越えて旅する、または、洞窟を探検する、どちらにしますか？"
+msgstr "山道を越えて旅する、又は、洞窟を探検する、どちらにしますか？"
 
 #. [option]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1037
@@ -2407,18 +2376,14 @@ msgstr "迷子"
 
 #. [part]
 #: The_Earths_Gut/scenarios/08_Lost.cfg:125
-#, fuzzy
-#| msgid ""
-#| "Hamel and his friends were lucky. The rest on their way to the main hall "
-#| "none wanted to fight them again. They took a break and made themselves "
-#| "familiar with the new surroundings."
 msgid ""
 "Hamel and his friends were lucky. For the rest of their way back to the main "
 "hall, no further enemies challenged them. Upon returning, they took a break "
 "and made themselves familiar with the new surroundings."
 msgstr ""
-"Hamel と友人たちは幸運でした。本堂へ向かう残りの道では、戦闘は起きなかったの"
-"です。Hamel たちは休憩を取り、新しい環境に馴染もうとしていました。"
+"Hamel と友人たちは幸運でした。本堂へと戻る残りの道では、もはや彼らに挑んでく"
+"る敵は皆無でした。帰着後に Hamel たちは休憩を取り、新しい環境に馴染もうとして"
+"いました。"
 
 #. [part]
 #: The_Earths_Gut/scenarios/08_Lost.cfg:129
@@ -2512,10 +2477,6 @@ msgstr ""
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:552
-#, fuzzy
-#| msgid ""
-#| "Anyway, it seems they left me here back or rather have been forced to do "
-#| "so."
 msgid ""
 "Anyway, it seems they left me back here, or rather, had no other choice but "
 "to do so."
@@ -2983,7 +2944,7 @@ msgstr "side 4 にはまだ $s4_units.length 体のユニットが残ってま�
 #. this line is said when an undead unit from side 4 attacks your allied troll leader:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1538
 msgid "Argh, these undead have gotten peskier as of late!"
-msgstr ""
+msgstr "しっかし、ここのところ、アンデッドが厄介になってきたもんだな！"
 
 #. [set_menu_item]: id=lost_help
 #. [set_menu_item]: id=ferry_crossing_help
@@ -2997,15 +2958,10 @@ msgstr "ヘルプ"
 #. string splicing here:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1571
 msgid "Troll recruitment hint:"
-msgstr ""
+msgstr "トロル雇用のヒント："
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1571
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "After a following scenario, you will only be allowed to keep in your "
-#| "recall list at maximum"
 msgid ""
 "\n"
 "After a following scenario, there will be an interlude scenario in which you "
@@ -3030,10 +2986,10 @@ msgid ""
 msgstr ""
 "\n"
 " Krolock はこの数には含まれません。その他のトロル、トロルの戦士、トロルの大投"
-"石手、または トロルの投石手はトロルの子供からなれます。他にトロルの火炎魔術"
-"師、トロルの呪術師、トロルの氷結魔術師、または 氷結トロルはトロルの見習い呪術"
-"師からなれます（もしも十分育成されれば）。残りのトロルの子供は見習い呪術師"
-"か、または、その逆にもなれません。どのユニットを残すか選択可能です。"
+"石手、又はトロルの投石手は、トロルの子供からなれます。他にトロルの火炎魔術"
+"師、トロルの呪術師、トロルの氷結魔術師、又は氷結トロルはトロルの見習い呪術師"
+"からなれます（もしも十分育成されれば）。残りのトロルの子供は見習い呪術師か、"
+"又は、その逆にもなれません。どのユニットを残すか選択可能です。"
 
 #. [unit]: type=TEG Troll Shaman, id=troll_outpost_leader
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1597
@@ -3128,16 +3084,12 @@ msgstr ""
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:91
-#, fuzzy
-#| msgid ""
-#| "(Recruit or recall these units, and then move them to ($cGoHere.x, "
-#| "$cGoHere.y).)"
 msgid ""
 "(Recruit or recall these units, and they'll be moved to ($cGoHere.x, "
 "$cGoHere.y), or move existing units there manually.)"
 msgstr ""
-"（これらのユニットを雇用または召喚して（$cGoHere.x, $cGoHere.y）に移動させ"
-"る）"
+"（これらのユニットを雇用又は召喚すると、（$cGoHere.x, $cGoHere.y）に移動しま"
+"す。又は、今いるユニットを手動で移動させてください。）"
 
 #. [objectives]
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:98
@@ -3164,22 +3116,16 @@ msgstr "私たち、まだ十分静かにしてるとは思うわよ。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:152
-#, fuzzy
-#| msgid ""
-#| "We should probably continue with this strategy. Now - we had agreed that "
-#| "we need to find out the fate of the Hammer of Thursagan. If our enemies "
-#| "possess this artifact, it might indeed grant them unimaginable powers. If "
-#| "we could retrieve it, it would seriously weaken them."
 msgid ""
 "We should probably continue with this strategy. Now - we had agreed that we "
 "need to find out about the fate of the Hammer of Thursagan. If our enemies "
 "possess this artifact, it might indeed grant them unimaginable powers. If we "
 "could retrieve it, it would seriously weaken them."
 msgstr ""
-"この作戦を続行しなければならん。今は... Thursagan の槌の行方を突き止める必要"
-"があるということで皆一致している。もし敵が所持しているなら、想像以上の力を敵"
-"に与えることになるかもしれない。我々が取り戻せれば、奴らを正に弱体化できるだ"
-"ろう。"
+"この作戦を続行しなければならん。今は... Thursagan の槌の行方について突き止め"
+"る必要があるということで皆一致している。もし敵が所持しているなら、想像以上の"
+"力を敵に与えることになるかもしれない。我々が取り戻せれば、奴らを正に弱体化で"
+"きるだろう。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:156
@@ -3297,21 +3243,16 @@ msgstr ""
 #. [message]: id=Hamel
 #. "That works for me" could also be "That is acceptable":
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:237
-#, fuzzy
-#| msgid ""
-#| "It is fine. Dulatus, you take command of the expedition, since you know "
-#| "the most about the possible fate of the hammer. You and Elara choose "
-#| "further followers to come with you until you have $nDulatusUnits in your "
-#| "group in all. Good luck. All others - into the battle!"
 msgid ""
 "That works for me. Dulatus, you take command of the expedition, since you "
 "know the most about the possible fate of the hammer. You and Elara choose "
 "further followers to come with you until you have $nDulatusUnits in your "
 "group in all. Good luck. All others - into the battle!"
 msgstr ""
-"それがいい。Dulatus 、遠征軍の指揮を執れ、槌の行方については、お前が一番詳し"
-"いからな。お前と Elara で、共に連れ立つメンバーの総数が $nDulatusUnits 人にな"
-"るよう、全員の中から選ぶんだ。幸運を祈るぞ。あとのものは全員、戦闘へ向かう！"
+"それがいいと思うぞ。Dulatus 、遠征軍の指揮を執れ、槌の行方については、お前が"
+"一番詳しいからな。お前と Elara で、共に連れ立つメンバーの総数が "
+"$nDulatusUnits 人になるよう、全員の中から選ぶんだ。幸運を祈るぞ。あとのものは"
+"全員、戦闘へ向かう！"
 
 #. [message]: id=20t_Elvish_messenger
 #. addressing Hamel:
@@ -3340,7 +3281,7 @@ msgstr ""
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:325
 msgid "That's $uDulatusUnits.length of $nDulatusUnits|."
-msgstr ""
+msgstr "これは $uDulatusUnits の $nDulatusUnits.length です。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:342
@@ -3354,12 +3295,6 @@ msgstr "協議"
 
 #. [part]
 #: The_Earths_Gut/scenarios/11t_Council.cfg:41
-#, fuzzy
-#| msgid ""
-#| "Overwhelmed by the impression to regain their lost friend, the group "
-#| "returned to the main hall. They told each other everything that had "
-#| "transpired during a real long dwarvish banquet. Both parties were amazed "
-#| "about how far they had progressed in making new alliances."
 msgid ""
 "Feeling overwhelmed by the revelation that they had regained their lost "
 "friend, the group returned to the main hall. They told each other everything "
@@ -3457,9 +3392,9 @@ msgid ""
 "leave these mines?"
 msgstr ""
 "あの深い洞窟には未発見の秘密が沢山あるし、この地の歴史に潜む未解決の疑問も然"
-"りだ。その名前は何なのか、または何だったのか、それにここで起きたことは何だっ"
-"たのか、つまり、ドワーフがエルフと離反して、これらの鉱床から離れることになっ"
-"た理由は何か？"
+"りだ。その名前は何なのか、又は何だったのか、それにここで起きたことは何だった"
+"のか、つまり、ドワーフがエルフと離反して、これらの鉱床から離れることになった"
+"理由は何か？"
 
 #. [message]: id=explorer_11t_Council
 #: The_Earths_Gut/scenarios/11t_Council.cfg:197
@@ -4087,7 +4022,6 @@ msgstr ""
 "そして槌は彼らが持ち去ったと。 Kal Kartha にまだあると言われていますから、そ"
 "うですよね！？"
 
-# [ja]  for everything --> for telling us everything ?
 #. [message]: id=Dulatus
 #. The third sentence is correct as it is; Dulatus's thanks are for the actual things that Kalenz has told, rather than for the act of telling.
 #. If it were reworded as "for telling us everything", that would have different implications which wouldn't necessarily be accurate, so leave it as it is now:
@@ -4343,7 +4277,6 @@ msgid ""
 msgstr ""
 "あなたの話も聞かせてもらおうかな。さあ、Hamel のところへ皆で戻るとするか。"
 
-# [ja] "as will"  --> or "as well" ?
 #. [message]: speaker=narrator
 #. there was a typo here previously; I think I've fixed it now, though:
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:879
@@ -4360,19 +4293,17 @@ msgstr ""
 #. [message]: speaker=second_unit
 #. speaker is a troll:
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:898
-#, fuzzy
-#| msgid "Hi there, we're some friends coming back and we have a big surprise."
 msgid ""
 "Hi there, we're some friends... of your friends... who are coming back, and "
 "have a big surprise."
 msgstr ""
-"やあどうも、我々はあなた方の友人です、戻ってきました。驚くような話があるんで"
-"すよ。"
+"やあどうも、我々は、ここに戻ってきたあなた方の友人...の友人だ。ビックリするよ"
+"うな話があるぞ。"
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:902
 msgid "...really? But you're a troll, though."
-msgstr ""
+msgstr "...友人の友人って...本当に？しかし、お前たち、トロルじゃないか。"
 
 #. [message]: speaker=second_unit
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:906
@@ -4380,6 +4311,8 @@ msgid ""
 "Look, it's a long story. We don't want to have to retell it to each of you. "
 "Can't you just trust us... please?"
 msgstr ""
+"まあ、話せば長い話で。一人ずつに説明して回るわけにもいかないし、我々を信じて"
+"もらえ...ないだろうか？"
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:910
@@ -4389,6 +4322,10 @@ msgid ""
 "by, but just be aware that we're keeping your eyes on you, and are ready to "
 "slay you if you turn out not to be the friends you claim to be."
 msgstr ""
+"さて、そうだな...いや、心から信頼できるというわけではないが、だからと言って、"
+"戦闘を始めねばならんわけでもない。ひとまず何も問わないことにするが、君らの行"
+"動には目を光らせておく。もしもさっきの言葉とは裏腹の行動を取ったなら、死ぬ覚"
+"悟をすることだな。"
 
 #. [message]: speaker=second_unit
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:914
@@ -4396,24 +4333,22 @@ msgid ""
 "That's fine; I'm sure you'll believe us once you see the surprise I was "
 "mentioning."
 msgstr ""
+"ああ、十分だ、さっき言った'ビックリすること'を見てもらえば、信じてもらえるは"
+"ずだ。"
 
 #. [message]: speaker=unit
 #. spoken distrustfully:
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:919
-#, fuzzy
-#| msgid "No. Anyway, we must go on now."
 msgid "Mhm. Anyways, move along now."
-msgstr "まあ、いいから、先に進まないと。"
+msgstr "まあ、とにかく、さっさと移動しよう。"
 
 #. [message]: speaker=second_unit
 #. speaker is any other side 1 unit who's not a troll:
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:926
-#, fuzzy
-#| msgid "Hi there, we're some friends coming back and we have a big surprise."
 msgid "Hi there, we're some friends coming back, and we have a big surprise."
 msgstr ""
-"やあどうも、我々はあなた方の友人です、戻ってきました。驚くような話があるんで"
-"すよ。"
+"やあどうも、我々はあなた方の友人です、戻ってきました。ビックリするような話が"
+"あるんですよ。"
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:930
@@ -4458,7 +4393,7 @@ msgstr "この、裏切り者め！ならばお前も、そいつらと一緒に
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:1025
 msgid "Ouch! The enemy attacks me, my reservists must join the fight!"
-msgstr "痛いなあ！敵が攻撃している、我が予備兵たちも戦闘に加われ！"
+msgstr "痛い！敵が攻撃している、我が予備兵たちも戦闘に加われ！"
 
 #. [message]: role=r_Speaker
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:1045
@@ -4540,14 +4475,13 @@ msgstr "トロルの集落"
 #. [trait]: id=gluttonous
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:421
 msgid "gluttonous"
-msgstr ""
+msgstr "gluttonous"
 
 #. [trait]: id=gluttonous
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:422
 msgid "This unit likes to eat a lot."
-msgstr ""
+msgstr "このユニットは大食いが趣味です。"
 
-# [ja] intententional  --> intentional?
 #. [message]: speaker=narrator
 #. debug message intended for players who might accidentally have turned it on:
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:539
@@ -4567,7 +4501,6 @@ msgstr ""
 msgid "Now we're there. Short way to the northwest lies my father's castle."
 msgstr "さあ、目的地に着いた。北西に少し行けば、僕の父さんの城があるんだ。"
 
-# [ja] even if it's a SE...  I'ii try not to worry about it to translate.
 #. [message]: id=eater
 #. odd formatting is to make clearer that this is a sound effect caused by the eater eating mushrooms;
 #. without formatting it'd be "*mampf mampf*":
@@ -4761,7 +4694,6 @@ msgstr "もう、俺は仲間のもとには戻れなくなった..."
 msgid "My son! Nooo!"
 msgstr "我が息子よ！ノー―！"
 
-# [ja] Sorry... Unfortunately, a pun Can't be made In Japanese in this case.
 #. [message]: speaker=advisor_shaman
 #. "rekt" is both an internet slang spelling of "wrecked" and a pun on the troll's name;
 #. it's okay if you can't preserve the pun in your language, though:
@@ -4913,16 +4845,12 @@ msgstr ""
 
 #. [message]: id=Kalenz
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:402
-#, fuzzy
-#| msgid ""
-#| "Ho, Bregalad. How are you? We're on our way back to Elensefar. These "
-#| "dwarves are our, the elves', friends. They won't harm you."
 msgid ""
 "Ho, Bregalad. How are you? We're on our way back to Elensefar. This dwarf is "
 "our, the elves', friend. He won't harm you."
 msgstr ""
 "おーい、Bregalad 。ご機嫌いかがかな。私たちは Elensefar へ戻る途中なのだ。こ"
-"のドワーフたちは、私たちの、エルフの友人なのだ。君たちを傷つけたりしない。"
+"のドワーフは、私たちの、エルフの友人なのだ。君たちを傷つけたりしない。"
 
 #. [message]: id=Bregalad
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:409
@@ -5036,7 +4964,6 @@ msgstr ""
 "的に”火と戦うことはできません。ゴブリンが略奪行為を行うと、火はまた広がりま"
 "す。"
 
-# [ja] rounds =  turns ?
 #. [message]: speaker=narrator
 #. TODO: I need to review this hint to ensure that the giant sequoia part is accurate:
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:505
@@ -5046,7 +4973,7 @@ msgid ""
 "forest needs to be a full turn without fire to regenerate after having "
 "burned in order to regain the full survivability."
 msgstr ""
-"普通の森（と、その中の火）は3ラウンド経過すると消え、巨大セコイアは更に "
+"普通の森（と、その中の火）は3ターン経過すると消え、巨大セコイアは更に "
 "$i_Delay ターンの間は生き残っています。全ての森は、完全に生存能力を回復するに"
 "は、燃えてから後に全く火のないターンが必要です。"
 
@@ -5276,13 +5203,12 @@ msgstr ""
 "シャー、なんてオ決ーマリの攻撃なんだ！イーツだって、ノーロマな戦法だな！アイ"
 "ツらは、俺たちがシーゴトが嫌いな理由を分かってない..."
 
-# [ja] "Devlings" could not be translated. Therefore, I assumed "devil" and translated it into Japanese.
 #. [scenario]: id=03_Breakthrough
 #. "devlings" is a diminutive for "devils" and is meant to be an insult for the side (most likely the dwarves) that have just killed Woomtshak;
 #. either of the "-kun" or "-chan" honorifics might work in Japanese; you could also try translating it as "imps" instead, too:
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:523
 msgid "Uaah! A thousand curses on you, puny devlings!"
-msgstr "ウワー！千の呪いが一遍に来やがる、ちっこい悪魔め！"
+msgstr "ウワー！千の呪いが一遍に来やがる、チビ悪魔め！"
 
 #. [scenario]: id=03_Breakthrough
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:525
@@ -5548,7 +5474,7 @@ msgstr "いろんな可能性を探ってみないと。"
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:126
 msgid "Find a way over (or past) the abyss!"
-msgstr "深淵を越える（または、迂回する）方法を見つけよう！"
+msgstr "深淵を越える（又は迂回する）方法を見つけよう！"
 
 #. [then]
 #. [else]
@@ -6591,18 +6517,16 @@ msgstr "[for debug]; Asheviere の新しい恋人の死."
 msgid "This is it! We're getting there!"
 msgstr "これで全部だ！さあ、行くぞ！"
 
-# [ja]???
 #. [message]: speaker=unit
 #. speaker = unit that has moved next to an enemy leader (or advisor):
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:548
 msgid "We have you now!"
 msgstr "よし、つかまえたぞ！"
 
-# [ja]???
 #. [message]: id=Asheviere's new Flame
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:570
 msgid "Hm, we've been fighting for awhile now, haven't we?"
-msgstr "ふむ、我々はしばらくのあいだ戦っていた、そうだろ？"
+msgstr "ふぅ、しばらく戦いが続いたな、そうだろ？"
 
 #. [message]: id=AshevieresNewFlameAdvisor
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:581
@@ -7068,7 +6992,8 @@ msgstr ""
 
 # [ja] bug report)：Elara( Hamel,too?) is not displayed.
 # [ja] At the previous scenario("Ferry_crossing"), when saving after disembarking, and reloading , the unit is not displayed.(nor in unit list)
-# [ja] So,I suspect some variables for a unit haven't kept in that scenario.
+# [ja] So,I suspect some variables for a unit have NOT kept in that scenario.
+# (see ID1256)
 #. [message]: id=Elara
 #. FIXME: possible bug here?
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:1211
@@ -7184,7 +7109,7 @@ msgstr "あ... 有難う、あれ？"
 #. [message]: speaker=second_unit
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:1433
 msgid "It appears that they have taken trolls as prisoners, too!"
-msgstr ""
+msgstr "奴ら、トロルまで捕虜にしたみたいだ！"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:1533
@@ -7278,7 +7203,6 @@ msgstr ""
 "ぬことが最善策だということを忘れないでください。そうすれば、皆さんの親族を悩"
 "ましている他の敵を、あっと言わせることができるでしょう。"
 
-# [ja personal memo] speaker=wose
 #. [message]: role=r_Speaker
 #. r_Speaker is a Wose:
 #: The_Earths_Gut/scenarios/17_Return.cfg:374
@@ -7305,7 +7229,7 @@ msgstr ""
 #. [message]: id=Eowariand
 #: The_Earths_Gut/scenarios/17_Return.cfg:383
 msgid "I promise you, they will all have a good time with us."
-msgstr "約束するよ、彼らは皆、私たちと一緒に良き時間を持てるだろう。"
+msgstr "約束するよ、彼らは皆、私たちと一緒に良き時間を過ごせることだろう。"
 
 #. [message]: role=r_Speaker
 #: The_Earths_Gut/scenarios/17_Return.cfg:387
@@ -7344,10 +7268,10 @@ msgid ""
 "“endless fog” if the player hadn't started this scenario with <b><i><u>DEBUG​"
 "MODE</u></i></b> on...)</small>"
 msgstr ""
-"[for debug]; 霧だ、どこまでも広がる霧... <small>（または、少なくとも “どこま"
-"でも広がる霧” が発生 <i><b>しているだろう。 </b></i>もしもプレイヤーがこのシ"
-"ナリオを <b><i><u>デバッグモード</u> </i></b> を ON にして開始していなかった"
-"ら...）</small>"
+"霧だ、どこまでも広がる霧... <small>（又は、少なくとも “どこまでも広がる霧” が"
+"発生 <i><b>しているだろう。 </b></i>もしもプレイヤーがこのシナリオを "
+"<b><i><u>デバッグモード</u></i></b> を ON にして開始していなかったら...）</"
+"small>"
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:204
@@ -7364,7 +7288,6 @@ msgstr "先行して偵察し、よさそうな道を探してみよう。"
 msgid "We must get across now, or we will be trapped in the snow!"
 msgstr "直ちに渡らなければ、雪の中に埋もれてしまう！"
 
-# [ja personal memo] speaker=Dulatus
 #. [event]
 #. string here is the "REASON" argument to the REGEN_RING_TO_DULATUS macro, so Dulatus is the speaker:
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:232
@@ -7374,7 +7297,7 @@ msgid ""
 "you, and use the ring to support myself."
 msgstr ""
 "この山々は非情に危険で、それに、雪の中で戦うのは困難だ。私の鎧のほうが頑丈だ"
-"し、ここでの経験もある。私が先行するよ、それと、その指輪を私に使わせてくれ。"
+"し、ここでの経験もある。私が先導するよ、それと、その指輪を私に使わせてくれ。"
 
 #. [role_message]: type=thunderer
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:272
@@ -7407,7 +7330,6 @@ msgstr ""
 "私はこっちにいるぞ、みんな！この川に沿って行くと、洞窟に辿り着く！だが、悪い"
 "ことに、川の流れは深い裂け目へと流れ込んでいるようだ。"
 
-# [ja personal memo] speaker= ... or  Hamel
 #. [role_message]: type=thunderer
 #. speaker is a thunderer, unless the player doesn't have any thunderers, in which case it's Hamel:
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:445
@@ -7611,6 +7533,9 @@ msgid ""
 "went, it is most likely because it is cleared when DEBUG_MODE is defined. "
 "Restart with debug mode turned off to have your carryover added."
 msgstr ""
+"前のシナリオから持ち越したはずの gold が無くなっているとしたら、おそらく "
+"DEBUG_MODE が定義されているときにクリアされたのが原因です。繰越 gold を反映さ"
+"せるには、debug mode をオフにしてから再度開始してください。"
 
 #. [message]: id=Delfador
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:800
@@ -7671,7 +7596,6 @@ msgstr ""
 "これは真実です。Konrad 殿、あなたの権限のもと、私はドワーフと共にそうした問題"
 "を調査するつもりです。"
 
-# [ja] "and ask for help"  .....  I think it is Hamel who needs help, but I could be wrong....
 #. [message]: id=Delfador
 #. both Konrad's party and Hamel's party need help here, so it's ok to leave it ambiguous as to which one of them specifically the help would be asked for:
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:831
@@ -7679,8 +7603,8 @@ msgid ""
 "Hamel suggests we should travel to Knalga and ask for help there, since his "
 "resources are all tied up, unfortunately."
 msgstr ""
-"Hamel の話では、我々に Knalga まで行き、支援の依頼をしてほしいと言うことなの"
-"だが、残念ながら、彼の物資は枯渇しているのだ。"
+"Hamel は、我々に Knalga まで行き、支援の依頼をすべきだとと言っているのだが、"
+"残念ながら、彼の物資は枯渇しているからなのだ。"
 
 #. [message]: id=Konrad
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:835
@@ -7820,7 +7744,7 @@ msgid ""
 "Okay. Hamel, Kalenz and I will now depart as inconspicuously as possible and "
 "join Konrad."
 msgstr ""
-"よし。Hamel とKalenz 、私の3人がなるべく目立たないようにここを離れて Konrad "
+"よし。Hamel と Kalenz 、私の3人がなるべく目立たないようにここを離れて Konrad "
 "と合流しよう。"
 
 #. [message]: id=Kalenz
@@ -7855,16 +7779,18 @@ msgid ""
 "We've got these orcs pretty well handled; the rest of you focus on escorting "
 "Konrad to safety!"
 msgstr ""
+"やったな。オークどもにうまく対処できたぞ、残りの君たちは Konrad を安全な場所"
+"に護衛することに専念してくれ！"
 
 #. [message]: speaker=Eragdush
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:1148
 msgid "Oh yeah? Think you have us handled, do you? We'll see about that!"
-msgstr ""
+msgstr "なんだと？オレたちに対処できたと思ってるって？それはこっちのセリフだ！"
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:1162
 msgid "...oh."
-msgstr ""
+msgstr "... うわぁ。"
 
 #. [message]: speaker=unit
 #. spoken by one of the human guards:
@@ -8025,7 +7951,7 @@ msgstr "壊されてバラバラに..."
 #. sound effect:
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:263
 msgid " *Bummmm*"
-msgstr " バン！"
+msgstr " <b>バン！</b>"
 
 #. [role_message]: type=alchemist
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:272
@@ -8561,8 +8487,8 @@ msgid ""
 "deal with or use to forge new weapons."
 msgstr ""
 "残念ですが、閣下、何も見つけられなかったことをご報告しなければなりません。"
-"我々が使用する、または新たな兵器を鍛造するに足る十分な鉱石や金、鉱物資源を新"
-"規に採掘できる場所は、どこにも。"
+"我々が使用する、又は新たな兵器を鍛造するに足る十分な鉱石や金、鉱物資源を新規"
+"に採掘できる場所は、どこにも。"
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:294
@@ -8919,17 +8845,17 @@ msgstr "船以外の全てのユニットを、北東海岸の陸地に移動さ
 #. [objective]: condition=lose
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:190
 msgid "Death of Hamel or of a ship that's carrying him"
-msgstr "Hamel の死、または Hamel の乗った船の沈没"
+msgstr "Hamel の死、又は Hamel の乗った船の沈没"
 
 #. [objective]: condition=lose
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:194
 msgid "Death of Elara or of a ship that's carrying her"
-msgstr "Elara の死、または Elara の乗った船の沈没"
+msgstr "Elara の死、又は Elara の乗った船の沈没"
 
 #. [objective]: condition=lose
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:198
 msgid "A ship carrying Hamel or Elara is captured."
-msgstr "Hamel または Elara の乗った船が拿捕される。"
+msgstr "Hamel 又は Elara の乗った船が拿捕される。"
 
 #. [objectives]
 #. an extra hint for a player on EASY with DEBUG_MODE on:
@@ -9023,7 +8949,7 @@ msgstr "モンスターどもはどこにいる？"
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:302
 msgid "Recruitment hint:"
-msgstr ""
+msgstr "雇用のヒント："
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:302
@@ -9097,8 +9023,10 @@ msgstr "モンスターどもめ、毒をもった奴らをここに送り込ん
 msgid "Ooh... warn the queen, the rebels are getting tough..."
 msgstr "おぉ...女王様に警告してくれ、反乱軍が強くなっていく..."
 
-# [ja personal memo] bug repo (前に記述したものと同じ内容): unit が下船した状態を save して reload すると、下船したユニットが消えている。乗船直後に下船しても同じ状況になる。
-# [ja] bug report (same as the previous one):When a unit disembarked and saved, and then reloaded, the disembarked unit is gone.
+# [ja personal memo] bug repo (前に記述したものと同じ内容 see ID962 ): unit が下船した状態を save して reload すると、下船したユニットが消えている。乗船直後に下船しても同じ状況になる。
+# [ja] bug report (same as the previous one):
+# When a unit disembarked and saved, and reloaded
+#  -> the disembarked unit is gone.
 #. [message]: id=Hamel
 #. FIXME: possible bug here?
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:540
@@ -9261,7 +9189,7 @@ msgstr "もう少し自分も強ければ、できるかもしれない。"
 msgid ""
 "If I manage to get a whole lot stronger really quickly, then I might be able "
 "to do it, too."
-msgstr "もう少し私も総合的に強くなれれば、できるかもしれないな。"
+msgstr "もう少し私も全体的に強くなれれば、できるかもしれないな。"
 
 #. [message]: speaker=Aiglathing
 #. Aiglathing is speaking to $magical_unit here, which is (most likely) either Clarissa or Celylia
@@ -9271,25 +9199,25 @@ msgid ""
 "Unfortunately I think you will be the only one who will be able to do so; if "
 "only we had someone else who could help..."
 msgstr ""
+"残念だけど、やれるのは君しかいないみたいだ。誰か他に助けてくれる人がいればよ"
+"かったんだけど..."
 
 #. [message]: speaker=Dulatus
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:576
-#, fuzzy
-#| msgid "Calm down, Aiglathing!"
 msgid "Can't you do it, Aiglathing?"
-msgstr "冷静になれ、Aiglathing ！"
+msgstr "おい、Aiglathing、お前はできないのか？"
 
 #. [message]: speaker=Aiglathing
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:580
 msgid "No, I think only the magic of a human or elf would work here..."
-msgstr ""
+msgstr "いやあ、ここじゃ、人間かエルフの魔術しか役に立たないと思うんだけど..."
 
 #. [message]: role=magical_unit
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:586
 msgid ""
 "This fog doesn't seem natural to me, too... it's as if it's made by evil "
 "magic..."
-msgstr "この霧は不自然な気がするんだが... まるで黒魔術でできてるような..."
+msgstr "この霧は、たしかに不自然な気がする... まるで黒魔術でできてるような..."
 
 #. [message]: speaker=Aiglathing
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:592
@@ -9305,7 +9233,7 @@ msgstr ""
 #. [message]: type=Elvish Druid,Elvish Sorceress,Red Mage,White Mage,Elvish Shaman,Mage
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:607
 msgid "Ahem."
-msgstr ""
+msgstr "（咳払い）ウ、ウン..."
 
 #. [message]: speaker=Aiglathing
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:611
@@ -9314,11 +9242,14 @@ msgid ""
 "magic users from other races! Don't worry, though, you ought to be able to "
 "help if you get stronger!"
 msgstr ""
+"おっと、こりゃあ失礼。ほかの種族の、<b><i> もうちょっと強力な </i></b>魔術使"
+"いのことを考えてただけさ！ でもまあ、心配いらないよ、君だって、もう少し強くな"
+"れば、力になれるって！"
 
 #. [message]: type=Elvish Druid,Elvish Sorceress,Red Mage,White Mage,Elvish Shaman,Mage
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:618
 msgid "Grrr..."
-msgstr ""
+msgstr "ウーゥ..."
 
 #. [message]: speaker=Aiglathing
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:629
@@ -9334,7 +9265,7 @@ msgid ""
 "This scenario is designed to shrink your gold and army - at least on the "
 "harder difficulties. Don't be surprised if you lose some valuable units."
 msgstr ""
-"このシナリオは、gold と軍隊を削るような設計になっています（少なくとも難易度が"
+"このシナリオは、gold と軍隊を消耗させる設計になっています（少なくとも難易度が"
 "高い場合）。強いユニットを失ってもがっかりしないでくださいね。"
 
 #. [message]: speaker=unit
@@ -9343,6 +9274,8 @@ msgid ""
 "My magic is now closer to being strong enough to break the foul enchantments "
 "causing the monoliths to act as spawn points or portals for the undead."
 msgstr ""
+"私の魔術は今、モノリスをアンデッドの出入り口や発生場所にさせている腐敗した魔"
+"術を打ち破るのための、十分な強さを持ちつつある。"
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:668
@@ -9350,6 +9283,8 @@ msgid ""
 "My magic should now be strong enough to break the foul enchantments causing "
 "the monoliths to act as spawn points or portals for the undead!"
 msgstr ""
+"私の魔術は、モノリスをアンデッドの出入り口や発生場所にさせている腐敗した魔術"
+"を打ち破るのための、十分な強さがあるに違いない！"
 
 #. [message]: id=Clarissa
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:710
@@ -9545,7 +9480,6 @@ msgstr ""
 "Hamel 、忌まわしきものと戦うには更に魔術が必要だ。Alduin アカデミーは遠いが、"
 "エルフなら助けてくれるかもしれん。"
 
-# [ja personal memo] Gomating = member's name
 #. [message]: id=Hamel
 #. "Gomating" = name of dwarf that Hamel is calling for:
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:968
@@ -9756,7 +9690,7 @@ msgstr "回復薬"
 #. [object]
 #: The_Earths_Gut/scenarios/19_Prison.cfg:596
 msgid "This potion increases the consumer's maximum hitpoints by $nHPamt|."
-msgstr "このポーションは、ユニットの最大HPを $nHPamt ポイント増加させます。"
+msgstr "このポーションは、ユニットのHPを $nHPamt ポイント増加させます。"
 
 #. [scenario]: id=19_Prison
 #. bonus in the last northeast chamber:
@@ -9786,7 +9720,7 @@ msgstr "知性の薬"
 #. [object]
 #: The_Earths_Gut/scenarios/19_Prison.cfg:641
 msgid "This potion decreases the consumer's maximum experience by 5%."
-msgstr "このポーションは、ユニットの最大XPを５%減少させます。"
+msgstr "このポーションは、ユニットのXPを５%減少させます。"
 
 #. [scenario]: id=19_Prison
 #: The_Earths_Gut/scenarios/19_Prison.cfg:656
@@ -10231,10 +10165,8 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:271
-#, fuzzy
-#| msgid "There is a secret passage behind this wall!"
 msgid "There are bats in these villages!"
-msgstr "この壁の向こうに秘密の通路がある！"
+msgstr "ここらの村にはコウモリどもがいる！"
 
 #. [message]: id=Boomtshak
 #. Boomtshak's last breath:
@@ -10412,8 +10344,8 @@ msgstr "[for debug]; side-7 他のコウモリに 更に gold を与える。"
 msgid ""
 "Side 7 already has enough gold: $s7gold (or they already have another bat)."
 msgstr ""
-"[for debug]; side-7 既に十分に gold を持っている：$s7gold（または十分なコウモ"
-"リがいる）。"
+"[for debug]; side-7 既に十分に gold を持っている：$s7gold（又は十分なコウモリ"
+"がいる）。"
 
 #. [message]: speaker=second_unit
 #. "giant spider" is lowercased because the unit is just describing it, not referring to its unit type:
