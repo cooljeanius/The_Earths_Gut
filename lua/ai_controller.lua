@@ -99,7 +99,7 @@ local function calc_position_danger(side, x, y)
 					if (wesnoth.game_config.debug) then
 						if #reach_units > 0 then
 							wesnoth.log("debug", "removing " .. tostring(#reach_units), false)
-							if toplevel then dbms(reach_units[i], "removing") end
+							if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms(reach_units[i], "removing") end
 						end
 					end
 					table.remove(reach_units, i)
@@ -116,7 +116,7 @@ local function calc_position_danger(side, x, y)
 			local u = reach_units[#reach_units]
 			if (wesnoth.game_config.debug) then
 				wesnoth.log("debug", "processing: " .. u.unit.name, false)
-				if toplevel then dbms("processing: " .. u.unit.name) end
+				if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms("processing: " .. u.unit.name) end
 			end
 			assert(#u >= 1)
 			local hex
@@ -126,7 +126,7 @@ local function calc_position_danger(side, x, y)
 				if (wesnoth.game_config.debug) then
 					if (#u > 0) then
 						wesnoth.log("debug", "number of u: " .. tostring(#u), false)
-						if toplevel then dbms(u) end
+						if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms(u) end
 					end
 					wesnoth.log("debug", "entering multi-hex case", false)
 				end
@@ -147,7 +147,7 @@ local function calc_position_danger(side, x, y)
 					reach_unit = { unit = reach_unit.unit, level = reach_unit.level, loc }
 					if (wesnoth.game_config.debug) then
 						wesnoth.log("debug", "reach_unit", false)
-						if toplevel then dbms(reach_unit) end
+						if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms(reach_unit) end
 					end
 					reach_units[#reach_units] = reach_unit
 					assert(#reach_units[#reach_units] == 1)
@@ -155,7 +155,7 @@ local function calc_position_danger(side, x, y)
 						if (i > 0) then
 							if (#u > 0) then
 								wesnoth.log("debug", "checking case " .. tostring(i) .. " for you.", false)
-								if toplevel then
+								if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then
 									dbms("checking case " .. tostring(i) .. " for " .. dbms(u, true, false, true, false, true))
 								else
 									wesnoth.log("debug", tostring(#u) .. ".", false)
@@ -164,7 +164,7 @@ local function calc_position_danger(side, x, y)
 						end
 						if (#reach_units > 0) then
 							wesnoth.log("debug", "which units are reachable?", false)
-							if toplevel then
+							if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then
 								dbms(dbms(reach_units, true, "reach_units", true, false, true))
 							else
 								wesnoth.log("debug", tostring(#reach_units) .. " of them", false)
@@ -174,10 +174,10 @@ local function calc_position_danger(side, x, y)
 					adjacent = distribute_units(reach_units, adjacent)
 					local danger = calc_danger(adjacent)
 					if (wesnoth.game_config.debug) then
-						if toplevel then dbms(adjacent, true, "resulting adjacent") end
+						if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms(adjacent, true, "resulting adjacent") end
 						if (danger > 0) then
 							wesnoth.log("debug", "danger: " .. tostring(danger), false)
-							if toplevel then dbms(danger, true, "resulting danger") end
+							if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms(danger, true, "resulting danger") end
 						end
 					end
 					if danger > best_danger then
@@ -187,34 +187,34 @@ local function calc_position_danger(side, x, y)
 				end
 				hex = best_hex
 				if (wesnoth.game_config.debug) then
-					if toplevel then dbms(adjacent, true, "chosen adjacent") end
+					if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms(adjacent, true, "chosen adjacent") end
 					if (#reach_units > 0) then
 						wesnoth.log("debug", "reach_units: " .. tostring(#reach_units), false)
-						if toplevel then dbms(reach_units) end
+						if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms(reach_units) end
 					end
 				end
 			end
 			if (wesnoth.game_config.debug) then
 				wesnoth.log("debug", "adjacent", false)
-				if toplevel then dbms(adjacent) end
+				if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms(adjacent) end
 			end
 			local previous = adjacent:get(hex[1], hex[2])
 			if (wesnoth.game_config.debug) then
 				wesnoth.log("debug", "previous", false)
-				if toplevel then dbms(previous) end
+				if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms(previous) end
 			end
 			if type(previous) == "table" then
 				assert(previous.level >= u.level)
 				table.remove(reach_units)
 				if (wesnoth.game_config.debug) then
 					wesnoth.log("debug", "discarding: " .. previous.unit.name, false)
-					if toplevel then dbms("discarding: " .. previous.unit.name) end
+					if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms("discarding: " .. previous.unit.name) end
 				end
 			else
 				if (wesnoth.game_config.debug) then
 					if (#u > 0) then
 						wesnoth.log("debug", "inserting: " .. u.unit.name .. "; number of u: " .. tostring(#u), false)
-						if toplevel then dbms("inserting:" .. u.unit.name) end
+						if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms("inserting:" .. u.unit.name) end
 					end
 				end
 				adjacent:insert(hex[1], hex[2], u)
@@ -222,7 +222,7 @@ local function calc_position_danger(side, x, y)
 				if (wesnoth.game_config.debug) then
 					if (#reach_units > 1) then
 						wesnoth.log("debug", "reach_units: " .. tostring(#reach_units), false)
-						if toplevel then dbms(reach_units) end
+						if (toplevel and wesnoth.game_config.debug_lua and wesnoth.user_can_invoke_commands) then dbms(reach_units) end
 					end
 				end
 				remove_used_up_hexes_and_units_accordingly_to_hexes(reach_units, hex)
