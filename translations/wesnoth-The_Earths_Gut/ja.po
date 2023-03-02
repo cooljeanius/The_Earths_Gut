@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-02-14 03:55 UTC\n"
-"PO-Revision-Date: 2023-02-16 18:06+0900\n"
+"PO-Revision-Date: 2023-03-02 20:36+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. can be some other form of poetic/figurative speaking that makes more sense in your language:
 #: The_Earths_Gut/dist/name_icon_description.cfg:2 The_Earths_Gut/_main.cfg:102
 msgid "The Earth's Gut"
-msgstr "地球の奥底"
+msgstr "地球のはらわた"
 
 #. this description string is broken in two by interpolation of the required version;
 #. an example of how it would be put together would be:
@@ -2167,8 +2167,8 @@ msgid ""
 "in fact the Hammer of Thursagan, the two of them decided to bring it to "
 "Relgorn."
 msgstr ""
-"Dulatus の取り返したものが 真のThusagan の槌であることを Hamel が確認した後、"
-"二人は Relgorn の許へ持っていくことに決めました。"
+"Dulatus の取り返したものが 真の Thusagan の槌であることを Hamel が確認した"
+"後、二人は Relgorn の許へ持っていくことに決めました。"
 
 #. [side]: type=Dwarvish Lord, id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:49
@@ -2310,8 +2310,8 @@ msgid ""
 "All right, now that I'm in command... well, let's assemble all my forces "
 "first to hear my first decree!"
 msgstr ""
-"よし、私が指揮を執ることになったぞ...よし、まずは全軍隊を集合させて、一番最初"
-"の命令をきかせよう！"
+"よし、私が指揮を執ることになったぞ...よし、まずは全軍隊を集結させて、一番最初"
+"の命令を下そう！"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:497
@@ -2321,7 +2321,7 @@ msgid ""
 "that hammer!"
 msgstr ""
 "よし、みな、集まったな...　最初の命令はこれだ、Thursagan の書物を見つけよ。あ"
-"の槌を使うためのルーンの知恵が書かれている！"
+"の槌を使うために必要な、ルーンの知恵が書き綴られている！"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:519
@@ -2349,7 +2349,7 @@ msgid ""
 "until 534 YW, when he became involved in the events portrayed in the "
 "campaign 'Northern Rebirth'."
 msgstr ""
-"その後数年間は、Hamel の Knalga 統治は比較的平穏に続きましたが、Wesnoth 暦 "
+"その後の数年間、 Hamel の Knalga 統治は比較的平穏に続きましたが、Wesnoth 暦 "
 "534年、キャンペーン「北部の再興」に描かれている出来事に、彼は巻き込まれること"
 "になるのです。"
 
@@ -2361,8 +2361,8 @@ msgid ""
 "And thus ends the tale of Hamel's journey into the gut of the earth at Kal "
 "Torlat, and his ascension to Lord of Knalga."
 msgstr ""
-"Hamel が、Kal Kartha での地球のはらわたへと向かう旅に始まり、 Knalga の領主と"
-"なるまでの物語は、こうして終わりを迎えるのでした。"
+"Hamel が、Kal Kartha での \"地球のはらわた\" へと向かう旅に始まり、 Knalga の"
+"領主となるまでの物語は、こうして終わりを迎えるのでした。"
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/08_Lost.cfg:71
@@ -2388,7 +2388,7 @@ msgstr ""
 #. [part]
 #: The_Earths_Gut/scenarios/08_Lost.cfg:129
 msgid "The story continues now with someone from the past..."
-msgstr "物語は今、過去のある人物と共に続いていきます。"
+msgstr "物語は今、過去のあの人物と共に続いていきます。"
 
 #. [message]: speaker=narrator
 #. this is Dulatus speaking, but the player isn't supposed to know that yet:
@@ -2588,8 +2588,8 @@ msgid ""
 "There's a river running into the cave, it washed me down once ago... you may "
 "have noticed it."
 msgstr ""
-"洞窟に流れ込んでる川があって、以前、ドンブラドンブラと流されたんだが... 知っ"
-"てるかもしれんが。"
+"洞窟に流れ込んでる川があって、以前、ドンブラコ ドンブラコと流されたんだが... "
+"あんたも知ってるかもしれんが。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:808
@@ -2630,8 +2630,8 @@ msgid ""
 "Yes, your weapons cannot be good enough as they are if you want to survive "
 "here."
 msgstr ""
-"ああ有るよ。ここで生き残っていくには、あんたの武器は、そのままじゃ心もとない"
-"な。"
+"ああ、有るよ。ここで生き残っていくには、あんたの武器は、そのままじゃ心もとな"
+"いな。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:850
@@ -2878,8 +2878,8 @@ msgid ""
 "Well, then... you help Krolock to get back to our outpost in the west, then "
 "we'll see what we do with you."
 msgstr ""
-"それで... Krolock を助け出し、この西の前哨基地まで連れ戻してくれたと、で、今"
-"後の行動について考えないとな。"
+"それで... Krolock を助け出し、この西の前哨基地まで連れ戻してくれたと。よし、"
+"今後の行動について考えないとな。"
 
 #. [message]: id=patrol_troll_shaman
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1270
@@ -2960,6 +2960,10 @@ msgstr "ヘルプ"
 msgid "Troll recruitment hint:"
 msgstr "トロル雇用のヒント："
 
+# 0.5.1の次期公開版用のセリフ。
+# 現行は
+# ”\n
+# After a following scenario, you will only be allowed to keep in your recall list at maximum”
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1571
 msgid ""
@@ -2970,9 +2974,6 @@ msgstr ""
 "\n"
 "以降のシナリオ終了時では、召喚リストには以下の数までしか保存されません"
 
-# [ja personal memo] 2、3文目の英文が少しおかしいかも。
-# [ja personal memo] トロルの子供になれる ー＞ トロルの子供からなれる。越えた数の分は元に戻る。という意味なら分かるが実際には違う。
-# [ja personal memo] 最後の部分も、おそらく、英文では意味が間違っている。（独英翻訳時のミスか。）
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1573
 msgid ""
@@ -2986,10 +2987,11 @@ msgid ""
 msgstr ""
 "\n"
 " Krolock はこの数には含まれません。その他のトロル、トロルの戦士、トロルの大投"
-"石手、又はトロルの投石手は、トロルの子供からなれます。他にトロルの火炎魔術"
-"師、トロルの呪術師、トロルの氷結魔術師、又は氷結トロルはトロルの見習い呪術師"
-"からなれます（もしも十分育成されれば）。残りのトロルの子供は見習い呪術師か、"
-"又は、その逆にもなれません。どのユニットを残すか選択可能です。"
+"石手、又はトロルの投石手は、トロルの子供になることができます。他にトロルの火"
+"炎魔術師、トロルの呪術師、トロルの氷結魔術師、又は氷結トロルはトロルの見習い"
+"呪術師になることができます（もしも十分育成されれば）。残りのトロルの子供が見"
+"習い呪術師になったり、又は、その逆にもなれません。どのユニットを残すか選択可"
+"能です。"
 
 #. [unit]: type=TEG Troll Shaman, id=troll_outpost_leader
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1597
@@ -3144,12 +3146,12 @@ msgid ""
 "we can just store the Hammer in a chest without actually using it."
 msgstr ""
 "ああ、それも見つけないと。彼が二つを一緒に保管していたかどうかは怪しいけど"
-"な。もしも槌だけしか見つからないなら、槌は使用せずに、箱に閉まっとけばいい。"
+"な。もしも槌だけしか見つからないなら、槌は使用せずに、箱に入れとけばいい。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:164
 msgid "Ah, it sounds like you have a plan!"
-msgstr "あぁ、何か計画してるのか！"
+msgstr "おっ、何か計画してるのか！"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:168
@@ -3236,9 +3238,9 @@ msgid ""
 "minions. Personally, I'm more interested in the hammer, and my spell attacks "
 "are not that useful against human soldiers."
 msgstr ""
-"槌の追跡は、少人数の目立たない遠征軍で継続するのはどうかしら？牢獄ではその方"
-"法で成功したわ。残り全員で Asheviere の軍と戦えばいい。私はというと、個人的に"
-"槌に関心があるし、私の呪文の攻撃は、人間の兵士にはあまり効かないのよ。"
+"槌の追跡は、少人数の目立たない遠征軍で継続するっていうのはどうかしら？牢獄で"
+"はその方法で成功したわ。残り全員で Asheviere の軍と戦えばいい。私はというと、"
+"個人的に槌に関心があるし、私の呪文の攻撃は人間の兵士にはあまり効かないのよ。"
 
 #. [message]: id=Hamel
 #. "That works for me" could also be "That is acceptable":
@@ -3337,9 +3339,9 @@ msgid ""
 "expeditions into the surrounding mines reveal only small or weak enemies if "
 "there are any. Also, we could find new deposits."
 msgstr ""
-"私の知る限りでは、ここは今のところは安全だろう。周囲の鉱床を調査してみて、居"
-"たとしても、せいぜい弱小な敵しかいないことが分かった。それに、新たな鉱脈が見"
-"つかるかもしれない。"
+"私の知る限りでは、ここは今のところは安全だろう。周囲の鉱床を調査してみたとこ"
+"ろ、もし居たとしても、せいぜい弱小な敵しかいないことが判明した。それに、新た"
+"な鉱脈が見つかるかもしれない。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/11t_Council.cfg:168
@@ -3375,8 +3377,8 @@ msgid ""
 "Yes, depending on Relgorn's situation he may need our help now. I will send "
 "a caravan with new weapons and amour to support him."
 msgstr ""
-"ああ、Regorn 卿の状況によっては、今すぐにも助けに行く必要があるだろうな。新し"
-"い武器と鎧を携えて旅団を送り込もう。"
+"ああ、Relgorn 卿の状況によっては、今すぐにも助けに行く必要があるだろうな。新"
+"しい武器と鎧を携えて旅団を送り込もう。"
 
 #. [message]: id=Pelcatlus
 #: The_Earths_Gut/scenarios/11t_Council.cfg:189
@@ -3392,14 +3394,14 @@ msgid ""
 "leave these mines?"
 msgstr ""
 "あの深い洞窟には未発見の秘密が沢山あるし、この地の歴史に潜む未解決の疑問も然"
-"りだ。その名前は何なのか、又は何だったのか、それにここで起きたことは何だった"
-"のか、つまり、ドワーフがエルフと離反して、これらの鉱床から離れることになった"
-"理由は何か？"
+"りだ。その名前は何なのか、又は何だったのか、それから、ここで起きたことは何"
+"だったのか、つまり、ドワーフがエルフから離反して、これらの鉱床から離れること"
+"になった理由は何なのか？"
 
 #. [message]: id=explorer_11t_Council
 #: The_Earths_Gut/scenarios/11t_Council.cfg:197
 msgid "Do the trolls know anything about this subject?"
-msgstr "この件について、トロルはなにか知っているのでは？"
+msgstr "その件について、トロルはなにか知っているのでは？"
 
 #. [message]: id=Krolock
 #: The_Earths_Gut/scenarios/11t_Council.cfg:206
@@ -3446,8 +3448,8 @@ msgstr ""
 msgid ""
 "These ancient dwarves may be responsible for the undead's presence, I fear..."
 msgstr ""
-"この古代のドワーフたちはアンデッドの存在に責任があるのかもしれない、残念だけ"
-"ど..."
+"この古代のドワーフたちはアンデッドの存在に関与しているのかもしれない、残念だ"
+"けど..."
 
 #. [message]: id=Pelcatlus
 #: The_Earths_Gut/scenarios/11t_Council.cfg:230
@@ -3479,8 +3481,8 @@ msgid ""
 "enough caution, we will proceed in exploring these old dungeons then."
 msgstr ""
 "お、それなら、鉱床の中から敵に対抗するための防衛拠点ができたんだな。gold と兵"
-"力、エルフとトロルの援助、それに十分な警戒心を味方にして、我々はこれから、こ"
-"の古い地下牢の探索を開始するぞ。"
+"力、エルフとトロルの支援、それに十分な警戒心を味方にして、我々はこれからこの"
+"古い地下牢の探索を開始するぞ。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/11t_Council.cfg:274
@@ -3561,7 +3563,7 @@ msgid ""
 "that the elves consort with the rebels. But the humans do not yet dare to "
 "enter the forest, so we let them go."
 msgstr ""
-"それから、Wesmer の南西側の境界で、先頃、人間の斥候を目撃した。我々に向けて大"
+"それと、Wesmere の南西側の境界で、先頃、人間の斥候を目撃した。我々に向けて大"
 "進撃を計画しているのではないかと気になる。エルフが反乱軍に同調しているのはよ"
 "く知られている。しかし、人間たちはまだ、森に入ることを躊躇している。彼らに行"
 "かせてやろう。"
@@ -3573,9 +3575,9 @@ msgid ""
 "choice than to flee quickly and desperately. Asheviere had hired masses of "
 "orcs to eliminate us, so be warned."
 msgstr ""
-"Konrad と私が Aethenwood で逃走の旅を始めたときは、緊急かつ死物狂いで逃げ出す"
-"以外は無かった。Asheviere は、我々を抹殺するため多数のオークを雇ったが、これ"
-"は警戒すべきだ。"
+"Konrad と私が Aethenwood で逃走の旅を始めたとき、緊急かつ死物狂いで逃げ出す以"
+"外は無かった。Asheviere は、我々を抹殺するため多数のオークを雇ったが、これは"
+"警戒すべきだ。"
 
 #. [message]: id=Delfador
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:169
@@ -3599,8 +3601,8 @@ msgstr ""
 "朗報だ。昨年から、北の境界にある古いドワーフの鉱床に、住民が戻ってきた。ド"
 "ワーフの一団がやって来て、潜伏していた奴どもから奪還し、開放した。これは喜ぶ"
 "べきことと言える。ただ、彼らがここへ来た理由は、故郷 Knalga の洞窟への攻撃が"
-"激化したからだ、と言っていた。ドワーフたちは鎧の他にも更に多くの優れた武器の"
-"ため、採掘作業を必要としている。"
+"激化したからだ、と言っていた。ドワーフたちは鎧の他にも更に多くの優れた武器獲"
+"得のため、採掘作業を必要としている。"
 
 #. [message]: id=Kalenz
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:177
@@ -3658,7 +3660,7 @@ msgid ""
 "very heart of our forest. I thought I'd better ask before arresting him."
 msgstr ""
 "元帥閣下！お邪魔して申し訳ありませんが、ドワーフの斥候が、不遜にも我らが森の"
-"中心部まで入ってきました。拘束する前にお伺いを立てたほうが良いかと思いまし"
+"中心部まで入ってきました。拘束する前にお伺いを立てたほうがよいかと思いまし"
 "て。"
 
 #. [message]: id=Kalenz
@@ -3683,15 +3685,15 @@ msgid ""
 "We have rather finished the council anyway. They deserve to be here, after "
 "all that has happened."
 msgstr ""
-"ともかく、会議は終わりました。彼らがここにいるのはもっともなことです、そんな"
-"目に遭ったのですから。"
+"ともかく、会議は終わりました。彼らがここにいるのはもっともなことです、そのよ"
+"うな目に遭ったのですから。"
 
 #. [message]: id=13t_Elvish_conference_messenger
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:252
 msgid "Hello, uh, ladies and gentlemen, thank you for reception (<i>gasp</i>)."
 msgstr ""
 "こんにちは、あー、淑女と紳士の皆さん、接見していただき有難うございます。（<i>"
-"アグゥ...</i>）"
+"ハァハァとあえぎながら </i>）"
 
 #. [message]: id=13t_Elvish_conference_messenger
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:259
@@ -3728,7 +3730,7 @@ msgstr ""
 #. [message]: id=Kalenz
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:283
 msgid "Do you know what that mine system where you're living now is?"
-msgstr "あなた方が今住んでいる鉱山全体で、何が起きてるか分かりますか？"
+msgstr "あなた方が今住んでいる鉱山全体で、何が起きているか分かりますか？"
 
 #. [message]: id=13t_Elvish_conference_messenger
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:287
@@ -3857,7 +3859,7 @@ msgid ""
 msgstr ""
 "どうか、力を貸して欲しい。現在、反乱軍の主体はエルフなのだ。それだと、地下で"
 "の戦いは不利だから、ドワーフの助けが必要なのだよ、笏を奪還して、Konrad を正統"
-"なる戴冠者とするために。それはとても困難だろう、時間も掛かるだろうし、生き残"
+"なる戴冠者とするために。非常に困難なことだろう。時間も掛かるだろうし、生き残"
 "れない者もいるだろう。しかし、Wesnoth 王国の運命はこれに掛かっているといって"
 "も過言ではないのだ。"
 
@@ -3867,7 +3869,8 @@ msgid ""
 "In exchange for your services, we will grant you help with your current "
 "problem."
 msgstr ""
-"支援してもらえれば、対価として、あなた方の現在の問題を手助けしましょう。"
+"支援してもらえれば、対価として、あなた方の現在の問題解決の手助けをしましょ"
+"う。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:377
@@ -3893,13 +3896,14 @@ msgid ""
 "Back to your problem. The dwarvish name for the mines you're referring to "
 "was Kal Torlat. It-"
 msgstr ""
-"あなたの問題を持ち帰ってみてください。あなた方の話している鉱床は、ドワーフ名"
-"では Kal Torlat ですよね。その ―"
+"話をあなた方の問題に戻そう。いま話している鉱床は、ドワーフ名では Kal Torlat "
+"ですよね。その ―"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:389
 msgid "Indeed!? No... yes... I feared it... I knew it..."
-msgstr "え、本当に！？違う...そうだ... 恐れていたことが... そうだったのか..."
+msgstr ""
+"え、本当に！？違う...いや、そうだ... 恐れていたことが... そうだったのか..."
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:393
@@ -3926,11 +3930,11 @@ msgid ""
 "together with the Hammer of its maker, Thursagan. Delfador and I are now "
 "going to retrieve the Sceptre after all this time."
 msgstr ""
-"私が若かりし頃に、Wesnoth に新しく着いた人間の王 Haldric は、炎のルビーという"
-"工芸品を所持していました。ドワーフはそれを彼のために細工をして、炎の笏に組み"
-"込んだのです。当時、エルフの内戦が激化しており、私と敵対する一派の攻撃によっ"
+"私が若かりし頃、Wesnoth に新しく着いた人間の王 Haldric は、炎のルビーという工"
+"芸品を所持していました。ドワーフはそれを彼のために細工をして、炎の笏に組み込"
+"んだのです。当時、エルフの内戦が激化しており、私と敵対する一派の攻撃によっ"
 "て、鍛造したばかりの笏は行方不明となりました、Thursagan の槌と共に。そして今 "
-"Delfador と私は、ようやく笏を取り返そうとしているのです。"
+"Delfador と私は、ようやく笏を取り戻そうとしているのです。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:406
@@ -3958,7 +3962,7 @@ msgid ""
 msgstr ""
 "...ええ、Thursagan と殆どのルーン鍛冶の死と共に、ルーン鍛冶の知識は我らの一族"
 "からほぼ失われました。Thursagan の槌！伝説として語られてきた、それこそが、か"
-"つてドワーフが、岩から作り上げた工芸品なのです。"
+"つてドワーフが岩から作り上げた工芸品なのです。"
 
 #. [message]: id=Kalenz
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:418
@@ -3967,9 +3971,9 @@ msgid ""
 "with Wesmere elves. But several decades after the death of Thursagan, as far "
 "as I know, someone among the dwarves had found the Hammer."
 msgstr ""
-"とにかく当時は、Kal Torlat のドワーフは Wesmere のエルフと至極平和に共存して"
-"いました。しかし、Thursagan の死から数十年後、私の知る限りですが、ドワーフの"
-"一人が槌を発見しました。"
+"とにかく、当時は Kal Torlat のドワーフは Wesmere のエルフと至極平和に共存して"
+"いました。しかし、Thursagan の死から数十年後、私の知る限りでは、ドワーフの一"
+"人が槌を発見しました。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:422
@@ -3978,9 +3982,9 @@ msgid ""
 "needed to use the Hammer correctly. Without the book, the Hammer is a "
 "dangerous artifact that can corrupt the bearer."
 msgstr ""
-"本も見つけたのだろうか？その槌を正しく使用するのに必要な、古きルーンの説明が"
-"書かれているんです。その書物なしには、槌は使い手を堕落させる危険な物となって"
-"しまう。"
+"本も見つけたのでしょうか？その槌を正しく使用するのに必要な、古きルーンの説明"
+"が書かれているんです。その書物なしには、槌は使い手を堕落させる危険な物となっ"
+"てしまう。"
 
 #. [message]: id=Kalenz
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:426
@@ -3993,12 +3997,12 @@ msgid ""
 "must have been awoken in the dark depths. That's all I can tell you about "
 "this subject."
 msgstr ""
-"知るところによると、槌だけでした。その頃、私は Lintanir の森で平穏に隠遁生活"
-"を送り、世間で起きていることには無関心でした。Kal Torlat のドワーフがその後に"
+"知るところによると、槌だけでした。当時、私は Lintanir の森で平穏に隠遁生活を"
+"送り、世間で起きていることには無関心でした。Kal Torlat のドワーフは、その後に"
 "何度か分裂しました。彼らの半数は他と対立していて、悪の側が勝利しました。その"
-"ドワーフの暗黒面全てがその時表面化したのです。深く貪欲なまでに掘削したこと"
-"で、古代の邪悪が闇の奥深くで呼び覚まされたに違いありません。この件で私が話せ"
-"るのはここまでです。"
+"ドワーフの暗黒面全てが、そのとき表面化したのです。深く貪欲なまでに掘削したこ"
+"とで、古代の邪悪が闇の奥深くで呼び覚まされたに違いありません。この件で私が話"
+"せるのはここまでです。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:430
@@ -4019,8 +4023,8 @@ msgid ""
 "And the Hammer must have gone with them, since it is said it is still in Kal "
 "Kartha!?"
 msgstr ""
-"そして槌は彼らが持ち去ったと。 Kal Kartha にまだあると言われていますから、そ"
-"うですよね！？"
+"そして槌は彼らが持ち去ったに違いない、と。 Kal Kartha にまだあると言われてい"
+"るし、そうだよな！？"
 
 #. [message]: id=Dulatus
 #. The third sentence is correct as it is; Dulatus's thanks are for the actual things that Kalenz has told, rather than for the act of telling.
@@ -4033,9 +4037,9 @@ msgid ""
 "us. Thank you Lord Kalenz, for everything you've told us."
 msgstr ""
 "その後の槌がどうなったかは明らかではない。どこかで静かに眠っているとすれば、 "
-"Kal Torlat 出身で堕落してしまった元ルーン鍛冶の手許にまだあるのかも、我々が取"
-"り戻さねばならない。我々を追っている悪の根源を排除するために。Kalenz 卿、すべ"
-"てをお話いただいたことに感謝します。"
+"Kal Torlat 出身で堕落してしまった元ルーン鍛冶の手許にまだあるのかも... 我々が"
+"取り戻さねばならない。我々を追っている悪の根源を排除するために。Kalenz 卿、い"
+"ろいろとお話いただいたことに感謝します。"
 
 #. [message]: id=Delfador
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:444
@@ -4044,9 +4048,9 @@ msgid ""
 "to the academy on the Isle of Alduin and have a lot of magi among us. "
 "Someone of you should come with me to acquire their help against the undead."
 msgstr ""
-"Kalenz と私はこれから、私と Konrad の軍のところへ戻ります。最近、Alduin 島の"
-"アカデミーに行ったのですが、多くの魔術師がいるのです。あなた達のどなたかも一"
-"緒に来てください、アンデッド対策の人材を確保できるでしょう。"
+"Kalenz と私はこれから、我が軍と Konrad 軍の待つところへ戻ります。最近、"
+"Alduin 島のアカデミーに行ったのですが、多くの魔術師がいるのです。あなた達のど"
+"なたかも一緒に来てください、アンデッド対策の人材を確保できるでしょう。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:448
@@ -4073,8 +4077,8 @@ msgid ""
 "fighter you need to spare."
 msgstr ""
 "ああ、分かってるよ... Dulatus よ、Kal Torlat の指揮権は君に譲るよ。君の使命"
-"は、私が戻るまでは君の地位を、何があっても守ることだ。全ての物資や人員を君の"
-"もとに残していくが、君の代わりとなれるのは私一人だからな。"
+"は、私が戻るまでは、何があっても君の地位を守ることだ。全ての物資や人員を君の"
+"もとに残していくから、君が心配するとしたら、私のことだけってわけさ。"
 
 #. [message]: id=Eowariand
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:460
@@ -4239,8 +4243,8 @@ msgid ""
 "Welcome friends... it is a long story which I have to tell. But what about "
 "you, how did you come here?"
 msgstr ""
-"ようこそ友たちよ... まあ、話せば長くなるけれどね。だが、お前たちこそ、ここに"
-"どうやって来たんだ？"
+"よく来てくれたな、友たちよ... まあ、話せば長くなるんだがね。だが、お前たちこ"
+"そ、ここにどうやって来たんだ？"
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:843
@@ -4512,8 +4516,8 @@ msgid ""
 "s><span color='BlanchedAlmond'>f</span><span color='LightCyan'>*</span></"
 "span>"
 msgstr ""
-"<span size='larger'><span color='LightCyan'>*</span><b>む</b><i>にゅ にゅ</"
-"i><u>む</u><sup>にゅ</sup><sub>にゅ..</sub> <big>む</big><small>にゅ</"
+"<span size='larger'><span color='LightCyan'>*</span><b>も</b><i>ぐ もぐ</"
+"i><u>む</u><sup>にゅ</sup><sub>にゅ..</sub> <big>も</big><small>ぐぐ</"
 "small><tt>む</tt><s>にゅ</s><span color='BlanchedAlmond'>にゅ..</span><span "
 "color='LightCyan'>*</span></span>"
 
@@ -4620,7 +4624,7 @@ msgid ""
 "You fought well, dwarf. I see that you deserve our friendship. What can I do "
 "to reward you?"
 msgstr ""
-"頑張りましたな、ドワーフさん。あなたの友情に応えたいけど、何がいいかな？"
+"頑張りましたな、ドワーフさん。あんたの友情に応えたいけど、何がいいかな？"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:868
@@ -4632,7 +4636,8 @@ msgstr "以前ドワーフの集落だったところに案内してくれない
 #. [message]: id=Krolck
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:872
 msgid "It is well. We'll do it, but we will not follow you to the dwarves."
-msgstr "ああ、そうしよう。ただ、案内はできるが、一緒に行くわけにはいかんのだ。"
+msgstr ""
+"ああ、いいとも。ただ、案内はできるが、俺たちが一緒に行くわけにはいかんのだ。"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:876
@@ -4653,9 +4658,9 @@ msgid ""
 "undead have a natural hate on everything that lives."
 msgstr ""
 "俺たちもよく分からんのだ...昔の話だが、最初は向こうから襲撃してきた。俺たちの"
-"再長齢の呪術師が憶えてるんだが、君達が来る前の最後のドワーフたちがこの洞窟か"
-"ら立ち去った頃だったらしい。最初は、隣の部族の中心部に近い前哨基地でアンデッ"
-"ドを見た。生きてるもの全てをとにかく嫌っているように見えたねえ。"
+"再長齢の呪術師が憶えてるんだが、あんた達が来る前の最後のドワーフたちがこの洞"
+"窟から立ち去った頃だったらしい。最初は、隣の部族の中心部に近い前哨基地でアン"
+"デッドを見た。生きてるもの全てをとにかく嫌っているように見えたねえ。"
 
 #. [message]: id=Krolck
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:884
@@ -4676,8 +4681,8 @@ msgid ""
 "Well... you're old enough, yes... but be careful, son, I don't wanna see you "
 "get harmed."
 msgstr ""
-"うーん...十分に大人だしな。いいだろう...だが気を付けろ、息子よ、怪我なんかし"
-"ないようにな。"
+"うーん...十分に大人だしな。いいだろう...だが気を付けるんだぞ、息子よ。怪我な"
+"んかしないようにな。"
 
 #. [message]: id=Krolock
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:913
@@ -4702,8 +4707,8 @@ msgid ""
 "Reck has been rekt! I guess this means we can redeploy our guards from this "
 "tunnel to other tunnels, now..."
 msgstr ""
-"Reck がボコボコにされた！つまり、他の坑道へ警護兵を配置しなけりゃいかん、とい"
-"うことだな..."
+"Reck がボコボコにされたぞ！つまり、他の坑道へ警護兵を配置し直せるってことだ"
+"な..."
 
 #. [message]: id=Kalenz
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:107
@@ -4850,7 +4855,7 @@ msgid ""
 "our, the elves', friend. He won't harm you."
 msgstr ""
 "おーい、Bregalad 。ご機嫌いかがかな。私たちは Elensefar へ戻る途中なのだ。こ"
-"のドワーフは、私たちの、エルフの友人なのだ。君たちを傷つけたりしない。"
+"のドワーフは私たちの、エルフの友人なのだ。君たちを傷つけたりしない。"
 
 #. [message]: id=Bregalad
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:409
@@ -5035,7 +5040,7 @@ msgstr "突破"
 #. [part]
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:44
 msgid "The small group hurried out of the caves, into blinding sunlight..."
-msgstr "小さな一行は洞窟を出て眩しい日差し中へと急いでいました..."
+msgstr "小さな一行は洞窟を出て眩しい日差しの中へと急いでいました..."
 
 #. [side]: type=Orcish Crossbowman, type=Orcish Slurbow, id=Woomtshak
 #. theme naming with "Boomtshak" from the previous scenario:
@@ -5060,7 +5065,7 @@ msgstr ""
 #. [objectives]
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:192
 msgid "Hint: There's an (important) bonus for defeating a single enemy leader."
-msgstr "ヒント：敵のリーダー一人を倒すと（重要な）ボーナスがあります。"
+msgstr "ヒント：敵のリーダーの一人を倒すと（重要な）ボーナスがあります。"
 
 #. [message]: id=Woomtshak
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:219
@@ -5078,8 +5083,8 @@ msgid ""
 "What's this? Dwarves running out of the caves! That can only mean you've "
 "killed my nephew Boomtshak! Prepare to die!"
 msgstr ""
-"何だ、こいつは？ドワーフが洞窟から逃げ出した！こりゃ、俺様の甥っ子 Boomshak "
-"を殺した野郎に違いない！首を洗って待っとけ！"
+"何だ、こいつは。ドワーフが洞窟から逃げ出したぞ！こりゃ、俺様の甥っ子 "
+"Boomshak を殺した野郎に違いない！首を洗って待っとけ！"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:233
@@ -6374,8 +6379,8 @@ msgid ""
 "I will give you some supplies for your journey, and I look forward to "
 "trading goods with you in the future."
 msgstr ""
-"旅に必要なものがあったら提供しますし、将来はいろいろな物品の取引も是非したい"
-"と思います。"
+"旅に必要なものがあったら提供しますし、将来は是非いろいろな物品の取引も致しま"
+"しょう。"
 
 #. [message]: id=Clarissa
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:725
@@ -6474,7 +6479,9 @@ msgstr "誰の寝言だ。 Weldyn へ帰るがよい。"
 msgid ""
 "It was a mistake to come here. The mage council rejected your request to "
 "protect you during this assault, Marshal. It is too dangerous."
-msgstr "ここへ来たのは間違いでした。"
+msgstr ""
+"ここへ来たのは間違いでした。この襲撃の間は大元帥殿を警護するよう要求したの"
+"に、それを魔術師評議会は拒否したのです。閣下、危険すぎます。"
 
 #. [message]: id=Asheviere's new Flame
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:429
@@ -6497,7 +6504,7 @@ msgid ""
 "and offset unit upkeep, however."
 msgstr ""
 "このシナリオでは、収入は一切得られません。ただ、村を使うことでユニットを治癒"
-"し、維持費を賄えます。"
+"し、維持費が賄えます。"
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
@@ -6987,8 +6994,8 @@ msgid ""
 "noticed it correctly in the heat of the battle, they were put in chains and "
 "forced to go with the undead."
 msgstr ""
-"まだここに隠れてる人たちもいるでしょうけど、多くは捕まってしまって。戦闘の最"
-"中だから確信はないけど、捕まった後は鎖に繋がれてアンデッドに強制連行された。"
+"まだここに隠れてる人たちもいるだろうけど、多くは捕まってしまって。戦闘の最中"
+"だから確信はないけど、捕まった後は鎖に繋がれてアンデッドに強制連行された。"
 
 # [ja] bug report)：Elara( Hamel,too?) is not displayed.
 # [ja] At the previous scenario("Ferry_crossing"), when saving after disembarking, and reloading , the unit is not displayed.(nor in unit list)
@@ -7454,12 +7461,12 @@ msgid ""
 "the humans. Let's retreat into the Gray Woods where our woses rule."
 msgstr ""
 "Konrad の一行はもうかなり離れてしまったことでしょう。Hamel 、我々は人間たちに"
-"は立ち向かえません。緋色の森に引き返しましょう、ウーズのお膝元です。"
+"は立ち向かえません。灰色の森に退却しましょう、ウーズのお膝元です。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:183
 msgid "All right. Back into the heavy forest, towards the north, everyone!"
-msgstr "そうしよう。重い森に引き返そう、北に舵を切って、さあ行くぞ！"
+msgstr "そうしよう。重厚な森に退却だ。北に舵を切って、さあ行くぞ！"
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:195
@@ -7562,8 +7569,8 @@ msgid ""
 "Delfador tells Konrad about the Sceptre of Fire and the elven council's "
 "conclusion that he has to find it."
 msgstr ""
-"Delfador は Konrad に、炎の笏と、その発見を決定したエルフの評議会に関して説明"
-"しました。"
+"Delfador は Konrad に、炎の笏とその探索を決定したエルフの評議会に関して説明し"
+"ました。"
 
 #. [message]: id=Kalenz
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:818
@@ -7584,7 +7591,7 @@ msgid ""
 msgstr ""
 "そうなんです。我々は古い鉱山に新たな集落を開きました。Wesmere の北の境界にあ"
 "る場所で、我々を排除しようとする大量のアンデッドと対峙しています。我々は "
-"Aldiun の魔術師の助けを求めています。あの、生なき者たちに対抗できるよう訓練さ"
+"Alduin の魔術師の助けを求めています。あの、生なき者たちに対抗できるよう訓練さ"
 "れた人材が欲しいのです。"
 
 #. [message]: id=Elara
@@ -7603,8 +7610,8 @@ msgid ""
 "Hamel suggests we should travel to Knalga and ask for help there, since his "
 "resources are all tied up, unfortunately."
 msgstr ""
-"Hamel は、我々に Knalga まで行き、支援の依頼をすべきだとと言っているのだが、"
-"残念ながら、彼の物資は枯渇しているからなのだ。"
+"Hamel は我々に Knalga まで行き、支援を依頼してみてはどうかと言っているのだ"
+"が、残念ながら、彼の物資が枯渇しているからなのだ。"
 
 #. [message]: id=Konrad
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:835
@@ -7690,8 +7697,9 @@ msgid ""
 "to you and help defend Konrad while he's passing by. We must all ensure his "
 "survival."
 msgstr ""
-"Hamel 、もう一つお願いがある。君たちの方に人間の注意を引き付けてほしい、"
-"Konrad が奴らのそばを通過する際の守りがほしいのだ。確実に守らねばならない。"
+"Hamel 、もう一つ頼みたいことがある。君たちの方に人間の注意を引き付けてほし"
+"い。Konrad が奴らのそばを通過する際の守りがほしいのだ。確実に守らねばならな"
+"い。"
 
 #. [message]: id=Kalenz
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:927
@@ -7771,7 +7779,7 @@ msgstr "お元気で。"
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:1105
 msgid "Resist for $i_TurnsToResist| turns!"
-msgstr "あと $i_TurnsToResist ターンの間、抵抗しよう！"
+msgstr "あと $i_TurnsToResist ターンの間、抗戦しよう！"
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:1138
@@ -8443,7 +8451,7 @@ msgid ""
 "Ah, Dulatus, welcome. Nay, I have not heard of them since last week now. I "
 "hope my beloved cousin Dumcatlos is well."
 msgstr ""
-"やあ、Dulatus 、よく来た。いな、先週からさっぱり音沙汰なしだ。可愛い甥の "
+"やあ、Dulatus 、よく来た。いな、先週からさっぱり音沙汰なしだ。可愛い従兄弟の "
 "Dumcatlos に何もなければよいが。"
 
 #. [message]: id=Hamel
@@ -9073,8 +9081,8 @@ msgid ""
 msgstr ""
 "Hamel と Dulatus は、彼らの鉱床の歴史に興味を持ち、耳にしたエルフの話を気にし"
 "ていました。Dulatus は、心の奥深くにしまい込んでいた伝説に関して、ぼんやりと"
-"暗いものを感じていました、この場所が一体何だったのか。ドワーフには新しい故郷"
-"の名称が必要でしたが、友人たちにはそのことを告げていませんでした。"
+"暗いものを感じていました。この場所は、かつて何だったのか。ドワーフには新しい"
+"故郷の名称が必要でしたが、友人たちにはそのことを告げていませんでした。"
 
 #. [part]
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:150
@@ -9083,9 +9091,9 @@ msgid ""
 "far away this time - and the fate of those ancient dwarves reached out its "
 "icy grip..."
 msgstr ""
-"そしてある日、Hamel 一行は更に深い鉱床探索を続けていました。今回は非常に離れ"
-"た場所にあり、この古代ドワーフの運命は、冷たい把手に手を伸ばそうとしていまし"
-"た..."
+"そうしたある日のこと、Hamel 一行は更に深い鉱床探索を続けていました。今回は非"
+"常に離れた場所にあり、この古代ドワーフの運命は、冷たい把手に手を伸ばそうとし"
+"ていました..."
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:199
@@ -9601,9 +9609,9 @@ msgid ""
 "had taken, just as easily as if it had been elven scouts reading traces in "
 "the forest."
 msgstr ""
-"ドワーフの斥候にとって、暗い坑道の地面がむき出しになっている箇所は、本のよう"
-"なものです。できたての小さな傷や砂利は、アンデッドが通った道を Hamel の一行に"
-"示してくれましたが、それは、エルフの斥候が森林で痕跡を読み取るのと同じでし"
+"ドワーフの斥候にとって、暗い坑道の地面がむき出しになっている箇所は、書物のよ"
+"うなものです。できたての小さな傷や砂利は、アンデッドが通った道を Hamel の一行"
+"に示してくれましたが、それは、エルフの斥候が森林で痕跡を読み取るのと同じでし"
 "た。"
 
 #. [part]
@@ -10091,7 +10099,7 @@ msgstr "Boomtshak を倒してから..."
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:74
 msgid "...move Hamel to the GO HERE icon!"
-msgstr "Hamel を目標ヘクス（赤い✕印）（北西の奥）まで移動させよう！"
+msgstr "Hamel を目標ヘクス（北西の奥、赤い✕印）まで移動させよう！"
 
 #. [side]: type=Orcish Warrior, id=Boomtshak
 #. theme naming with "Woomtshak" in the next scenario:
@@ -10424,6 +10432,7 @@ msgid ""
 "Wow, the heat has grown so strong that even the flames are coming alive here!"
 msgstr "おー、この熱さは、ここに炎が巻き起こるくらい強力になってきてるぞ！"
 
+# [ja] second_unit?  genderless
 #. [message]: speaker=second_unit
 #. speaker = side 1 unit that has seen the southwest Lich:
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1120
@@ -10431,8 +10440,8 @@ msgid ""
 "A lich that actually uses fire, instead of recoiling from it? What strange "
 "things one sees down here!"
 msgstr ""
-"リッチが火を扱いやがる、嫌がるんじゃなかったのか？ここでは奇妙なことが起きて"
-"るようだ！"
+"リッチが火を扱うなんて...、嫌がるんじゃなかったのか？ここでは奇妙なことが起き"
+"てるようだ！"
 
 #. [message]: speaker=second_unit
 #. speaker = side 1 unit that has killed the southwest Lich:
@@ -10601,6 +10610,7 @@ msgstr ""
 "おぅ、なんだか小さくて弱々しく見えるな...洞窟に長く居すぎて退化しちまったん"
 "じゃないか... うん、まあ、まだ何か役に立つだろう！"
 
+# [ja] In a genderless narrative.
 #. [message]: speaker=unit
 #. speaker = side 1 unit that has discovered the Cave Drake:
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1638
@@ -10608,8 +10618,8 @@ msgid ""
 "Well, whaddaya say, li'l guy? Wanna come along and help us find the Hammer "
 "of Thursagan?"
 msgstr ""
-"なあ、ちっこいの、どうする？俺たちと一緒に行くか？Thursagan の槌を探すのを手"
-"伝うかい？"
+"あー、ちっこい者よ、どうする？ 一緒に行く？ Thursagan の槌を探すのを手伝って"
+"くれる？"
 
 #. [message]: speaker=crazydwarf1
 #. this dwarf has a flamethrower:
