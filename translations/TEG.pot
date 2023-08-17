@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-03-02 13:59 UTC\n"
+"POT-Creation-Date: 2023-08-17 17:45 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -220,7 +220,7 @@ msgstr ""
 #. "he" = Pelcatlus, an ulfserker:
 #: The_Earths_Gut/utils/deaths.cfg:164
 #: The_Earths_Gut/utils/deaths.cfg:292
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1736
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1777
 msgid "He was the most frenzied dwarf I've ever seen..."
 msgstr ""
 
@@ -260,7 +260,7 @@ msgstr ""
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/utils/deaths.cfg:244
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1714
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1755
 msgid "Uahh! The cave has finished me..."
 msgstr ""
 
@@ -348,7 +348,7 @@ msgstr ""
 
 #. [event]: id=Krolock, id=nasty_skeleton, role=nuisance, id=nasty_walking_corpse, role=nuisance, id=nasty_ghost, role=nuisance
 #: The_Earths_Gut/utils/debug.cfg:42
-#: The_Earths_Gut/scenarios/08_Lost.cfg:982
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1013
 msgid "Krolock"
 msgstr ""
 
@@ -699,8 +699,8 @@ msgstr ""
 #. [objective]: condition=lose
 #: The_Earths_Gut/utils/misc.cfg:284
 #: The_Earths_Gut/scenarios/08_Lost.cfg:258
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1088
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1327
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1119
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1367
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:371
 #: The_Earths_Gut/scenarios/19_Prison.cfg:250
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1321
@@ -960,10 +960,8 @@ msgid "Wose Shaman"
 msgstr ""
 
 #. [unit_type]: id=Wose Shaman, race=wose
-#. [unit_type]: id=Elder Wose Shaman, race=wose
 #: The_Earths_Gut/units/woses/Wose_Shaman.cfg:20
-#: The_Earths_Gut/units/woses/Elder_Wose_Shaman.cfg:20
-msgid "These woses are able to command forest plants such as vines and creepers to hinder their enemies."
+msgid "As their lives progress, some woses gain deeper insight into the workings of their forests, and the power to bend them to their will. These shamans, through their connection with the woodland flora, can command vines to rise up and entangle those who would trespass upon their domain, hindering both the arm that might swing an axe and the legs that might haste an escape. This dominion over the normally inanimate foliage of the forest is beyond the knowledge of human magi; however, elvish shamans also posses this power over nature, thought to be granted by a deep understanding of faerie."
 msgstr ""
 
 #. [attack]: type=impact
@@ -995,6 +993,11 @@ msgstr ""
 #. [unit_type]: id=Elder Wose Shaman, race=wose
 #: The_Earths_Gut/units/woses/Elder_Wose_Shaman.cfg:5
 msgid "Elder Wose Shaman"
+msgstr ""
+
+#. [unit_type]: id=Elder Wose Shaman, race=wose
+#: The_Earths_Gut/units/woses/Elder_Wose_Shaman.cfg:20
+msgid "These woses are able to command forest plants such as vines and creepers to hinder their enemies."
 msgstr ""
 
 #. [unit_type]: id=Test
@@ -1530,7 +1533,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:758
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:814
 #: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:95
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1317
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1357
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:87
 #: The_Earths_Gut/scenarios/11t_Council.cfg:83
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:395
@@ -2048,194 +2051,194 @@ msgstr ""
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/08_Lost.cfg:608
+#: The_Earths_Gut/scenarios/08_Lost.cfg:615
 msgid "to just before discovering Krolock."
 msgstr ""
 
 #. [message]: id=$unit.id
 #. "$unit.id" is most likely Dulatus here; if he didn't come from S05a ("Blowing Snow"), then this is his first time seeing this river:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:665
+#: The_Earths_Gut/scenarios/08_Lost.cfg:696
 msgid "There's a river running down here... but the current is way too strong to escape this way. I wonder where it may come from."
 msgstr ""
 
 #. [message]: id=$unit.id
 #. "$unit.id" is most likely Dulatus here; if he didn't come from S05b ("Unknown Tunnels"), then this is his first time seeing this path:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:696
+#: The_Earths_Gut/scenarios/08_Lost.cfg:727
 msgid "It seems that southern path has caved in. I wonder where it had been leading to. There's no way to get through."
 msgstr ""
 
 #. [message]: id=$unit.id
 #. "$unit.id" is most likely Dulatus here:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:714
+#: The_Earths_Gut/scenarios/08_Lost.cfg:745
 msgid "I hear a roaring sound down in this chasm... it must be water."
 msgstr ""
 
 #. [message]: id=Dulatus
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/08_Lost.cfg:746
+#: The_Earths_Gut/scenarios/08_Lost.cfg:777
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:887
 msgid "What? Who's there?"
 msgstr ""
 
 #. [unit]: type=Dwarvish Ulfserker, id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:757
+#: The_Earths_Gut/scenarios/08_Lost.cfg:788
 msgid "Pelcatlus"
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:778
+#: The_Earths_Gut/scenarios/08_Lost.cfg:809
 msgid "You stinky creature dare to disturb me! I'll - oh -"
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:782
+#: The_Earths_Gut/scenarios/08_Lost.cfg:813
 msgid "It's been a long time that I've seen any other LIVING being except a troll every now and then... and you're even a dwarf! Welcome to my mediocre home."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:786
+#: The_Earths_Gut/scenarios/08_Lost.cfg:817
 msgid "Thanks, I'd thought I'd die all alone down here... now we'll die together..."
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:790
+#: The_Earths_Gut/scenarios/08_Lost.cfg:821
 msgid "It is possible to survive. The fish from that lake and my mushroom 'garden' kept me alive."
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:794
+#: The_Earths_Gut/scenarios/08_Lost.cfg:825
 msgid "All those years here have only toughened me, I'm guessing. And I can no longer stop once I've started a fight until my opponent is dead."
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:798
+#: The_Earths_Gut/scenarios/08_Lost.cfg:829
 msgid "There's a river running into the cave, it washed me down once ago... you may have noticed it."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:808
+#: The_Earths_Gut/scenarios/08_Lost.cfg:839
 msgid "Yes, the same thing happened to me."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:814
+#: The_Earths_Gut/scenarios/08_Lost.cfg:845
 msgid "I've heard its roar in the chasm. I've come through the southern tunnel, but now it has collapsed."
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:818
+#: The_Earths_Gut/scenarios/08_Lost.cfg:849
 msgid "Is that so? I've explored that passage a thousand times."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:822
+#: The_Earths_Gut/scenarios/08_Lost.cfg:853
 msgid "Maybe the earthquake that has blocked it now also opened a way some time before."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:836
+#: The_Earths_Gut/scenarios/08_Lost.cfg:867
 msgid "By the way, you have a forge there, I see?"
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:840
+#: The_Earths_Gut/scenarios/08_Lost.cfg:871
 msgid "Yes, your weapons cannot be good enough as they are if you want to survive here."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:850
+#: The_Earths_Gut/scenarios/08_Lost.cfg:881
 msgid "I still have a magical regeneration ring we acquired in a fight, but it is too rusty."
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:854
+#: The_Earths_Gut/scenarios/08_Lost.cfg:885
 msgid "Feel free to use my forge."
 msgstr ""
 
 #. [message]: id=Dulatus
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/08_Lost.cfg:880
+#: The_Earths_Gut/scenarios/08_Lost.cfg:911
 #: The_Earths_Gut/scenarios/11t_Council.cfg:308
 msgid "Wow, that feels great!"
 msgstr ""
 
 #. [message]: id=Dulatus
 #. "them" = his weapons:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:905
+#: The_Earths_Gut/scenarios/08_Lost.cfg:936
 msgid "Hm, let me check them... actually, I think they're probably fine."
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:909
+#: The_Earths_Gut/scenarios/08_Lost.cfg:940
 msgid "I guess that's true; my forge is mostly useful for removing rust, and I don't see much rust on your weapons..."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:915
+#: The_Earths_Gut/scenarios/08_Lost.cfg:946
 msgid "Me and my comrades have been on an expedition to find new mines. Now they surely believe I'm dead."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:919
+#: The_Earths_Gut/scenarios/08_Lost.cfg:950
 msgid "So we can't get back, the only way is forward through the mountain. What about the other way, to the north? Where does it go?"
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:923
+#: The_Earths_Gut/scenarios/08_Lost.cfg:954
 msgid "I don't really know, but there are only a lot of nasty creatures and trolls."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:927
+#: The_Earths_Gut/scenarios/08_Lost.cfg:958
 msgid "Then let's find it out. I want to meet my friends again somewhen."
 msgstr ""
 
 #. [message]: id=Dulatus
 #. a hint for players on EASY mode on how to use units with the "berserk" special like Pelcatlus:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:933
+#: The_Earths_Gut/scenarios/08_Lost.cfg:964
 msgid "And better let me walk in front of you... you can't stop fighting, you know."
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. speaker = side 1 unit; most likely either Dulatus or Pelcatlus,
 #. although it could also be a troll if the player is using debug mode:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:959
+#: The_Earths_Gut/scenarios/08_Lost.cfg:990
 msgid "Shitty bats!"
 msgstr ""
 
 #. [message]: id=$unit.id
 #. speaker = side 1 unit that has discovered Krolock; most likely either Dulatus or Pelcatlus:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1047
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1078
 msgid "Hey... there's something going on here. A Troll Whelp is being tortured by undead, it seems."
 msgstr ""
 
 #. [message]: id=nasty_skeleton
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1052
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1083
 msgid "Tell us, mite, where's the troll village?"
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1056
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1087
 msgid "Feel my 'tiny' fist, intruder!"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1060
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1091
 msgid "Hm... this could be the chance we needed."
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1064
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1095
 msgid "What do you mean? Shall we HELP him? Trolls often prevent us from mining."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1068
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1099
 msgid "Trolls are enemies, but the undead also are. Let's try new methods... an alliance with the trolls could be the key to survival."
 msgstr ""
 
 #. [objectives]
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1078
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1109
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:70
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:124
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:382
@@ -2245,125 +2248,125 @@ msgid "Temporary Objectives:"
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1080
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1111
 msgid "Rescue Krolock the Troll Whelp!"
 msgstr ""
 
 #. [objective]: condition=lose
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1084
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1323
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1115
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1363
 msgid "Death of Krolock"
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1131
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1162
 msgid "Thank you for freeing me."
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1165
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1196
 msgid "Thank you."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1192
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1232
 msgid "That's it. We've defeated your nuisances, Krolock."
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1196
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1236
 msgid "It was a hard fight."
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1200
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1240
 msgid "Why did you do that? You're the first dwarves that haven't stolen our gold or expelled us from our homes."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1204
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1244
 msgid "Umm... I..."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1234
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1274
 msgid "Uh - oh..."
 msgstr ""
 
 #. [message]: id=patrol_troll
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1238
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1278
 msgid "What is this? You dwarves are never satisfied, are you!? You can only think of more ore and gems. Kill them."
 msgstr ""
 
 #. [message]: id=patrol_troll_shaman
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1242
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1282
 msgid "Wait a second... what has happened here, Krolock?"
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1246
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1286
 msgid "My group was looking for mushrooms as an undead patrol beset us. Although we defeated many of them, all my comrades lost their lives. Then the remaining undead captured me to get information about where our village is. That's when these dwarves came and saved my life."
 msgstr ""
 
 #. [message]: id=patrol_troll_whelp
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1250
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1290
 msgid "'Saved your life' you say!?"
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1254
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1294
 msgid "Yes. Those undead are our enemies, too. They attack us for nothing."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1258
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1298
 msgid "A group of dwarves is traveling towards this cave system. We are willing to help you with the undead. (<i>thinks: Hopefully this is true... but I have no other choice now.</i>)"
 msgstr ""
 
 #. [message]: id=patrol_troll_shaman
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1262
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1302
 msgid "(<i>thinks: An alliance could be helpful... in respect of our losses against the undead...</i>)"
 msgstr ""
 
 #. [message]: id=patrol_troll_shaman
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1266
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1306
 msgid "Well, then... you help Krolock to get back to our outpost in the west, then we'll see what we do with you."
 msgstr ""
 
 #. [message]: id=patrol_troll_shaman
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1270
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1310
 msgid "We will search for other undead now. Here is some gold for you. Look for an old dwarvish castle in southwestern direction."
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1295
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1335
 msgid "Some of my friends have stayed."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1304
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1344
 msgid "You may now recruit Troll Whelps and Apprentice Shamans."
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1319
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1359
 msgid "Krolock must reach the troll outpost's castle."
 msgstr ""
 
 #. [note]
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1336
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1376
 msgid "No early finish bonus in case the troll outpost leader is dead when the scenario ends."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. debug message:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1455
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1495
 msgid "spawning flying enemies at $possible_bat_locs[$random].x,$possible_bat_locs[$random].y"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. debug message:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1467
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1507
 msgid "oops, there's nowhere left to spawn additional flying enemies"
 msgstr ""
 
@@ -2372,100 +2375,100 @@ msgstr ""
 #. debug message; $s4_units.length will be off-by-one but whatever;
 #. if someone is playing with debug mode on, they ought to be able to figure it out.
 #. TODO: change once Wesnoth issue 1135 is fixed: https://github.com/wesnoth/wesnoth/issues/1135
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1495
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1503
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1535
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1543
 msgid "side 4 still has $s4_units.length unit(s) left"
 msgstr ""
 
 #. [message]: speaker=troll_outpost_leader
 #. this line is said when an undead unit from side 4 attacks your allied troll leader:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1538
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1578
 msgid "Argh, these undead have gotten peskier as of late!"
 msgstr ""
 
 #. [set_menu_item]: id=lost_help
 #. [set_menu_item]: id=ferry_crossing_help
 #. contextual menu option:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1557
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1597
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:311
 msgid "help"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. string splicing here:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1571
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1608
 msgid "Troll recruitment hint:"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1571
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1608
 msgid ""
 "\n"
 "After a following scenario, there will be an interlude scenario in which you will only be allowed to keep in your recall list at maximum"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1573
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1610
 msgid ""
 "\n"
 "in addition to Krolock. Remaining available Trolls, Troll Warriors, Boulderlobbers or Rocklobbers can be Troll Whelps, remaining Troll Fire Wizards, Troll Shamans, Troll Frost Wizards or Ice Trolls can be Apprentice Shamans (if there are enough). Remaining Troll Whelps can't be transferred to Apprentice Shamans or vice versa. You will be able to choose the units that stay."
 msgstr ""
 
 #. [unit]: type=TEG Troll Shaman, id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1597
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1638
 msgid "Tunnel Guard"
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1609
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1650
 msgid "Thank you, friends."
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1613
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1654
 msgid "The tunnel in the southwest of this base leads to a former dwarvish settlement, as far as I can tell."
 msgstr ""
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1617
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1658
 msgid "Wait a moment, these are the dwarves that saved your life? Our patrol told me about that."
 msgstr ""
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1621
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1662
 msgid "Yes. They-"
 msgstr ""
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1625
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1666
 msgid "Then you all take the way to the northwest; the leader of our tribe wants to know the dwarves who saved his son's life."
 msgstr ""
 
 #. [message]: id=Krolock
 #. this is the last breath of the troll outpost leader:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1677
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1718
 msgid "Uncle, noooo!"
 msgstr ""
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1681
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1722
 msgid "Arghhh..."
 msgstr ""
 
 #. [message]: id=Dulatus
 #. this is Krolock's last breath:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1696
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1737
 msgid "Our last chance to get out is destroyed..."
 msgstr ""
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1700
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1741
 msgid "Anyway, let's return to my home."
 msgstr ""
 
 #. [message]: id=Pelcatlus
 #. "His friends" = the other dwarves; "Him" = Dulatus:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1723
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1764
 msgid "His friends will never see him again..."
 msgstr ""
 
