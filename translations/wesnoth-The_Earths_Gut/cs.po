@@ -7357,7 +7357,7 @@ msgstr "To je moc špatné. Možná to byla jediná cesta ven..."
 #. [message]: id=Clarissa
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1047
 msgid "There must be another way, either to the north or south."
-msgstr "Musí být nějaká jiná cesta, buď na sever nebo na jih."
+msgstr "Musí být nějaká jiná cesta, buď na sever, nebo na jih."
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1072
