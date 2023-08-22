@@ -7520,7 +7520,7 @@ msgstr ""
 "Trpaslíci, nuceni ustupovat stále hlouběji do nepřátelských hor, se "
 "sjednotili pod svým novým vůdcem lordem Relgornem. Vybojovali se skřety "
 "jednu krvavou bitvou za druhou a nakonec unikli do hlubších jeskyní, kam se "
-"jen málokdo odvážil následovat."
+"jen málokdo odvážil je následovat."
 
 #. [part]
 #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:54
