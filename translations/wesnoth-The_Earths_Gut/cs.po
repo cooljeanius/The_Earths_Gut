@@ -6624,7 +6624,7 @@ msgstr "Pospěšme!"
 #. [message]: id=Elara
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:122
 msgid "Quick, Hamel!"
-msgstr "Rychle, Hameli!"
+msgstr "Rychle, Hamele!"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:126
