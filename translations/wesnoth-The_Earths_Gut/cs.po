@@ -1072,7 +1072,7 @@ msgid ""
 "of their cargo."
 msgstr ""
 "Pirátské lodě jsou jako vlci moře a transportní lodě jako jejich ovce. "
-"Piráti, kteří tvoří posádu těchto lodí, jsou více než rádi, když mohou "
+"Piráti, kteří tvoří posádku těchto lodí, jsou více než rádi, když mohou "
 "zbavit ostatní lodě jejich nákladu."
 
 #. [attack]: type=pierce
