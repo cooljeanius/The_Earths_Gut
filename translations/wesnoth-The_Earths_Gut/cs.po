@@ -869,7 +869,7 @@ msgstr ""
 #: The_Earths_Gut/units/dwarves/Alchemist.cfg:42
 #: The_Earths_Gut/units/dwarves/Potion_Smith.cfg:42
 msgid "morningstar"
-msgstr "řemdich"
+msgstr "řemdih"
 
 #. [attack]: type=impact
 #: The_Earths_Gut/units/dwarves/Master_of_Alchemy.cfg:124
