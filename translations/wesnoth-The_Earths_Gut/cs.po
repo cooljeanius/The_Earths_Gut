@@ -357,7 +357,7 @@ msgid ""
 "fungus."
 msgstr ""
 "Tato jednotka nabrala určité zkušenosti s cestováním skrz podzemí. V "
-"jeskynních a houbových terénem ji pohyb stojí o 1 pohybový bod méně a její "
+"jeskynních a houbových terénech ji pohyb stojí o 1 pohybový bod méně a její "
 "obrana je zvýšena o 10 %."
 
 #. [dummy]: id=weapon_special_capture, description={SPECIAL_NOTES_CAPTURE {CHANCE} }
