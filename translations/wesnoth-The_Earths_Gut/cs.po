@@ -340,7 +340,7 @@ msgstr ""
 "Tato jednotka žila tak dlouho sama v podzemí, že si vyvinula speciální "
 "schopnosti. Její výzbroj pro boj zblízka byla vylepšena na nezemský typ pro "
 "boj s nemrtvými a trolly. Její obranné schopnosti na některých terénech, "
-"především na těch, které jsou charakteristické pro jeskyně se zvýšily - na "
+"především na těch, které jsou charakteristické pro jeskyně, se zvýšily - na "
 "plochém terénu, ve vesnici, hradu, jeskyni a na houbovém terénu o 20 % a v "
 "lese, kopcích a horách o 10 %."
 
