@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-08-17 17:45 UTC\n"
+"POT-Creation-Date: 2023-08-29 07:29 UTC\n"
 "PO-Revision-Date: 2023-08-20 17:16+0200\n"
 "Last-Translator: Septim <septim@centrum.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
@@ -9838,4 +9838,12 @@ msgstr ""
 #. credits entry:
 #: The_Earths_Gut/about.cfg:103
 msgid "Japanese Translation"
+msgstr "Japonský překlad"
+
+#. [about]
+#. credits entry:
+#: The_Earths_Gut/about.cfg:110
+#, fuzzy
+#| msgid "Japanese Translation"
+msgid "Czech Translation"
 msgstr "Japonský překlad"

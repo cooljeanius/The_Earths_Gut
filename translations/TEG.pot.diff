@@ -1,11 +1,11 @@
 --- /Users/ericgallager/Downloads/TEG_old.pot	2021-10-03 20:48:44.000000000 -0400
-+++ TEG.pot	2023-08-17 13:45:49.000000000 -0400
++++ TEG.pot	2023-08-29 03:29:40.000000000 -0400
 @@ -2,7 +2,7 @@
  msgstr ""
  "Project-Id-Version: PACKAGE VERSION\n"
  "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 -"POT-Creation-Date: 2021-07-05 04:04 UTC\n"
-+"POT-Creation-Date: 2023-08-17 17:45 UTC\n"
++"POT-Creation-Date: 2023-08-29 07:29 UTC\n"
  "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
  "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
  "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2568,9 +2568,10 @@
 +#. debug message:
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1495
 +msgid "spawning flying enemies at $possible_bat_locs[$random].x,$possible_bat_locs[$random].y"
-+msgstr ""
-+
-+#. [message]: speaker=narrator
+ msgstr ""
+ 
+ #. [message]: speaker=narrator
+-#: The_Earths_Gut/scenarios/08_Lost.cfg:1348
 +#. debug message:
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1507
 +msgid "oops, there's nowhere left to spawn additional flying enemies"
@@ -2604,10 +2605,9 @@
 +#. string splicing here:
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1608
 +msgid "Troll recruitment hint:"
- msgstr ""
- 
- #. [message]: speaker=narrator
--#: The_Earths_Gut/scenarios/08_Lost.cfg:1348
++msgstr ""
++
++#. [message]: speaker=narrator
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1608
  msgid ""
  "\n"
@@ -5853,14 +5853,15 @@
  msgid "I think that it's a magically sealed door which will probably not break from normal damage."
  msgstr ""
  
--#. [message]: id=Elara
+ #. [message]: id=Elara
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:644
--msgid "I do not yet have a means to open it. Perhaps if I can get to a source of fire..."
-+#. [message]: id=Elara
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:693
-+msgid "I do not yet have a means to open it. Perhaps if I can get to a source of fire..."
-+msgstr ""
-+
+ msgid "I do not yet have a means to open it. Perhaps if I can get to a source of fire..."
+ msgstr ""
+ 
+-#. [objective]: condition=win
+-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:651
+-msgid "Investigate and look for survivors; move Elara to a source of fire!"
 +#. [objective]: condition=win
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:700
 +msgid "Investigate and look for survivors; move Elara to a source of fire!"
@@ -5926,11 +5927,8 @@
 +#. [message]: speaker=unit
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:915
 +msgid "It's the brazier Elara used to break down that magical door; hopefully we won't need to use it again!"
- msgstr ""
- 
--#. [objective]: condition=win
--#: The_Earths_Gut/scenarios/18_The_investigation.cfg:651
--msgid "Investigate and look for survivors; move Elara to a source of fire!"
++msgstr ""
++
 +#. [message]: speaker=unit
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:930
 +msgid "Argh, they broke the kiln! It looks as though the brazier standing next to it still works, though..."
@@ -8152,7 +8150,7 @@
  msgid "What the...!? I think I just saw a lich appear out of nowhere!? Now they no longer even need their monoliths!?"
  msgstr ""
  
-@@ -6332,980 +7282,1107 @@
+@@ -6332,980 +7282,1113 @@
  msgstr ""
  
  #. [unit]: type=Death Knight, id=executioner
@@ -9477,5 +9475,11 @@
 +#. credits entry:
 +#: The_Earths_Gut/about.cfg:103
 +msgid "Japanese Translation"
++msgstr ""
++
++#. [about]
++#. credits entry:
++#: The_Earths_Gut/about.cfg:110
++msgid "Czech Translation"
 +msgstr ""
 +
