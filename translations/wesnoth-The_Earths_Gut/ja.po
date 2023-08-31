@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-08-29 07:29 UTC\n"
-"PO-Revision-Date: 2023-03-03 00:20+0900\n"
+"PO-Revision-Date: 2023-08-31 22:30+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #. [editor_group]: id=earthsgut
 #. since this is the first string to get put into the potfile, a general translation note:
@@ -453,27 +453,27 @@ msgstr ""
 #. [advancement]: id=teg_amla_heal_full
 #: The_Earths_Gut/utils/amla.cfg:14
 msgid "max hitpoints +0, max experience +0%; heal full, unpoison, unslow"
-msgstr "HP +0、XP +0%、全回復、無毒化、遅化解除"
+msgstr "最大 HP +0、最大 XP +0%、全回復、無毒化、遅化解除"
 
 #. [advancement]: id=teg_amla_default
 #: The_Earths_Gut/utils/amla.cfg:42
 msgid "max hitpoints +3, max experience +5%; no heal, unpoison or unslow"
-msgstr "HP +3、XP +5%、無毒化、遅化解除（、回復なし）"
+msgstr "最大 HP +3、最大 XP +5%、無毒化、遅化解除（、回復なし）"
 
 #. [advancement]: id=teg_amla_battle_axe
 #: The_Earths_Gut/utils/amla.cfg:63
 msgid "max experience +15%; axe +1 damage"
-msgstr "XP +15%、斧攻撃ダメージ +1"
+msgstr "最大 XP +15%、斧攻撃ダメージ +1"
 
 #. [advancement]: id=teg_amla_hammer
 #: The_Earths_Gut/utils/amla.cfg:81
 msgid "max experience +20%; hammer +1 damage"
-msgstr "XP +20%、槌攻撃ダメージ +1"
+msgstr "最大 XP +20%、槌攻撃ダメージ +1"
 
 #. [advancement]: id=teg_amla_hatchet
 #: The_Earths_Gut/utils/amla.cfg:99
 msgid "max experience +20%; hatchet +1 damage"
-msgstr "XP +20%、手斧攻撃ダメージ +1"
+msgstr "最大 XP +20%、手斧攻撃ダメージ +1"
 
 #. [advancement]: id=teg_amla_movement
 #. [advancement]: id=teg_amla_magic_resistance
@@ -490,7 +490,7 @@ msgstr "XP +20%、手斧攻撃ダメージ +1"
 #: The_Earths_Gut/utils/amla.cfg:323 The_Earths_Gut/utils/amla.cfg:342
 #: The_Earths_Gut/utils/amla.cfg:361
 msgid "max experience +"
-msgstr "XP +"
+msgstr "最大 XP +"
 
 #. [advancement]: id=teg_amla_movement
 #: The_Earths_Gut/utils/amla.cfg:118
@@ -511,19 +511,19 @@ msgstr "%、剣・打撃・刺突の耐性 +10%"
 #. [advancement]: id=teg_amla_spear
 #: The_Earths_Gut/utils/amla.cfg:179
 msgid "max experience +15%; spear +1 damage"
-msgstr "XP +15%、槍攻撃ダメージ +1"
+msgstr "最大 XP +15%、槍攻撃ダメージ +1"
 
 #. [advancement]: id=teg_amla_javelin
 #: The_Earths_Gut/utils/amla.cfg:197
 msgid "max experience +20%; javelin +1 damage"
-msgstr "XP +20%、投げ槍攻撃ダメージ +1"
+msgstr "最大 XP +20%、投げ槍攻撃ダメージ +1"
 
 #. [advancement]: id=teg_amla_evasion
 #: The_Earths_Gut/utils/amla.cfg:215
 msgid ""
 "max experience +30%; train skillfulness: +10% defense on flat, forest, "
 "village, castle and fungus"
-msgstr "XP +30%、熟練度向上、平地・森・村・城・キノコでの回避能力 +10%"
+msgstr "最大 XP +30%、熟練度向上、平地・森・村・城・キノコでの回避能力 +10%"
 
 #. [resistance]: id=extra_steadfast
 #: The_Earths_Gut/utils/amla.cfg:243
@@ -1129,6 +1129,13 @@ msgid ""
 "the knowledge of human magi; however, elvish shamans also posses this power "
 "over nature, thought to be granted by a deep understanding of faerie."
 msgstr ""
+"長く生き続けるにしたがって、ウーズの中のある者たちは森の仕組みを深く洞察する"
+"ようになり、森を自分の意志で操れるようになります。このような呪術師は、森の植"
+"物との絆を通して、自分たちの領地に侵入しようとする者たちに蔓を立ち上げて絡ま"
+"せ、斧を振るう腕や逃げ惑う足も妨害するよう命じることができるのです。このよう"
+"な、日常的には無生物たる森の木々を従わせる力は、人間の魔術師の理解を超えるも"
+"のですが、エルフの呪術師もまた自然に対して同様の力を持っていて、その力は妖精"
+"たちに対する深い理解によって授けられたと考えられています。"
 
 #. [attack]: type=impact
 #: The_Earths_Gut/units/woses/Wose_Shaman.cfg:40
@@ -6471,6 +6478,7 @@ msgid ""
 "This is the final surface scenario, and thus is the final scenario where you "
 "can recruit."
 msgstr ""
+"これが地上での最後のシナリオですので、雇用できる最後のシナリオとなります。"
 
 #. [message]: id=Asheviere's new Flame
 #. He thinks they have Konrad:
@@ -11045,10 +11053,8 @@ msgstr "日本語翻訳"
 #. [about]
 #. credits entry:
 #: The_Earths_Gut/about.cfg:110
-#, fuzzy
-#| msgid "Japanese Translation"
 msgid "Czech Translation"
-msgstr "日本語翻訳"
+msgstr "チェコ語翻訳"
 
 #~ msgid "Hint:"
 #~ msgstr "ヒント："
