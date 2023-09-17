@@ -3,7 +3,6 @@ counsider whether you could do these portraits or other artwork.
 
 PORTRAITS
 ---------
-* unique portrait for Hamel (He currently uses Aiglondur's from THoT)
 * unique portrait for Relgorn (He currently uses Hamel's from THoT)
 * unique portrait for Dulatus (He currently uses Baglur's from SoF)
 * unique portrait for Clarissa (She currently uses the default mage portraits)
