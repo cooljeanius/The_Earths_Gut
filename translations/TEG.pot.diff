@@ -1,11 +1,11 @@
 --- /Users/ericgallager/Downloads/TEG_old.pot	2021-10-03 20:48:44.000000000 -0400
-+++ TEG.pot	2023-09-16 18:21:16.000000000 -0400
++++ TEG.pot	2023-09-17 11:36:55.000000000 -0400
 @@ -2,7 +2,7 @@
  msgstr ""
  "Project-Id-Version: PACKAGE VERSION\n"
  "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 -"POT-Creation-Date: 2021-07-05 04:04 UTC\n"
-+"POT-Creation-Date: 2023-09-16 22:21 UTC\n"
++"POT-Creation-Date: 2023-09-17 15:36 UTC\n"
  "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
  "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
  "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@
 +#. can be some other form of poetic/figurative speaking that makes more sense in your language:
  #: The_Earths_Gut/dist/name_icon_description.cfg:2
 -#: The_Earths_Gut/_main.cfg:80
-+#: The_Earths_Gut/_main.cfg:100
++#: The_Earths_Gut/_main.cfg:112
  msgid "The Earth's Gut"
  msgstr ""
  
@@ -35,7 +35,7 @@
 -"515YW, you are the young dwarven leader Hamel. Your tribe in the Knalga caverns near Dwarven Doors gets under pressure from its enemies, while resources are getting rare at the same time. Guide your people on your quest for more and better minerals, to be able to forge new armor and weapons and resist your opponents.\n"
 -"The campaign focuses on 'dwarvish dungeon crawling' and the developer intention is to make it playable for newbies on easy while to keep it challenging for experienced players on hard. (Beginner level, 22 scenarios (unfinished))\n"
 +"It is 515YW and you are Hamel, a young dwarven leader. Your tribe resides in the Knalga caverns near the Dwarven Doors and is constantly under threat of attack. Resources are also becoming scarce in your area, so you must guide your people on a quest for more minerals. With the new minerals you will be able to forge new weapons and armor to push back your enemies.\n"
-+"The campaign focuses on 'dwarvish dungeon crawling', and the developer intention is to make it playable for newbies on easy while also keeping it challenging for experienced players on hard. (Beginner level, 23 scenarios (nearly finished, but not quite))\n"
++"The campaign focuses on 'dwarvish dungeon crawling', and the developer intention is to make it playable for newbies on easy while also keeping it challenging for experienced players on hard. (Beginner level, 23 scenarios <small>(nearly finished, but not quite)</small>)\n"
  "Requires BfW "
  msgstr ""
  
@@ -44,8 +44,8 @@
  msgid ""
 -" or greater. Requires 'The Hammer of Thursagan' to be installed.\n"
 -"Former working title: 'Dwarven Kingdom'"
-+" or greater. Requires 'The Hammer of Thursagan' to be installed (which is part of mainline now, so it should already be there unless you've deleted it or something).\n"
-+"Former working title: 'Dwarven Kingdom' (which is now the title of a separate campaign by Ashmyr/Myrian)."
++" or greater. Requires 'The Hammer of Thursagan' to be installed <small>(which is part of mainline now, so it should already be there unless you've deleted it or are using one of those distros that packages the campaigns as separate packages or something)</small>.\n"
++"Former working title: 'Dwarven Kingdom' <small>(which is now the title of a separate campaign by Ashmyr/Myrian)</small>."
  msgstr ""
  
  #. [terrain_type]: id=stone-bridge-s-n
@@ -7190,6 +7190,21 @@
  msgid "You receive $i_GeneralBonusGold| gold pieces!"
  msgstr ""
  
+@@ -5545,12 +6350,12 @@
+ 
+ #. [scenario]: id=01t_The_old_home
+ #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:14
+-msgid "Since you have the add-on 'UMC Music' installed, its music will be used in this campaign."
++msgid "Since you have the add-on 'UMC Music Book 01' installed, its music (and music from any other UMC Music Books found) will be used in this campaign."
+ msgstr ""
+ 
+ #. [scenario]: id=01t_The_old_home
+ #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:16
+-msgid "If you install the add-on 'UMC Music', its music will be used in this campaign. It is not required - it's just not used if you don't have it. In case that it's not available from the add-ons server, it probably works to copy it from an older Wesnoth version into your userdata folder. Note that the installation paths for the UMC Music add-on may have changed between versions, so even if you have it installed, you still might see this text if its path is wrong."
++msgid "If you install any of the 'UMC Music Book' add-ons, their music will be used in this campaign. They are not required - they're just not used if you don't have them. In case that they're not available from the add-ons server, it probably works to copy them from an older Wesnoth version into your userdata folder. Note that the installation paths for the UMC Music add-on(s) may have changed between versions, so even if you have them installed, you still might see this text if the first one's path is wrong."
+ msgstr ""
+ 
+ #. [part]
 @@ -5614,253 +6419,260 @@
  msgid "It was about the year 515YW when the worst of the attacks came, and the orcs fought with astounding brutality. Several surface outposts had been overwhelmed, and the orcs slowly advanced deeper into the caverns. It was during this time of conflict that Lord Relgorn of Knalga gathered a council of his most trusted warriors in the deepest caverns, and discussed the situation..."
  msgstr ""
