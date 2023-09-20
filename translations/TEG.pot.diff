@@ -1,11 +1,11 @@
 --- /Users/ericgallager/Downloads/TEG_old.pot	2021-10-03 20:48:44.000000000 -0400
-+++ TEG.pot	2023-09-19 19:47:57.000000000 -0400
++++ TEG.pot	2023-09-19 20:31:36.000000000 -0400
 @@ -2,7 +2,7 @@
  msgstr ""
  "Project-Id-Version: PACKAGE VERSION\n"
  "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 -"POT-Creation-Date: 2021-07-05 04:04 UTC\n"
-+"POT-Creation-Date: 2023-09-19 23:47 UTC\n"
++"POT-Creation-Date: 2023-09-20 00:31 UTC\n"
  "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
  "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
  "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -457,90 +457,149 @@
  msgstr ""
  
  #. [advancement]: id=teg_amla_heal_full
-@@ -381,12 +426,12 @@
- #: The_Earths_Gut/utils/amla.cfg:118
- #: The_Earths_Gut/utils/amla.cfg:135
- #: The_Earths_Gut/utils/amla.cfg:157
+@@ -350,22 +395,22 @@
+ msgstr ""
+ 
+ #. [advancement]: id=teg_amla_default
+-#: The_Earths_Gut/utils/amla.cfg:42
++#: The_Earths_Gut/utils/amla.cfg:37
+ msgid "max hitpoints +3, max experience +5%; no heal, unpoison or unslow"
+ msgstr ""
+ 
+ #. [advancement]: id=teg_amla_battle_axe
+-#: The_Earths_Gut/utils/amla.cfg:63
++#: The_Earths_Gut/utils/amla.cfg:58
+ msgid "max experience +15%; axe +1 damage"
+ msgstr ""
+ 
+ #. [advancement]: id=teg_amla_hammer
+-#: The_Earths_Gut/utils/amla.cfg:81
++#: The_Earths_Gut/utils/amla.cfg:76
+ msgid "max experience +20%; hammer +1 damage"
+ msgstr ""
+ 
+ #. [advancement]: id=teg_amla_hatchet
+-#: The_Earths_Gut/utils/amla.cfg:99
++#: The_Earths_Gut/utils/amla.cfg:94
+ msgid "max experience +20%; hatchet +1 damage"
+ msgstr ""
+ 
+@@ -378,92 +423,92 @@
+ #. [advancement]: id=teg_amla_bolas
+ #. [advancement]: id=teg_amla_morning_star
+ #. [advancement]: id=teg_amla_lightbeam
+-#: The_Earths_Gut/utils/amla.cfg:118
+-#: The_Earths_Gut/utils/amla.cfg:135
+-#: The_Earths_Gut/utils/amla.cfg:157
 -#: The_Earths_Gut/utils/amla.cfg:275
 -#: The_Earths_Gut/utils/amla.cfg:301
-+#: The_Earths_Gut/utils/amla.cfg:256
-+#: The_Earths_Gut/utils/amla.cfg:282
-+#: The_Earths_Gut/utils/amla.cfg:304
- #: The_Earths_Gut/utils/amla.cfg:323
- #: The_Earths_Gut/utils/amla.cfg:342
- #: The_Earths_Gut/utils/amla.cfg:361
+-#: The_Earths_Gut/utils/amla.cfg:323
+-#: The_Earths_Gut/utils/amla.cfg:342
+-#: The_Earths_Gut/utils/amla.cfg:361
 -#: The_Earths_Gut/utils/amla.cfg:380
++#: The_Earths_Gut/utils/amla.cfg:113
++#: The_Earths_Gut/utils/amla.cfg:130
++#: The_Earths_Gut/utils/amla.cfg:152
++#: The_Earths_Gut/utils/amla.cfg:251
++#: The_Earths_Gut/utils/amla.cfg:277
++#: The_Earths_Gut/utils/amla.cfg:299
++#: The_Earths_Gut/utils/amla.cfg:318
++#: The_Earths_Gut/utils/amla.cfg:337
++#: The_Earths_Gut/utils/amla.cfg:356
  msgid "max experience +"
  msgstr ""
  
-@@ -403,7 +448,7 @@
+ #. [advancement]: id=teg_amla_movement
+-#: The_Earths_Gut/utils/amla.cfg:118
++#: The_Earths_Gut/utils/amla.cfg:113
+ msgid "%; train skillfulness further: max moves +1"
+ msgstr ""
+ 
+ #. [advancement]: id=teg_amla_magic_resistance
+-#: The_Earths_Gut/utils/amla.cfg:135
++#: The_Earths_Gut/utils/amla.cfg:130
+ msgid "%; +10% resistance to fire, cold and arcane"
+ msgstr ""
+ 
  #. [advancement]: id=teg_amla_weapon_resistance
  #. [advancement]: id=teg_amla_weapon_resistance_require_extra_steadfast
- #: The_Earths_Gut/utils/amla.cfg:157
+-#: The_Earths_Gut/utils/amla.cfg:157
 -#: The_Earths_Gut/utils/amla.cfg:301
-+#: The_Earths_Gut/utils/amla.cfg:282
++#: The_Earths_Gut/utils/amla.cfg:152
++#: The_Earths_Gut/utils/amla.cfg:277
  msgid "%; +10% resistance to blade, pierce and impact"
  msgstr ""
  
-@@ -419,51 +464,51 @@
+ #. [advancement]: id=teg_amla_spear
+-#: The_Earths_Gut/utils/amla.cfg:179
++#: The_Earths_Gut/utils/amla.cfg:174
+ msgid "max experience +15%; spear +1 damage"
+ msgstr ""
+ 
+ #. [advancement]: id=teg_amla_javelin
+-#: The_Earths_Gut/utils/amla.cfg:197
++#: The_Earths_Gut/utils/amla.cfg:192
+ msgid "max experience +20%; javelin +1 damage"
+ msgstr ""
  
  #. [advancement]: id=teg_amla_evasion
- #: The_Earths_Gut/utils/amla.cfg:215
+-#: The_Earths_Gut/utils/amla.cfg:215
 -msgid "max experience +30%; train skillfulness : +10% defense on flat, forest, village, castle and fungus"
++#: The_Earths_Gut/utils/amla.cfg:210
 +msgid "max experience +30%; train skillfulness: +10% defense on flat, forest, village, castle and fungus"
  msgstr ""
  
  #. [resistance]: id=extra_steadfast
 -#: The_Earths_Gut/utils/amla.cfg:262
-+#: The_Earths_Gut/utils/amla.cfg:243
++#: The_Earths_Gut/utils/amla.cfg:238
  msgid "extra steadfast"
  msgstr ""
  
  #. [resistance]: id=extra_steadfast
 -#: The_Earths_Gut/utils/amla.cfg:263
-+#: The_Earths_Gut/utils/amla.cfg:244
++#: The_Earths_Gut/utils/amla.cfg:239
  msgid "female^extra steadfast"
  msgstr ""
  
  #. [resistance]: id=extra_steadfast
 -#: The_Earths_Gut/utils/amla.cfg:264
-+#: The_Earths_Gut/utils/amla.cfg:245
++#: The_Earths_Gut/utils/amla.cfg:240
  msgid "This unit's resistances are doubled, up to a maximum of "
  msgstr ""
  
  #. [resistance]: id=extra_steadfast
 -#: The_Earths_Gut/utils/amla.cfg:264
-+#: The_Earths_Gut/utils/amla.cfg:245
++#: The_Earths_Gut/utils/amla.cfg:240
  msgid "%, when defending. Vulnerabilities are not affected."
  msgstr ""
  
  #. [advancement]: id=teg_amla_extra_steadfast
 -#: The_Earths_Gut/utils/amla.cfg:275
-+#: The_Earths_Gut/utils/amla.cfg:256
++#: The_Earths_Gut/utils/amla.cfg:251
  msgid "%; improve steadfast ability: max resistances 60% when defending"
  msgstr ""
  
  #. [advancement]: id=teg_amla_chainmace
 -#: The_Earths_Gut/utils/amla.cfg:323
-+#: The_Earths_Gut/utils/amla.cfg:304
++#: The_Earths_Gut/utils/amla.cfg:299
  msgid "%; chainmace +1 damage"
  msgstr ""
  
  #. [advancement]: id=teg_amla_bolas
 -#: The_Earths_Gut/utils/amla.cfg:342
-+#: The_Earths_Gut/utils/amla.cfg:323
++#: The_Earths_Gut/utils/amla.cfg:318
  msgid "%; bolas +1 damage"
  msgstr ""
  
  #. [advancement]: id=teg_amla_morning_star
 -#: The_Earths_Gut/utils/amla.cfg:361
-+#: The_Earths_Gut/utils/amla.cfg:342
++#: The_Earths_Gut/utils/amla.cfg:337
  msgid "%; morning star +1 damage"
  msgstr ""
  
  #. [advancement]: id=teg_amla_lightbeam
 -#: The_Earths_Gut/utils/amla.cfg:380
-+#: The_Earths_Gut/utils/amla.cfg:361
++#: The_Earths_Gut/utils/amla.cfg:356
  msgid "%; lightbeam +1 damage"
  msgstr ""
  
@@ -927,7 +986,7 @@
  msgid "hatchet"
  msgstr ""
  
-@@ -797,17 +857,17 @@
+@@ -797,17 +857,12 @@
  msgstr ""
  
  #. [unit_type]: id=Dwarvish Flamethrower, race=dwarf
@@ -936,19 +995,18 @@
  msgid "It is said that the Dwarven Flamethrowers have strange staves of wood and iron, similar to those of the Thunderguards; but instead of making a thunderous noise and shooting a projectile, their weapon generates a continuous tongue of flame."
  msgstr ""
  
- #. [attack]: type=blade
+-#. [attack]: type=blade
 -#: The_Earths_Gut/units/dwarves/Flamethrower.cfg:35
-+#: The_Earths_Gut/units/dwarves/Flamethrower.cfg:30
- msgid "dagger"
- msgstr ""
- 
+-msgid "dagger"
+-msgstr ""
+-
  #. [attack]: type=fire
 -#: The_Earths_Gut/units/dwarves/Flamethrower.cfg:48
-+#: The_Earths_Gut/units/dwarves/Flamethrower.cfg:43
++#: The_Earths_Gut/units/dwarves/Flamethrower.cfg:40
  msgid "firestick"
  msgstr ""
  
-@@ -828,17 +888,37 @@
+@@ -828,17 +883,37 @@
  
  #. [unit_type]: id=Galley, race=mechanical
  #: The_Earths_Gut/units/ships/Galley.cfg:23
@@ -990,7 +1048,7 @@
  msgstr ""
  
  #. [unit_type]: id=Battleship, race=mechanical
-@@ -847,30 +927,41 @@
+@@ -847,42 +922,53 @@
  msgstr ""
  
  #. [unit_type]: id=Battleship, race=mechanical
@@ -1043,7 +1101,24 @@
  msgstr ""
  
  #. [attack]: type=impact
-@@ -894,9 +985,9 @@
+-#: The_Earths_Gut/units/woses/Wose_Shaman.cfg:40
+-#: The_Earths_Gut/units/woses/Wose_Sapling.cfg:41
+-#: The_Earths_Gut/units/woses/Elder_Wose_Shaman.cfg:40
++#: The_Earths_Gut/units/woses/Wose_Shaman.cfg:28
++#: The_Earths_Gut/units/woses/Wose_Sapling.cfg:29
++#: The_Earths_Gut/units/woses/Elder_Wose_Shaman.cfg:28
+ msgid "crush"
+ msgstr ""
+ 
+ #. [attack]: type=impact
+-#: The_Earths_Gut/units/woses/Wose_Shaman.cfg:49
+-#: The_Earths_Gut/units/woses/Elder_Wose_Shaman.cfg:49
++#: The_Earths_Gut/units/woses/Wose_Shaman.cfg:37
++#: The_Earths_Gut/units/woses/Elder_Wose_Shaman.cfg:37
+ msgid "entangle"
+ msgstr ""
+ 
+@@ -894,9 +980,9 @@
  #. [unit_type]: id=Wose Sapling, race=wose
  #: The_Earths_Gut/units/woses/Wose_Sapling.cfg:19
  msgid ""
@@ -1055,7 +1130,7 @@
  msgstr ""
  
  #. [unit_type]: id=Elder Wose Shaman, race=wose
-@@ -904,6 +995,11 @@
+@@ -904,6 +990,11 @@
  msgid "Elder Wose Shaman"
  msgstr ""
  
@@ -1067,7 +1142,7 @@
  #. [unit_type]: id=Test
  #: The_Earths_Gut/units/test/Test.cfg:10
  msgid "Test"
-@@ -916,7 +1012,7 @@
+@@ -916,7 +1007,7 @@
  
  #. [unit_type]: id=Cave Drake, race=drake
  #: The_Earths_Gut/units/drakes/Cave.cfg:22
@@ -1076,7 +1151,7 @@
  msgstr ""
  
  #. [attack]: type=blade #impact
-@@ -931,20 +1027,20 @@
+@@ -931,20 +1022,20 @@
  
  #. [unit_type]: id=Apprentice Shaman, race=troll
  #: The_Earths_Gut/units/trolls/Apprentice_Shaman.cfg:20
@@ -1102,7 +1177,7 @@
  msgid "flame blast"
  msgstr ""
  
-@@ -954,14 +1050,12 @@
+@@ -954,14 +1045,12 @@
  msgstr ""
  
  #. [unit_type]: id=Ice Troll, race=troll
@@ -1120,7 +1195,7 @@
  #: The_Earths_Gut/units/trolls/Troll_Frost_Wizard.cfg:39
  msgid "freezing breath"
  msgstr ""
-@@ -971,6 +1065,11 @@
+@@ -971,6 +1060,11 @@
  msgid "Troll Frost Wizard"
  msgstr ""
  
@@ -1132,7 +1207,7 @@
  #. [attack]: type=impact
  #: The_Earths_Gut/units/trolls/Troll_Frost_Wizard.cfg:30
  msgid "banner"
-@@ -982,8 +1081,8 @@
+@@ -982,8 +1076,8 @@
  msgstr ""
  
  #. [unit_type]: id=Troll Fire Wizard, race=troll
@@ -1143,7 +1218,7 @@
  msgstr ""
  
  #. [unit_type]: id=Troll Boulderlobber, race=troll
-@@ -993,11 +1092,11 @@
+@@ -993,11 +1087,11 @@
  
  #. [unit_type]: id=Troll Boulderlobber, race=troll
  #: The_Earths_Gut/units/trolls/Troll_Boulderlobber.cfg:20
@@ -1157,7 +1232,7 @@
  msgid "sling"
  msgstr ""
  
-@@ -1013,7 +1112,7 @@
+@@ -1013,7 +1107,7 @@
  
  #. [attack]: type=blade
  #: The_Earths_Gut/units/undead/Undead_Dwarf.cfg:31
@@ -1166,7 +1241,7 @@
  msgid "axe"
  msgstr ""
  
-@@ -1023,12 +1122,12 @@
+@@ -1023,12 +1117,12 @@
  msgstr ""
  
  #. [unit_type]: id=Death Baron, race=undead
@@ -1182,7 +1257,7 @@
  msgid "crossbow"
  msgstr ""
  
-@@ -1043,7 +1142,10 @@
+@@ -1043,7 +1137,10 @@
  msgstr ""
  
  #. [unit_type]: id=Door, race=mechanical
@@ -1194,7 +1269,7 @@
  msgid "The door will open only to those who are allied with its owners, unless struck down by their enemies first."
  msgstr ""
  
-@@ -1063,7 +1165,7 @@
+@@ -1063,7 +1160,7 @@
  msgstr ""
  
  #. [unit_type]: id=Fire, race=monster
@@ -1203,7 +1278,7 @@
  msgid "Fire is a chemical reaction. It cannot be fought traditionally, but one way to extinguish it is lowering the temperature with water."
  msgstr ""
  
-@@ -1074,7 +1176,7 @@
+@@ -1074,7 +1171,7 @@
  
  #. [unit_type]: id=Young Gryphon
  #: The_Earths_Gut/units/Young_Gryphon.cfg:16
@@ -1212,7 +1287,18 @@
  msgstr ""
  
  #. [unit_type]: id=Spider Hatchling, race=monster
-@@ -1130,438 +1232,468 @@
+@@ -1124,444 +1221,479 @@
+ msgid "Wall"
+ msgstr ""
+ 
++#. [terrain_type]: id=grassland_flowers
++#: The_Earths_Gut/terrain/terrain-definitions.cfg:58
++msgid "green grass with flowers"
++msgstr ""
++
+ #. [scenario]: id=04_Up_the_mountain
+ #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:30
+ msgid "Up the Mountain"
  msgstr ""
  
  #. [side]: type=Advanced Dwarvish Fighter, id=Hamel
@@ -2569,10 +2655,9 @@
 +#. debug message:
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1495
 +msgid "spawning flying enemies at $possible_bat_locs[$random].x,$possible_bat_locs[$random].y"
- msgstr ""
- 
- #. [message]: speaker=narrator
--#: The_Earths_Gut/scenarios/08_Lost.cfg:1348
++msgstr ""
++
++#. [message]: speaker=narrator
 +#. debug message:
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1507
 +msgid "oops, there's nowhere left to spawn additional flying enemies"
@@ -2606,9 +2691,10 @@
 +#. string splicing here:
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1608
 +msgid "Troll recruitment hint:"
-+msgstr ""
-+
-+#. [message]: speaker=narrator
+ msgstr ""
+ 
+ #. [message]: speaker=narrator
+-#: The_Earths_Gut/scenarios/08_Lost.cfg:1348
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1608
  msgid ""
  "\n"
@@ -3633,29 +3719,29 @@
 +#. [message]: speaker=unit
 +#: The_Earths_Gut/scenarios/10_Old_friends.cfg:910
 +msgid "Uh, well... no, I don't think I can really trust you, but just because I don't trust you, doesn't mean that we have to fight, either. I'll let you by, but just be aware that we're keeping your eyes on you, and are ready to slay you if you turn out not to be the friends you claim to be."
-+msgstr ""
-+
-+#. [message]: speaker=second_unit
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:914
-+msgid "That's fine; I'm sure you'll believe us once you see the surprise I was mentioning."
-+msgstr ""
-+
-+#. [message]: speaker=unit
-+#. spoken distrustfully:
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:919
-+msgid "Mhm. Anyways, move along now."
  msgstr ""
  
  #. [message]: speaker=second_unit
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:831
 -msgid "Hi there, we're some friends coming back and we have a big surprise."
-+#. speaker is any other side 1 unit who's not a troll:
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:926
-+msgid "Hi there, we're some friends coming back, and we have a big surprise."
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:914
++msgid "That's fine; I'm sure you'll believe us once you see the surprise I was mentioning."
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:835
++#. spoken distrustfully:
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:919
++msgid "Mhm. Anyways, move along now."
++msgstr ""
++
++#. [message]: speaker=second_unit
++#. speaker is any other side 1 unit who's not a troll:
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:926
++msgid "Hi there, we're some friends coming back, and we have a big surprise."
++msgstr ""
++
++#. [message]: speaker=unit
 +#: The_Earths_Gut/scenarios/10_Old_friends.cfg:930
  msgid "Move on! The castle is just ahead."
  msgstr ""
@@ -4411,19 +4497,19 @@
  
  #. [unit]: type=Cuttle Fish, id=Cuttle Fish
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:364
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:386
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:388
  msgid "Cuttle Fish"
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:382
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:404
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:406
  msgid "Ayee! Why is there always a beast outside our gates?"
  msgstr ""
  
  #. [message]: id=Aiglathing
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:386
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:408
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:410
  msgid "That isn't possible! That creek is much too small for a beast of that size!? And why is it even here, right now?"
  msgstr ""
  
@@ -4431,31 +4517,31 @@
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:392
 +#. "The Usual Monster" has the usual snake-like speech patterns: https://tvtropes.org/pmwiki/pmwiki.php/Main/Sssssnaketalk
 +#. (also some fourth-wall-breaking)
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:416
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:418
  msgid "You foolsss! Don't you know this is a Wesssnoth campaign? What did you exsspect, a bunny?"
  msgstr ""
  
  #. [role_message]: type=thunderer
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:441
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:465
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:467
  msgid "What the...? Since when do monsters like these heal themselves...?"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:445
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:469
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:471
  msgid "It must have some kind of magical possession which heals it. We should try to take it. And better don't let it fall into the water."
  msgstr ""
  
  #. [message]: id=$unit.id
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:464
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:488
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:490
  msgid "Ha! Try and fight us now!"
  msgstr ""
  
  #. [message]: id=The_Usual_Monster
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:469
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:493
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:495
  msgid "Sss, how typical! Alwaysss using the ssslow attack! And they wonder why we monsters hate our jobsss..."
  msgstr ""
  
@@ -4464,94 +4550,94 @@
 +#. "devlings" is a diminutive for "devils" and is meant to be an insult for the side (most likely the dwarves) that have just killed Woomtshak;
 +#. either of the "-kun" or "-chan" honorifics might work in Japanese; you could also try translating it as "imps" instead, too.
 +#. see also: https://forums.wesnoth.org/viewtopic.php?t=8379
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:524
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:526
  msgid "Uaah! A thousand curses on you, puny devlings!"
  msgstr ""
  
  #. [scenario]: id=03_Breakthrough
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:499
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:526
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:528
  msgid "Uargh!"
  msgstr ""
  
  #. [unit]: type=Mage, id=Clarissa
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:511
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:538
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:540
  msgid "Clarissa"
  msgstr ""
  
  #. [message]: speaker=second_unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:528
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:555
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:557
  msgid "What? Who are you?"
  msgstr ""
  
  #. [message]: id=Clarissa
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:532
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:559
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:561
  msgid "I am the mage Clarissa... and who are you? Wait... small and hairy men... are you dwarves?"
  msgstr ""
  
  #. [role_message]: type=fighter
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:540
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:567
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:569
  msgid "(<i>mumbling</i>) Let me tell you something about the small axes we little men carry..."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:544
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:571
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:573
  msgid "We are indeed dwarves, young mage. Why are you here in the mountains, far north of the Wesnothian Kingdom?"
  msgstr ""
  
  #. [message]: id=Clarissa
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:548
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:575
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:577
  msgid "A few months ago, I had graduated from the Academy of Alduin. I chose to journey to these mountains to study dwarven folk like you, and I was captured by those orcs for reasons unknown to me. I see you have defeated them. (<i>smiles</i>)"
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:552
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:579
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:581
  msgid "Yes indeed. Now that you are free, will you continue to journey alone in these dangerous mountains?"
  msgstr ""
  
  #. [message]: id=Clarissa
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:556
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:583
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:585
  msgid "Perhaps. I've always loved adventure, yet now I see that I can't protect myself very well alone."
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:560
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:587
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:589
  msgid "We are on a somewhat exciting adventure ourselves, in search of new mines. Would you care to join us?"
  msgstr ""
  
  #. [message]: id=Clarissa
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:564
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:591
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:593
  msgid "I'd love to."
  msgstr ""
  
  #. [message]: id=The_Usual_Monster
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:577
 +#. The monster's last breath:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:605
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:607
  msgid "Sss... happens every time! Why... (<i>gurgle</i>)..."
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:590
 +#. "It" = the monster:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:619
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:621
  msgid "It will be there again next time..."
  msgstr ""
  
  #. [message]: speaker=second_unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:628
 +#. The monster dropped its ring of regeneration:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:658
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:660
  msgid "Look! It has dropped something... I can hardly see it through the water."
  msgstr ""
  
@@ -4559,8 +4645,8 @@
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:648
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:700
 +#. The monster dropped its ring of regeneration:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:679
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:732
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:681
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:734
  msgid "Look! It has dropped something..."
  msgstr ""
  
@@ -4568,104 +4654,104 @@
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:658
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:710
 -msgid "Probably the magical item that healed it. Monsters cannot heal themselves..."
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:689
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:742
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:691
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:744
 +msgid "Probably the magical item that healed it. Monsters cannot usually heal themselves..."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:662
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:693
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:695
  msgid "Whatever it is... get it quickly, it may corrode!"
  msgstr ""
  
  #. [message]: speaker=second_unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:680
 +#. The monster dropped its ring of regeneration:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:712
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:714
  msgid "Look! It has dropped something, it looks like a small ring."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:714
 +#. "it" = the ring:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:747
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:749
  msgid "Get it!"
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:760
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:809
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:793
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:842
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:795
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:844
  msgid "Let me see this... it appears to be a ring!"
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:764
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:797
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:799
  msgid "What is this? It has rusted so quickly, that I cannot get it onto my finger!"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:768
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:801
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:803
  msgid "We were too slow. Magical rings corrode very fast. I'll take that ring and keep it safe. I may be able to restore it if I can ever find a proper forge."
  msgstr ""
  
  #. [message]: role=role_InsolentGuy
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:785
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:818
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:820
  msgid "He he, $unit.name| has thick fingers!"
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:789
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:822
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:824
  msgid "Shut up!"
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:815
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:837
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:848
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:870
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:850
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:872
  msgid "Wow, I feel different with this ring on! In fact, I feel stronger!"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:819
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:852
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:854
  msgid "Then it is a magic ring, as I thought. Good thing we were fast enough to retrieve it before it corroded."
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:831
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:864
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:866
  msgid "I'll take this ring."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:854
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:887
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:889
  msgid "Well, we have made it this far already."
  msgstr ""
  
  #. [message]: id=Aiglathing
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:858
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:891
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:893
  msgid "Until recently, I would never have imagined I would travel so far from home as even this."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:862
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:895
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:897
  msgid "And who knows how much farther we have to go..."
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:882
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:915
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:917
  msgid "There should be a mountain pass towards the west. We need to cross it."
  msgstr ""
  
@@ -5854,15 +5940,14 @@
  msgid "I think that it's a magically sealed door which will probably not break from normal damage."
  msgstr ""
  
- #. [message]: id=Elara
+-#. [message]: id=Elara
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:644
+-msgid "I do not yet have a means to open it. Perhaps if I can get to a source of fire..."
++#. [message]: id=Elara
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:694
- msgid "I do not yet have a means to open it. Perhaps if I can get to a source of fire..."
- msgstr ""
- 
--#. [objective]: condition=win
--#: The_Earths_Gut/scenarios/18_The_investigation.cfg:651
--msgid "Investigate and look for survivors; move Elara to a source of fire!"
++msgid "I do not yet have a means to open it. Perhaps if I can get to a source of fire..."
++msgstr ""
++
 +#. [objective]: condition=win
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:701
 +msgid "Investigate and look for survivors; move Elara to a source of fire!"
@@ -5928,8 +6013,11 @@
 +#. [message]: speaker=unit
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:916
 +msgid "It's the brazier Elara used to break down that magical door; hopefully we won't need to use it again!"
-+msgstr ""
-+
+ msgstr ""
+ 
+-#. [objective]: condition=win
+-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:651
+-msgid "Investigate and look for survivors; move Elara to a source of fire!"
 +#. [message]: speaker=unit
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:931
 +msgid "Argh, they broke the kiln! It looks as though the brazier standing next to it still works, though..."
@@ -8671,7 +8759,7 @@
 +msgstr ""
 +
 +#. [message]: speaker=unit
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:271
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:273
 +msgid "There are bats in these villages!"
  msgstr ""
  
@@ -8679,73 +8767,73 @@
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:240
 -msgid "I...don't believe it! Defeated by sniveling halflings!"
 +#. Boomtshak's last breath:
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:293
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:295
 +msgid "I... don't believe it! Defeated by sniveling halflings!"
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:250
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:303
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:305
  msgid "You should believe it, monster!"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:254
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:307
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:309
  msgid "Let us go, now that the passage is safe. We must make haste!"
  msgstr ""
  
  #. [message]: id=Aiglathing
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:274
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:327
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:330
  msgid "That is it. The orcish scum is dead, and we are on our way."
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:278
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:331
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:334
  msgid "Now let us travel along the mountains towards the west."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:282
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:335
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:338
  msgid "Why did Relgorn give us advice for that direction, Dulatus?"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:286
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:339
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:342
  msgid "It has been long rumored among my kinsmen that there are mineral deposits of high amount and quality there. Have you not heard that before?"
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:290
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:343
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:346
  msgid "No. Anyway, we must go on now."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:319
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:372
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:376
  msgid "I'm out of the caves!"
  msgstr ""
  
  #. [message]: id=Aiglathing
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:323
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:376
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:380
  msgid "Fine, but are we going to leave with these orcs still alive?"
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:327
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:380
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:384
  msgid "Of course not!"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:331
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:384
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:388
  msgid "Well, then let us finish the battle and leave this place!"
  msgstr ""
  
