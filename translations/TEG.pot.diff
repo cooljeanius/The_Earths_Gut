@@ -1,11 +1,11 @@
 --- /Users/ericgallager/Downloads/TEG_old.pot	2021-10-03 20:48:44.000000000 -0400
-+++ TEG.pot	2023-09-21 22:39:29.000000000 -0400
++++ TEG.pot	2023-09-22 23:45:55.000000000 -0400
 @@ -2,7 +2,7 @@
  msgstr ""
  "Project-Id-Version: PACKAGE VERSION\n"
  "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 -"POT-Creation-Date: 2021-07-05 04:04 UTC\n"
-+"POT-Creation-Date: 2023-09-22 02:39 UTC\n"
++"POT-Creation-Date: 2023-09-23 03:45 UTC\n"
  "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
  "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
  "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2686,16 +2686,16 @@
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1598
 +#: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:311
 +msgid "help"
++msgstr ""
++
++#. [message]: speaker=narrator
++#. string splicing here:
++#: The_Earths_Gut/scenarios/08_Lost.cfg:1609
++msgid "Troll recruitment hint:"
  msgstr ""
  
  #. [message]: speaker=narrator
 -#: The_Earths_Gut/scenarios/08_Lost.cfg:1348
-+#. string splicing here:
-+#: The_Earths_Gut/scenarios/08_Lost.cfg:1609
-+msgid "Troll recruitment hint:"
-+msgstr ""
-+
-+#. [message]: speaker=narrator
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1609
  msgid ""
  "\n"
@@ -2841,9 +2841,11 @@
 +#. [message]: id=Hamel
 +#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:156
 +msgid "Now Dulatus, didn't you say something about Thursagan also having a book that one would need in order to use the Hammer?"
-+msgstr ""
-+
-+#. [message]: id=Dulatus
+ msgstr ""
+ 
+ #. [message]: id=Dulatus
+-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:154
+-msgid "From all what we know of the old lore, inscriptions and tales, the last known place the Hammer did go to have been the caverns of flame. It is said that the greatest of all runesmiths, Thursagan, died there alongside his tribe, and the hammer-"
 +#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:160
 +msgid "Yes, we should try to find that, too. Although I doubt he kept the two of them together. And if we find the Hammer without also finding the book, then we can just store the Hammer in a chest without actually using it."
 +msgstr ""
@@ -2851,11 +2853,9 @@
 +#. [message]: id=Hamel
 +#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:164
 +msgid "Ah, it sounds like you have a plan!"
- msgstr ""
- 
- #. [message]: id=Dulatus
--#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:154
--msgid "From all what we know of the old lore, inscriptions and tales, the last known place the Hammer did go to have been the caverns of flame. It is said that the greatest of all runesmiths, Thursagan, died there alongside his tribe, and the hammer-"
++msgstr ""
++
++#. [message]: id=Dulatus
 +#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:168
 +msgid "Yes. In any case, from all what we know of the old lore, inscriptions and tales, the last known place the Hammer did go to was said to have been the Caverns of Flame. It is said that the greatest of all runesmiths, Thursagan, died there alongside his tribe, and the hammer-"
  msgstr ""
@@ -3710,17 +3710,14 @@
 +#. [message]: speaker=unit
 +#: The_Earths_Gut/scenarios/10_Old_friends.cfg:902
 +msgid "...really? But you're a troll, though."
- msgstr ""
- 
- #. [message]: speaker=second_unit
--#: The_Earths_Gut/scenarios/10_Old_friends.cfg:831
--msgid "Hi there, we're some friends coming back and we have a big surprise."
++msgstr ""
++
++#. [message]: speaker=second_unit
 +#: The_Earths_Gut/scenarios/10_Old_friends.cfg:906
 +msgid "Look, it's a long story. We don't want to have to retell it to each of you. Can't you just trust us... please?"
- msgstr ""
- 
- #. [message]: speaker=unit
--#: The_Earths_Gut/scenarios/10_Old_friends.cfg:835
++msgstr ""
++
++#. [message]: speaker=unit
 +#: The_Earths_Gut/scenarios/10_Old_friends.cfg:910
 +msgid "Uh, well... no, I don't think I can really trust you, but just because I don't trust you, doesn't mean that we have to fight, either. I'll let you by, but just be aware that we're keeping your eyes on you, and are ready to slay you if you turn out not to be the friends you claim to be."
 +msgstr ""
@@ -3734,15 +3731,18 @@
 +#. spoken distrustfully:
 +#: The_Earths_Gut/scenarios/10_Old_friends.cfg:919
 +msgid "Mhm. Anyways, move along now."
-+msgstr ""
-+
-+#. [message]: speaker=second_unit
+ msgstr ""
+ 
+ #. [message]: speaker=second_unit
+-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:831
+-msgid "Hi there, we're some friends coming back and we have a big surprise."
 +#. speaker is any other side 1 unit who's not a troll:
 +#: The_Earths_Gut/scenarios/10_Old_friends.cfg:926
 +msgid "Hi there, we're some friends coming back, and we have a big surprise."
-+msgstr ""
-+
-+#. [message]: speaker=unit
+ msgstr ""
+ 
+ #. [message]: speaker=unit
+-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:835
 +#: The_Earths_Gut/scenarios/10_Old_friends.cfg:930
  msgid "Move on! The castle is just ahead."
  msgstr ""
@@ -5941,19 +5941,21 @@
  msgid "I think that it's a magically sealed door which will probably not break from normal damage."
  msgstr ""
  
--#. [message]: id=Elara
+ #. [message]: id=Elara
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:644
--msgid "I do not yet have a means to open it. Perhaps if I can get to a source of fire..."
-+#. [message]: id=Elara
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:694
-+msgid "I do not yet have a means to open it. Perhaps if I can get to a source of fire..."
-+msgstr ""
-+
-+#. [objective]: condition=win
+ msgid "I do not yet have a means to open it. Perhaps if I can get to a source of fire..."
+ msgstr ""
+ 
+ #. [objective]: condition=win
+-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:651
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:701
-+msgid "Investigate and look for survivors; move Elara to a source of fire!"
-+msgstr ""
-+
+ msgid "Investigate and look for survivors; move Elara to a source of fire!"
+ msgstr ""
+ 
+-#. [message]: id=Aiglathing
+-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:690
+-msgid "Ah, the forge. Our smiths used to make fire there to craft fine armor and weapons."
 +#. [message]: id=Elara
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:726
 +msgid "I'll have to use fire on it!"
@@ -6014,19 +6016,13 @@
 +#. [message]: speaker=unit
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:916
 +msgid "It's the brazier Elara used to break down that magical door; hopefully we won't need to use it again!"
- msgstr ""
- 
--#. [objective]: condition=win
--#: The_Earths_Gut/scenarios/18_The_investigation.cfg:651
--msgid "Investigate and look for survivors; move Elara to a source of fire!"
++msgstr ""
++
 +#. [message]: speaker=unit
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:931
 +msgid "Argh, they broke the kiln! It looks as though the brazier standing next to it still works, though..."
- msgstr ""
- 
--#. [message]: id=Aiglathing
--#: The_Earths_Gut/scenarios/18_The_investigation.cfg:690
--msgid "Ah, the forge. Our smiths used to make fire there to craft fine armor and weapons."
++msgstr ""
++
 +#. [message]: speaker=unit
 +#: The_Earths_Gut/scenarios/18_The_investigation.cfg:942
 +msgid "This hammer isn't much use to us now..."
@@ -8760,7 +8756,7 @@
 +msgstr ""
 +
 +#. [message]: speaker=unit
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:273
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:278
 +msgid "There are bats in these villages!"
  msgstr ""
  
@@ -8768,73 +8764,73 @@
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:240
 -msgid "I...don't believe it! Defeated by sniveling halflings!"
 +#. Boomtshak's last breath:
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:295
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:313
 +msgid "I... don't believe it! Defeated by sniveling halflings!"
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:250
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:305
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:323
  msgid "You should believe it, monster!"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:254
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:309
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:327
  msgid "Let us go, now that the passage is safe. We must make haste!"
  msgstr ""
  
  #. [message]: id=Aiglathing
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:274
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:330
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:348
  msgid "That is it. The orcish scum is dead, and we are on our way."
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:278
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:334
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:352
  msgid "Now let us travel along the mountains towards the west."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:282
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:338
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:356
  msgid "Why did Relgorn give us advice for that direction, Dulatus?"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:286
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:342
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:360
  msgid "It has been long rumored among my kinsmen that there are mineral deposits of high amount and quality there. Have you not heard that before?"
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:290
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:346
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:364
  msgid "No. Anyway, we must go on now."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:319
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:376
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:394
  msgid "I'm out of the caves!"
  msgstr ""
  
  #. [message]: id=Aiglathing
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:323
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:380
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:398
  msgid "Fine, but are we going to leave with these orcs still alive?"
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:327
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:384
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:402
  msgid "Of course not!"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:331
-+#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:388
++#: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:406
  msgid "Well, then let us finish the battle and leave this place!"
  msgstr ""
  
