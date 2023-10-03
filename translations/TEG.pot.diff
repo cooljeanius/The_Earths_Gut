@@ -1,11 +1,11 @@
 --- /Users/ericgallager/Downloads/TEG_old.pot	2021-10-03 20:48:44.000000000 -0400
-+++ TEG.pot	2023-10-03 01:09:03.000000000 -0400
++++ TEG.pot	2023-10-03 01:32:19.000000000 -0400
 @@ -2,7 +2,7 @@
  msgstr ""
  "Project-Id-Version: PACKAGE VERSION\n"
  "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 -"POT-Creation-Date: 2021-07-05 04:04 UTC\n"
-+"POT-Creation-Date: 2023-10-03 05:09 UTC\n"
++"POT-Creation-Date: 2023-10-03 05:32 UTC\n"
  "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
  "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
  "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1287,7 +1287,7 @@
  msgstr ""
  
  #. [unit_type]: id=Spider Hatchling, race=monster
-@@ -1124,444 +1221,479 @@
+@@ -1124,444 +1221,485 @@
  msgid "Wall"
  msgstr ""
  
@@ -1604,25 +1604,31 @@
 +#. [message]: id=Dulatus
 +#. a bit of a hint that Uga Uga might have something for the player:
 +#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:671
-+msgid "Ach, don't complain so much, Aiglathing! This could be an opportunity before us! In any case, it seems we have a decision to make."
++msgid "Ach, don't complain so much, Aiglathing! This could be an opportunity before us! Think of all the previous travelers this beast has shaken down who we now have a chance to avenge!"
++msgstr ""
++
++#. [message]: id=Aiglathing
++#. this was previously part of Dulatus's previous line, but I split it off because it was getting too long:
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:676
++msgid "In any case, it seems we have a decision to make."
 +msgstr ""
 +
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:574
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:675
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:680
  msgid "I need to think about this..."
  msgstr ""
  
  #. [option]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:577
 +#. "pay" option:
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:678
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:683
  msgid "I do not wish to fight you, Uga Uga. I will pay the fee."
  msgstr ""
  
  #. [option]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:577
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:678
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:683
  msgid ""
  "\n"
  "<small>(Defeat the bandits; you will be allowed to freely choose the next scenario.)</small>"
@@ -1631,13 +1637,13 @@
  #. [option]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:587
 +#. "fight" option:
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:688
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:693
  msgid "Who are you to say these mountains belong to you, monster?"
  msgstr ""
  
  #. [option]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:587
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:688
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:693
  msgid ""
  "\n"
  "This is the domain of the dwarves, and we will travel wherever we want!"
@@ -1645,7 +1651,7 @@
  
  #. [option]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:588
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:689
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:694
  msgid ""
  "\n"
  "<small>(Defeat the monsters or defeat the bandits, the next scenario is decided by whom you defeat.)</small>"
@@ -1653,13 +1659,13 @@
  
  #. [message]: id=Uga_Uga
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:593
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:694
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:699
  msgid "Hah! If you attack Uga Uga, you'll be smashed to bits!"
  msgstr ""
  
  #. [message]: id=Uga_Uga
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:637
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:740
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:745
  msgid "Heh, good choice! Uga Uga loves bright gold more than smashing tiny dwarves."
  msgstr ""
  
@@ -1667,15 +1673,15 @@
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:647
 -msgid "The path up the mountain is free now, but we shouldn't leave enemies alive behind our back."
 +#. by "enemies" Dulatus means the bandits:
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:751
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:756
 +msgid "The path up the mountain is free now, but we shouldn't leave enemies alive who could flank us from behind."
  msgstr ""
  
  #. [objectives]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:654
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:708
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:758
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:814
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:763
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:817
  #: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:95
 -#: The_Earths_Gut/scenarios/08_Lost.cfg:1244
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1358
@@ -1719,68 +1725,68 @@
  #. [objectives]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:655
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:710
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:759
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:816
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:764
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:819
  msgid "The turn limit has been set to $final_turn_limit|."
  msgstr ""
  
  #. [objective]: condition=win
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:657
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:761
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:766
  msgid "Defeat the bandits"
  msgstr ""
  
  #. [message]: id=Uga_Uga
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:671
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:775
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:780
  msgid "You stupid dwarves can't trick Uga Uga! Gimme all the gold I want, or die!"
  msgstr ""
  
  #. [objective]: condition=win
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:712
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:818
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:821
  msgid "Defeat the monsters (Next scenario is 'Blowing Snow'.)"
  msgstr ""
  
  #. [objective]: condition=win
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:716
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:822
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:825
  msgid "Defeat the bandits (Next scenario is 'Unknown Tunnels'.)"
  msgstr ""
  
  #. [message]: id=Lidda
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:739
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:845
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:848
  msgid "Uarghh! I cannot die to these halflings..."
  msgstr ""
  
  #. [message]: id=Uga_Uga
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:757
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:863
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:866
  msgid "All Uga Uga ever wanted was bright gold!"
  msgstr ""
  
  #. [message]: speaker=second_unit
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:765
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:871
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:874
  msgid "Look, there is something on the ground where the monster fell! It's a large purse full of gold!"
  msgstr ""
  
  #. [message]: speaker=narrator
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:777
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:883
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:886
  msgid "The purse contains $i_UgaUgaPurse| gold pieces!"
  msgstr ""
  
  #. [message]: speaker=second_unit
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:781
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:887
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:890
  msgid "I wish every monster was so rich!"
  msgstr ""
  
  #. [message]: id=Aiglathing
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:785
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:891
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:894
  msgid "I wonder how long that brute has forced travelers to pay..."
  msgstr ""
  
@@ -1789,97 +1795,97 @@
 +#. time over: If we paid, Lidda must be the remaining enemy.
 +#. If we didn't pay, the remaining enemies would be both Lidda and UgaUga.
 +#. Otherwise, the leader death events would have ended the scenario.
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:908
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:911
  msgid "We cannot continue with enemies behind us..."
  msgstr ""
  
  #. [role_message]: type=fighter
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:812
 -msgid "Where do we go from here now ?"
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:920
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:923
 +msgid "Where do we go from here now?"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:816
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:924
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:927
  msgid "There must be a cave entrance here, somewhere below the mountains! I faintly remember it being discovered years ago."
  msgstr ""
  
  #. [message]: id=04_Up_the_mountain_cave_discoverer
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:848
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:956
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:959
  msgid "Yes, I've seen it, here it is!"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:855
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:963
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:966
  msgid "Does it look like our kind has been there before?"
  msgstr ""
  
  #. [message]: id=04_Up_the_mountain_cave_discoverer
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:860
 -msgid "Maybe...there are some ruins at the opening."
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:967
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:970
 +msgid "Maybe... there are some ruins at the opening."
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:864
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:971
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:974
  msgid "I am not sure, but it could be a path to the mines that were rumored to be in those mountains. Those ruins could indeed be dwarvish."
  msgstr ""
  
  #. [role_message]: type=fighter
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:869
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:976
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:979
  msgid "Shall we take this way?"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:878
 -msgid "Since the monsters are still blocking the pass, we have no choice, so...yes."
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:985
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:988
 +msgid "Since the monsters are still blocking the pass, we have no choice, so... yes."
  msgstr ""
  
  #. [message]: id=Clarissa
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:882
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:898
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:989
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1005
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:992
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1008
  msgid "I do not mean to sound like a coward, but I dread entering that cave. I feel a strong evil lurks inside."
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:902
 -msgid "Since the monsters are gone, the pass is free, so we better choose this way. Likely the bandits don't dare to follow."
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1009
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1012
 +msgid "Since the monsters are gone, the pass is free, so we'd better choose this way. Likely the bandits won't dare to follow."
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:924
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1031
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1034
  msgid "Since the monsters and the bandits are gone, we are free to decide which path to take."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:928
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1035
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1038
  msgid "Shall we travel over the mountains, or explore the cave?"
  msgstr ""
  
  #. [option]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:930
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1037
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1040
  msgid "There is something disturbing about that cave."
  msgstr ""
  
  #. [option]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:930
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1037
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1040
  msgid ""
  "\n"
  "While I do not fear danger, I feel it would be better for all of us to travel over the mountains instead."
@@ -1887,31 +1893,31 @@
  
  #. [option]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:931
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1038
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1041
  msgid ""
  "\n"
  "<small>(Next scenario is 'Blowing snow'.)</small>"
-@@ -1569,25 +1701,26 @@
+@@ -1569,25 +1707,26 @@
  
  #. [message]: id=Dulatus
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:936
 -#: The_Earths_Gut/scenarios/19_Prison.cfg:1059
 +#. spoken by the executioner:
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1043
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1046
 +#: The_Earths_Gut/scenarios/19_Prison.cfg:1102
  msgid "So be it."
  msgstr ""
  
  #. [option]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:946
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1053
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1056
  msgid "We will be able to travel faster through those caves than over those mountains."
  msgstr ""
  
  #. [option]
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:946
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1053
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1056
  msgid ""
  "\n"
  "<small>(Next scenario is 'Unknown tunnels'.)</small>"
@@ -1919,11 +1925,11 @@
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:951
-+#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1058
++#: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1061
  msgid "I hope it is safe."
  msgstr ""
  
-@@ -1602,48 +1735,213 @@
+@@ -1602,48 +1741,213 @@
  msgstr ""
  
  #. [side]: type=Dwarvish Stalwart, id=Dulatus
@@ -2150,7 +2156,7 @@
  #. [message]: speaker=narrator
  #: The_Earths_Gut/scenarios/08_Lost.cfg:71
  msgid "Hint: The turn limit has been set to $i_Turns|."
-@@ -1656,7 +1954,7 @@
+@@ -1656,7 +1960,7 @@
  
  #. [part]
  #: The_Earths_Gut/scenarios/08_Lost.cfg:125
@@ -2159,7 +2165,7 @@
  msgstr ""
  
  #. [part]
-@@ -1665,448 +1963,513 @@
+@@ -1665,448 +1969,513 @@
  msgstr ""
  
  #. [message]: speaker=narrator
@@ -2656,9 +2662,10 @@
 +#. debug message:
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1496
 +msgid "spawning flying enemies at $possible_bat_locs[$random].x,$possible_bat_locs[$random].y"
-+msgstr ""
-+
-+#. [message]: speaker=narrator
+ msgstr ""
+ 
+ #. [message]: speaker=narrator
+-#: The_Earths_Gut/scenarios/08_Lost.cfg:1348
 +#. debug message:
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1508
 +msgid "oops, there's nowhere left to spawn additional flying enemies"
@@ -2692,10 +2699,9 @@
 +#. string splicing here:
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1609
 +msgid "Troll recruitment hint:"
- msgstr ""
- 
- #. [message]: speaker=narrator
--#: The_Earths_Gut/scenarios/08_Lost.cfg:1348
++msgstr ""
++
++#. [message]: speaker=narrator
 +#: The_Earths_Gut/scenarios/08_Lost.cfg:1609
  msgid ""
  "\n"
@@ -2787,7 +2793,7 @@
  msgstr ""
  
  #. [scenario]: id=20t_A_cry_for_help
-@@ -2120,109 +2483,134 @@
+@@ -2120,109 +2489,134 @@
  msgstr ""
  
  #. [objective]: condition=win
@@ -2953,7 +2959,7 @@
  msgid "That's it. Move on."
  msgstr ""
  
-@@ -2232,143 +2620,144 @@
+@@ -2232,143 +2626,144 @@
  msgstr ""
  
  #. [part]
@@ -3135,7 +3141,7 @@
  #: The_Earths_Gut/scenarios/17_Return.cfg:10
  msgid "Eowariand"
  msgstr ""
-@@ -2389,525 +2778,564 @@
+@@ -2389,525 +2784,564 @@
  msgstr ""
  
  #. [event]: id=Delfador, id=Kalenz, id=Parandra
@@ -3809,7 +3815,7 @@
  msgid "Let the battle commence!"
  msgstr ""
  
-@@ -2922,423 +3350,467 @@
+@@ -2922,423 +3356,467 @@
  msgstr ""
  
  #. [side]: type=Troll Warrior, id=Reck
@@ -4371,7 +4377,7 @@
  msgid "Save the sequoia tree for me please..."
  msgstr ""
  
-@@ -3353,306 +3825,322 @@
+@@ -3353,306 +3831,322 @@
  msgstr ""
  
  #. [side]: type=Orcish Crossbowman, type=Orcish Slurbow, id=Woomtshak
@@ -4765,7 +4771,7 @@
  msgid "test"
  msgstr ""
  
-@@ -3663,340 +4151,408 @@
+@@ -3663,340 +4157,408 @@
  
  #. [message]: id=Hamel
  #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:61
@@ -5251,7 +5257,7 @@
  msgid "Uffff"
  msgstr ""
  
-@@ -4012,281 +4568,300 @@
+@@ -4012,281 +4574,300 @@
  
  #. [part]
  #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:36
@@ -5611,7 +5617,7 @@
  msgid "Onward, men. I suspect we have much to reconquer."
  msgstr ""
  
-@@ -4296,364 +4871,553 @@
+@@ -4296,364 +4877,553 @@
  msgstr ""
  
  #. [unit]: type=Grand Marshal, id=Asheviere's new Flame
@@ -6258,7 +6264,7 @@
  msgid "I think we're done here. Let's look after the prisoners."
  msgstr ""
  
-@@ -4668,503 +5432,535 @@
+@@ -4668,503 +5438,535 @@
  msgstr ""
  
  #. [objective]: condition=win
@@ -6901,7 +6907,7 @@
  msgid "...let's return to Weldyn then..."
  msgstr ""
  
-@@ -5185,7 +5981,7 @@
+@@ -5185,7 +5987,7 @@
  
  #. [message]: speaker=unit
  #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:66
@@ -6910,7 +6916,7 @@
  msgstr ""
  
  #. [role_message]: type=alchemist
-@@ -5249,292 +6045,303 @@
+@@ -5249,292 +6051,303 @@
  msgstr ""
  
  #. [message]: speaker=narrator
@@ -7275,7 +7281,7 @@
  msgid "You receive $i_GeneralBonusGold| gold pieces!"
  msgstr ""
  
-@@ -5545,12 +6352,12 @@
+@@ -5545,12 +6358,12 @@
  
  #. [scenario]: id=01t_The_old_home
  #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:14
@@ -7290,7 +7296,7 @@
  msgstr ""
  
  #. [part]
-@@ -5614,253 +6421,260 @@
+@@ -5614,253 +6427,260 @@
  msgid "It was about the year 515YW when the worst of the attacks came, and the orcs fought with astounding brutality. Several surface outposts had been overwhelmed, and the orcs slowly advanced deeper into the caverns. It was during this time of conflict that Lord Relgorn of Knalga gathered a council of his most trusted warriors in the deepest caverns, and discussed the situation..."
  msgstr ""
  
@@ -7610,7 +7616,7 @@
  msgid "Best wishes for you three. See you all in a few years."
  msgstr ""
  
-@@ -5875,410 +6689,548 @@
+@@ -5875,410 +6695,548 @@
  msgstr ""
  
  #. [side]: type=Fugitive, id=Anne Bonny
@@ -8253,7 +8259,7 @@
  msgid "What the...!? I think I just saw a lich appear out of nowhere!? Now they no longer even need their monoliths!?"
  msgstr ""
  
-@@ -6332,980 +7284,1131 @@
+@@ -6332,980 +7290,1131 @@
  msgstr ""
  
  #. [unit]: type=Death Knight, id=executioner
