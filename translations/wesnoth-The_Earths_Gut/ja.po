@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-09-23 03:45 UTC\n"
+"POT-Creation-Date: 2023-10-03 05:09 UTC\n"
 "PO-Revision-Date: 2023-08-31 22:30+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -21,7 +21,7 @@ msgstr ""
 #. Also, a note about the title: "The Earth's Gut" is a poetic way of saying "Deep in the Earth";
 #. if you are localizing the title in translation, it doesn't need to literally be "gut" but rather
 #. can be some other form of poetic/figurative speaking that makes more sense in your language:
-#: The_Earths_Gut/dist/name_icon_description.cfg:2 The_Earths_Gut/_main.cfg:118
+#: The_Earths_Gut/dist/name_icon_description.cfg:2 The_Earths_Gut/_main.cfg:124
 msgid "The Earth's Gut"
 msgstr "地球のはらわた"
 
@@ -1896,7 +1896,7 @@ msgstr "山に向かう道は確保したが、背後からも来る敵を生か
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:395
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:365
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:257
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:181
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:184
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:570
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:259
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:282
@@ -5084,17 +5084,17 @@ msgstr "小さな一行は洞窟を出て眩しい日差しの中へと急いで
 
 #. [side]: type=Orcish Crossbowman, type=Orcish Slurbow, id=Woomtshak
 #. theme naming with "Boomtshak" from the previous scenario:
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:82
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:83
 msgid "Woomtshak"
 msgstr "Woomtshak"
 
 #. [side]: type=Orcish Warrior, type=Orcish Warlord, id=Gogdush
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:124
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:126
 msgid "Gogdush"
 msgstr "Gogdush"
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:183
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:186
 msgid ""
 "Move Hamel to the GO HERE icon or defeat all enemy leaders! (The scenario "
 "ends immediately in both cases.)"
@@ -5103,22 +5103,22 @@ msgstr ""
 "そう！（どちらでもシナリオは終了します。）"
 
 #. [objectives]
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:192
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:195
 msgid "Hint: There's an (important) bonus for defeating a single enemy leader."
 msgstr "ヒント：敵のリーダーの一人を倒すと（重要な）ボーナスがあります。"
 
 #. [message]: id=Woomtshak
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:219
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:222
 msgid "Wait! Who goes there?"
 msgstr "待て！そこを行くのは誰だ？"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:223
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:232
 msgid "Orcs again?"
 msgstr "またオークか？"
 
 #. [message]: id=Woomtshak
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:228
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:237
 msgid ""
 "What's this? Dwarves running out of the caves! That can only mean you've "
 "killed my nephew Boomtshak! Prepare to die!"
@@ -5127,80 +5127,80 @@ msgstr ""
 "Boomshak を殺した野郎に違いない！首を洗って待っとけ！"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:233
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:242
 msgid "Maybe we can pass by that orc patrol, if we are fast enough..."
 msgstr "オークの哨戒兵のそばを通り抜けられるかも知れない、素早く行ければ..."
 
 #. [message]: id=Woomtshak
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:237
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:246
 msgid "Hah, you puny midgets! To arms, my grunts! Attack!"
 msgstr "ハッ、このちっこい小人め！武装しろ、野郎ども！行けー！"
 
 #. [message]: id=Gogdush
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:253
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:262
 msgid "Heh heh! We'll smash them to bits!"
 msgstr "ヘッヘー！粉々に打ち砕いてやる！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:257
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:266
 msgid "Such intolerable creatures! We will not walk away from their insults!"
 msgstr ""
 "これほどにも鼻持ちならぬ生き物だったか！奴らの侮辱を聞き捨てることなど無い！"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:261
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:270
 msgid "Listen to the brutes! They need a hard lesson in respect."
 msgstr ""
 "蛮族どもの声を聞け！あいつらは、敬意をもって厳しい教訓を受ける必要があるな。"
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:270
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:279
 msgid "unleashing the monster."
 msgstr "モンスターを解き放つ。"
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:279
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:288
 msgid "the monster being healed."
 msgstr "癒やされたモンスター。"
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:295
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:304
 msgid "the monster being killed."
 msgstr "殺されたモンスター。"
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:309
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:318
 msgid "death of Woomtshak"
 msgstr "Woomtshak の死"
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:320
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:329
 msgid "death of Gogdush"
 msgstr "Gogdush の死"
 
 #. [unit]: type=Sea Serpent, id=The_Usual_Monster
 #. this name is kind of tongue-in-cheek:
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:370
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:379
 msgid "The Usual Monster"
 msgstr "普通のモンスター"
 
 #. [unit]: type=Cuttle Fish, id=Cuttle Fish
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:388
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:397
 msgid "Cuttle Fish"
 msgstr "大王イカ"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:406
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:415
 msgid "Ayee! Why is there always a beast outside our gates?"
 msgstr "なんじゃ！なんで、この門の外にはいつも獣がウロウロしているんだ？"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:410
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:419
 msgid ""
 "That isn't possible! That creek is much too small for a beast of that size!? "
 "And why is it even here, right now?"
@@ -5211,7 +5211,7 @@ msgstr ""
 #. [message]: id=The_Usual_Monster
 #. "The Usual Monster" has the usual snake-like speech patterns: https://tvtropes.org/pmwiki/pmwiki.php/Main/Sssssnaketalk
 #. (also some fourth-wall-breaking)
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:418
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:427
 msgid ""
 "You foolsss! Don't you know this is a Wesssnoth campaign? What did you "
 "exsspect, a bunny?"
@@ -5220,13 +5220,13 @@ msgstr ""
 "キータイしてるんだ、ビキニ姿の女の子か？"
 
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:467
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:476
 msgid "What the...? Since when do monsters like these heal themselves...?"
 msgstr ""
 "何なんだ...？ いつから、こういうモンスターは自分で治癒するようになったんだ？"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:471
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:480
 msgid ""
 "It must have some kind of magical possession which heals it. We should try "
 "to take it. And better don't let it fall into the water."
@@ -5235,12 +5235,14 @@ msgstr ""
 "か。それと、水中に落とさないようにしないとな。"
 
 #. [message]: id=$unit.id
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:490
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:499
 msgid "Ha! Try and fight us now!"
 msgstr "ハッ！かかって来い、ブチのめしてやる！"
 
 #. [message]: id=The_Usual_Monster
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:495
+#. "ssslow attack" as in, attack that inflicts the "slowed" status condition;
+#. it doesn't mean that the attack itself is slow:
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:506
 msgid ""
 "Sss, how typical! Alwaysss using the ssslow attack! And they wonder why we "
 "monsters hate our jobsss..."
@@ -5252,27 +5254,27 @@ msgstr ""
 #. "devlings" is a diminutive for "devils" and is meant to be an insult for the side (most likely the dwarves) that have just killed Woomtshak;
 #. either of the "-kun" or "-chan" honorifics might work in Japanese; you could also try translating it as "imps" instead, too.
 #. see also: https://forums.wesnoth.org/viewtopic.php?t=8379
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:526
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:537
 msgid "Uaah! A thousand curses on you, puny devlings!"
 msgstr "ウワー！千の呪いが一遍に来やがる、チビ悪魔め！"
 
 #. [scenario]: id=03_Breakthrough
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:528
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:539
 msgid "Uargh!"
 msgstr "ウワァーッ！"
 
 #. [unit]: type=Mage, id=Clarissa
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:540
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:551
 msgid "Clarissa"
 msgstr "Clarissa"
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:557
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:568
 msgid "What? Who are you?"
 msgstr "何だ？お前、誰だ？"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:561
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:572
 msgid ""
 "I am the mage Clarissa... and who are you? Wait... small and hairy men... "
 "are you dwarves?"
@@ -5281,7 +5283,7 @@ msgstr ""
 "深い男たち...ってことは、ドワーフかしら？"
 
 #. [role_message]: type=fighter
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:569
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:580
 msgid ""
 "(<i>mumbling</i>) Let me tell you something about the small axes we little "
 "men carry..."
@@ -5290,7 +5292,7 @@ msgstr ""
 "さく教えてあげましょうかね..."
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:573
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:584
 msgid ""
 "We are indeed dwarves, young mage. Why are you here in the mountains, far "
 "north of the Wesnothian Kingdom?"
@@ -5299,7 +5301,7 @@ msgstr ""
 "離れたこの山奥にいるのかな？"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:577
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:588
 msgid ""
 "A few months ago, I had graduated from the Academy of Alduin. I chose to "
 "journey to these mountains to study dwarven folk like you, and I was "
@@ -5311,7 +5313,7 @@ msgstr ""
 "に、オークに捕まっちゃったのよ。皆さんが倒した、あのオークにね。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:581
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:592
 msgid ""
 "Yes indeed. Now that you are free, will you continue to journey alone in "
 "these dangerous mountains?"
@@ -5320,7 +5322,7 @@ msgstr ""
 "一人旅を続けるつもりかな？"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:585
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:596
 msgid ""
 "Perhaps. I've always loved adventure, yet now I see that I can't protect "
 "myself very well alone."
@@ -5329,7 +5331,7 @@ msgstr ""
 "ない、ってことが分かったけどね。"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:589
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:600
 msgid ""
 "We are on a somewhat exciting adventure ourselves, in search of new mines. "
 "Would you care to join us?"
@@ -5338,39 +5340,39 @@ msgstr ""
 "う、一緒に来るかい？"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:593
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:604
 msgid "I'd love to."
 msgstr "あら、是非とも。"
 
 #. [message]: id=The_Usual_Monster
 #. The monster's last breath:
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:607
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:618
 msgid "Sss... happens every time! Why... (<i>gurgle</i>)..."
 msgstr "スゥ..... イーツモいつも！ナーンデだよ...（ ゴニョゴニョ.. ）..."
 
 #. [message]: id=Dulatus
 #. "It" = the monster:
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:621
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:632
 msgid "It will be there again next time..."
 msgstr "こいつら、次もまた出てくるんだろうなぁ..."
 
 #. [message]: speaker=second_unit
 #. The monster dropped its ring of regeneration:
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:660
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:671
 msgid ""
 "Look! It has dropped something... I can hardly see it through the water."
 msgstr "ほら見て！なんか落とした... 水でよく見えないけど。"
 
 #. [message]: id=Aiglathing
 #. The monster dropped its ring of regeneration:
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:681
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:734
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:692
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:745
 msgid "Look! It has dropped something..."
 msgstr "ほら見て！なんか落とした..."
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:691
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:744
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:702
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:755
 msgid ""
 "Probably the magical item that healed it. Monsters cannot usually heal "
 "themselves..."
@@ -5378,36 +5380,36 @@ msgstr ""
 "多分、魔法のアイテムで治したんだろう。普通、モンスターは自分で治せない。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:695
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:706
 msgid "Whatever it is... get it quickly, it may corrode!"
 msgstr "何でもいいから...さっさと手に入れるんだ、腐っちまう！"
 
 #. [message]: speaker=second_unit
 #. The monster dropped its ring of regeneration:
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:714
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:725
 msgid "Look! It has dropped something, it looks like a small ring."
 msgstr "ほら見て！なんか落とした... 小さい指輪みたいだけど。"
 
 #. [message]: id=Hamel
 #. "it" = the ring:
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:749
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:760
 msgid "Get it!"
 msgstr "取るんだ！"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:795
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:844
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:806
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:855
 msgid "Let me see this... it appears to be a ring!"
 msgstr "ちょっと見せて... 指輪のようだ！"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:799
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:810
 msgid ""
 "What is this? It has rusted so quickly, that I cannot get it onto my finger!"
 msgstr "何だこれは？すぐに錆びてしまった、俺の指には入らないぞ！"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:803
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:814
 msgid ""
 "We were too slow. Magical rings corrode very fast. I'll take that ring and "
 "keep it safe. I may be able to restore it if I can ever find a proper forge."
@@ -5416,23 +5418,23 @@ msgstr ""
 "しっかりと保存しておこう。それなりの鍛冶屋を見つければ直せるかもしれないし。"
 
 #. [message]: role=role_InsolentGuy
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:820
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:831
 msgid "He he, $unit.name| has thick fingers!"
 msgstr "へへへ、$unit.name は指が太いんだよ！"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:824
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:835
 msgid "Shut up!"
 msgstr "うるさいなぁ！"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:850
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:872
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:861
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:883
 msgid "Wow, I feel different with this ring on! In fact, I feel stronger!"
 msgstr "うわぁ、この指輪をはめると、気分が違う！ほんとに、強くなった気分だ！"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:854
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:865
 msgid ""
 "Then it is a magic ring, as I thought. Good thing we were fast enough to "
 "retrieve it before it corroded."
@@ -5441,29 +5443,29 @@ msgstr ""
 "功を奏したな。"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:866
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:877
 msgid "I'll take this ring."
 msgstr "それ、貰うよ。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:889
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:900
 msgid "Well, we have made it this far already."
 msgstr "なあ、かなり遠くまで来たな。"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:893
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:904
 msgid ""
 "Until recently, I would never have imagined I would travel so far from home "
 "as even this."
 msgstr "最近までは思いもしなかったんだ、これ程遠いところまで来ることなんてな。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:897
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:908
 msgid "And who knows how much farther we have to go..."
 msgstr "しかも、どれほど遠くまで行かなきゃならないのか、誰にも分からない..."
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:917
+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:928
 msgid "There should be a mountain pass towards the west. We need to cross it."
 msgstr "西に向かうと峠があるはずだ。それを越えなきゃならんな。"
 
