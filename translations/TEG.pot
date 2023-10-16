@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-10-03 05:32 UTC\n"
+"POT-Creation-Date: 2023-10-16 03:22 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. if you are localizing the title in translation, it doesn't need to literally be "gut" but rather
 #. can be some other form of poetic/figurative speaking that makes more sense in your language:
 #: The_Earths_Gut/dist/name_icon_description.cfg:2
-#: The_Earths_Gut/_main.cfg:124
+#: The_Earths_Gut/_main.cfg:130
 msgid "The Earth's Gut"
 msgstr ""
 
@@ -161,7 +161,7 @@ msgstr ""
 #. yes, that is actually the number "a hundred twenty-three", not just someone running their finger along the number row of their keyboard:
 #: The_Earths_Gut/utils/deaths.cfg:67
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:571
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1188
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1197
 msgid "And he was only 123..."
 msgstr ""
 
@@ -650,7 +650,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:457
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:533
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:538
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:284
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:285
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:294
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1649
 msgid "..."
@@ -1250,7 +1250,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/17_Return.cfg:55
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:66
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:243
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:325
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:326
 #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:79
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:35
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:161
@@ -1275,7 +1275,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/08_Lost.cfg:253
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:864
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:640
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:567
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:568
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:223
 #: The_Earths_Gut/scenarios/19_Prison.cfg:232
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:359
@@ -5608,7 +5608,7 @@ msgstr ""
 
 #. [message]: id=Clarissa
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:542
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:288
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:289
 msgid "The most impressive dwarf I ever met is gone."
 msgstr ""
 
@@ -5619,13 +5619,13 @@ msgstr ""
 
 #. [role_message]: type=scout
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:562
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1179
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1188
 msgid "We have survived... or not..."
 msgstr ""
 
 #. [message]: id=Clarissa
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:566
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1183
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1192
 msgid "I still cannot believe it..."
 msgstr ""
 
@@ -5986,368 +5986,371 @@ msgid "Fight your way through the mountain and move Hamel outside."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:66
-msgid "I hardly notice the smell of stale air here."
+#. hint that this is the wrong way:
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:67
+msgid "I can somewhat notice the smell of stale air here."
 msgstr ""
 
 #. [role_message]: type=alchemist
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:101
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:102
 msgid "Where did Dulatus go? Anyone see him?"
 msgstr ""
 
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:119
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:120
 msgid "Analcos"
 msgstr ""
 
 #. [message]: id=Analcos
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:128
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:129
 msgid "Here you are!"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:132
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:133
 msgid "Yes, I am right here. I found this tunnel that appears to have been carved by dwarves. The path is well cut, and leads to a system of bridges over a chasm. Our kin must have been here!"
 msgstr ""
 
 #. [role_message]: type=alchemist
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:140
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:141
 msgid "Why did you leave us alone? That was very careless."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:144
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:145
 msgid "You are right, and I apologize. I must have been so excited to find the path that I..."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:156
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:157
 msgid "Ouch!"
 msgstr ""
 
 #. [role_message]: type=alchemist
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:164
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:165
 msgid "An earthquake!"
 msgstr ""
 
 #. [message]: id=Analcos
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:168
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:169
 msgid "We have to get out of here!"
 msgstr ""
 
 #. [message]: id=Analcos
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:200
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:223
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:201
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:224
 msgid "Dulatus?"
 msgstr ""
 
 #. [message]: id=Analcos
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:212
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:213
 msgid "By the gods, he must be buried in the rock!"
 msgstr ""
 
 #. [message]: id=Analcos
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:228
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:229
 msgid "The bridge-"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. this is still technically Analcos speaking, but according to the game he is already dead, so that is why the narrator is used here.
 #. Analcos is cut off in the middle of saying the word "apart":
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:247
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:248
 msgid "-is tearing apaaaaa..."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. sound effect:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:263
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:264
 msgid " *Bummmm*"
 msgstr ""
 
 #. [role_message]: type=alchemist
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:272
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:273
 msgid "What has happened? Are they... dead?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:276
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:277
 msgid "I fear... yes... what shall we do without you, Dulatus..."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:280
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:281
 msgid "Hamel, you really are the leader now."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:292
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:293
 msgid "These caves are a horror to me, and we must escape before we join Dulatus!"
 msgstr ""
 
 #. [scenario]: id=05b_Unknown_tunnels
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:299
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:300
 msgid "Unknown Tunnels"
 msgstr ""
 
 #. [side]: type=Troll Rocklobber, type=Troll Warrior, id=Brolg
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:350
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:351
 msgid "Brolg"
 msgstr ""
 
 #. [side]: type=Dark Sorcerer, type=Lich, id=Do_Revyun
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:382
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:383
 msgid "Do'Revyun"
 msgstr ""
 
 #. [side]: type=Troll, type=Troll Warrior, type=Great Troll, id=Bralg
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:422
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:423
 msgid "Bralg"
 msgstr ""
 
 #. [side]: type=Lich, id=Ro_Khan
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:457
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:458
 msgid "Ro'Khan"
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:569
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:570
 msgid "Explore and conquer a base for recruitment."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:662
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:663
 msgid "Here we are..."
 msgstr ""
 
 #. [event]
 #. string here is the "REASON" argument to the REGEN_RING_TO_DULATUS macro, so Dulatus is the speaker:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:665
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:666
 msgid "These caverns are unkown to us, and we do not know what we will face. I am better armored, and I have experience here. Let me go ahead of you, and use the ring to support myself."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:668
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:669
 msgid "And now?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:672
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:673
 msgid "I must mobilize the men to prepare for whatever lies ahead."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:676
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:677
 msgid "If dwarves have indeed been here before us, then there must be a base where we can recruit from."
 msgstr ""
 
 #. [message]: id=$second_unit.id
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:691
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:692
 msgid "There is a stone fortress in front of me."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:695
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:696
 msgid "Good. We could use one."
 msgstr ""
 
 #. [message]: id=$second_unit.id
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:699
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:700
 msgid "It looks like the work of dwarves."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:703
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:704
 msgid "Ah yes, this must be that base. Our kinsman have been this way."
 msgstr ""
 
 #. [message]: id=$second_unit.id
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:728
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:729
 msgid "The fortress is occupied... that shouldn't be a tough problem..."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:732
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:733
 msgid "Which direction should we choose from here then?"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:736
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:737
 msgid "It might be best to follow that old railway..."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:747
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:748
 msgid "So far, so good..."
 msgstr ""
 
 #. [objectives]
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:757
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:758
 msgid "Possibly Final Objectives:"
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:759
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:760
 msgid "Find and fight your way through the mountain and move Hamel outside."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:778
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:779
 msgid "These old castle ruins don't seem very firm... if we put the weight of our recruits onto them they will crumble down."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. EASY difficulty:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:784
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:785
 msgid "Having recruited or recalled here for the first time, you will only be able to recruit or recall for two additional turns after that."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. NORMAL or HARD difficulty:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:787
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:788
 msgid "Having recruited or recalled here for the first time, you will only be able to recruit or recall for one additional turn after that."
 msgstr ""
 
 #. [message]: id=$second_unit.id
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:841
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:842
 msgid "I see enemies in front of me!"
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:845
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:846
 msgid "Well, I think we shouldn't move too far north or south..."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:869
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:870
 msgid "I have just entered a large hall! The walls are cut smooth and the floor is paved. The ceiling is supported by some pillars."
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:873
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:874
 msgid "Maybe a former depot storing trading goods..."
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. caution: The speaker "second_unit" could be Clarissa, or it's possible that Clarissa is dead.
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:891
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:892
 msgid "There are trolls here! They are fighting with some... creatures... which do not look like living beings."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:895
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:896
 msgid "They must be undead. Nothing I can't handle."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:899
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:900
 msgid "Here we are, in the center of a battle between trolls and... undead..."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:927
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:928
 msgid "Poor soul, your chains are broken. Your master vanishes."
 msgstr ""
 
 #. [message]: id=$u_Master.id
 #. this is the leader of the dying unit speaking:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:948
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:949
 msgid "Haha, in your dreams!"
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:957
+#. FIXME: what if Clarissa has taken the Red Mage advancement path instead?
+#. Maybe we should vary the dialogue a bit for that case?
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:960
 msgid "Be released from pain and be blessed by the light of white magic."
 msgstr ""
 
 #. [message]: id=$u_Master.id
 #. undead leader speaking:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:968
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:971
 msgid "Foolish mortals!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:972
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:975
 msgid "Shut up, vile creature!"
 msgstr ""
 
 #. [role_message]: type=scout
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:977
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:980
 msgid "Such a petty creature."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. just a caption, not the actual message:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1005
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1014
 msgid "Free Soul"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. "Free Soul" speaking:
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1008
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1017
 msgid "I am... free! Thank you, my deliverer."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1012
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1021
 msgid "May you rest in peace now."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1016
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1025
 msgid "Interesting..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1040
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1049
 msgid "This hall appears to have had an exit at the west end, but it has collapsed!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1044
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1053
 msgid "Too bad. It might have been the only way out..."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1048
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1057
 msgid "There must be another way, either to the north or south."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1073
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1082
 msgid "The tunnel ends there; it is completely filled with rocks."
 msgstr ""
 
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1081
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1090
 msgid "This must be where the exit in the hall leads to."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1085
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1094
 msgid "We are nearly finished. Come on!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1117
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1126
 msgid "I can see a shimmer of daylight!"
 msgstr ""
 
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1122
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1131
 msgid "We are almost through!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1192
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1201
 msgid "We must go on, if only to give some meaning to his death."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1221
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1230
 msgid "Who is the fool now?!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1235
+#: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:1244
 msgid "You receive $i_GeneralBonusGold| gold pieces!"
 msgstr ""
 
