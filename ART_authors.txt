@@ -6,3 +6,5 @@ Credits for where art came from:
 - foom_0.wav is from opengameart.org: https://opengameart.org/content/spell-4-fire
   by Bart K., available under multiple licenses
 - Hamel_young.png is by Mells/ohlyf/OneHourLate
+- wrong_sound_effect.wav is from opengameart.org: https://opengameart.org/content/correct-and-wrong-sound-effect
+  by KonitaTutorials, CC0
