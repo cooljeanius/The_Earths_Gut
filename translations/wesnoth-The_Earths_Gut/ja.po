@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-10-21 08:42 UTC\n"
+"POT-Creation-Date: 2023-10-22 06:25 UTC\n"
 "PO-Revision-Date: 2023-08-31 22:30+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -21,7 +21,7 @@ msgstr ""
 #. Also, a note about the title: "The Earth's Gut" is a poetic way of saying "Deep in the Earth";
 #. if you are localizing the title in translation, it doesn't need to literally be "gut" but rather
 #. can be some other form of poetic/figurative speaking that makes more sense in your language:
-#: The_Earths_Gut/dist/name_icon_description.cfg:2 The_Earths_Gut/_main.cfg:130
+#: The_Earths_Gut/dist/name_icon_description.cfg:2 The_Earths_Gut/_main.cfg:136
 msgid "The Earth's Gut"
 msgstr "地球のはらわた"
 
@@ -737,8 +737,8 @@ msgstr "なぜだ？"
 #: The_Earths_Gut/utils/misc.cfg:187
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:220
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:214
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:457
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:533
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:458
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:535
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:538
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:322
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:294
@@ -6196,7 +6196,7 @@ msgstr ""
 "とがないが、何故だろう？"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:476
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:477
 msgid ""
 "That forest to the south may be the Wesmere Forest, if I remember correctly "
 "from my travels. If it is, we may soon have to deal with..."
@@ -6205,13 +6205,13 @@ msgstr ""
 "しそうなら、私たちは、さっさと取引をすべき..."
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:483
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:485
 msgid ""
 "Hark! Dwarves from the eastern mountains are entering our peaceful valley!"
 msgstr "聴け！東の山から来たドワーフが、私たちの平和な谷に入り込んでいる！"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:487
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:489
 msgid ""
 "Away with you, rock dwelling halflings! If you dare enter my forest, I will "
 "have you put to the sword!"
@@ -6221,22 +6221,22 @@ msgstr ""
 
 #. [message]: id=Aiglathing
 #. "tree-hugging" would probably be more idiomatic, but I like the sound of "tree-cuddling", so I'll keep it:
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:492
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:494
 msgid "Damn tree-cuddling elf!"
 msgstr "忌々しい、木にしがみついて生きるエルフめ！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:496
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:498
 msgid "Calm down, Aiglathing!"
 msgstr "冷静になれ、Aiglathing ！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:500
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:502
 msgid "What is your name, elf?"
 msgstr "エルフ殿、あなたの名前は？"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:504
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:506
 msgid ""
 "I am Eowariand, marshal of Wesmere Forest. Who are you, and why have you "
 "come to my forest, dwarf?"
@@ -6245,7 +6245,7 @@ msgstr ""
 "の森に入ってきたのだ？"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:509
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:511
 msgid ""
 "I am Lord Hamel, leader of an expedition from Knalga. We are searching for "
 "mineral resources and ore veins for mining. I have no interest in your "
@@ -6256,7 +6256,7 @@ msgstr ""
 "るあの洞窟への旅が望みなのですよ。"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:513
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:515
 msgid ""
 "Why do you wish to enter those caves? The last of your kind who came here in "
 "ancient times carved those tunnels, only to flee many years later, terror "
@@ -6269,12 +6269,12 @@ msgstr ""
 "いったのですよ。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:518
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:520
 msgid "What evil is that?"
 msgstr "その悪とは、一体どのような？"
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:525
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:527
 msgid ""
 "We do not know. We have been attacked frequently by trolls, and unspeakable "
 "monsters of the night. They seem driven to madness and controlled on by "
@@ -6287,7 +6287,7 @@ msgstr ""
 "されています。"
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:529
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:531
 msgid ""
 "(<i>whispers</i>) My lord, this could be an opportunity. These dwarves seem "
 "stronger and braver than those who came before. Perhaps they can drive away "
@@ -6300,7 +6300,7 @@ msgstr ""
 "長くは持ち堪えられそうにありません。"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:537
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:539
 msgid ""
 "Lord Hamel of Knalga, I will permit you to travel to the caves, on the "
 "condition that you help us to defeat the monsters that plague us. If you "
@@ -6311,14 +6311,14 @@ msgstr ""
 "ば、私たちの間には平和が訪れることでしょう。"
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:541
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:543
 msgid ""
 "The nerve of these elves! Do they think they can make us do their dirty work "
 "for them?"
 msgstr "なんと厚かましい！我々に汚れ仕事をさせようというのか？"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:545
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:547
 msgid ""
 "(<i>whispers</i>) That will be enough! We cannot afford to have the elves as "
 "enemies!"
@@ -6327,7 +6327,7 @@ msgstr ""
 "いだろう！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:549
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:551
 msgid ""
 "I accept your proposal, Eowariand. We will help you defeat your enemies."
 msgstr ""
@@ -6335,13 +6335,13 @@ msgstr ""
 "しょう。"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:553
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:555
 msgid "So be it. It was wise not to fight us, dwarf."
 msgstr ""
 "それがよいでしょう。賢明な判断です、我々と争っても無意味です、ドワーフ殿。"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:574
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:576
 msgid ""
 "(<i>whispers</i>) He speaks the truth, Hamel. These elves are no easy foe to "
 "beat, and there are many more of them deeper in the Wesmere Forest."
@@ -6352,40 +6352,40 @@ msgstr ""
 
 #. [message]: id=cave_spider
 #. spider death sound:
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:588
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:590
 msgid "Sssssssssssssssssssss..."
 msgstr "シューーーーー..."
 
 #. [message]: id=Krog
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:598
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:600
 msgid "Defeated by these weakling elves, with dwarves on their side! How..."
 msgstr ""
 "この弱小エルフに負けるなんて、ドワーフを味方にしやがって！何てことだ..."
 
 #. [message]: id=Grishnak
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:608
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:610
 msgid "The dwarves... are returning! I must alert the others..."
 msgstr "ドワーフの連中が... 帰ってきやがった！他の仲間に報せないと..."
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:612
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:614
 msgid "You have failed to defeat us, and so will 'the others!'"
 msgstr ""
 "あんたは俺たちを倒せなかった。ってことは、その「他の仲間」もそうなるだろう"
 "な！"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:626
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:628
 msgid "Strange, there must be a monster in that lake somewhere..."
 msgstr "変だな、あの湖の何処かにモンスターがいるはずだ..."
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:630
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:632
 msgid "There was one for a while, but we got rid of it."
 msgstr "一時期、一匹いましたが、退治しましたよ。"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:645
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:647
 msgid ""
 "Oh, the old oak tree... green as ever. Even our elders cannot tell how many "
 "years it has seen."
@@ -6393,32 +6393,32 @@ msgstr ""
 "あ、古い樫の木が...いつも緑色だ。私たちの長老でも、この木の年齢は知らない。"
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:657
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:659
 msgid "Oh no... I am finished... I have failed."
 msgstr "あ、もうダメですね...私の命は...しくじりました。"
 
 #. [message]: role=r_Speaker
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:669
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:671
 msgid "(<i>giggles</i>) He he, such fragile elves."
 msgstr "（<i>笑いながら </i>）へっ、か弱いエルフ。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:678
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:680
 msgid "Quiet! You should be ashamed!"
 msgstr "黙れ！恥を知れ！"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:692
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:694
 msgid "I must call in the reserves! This is too much!"
 msgstr "予備軍を召喚しなければ！これでは手に負えない！"
 
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:709
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:711
 msgid "At last, we will take back what was once ours!"
 msgstr "遂にやったぞ、かつて奪われたもの、それを取り戻すのだ！"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:713
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:715
 msgid ""
 "Dwarves, you have proven yourselves worthy in battle. We will accept you as "
 "friends, and you are welcome to come and go freely to the caves of the north."
@@ -6428,12 +6428,12 @@ msgstr ""
 "ましょう。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:717
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:719
 msgid "Thank you, elf."
 msgstr "感謝します、エルフ殿。"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:721
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:723
 msgid ""
 "I will give you some supplies for your journey, and I look forward to "
 "trading goods with you in the future."
@@ -6442,7 +6442,7 @@ msgstr ""
 "しょう。"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:725
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:727
 msgid ""
 "(<i>quiet</i>) These elves are a wonderful folk. I hope we meet again. They "
 "are a wise old race, and I could learn much from them."
@@ -6452,17 +6452,17 @@ msgstr ""
 
 #. [message]: id=advisor_druid
 #. "neighborhood" in the sense of "the state of being neighbors with one another", NOT the usual sense of "a physical location where neighbors live next to one another":
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:731
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:733
 msgid "I'm looking forward to your neighborhood."
 msgstr "お近付きになれるのが楽しみだわ。"
 
 #. [unit]: type=Elvish Shaman, id=Celylia
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:744
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:746
 msgid "Celylia"
 msgstr "Celylia"
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:767
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:769
 msgid ""
 "This is Celylia, one of my wisest shamans. Allow her to accompany you as my "
 "representative."
@@ -6471,7 +6471,7 @@ msgstr ""
 "お仲間にしてあげてください。"
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:771
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:773
 msgid ""
 "I have explored some caves before. That is certainly why I have been chosen "
 "to travel with you."
@@ -6480,13 +6480,13 @@ msgstr ""
 "選ばれたのでしょう。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:775
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:777
 msgid "Thank you. I am sure you will be a great help to us."
 msgstr ""
 "ありがとう。我々にとって、あなたが大きな助けとなることは間違いありません。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:779
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:781
 msgid "Onward, men. I suspect we have much to reconquer."
 msgstr "さあ、歩を進めよう。いろいろと取り返すべきものが有るだろうからな。"
 
