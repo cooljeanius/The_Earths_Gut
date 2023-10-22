@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-10-22 06:25 UTC\n"
+"POT-Creation-Date: 2023-10-22 08:16 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -652,8 +652,8 @@ msgstr ""
 #: The_Earths_Gut/utils/misc.cfg:187
 #: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:220
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:214
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:458
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:535
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:462
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:539
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:538
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:322
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:294
@@ -1248,7 +1248,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:191
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:56
 #: The_Earths_Gut/scenarios/test.cfg:33
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:611
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:622
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:71
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:46
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:80
@@ -1278,7 +1278,7 @@ msgstr ""
 #. [objectives]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:215
 #: The_Earths_Gut/scenarios/08_Lost.cfg:253
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:864
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:875
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:640
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:605
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:223
@@ -1551,7 +1551,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:365
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:257
 #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:184
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:570
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:581
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:259
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:282
 #: The_Earths_Gut/scenarios/17_Return.cfg:211
@@ -2250,9 +2250,9 @@ msgstr ""
 
 #. [objectives]
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1110
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:70
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:124
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:382
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:77
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:135
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:393
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:1103
 #: The_Earths_Gut/scenarios/12_Under_pressure.cfg:1054
 msgid "Temporary Objectives:"
@@ -4161,409 +4161,414 @@ msgid "There is a secret passage behind this wall!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:61
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:68
 msgid "There is a trapdoor in that keep, guarded by nasty creatures."
 msgstr ""
 
 #. [message]: id=Clarissa
 #. "them" = the "nasty creatures":
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:66
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:73
 msgid "We have to destroy them!"
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:72
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:79
 msgid "Defeat the trapdoor guards leader and then move Hamel to the trapdoor!"
 msgstr ""
 
 #. [message]: speaker=unit
 #. we are in a macro called OTHER_WAY_HINT:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:101
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:108
 msgid "There appears to have been a large cave-in at the end of this trail, blocking our way... I wonder what lies beyond... Oh well, I don't think we'll be able to find out, so let's try a different way instead..."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:115
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:126
 msgid "We cannot cross the abyss, but we might be able to find a way around."
 msgstr ""
 
 #. [role_message]: type=scout
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:120
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:131
 msgid "We should explore every possibility."
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:126
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:137
 msgid "Find a way over (or past) the abyss!"
 msgstr ""
 
 #. [then]
 #. [else]
 #. name of trapdoor guard:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:162
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:179
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:173
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:190
 msgid "Do'Moran"
 msgstr ""
 
 #. [message]: speaker=Aiglathing
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:192
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:203
 msgid "Hamel, remember to review our objectives if you've ever forgotten anything."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:201
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:212
 msgid "There must be a way to get out of here."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:308
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:319
 msgid "Hamel and his group climbed down a long, deep shaft."
 msgstr ""
 
 #. [role_message]: type=alchemist
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:339
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:350
 msgid "So this is the bottom of the abyss."
 msgstr ""
 
 #. [role_message]: type=fighter
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:356
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:367
 msgid "Looks like it is filled with lava."
 msgstr ""
 
 #. [message]: id=Celylia
 #. "lawful units" = drakes:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:361
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:372
 msgid "There's an astonishing red light here... it may give lawful units an advantage if we have to fight them."
 msgstr ""
 
 #. [role_message]: type=fighter
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:375
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:386
 msgid "Looks like it is filled with water."
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:384
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:395
 msgid "Move Hamel to the ladder!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:409
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:420
 msgid "Hamel, come take a look at this trapdoor!"
 msgstr ""
 
 #. [unit]: type=Lich, id=RoFenthor
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:448
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:459
 msgid "Ro'Fenthor"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:526
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:537
 msgid "The group traveled up a winding path of crudely carved stairs for what seemed like hours. Finally, they came to wide open caverns..."
 msgstr ""
 
 #. [role_message]: type=guard
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:558
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:569
 msgid "We have made it through!"
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:562
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:573
 msgid "I sense the presence of a great evil, perhaps a powerful necromancer. Finally, a challenge!"
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:572
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:583
 msgid "Defeat Ro'Fenthor!"
 msgstr ""
 
 #. [scenario]: id=07_The_bridge_is_broken
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:586
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:597
 msgid "The Bridge Is Broken"
 msgstr ""
 
 #. [part]
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:600
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:611
 msgid "Leaving their elvish allies behind, the group explored deep into the caves, following a wide carved path of dwarven design..."
 msgstr ""
 
 #. [side]: type=Orcish Grunt, type=Goblin Rouser, id=Bagdish
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:636
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:647
 msgid "Bagdish"
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:866
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:877
 msgid "Explore and conquer a recruitment base!"
 msgstr ""
 
 #. [message]: id=help_guardsman
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:956
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:967
 msgid "My lord, why do we continue to go deeper into these evil caves, and risk ourselves to battle what lurks here?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:960
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:971
 msgid "Why do you ask? Do you fear these caves?"
 msgstr ""
 
 #. [message]: id=help_guardsman
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:964
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:975
 msgid "The elven leader said that there was a great evil that was awakened down here, by our kinsmen who came here first. Suppose..."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:968
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:979
 msgid "Suppose that this evil was too great for them, and perhaps us as well? Do you suggest we are not able to overcome them?"
 msgstr ""
 
 #. [message]: id=help_guardsman
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:972
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:983
 msgid "I am no coward, but I am not a fool either."
 msgstr ""
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:976
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:987
 msgid "All I know from my people is there was some terrible thing which happened down here in these caverns. The dwarves were digging deep... too deep."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:980
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:991
 msgid "Perhaps. Whatever my kinsmen faced, I'm sure they did their best to defeat it before ever turning to flee."
 msgstr ""
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:984
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:995
 msgid "I agree. Indeed, from what I know of the stubbornness of dwarves, it must have taken something quite spectacular to cause them to abandon their mines and flee in terror."
 msgstr ""
 
 #. [message]: id=help_fighter
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:988
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:999
 msgid "How dare you…"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:992
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1003
 msgid "Enough of this! We move forward now! Onwards, to conquer what is ours!"
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:997
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1008
 msgid "Well spoken. Certainly no force is unconquerable, so long as we fight together."
 msgstr ""
 
 #. [message]: id=replace_thunderer
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1006
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1017
 msgid "Aye, lord! These caves will be ours!"
 msgstr ""
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1012
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1023
 msgid "I hope we meet better fortune than those that went before. As I remember it told, the dwarves who fled the caves were so driven mad by what they had found, that they were nearly unable to talk. What's more, they made themselves such a nuisance that we were forced to drive them away."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1016
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1027
 msgid "We will be more careful than our kinsmen, elf. We know some of what lies ahead, and what benefits await us in the deeper ore veins, should we succeed to recapture them."
 msgstr ""
 
 #. [message]: id=Narcatsol
 #. "my beast" = his Gryphon:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1035
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1046
 msgid "My lord, I'm afraid my beast refuses to travel in these caverns. Perhaps the ceiling is too close for flying."
 msgstr ""
 
 #. [message]: id=Narcatsol
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1039
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1050
 msgid "You can rely on me again once we are in higher caverns."
 msgstr ""
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1059
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1070
 msgid "to just before descending."
 msgstr ""
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1073
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1084
 msgid "to after the ascension to the other side."
 msgstr ""
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1101
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1112
 msgid "Such tall mushrooms! They remind me of the young trees in the forest..."
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. [message]
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1127
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1133
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1152
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1158
 msgid "I think I heard something echo from the depths... I fear these goblins may have been only the start of the enemies in this cave... We should investigate our surroundings to secure our perimeter."
 msgstr ""
 
 #. [message]: speaker=Hamel
 #. this should work as a follow-up to the previous message regardless of whether Hamel is second_unit himself or not:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1140
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1165
 msgid "In particular, that nearby ravine may lead to the depths where that echo came from..."
 msgstr ""
 
 #. [message]: speaker=unit
 #. Hint that this way is the way to the lava and drakes:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1163
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1188
 msgid "Hm, the air seems slightly warmer here... Let's not try this way just yet, though; we can come back to it after exploring other options."
 msgstr ""
 
 #. [message]: speaker=unit
 #. Hint that this way is the way to the water and saurians:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1184
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1209
 msgid "Hm, the air seems slightly more moist here... Let's not try this way just yet, though; we can come back to it after exploring other options."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1198
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1223
 msgid "Well now, it seems our small foe has left us some valuables..."
 msgstr ""
 
 #. [message]: speaker=unit
 #. dwarf speaking:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1214
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1239
 msgid "This chest is full of ore! Fine quality, too!"
 msgstr ""
 
 #. [message]: speaker=unit
 #. non-dwarf speaking:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1221
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1246
 msgid "This chest is full of ore! Although I don't know enough about mining to make a precise guess about the quality..."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1225
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1250
 msgid "Since it is from here, it is fine quality for sure."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1231
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1256
 msgid "Excellent. Perhaps we may hope to find even finer metal soon. We will use this to equip some of the men as guardsmen. A pity we do not have more of this."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1236
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1261
 msgid "Hint: You may now recruit up to $i_Guards| Dwarvish Guardsmen!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1244
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1269
 msgid "Also, there was some gold in here, too!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1279
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1304
 msgid "Unfortunately, this was the last guardsman whom our stock of fine ore allowed to be equipped with suitable armor..."
 msgstr ""
 
+#. [message]: id=Hamel
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1315
+msgid "I think we have enough fine ore left here for $i_Guards more of them."
+msgstr ""
+
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1309
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1340
 msgid "Hm, what's this?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1327
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1358
 msgid "This appears to have been a bridge of dwarven make! A pity it has collapsed."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1331
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1362
 msgid "We need to find another way then... Maybe around the sides..."
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. "These beasties" = bats and ghosts:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1358
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1389
 msgid "Argh! These beasties are flying from across that chasm somewhere!"
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1362
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1393
 msgid "They cannot have come from too far away! We have to kill their leader!"
 msgstr ""
 
 #. [role_message]: type=alchemist
 #. "those things" = the undead:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1389
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1420
 msgid "By my beard, what are those things?"
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. "these creatures" = the undead:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1396
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1427
 msgid "What the devil are these creatures?"
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1402
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1433
 msgid "They are undead. Something I can handle easily."
 msgstr ""
 
 #. [message]: id=trap_guard
 #. "failed" as in "failed at guarding the trap door" that is:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1416
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1447
 msgid "Oh master, I have failed..."
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. [message]
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1426
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1432
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1457
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1463
 msgid "Now, to that trap door!"
 msgstr ""
 
 #. [message]: speaker=unit
 #. "This" = a ladder currently; the intent is to replace it with a staircase once there's a suitable graphic for it, though:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1480
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1511
 msgid "This appears to lead upward! We should explore it!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1484
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1515
 msgid "Indeed, when we are ready. We better be ready to all go together. I suspect greater foes are waiting for us."
 msgstr ""
 
 #. [message]: id=Aiglathing
 #. "It" = the task of defeating Ro'Fenthor:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1577
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1608
 msgid "It is done."
 msgstr ""
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1581
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1612
 msgid "We seem to be safe for now. We should rest."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1585
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1616
 msgid "I believe we have arrived at the main settlement of our kinsmen who went before. The bridge was clearly the outer defense. We should expect to find the main halls a little further in."
 msgstr ""
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1589
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1620
 msgid "If only such excellent defenses could have protected them from what they had found."
 msgstr ""
 
 #. [event]
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1593
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1596
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1599
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1624
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1627
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1630
 msgid "Worker"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1616
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1647
 msgid "After the party had rested for a few days, Hamel sent some dwarves back to the other side of the great chasm. With their help, the bridge was quickly repaired."
 msgstr ""
 
 #. [message]: id=worker1
 #. FIXME: make it clearer (via formatting or something) that this is a sound effect:
-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1632
+#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1663
 msgid "Uffff"
 msgstr ""
 
@@ -4673,206 +4678,211 @@ msgstr ""
 msgid "Elves or no elves, I wonder why we have heard nothing from the dwarves who had built those caves?"
 msgstr ""
 
+#. [floating_text]
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:455
+msgid "Hiss!"
+msgstr ""
+
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:477
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:481
 msgid "That forest to the south may be the Wesmere Forest, if I remember correctly from my travels. If it is, we may soon have to deal with..."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:485
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:489
 msgid "Hark! Dwarves from the eastern mountains are entering our peaceful valley!"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:489
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:493
 msgid "Away with you, rock dwelling halflings! If you dare enter my forest, I will have you put to the sword!"
 msgstr ""
 
 #. [message]: id=Aiglathing
 #. "tree-hugging" would probably be more idiomatic, but I like the sound of "tree-cuddling", so I'll keep it:
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:494
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:498
 msgid "Damn tree-cuddling elf!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:498
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:502
 msgid "Calm down, Aiglathing!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:502
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:506
 msgid "What is your name, elf?"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:506
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:510
 msgid "I am Eowariand, marshal of Wesmere Forest. Who are you, and why have you come to my forest, dwarf?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:511
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:515
 msgid "I am Lord Hamel, leader of an expedition from Knalga. We are searching for mineral resources and ore veins for mining. I have no interest in your forest, and wish to travel to those caves in the northern mountains."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:515
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:519
 msgid "Why do you wish to enter those caves? The last of your kind who came here in ancient times carved those tunnels, only to flee many years later, terror written on their faces. They left us forced to defend our forests from some great evil they had awakened."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:520
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:524
 msgid "What evil is that?"
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:527
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:531
 msgid "We do not know. We have been attacked frequently by trolls, and unspeakable monsters of the night. They seem driven to madness and controlled on by something greater. We have held them back for years, but they have killed many of my kin already."
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:531
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:535
 msgid "(<i>whispers</i>) My lord, this could be an opportunity. These dwarves seem stronger and braver than those who came before. Perhaps they can drive away the monsters for us. We cannot fight well in caves, and we cannot go on much longer with those cave monsters attacking us."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:539
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:543
 msgid "Lord Hamel of Knalga, I will permit you to travel to the caves, on the condition that you help us to defeat the monsters that plague us. If you succeed, there will be peace between us."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:543
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:547
 msgid "The nerve of these elves! Do they think they can make us do their dirty work for them?"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:547
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:551
 msgid "(<i>whispers</i>) That will be enough! We cannot afford to have the elves as enemies!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:551
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:555
 msgid "I accept your proposal, Eowariand. We will help you defeat your enemies."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:555
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:559
 msgid "So be it. It was wise not to fight us, dwarf."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:576
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:580
 msgid "(<i>whispers</i>) He speaks the truth, Hamel. These elves are no easy foe to beat, and there are many more of them deeper in the Wesmere Forest."
 msgstr ""
 
 #. [message]: id=cave_spider
 #. spider death sound:
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:590
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:594
 msgid "Sssssssssssssssssssss..."
 msgstr ""
 
 #. [message]: id=Krog
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:600
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:604
 msgid "Defeated by these weakling elves, with dwarves on their side! How..."
 msgstr ""
 
 #. [message]: id=Grishnak
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:610
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:614
 msgid "The dwarves... are returning! I must alert the others..."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:614
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:618
 msgid "You have failed to defeat us, and so will 'the others!'"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:628
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:632
 msgid "Strange, there must be a monster in that lake somewhere..."
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:632
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:636
 msgid "There was one for a while, but we got rid of it."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:647
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:651
 msgid "Oh, the old oak tree... green as ever. Even our elders cannot tell how many years it has seen."
 msgstr ""
 
 #. [message]: id=advisor_druid
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:659
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:663
 msgid "Oh no... I am finished... I have failed."
 msgstr ""
 
 #. [message]: role=r_Speaker
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:671
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:675
 msgid "(<i>giggles</i>) He he, such fragile elves."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:680
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:684
 msgid "Quiet! You should be ashamed!"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:694
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:698
 msgid "I must call in the reserves! This is too much!"
 msgstr ""
 
 #. [role_message]: type=thunderer
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:711
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:715
 msgid "At last, we will take back what was once ours!"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:715
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:719
 msgid "Dwarves, you have proven yourselves worthy in battle. We will accept you as friends, and you are welcome to come and go freely to the caves of the north."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:719
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:723
 msgid "Thank you, elf."
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:723
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:727
 msgid "I will give you some supplies for your journey, and I look forward to trading goods with you in the future."
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:727
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:731
 msgid "(<i>quiet</i>) These elves are a wonderful folk. I hope we meet again. They are a wise old race, and I could learn much from them."
 msgstr ""
 
 #. [message]: id=advisor_druid
 #. "neighborhood" in the sense of "the state of being neighbors with one another", NOT the usual sense of "a physical location where neighbors live next to one another":
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:733
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:737
 msgid "I'm looking forward to your neighborhood."
 msgstr ""
 
 #. [unit]: type=Elvish Shaman, id=Celylia
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:746
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:750
 msgid "Celylia"
 msgstr ""
 
 #. [message]: id=Eowariand
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:769
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:773
 msgid "This is Celylia, one of my wisest shamans. Allow her to accompany you as my representative."
 msgstr ""
 
 #. [message]: id=Celylia
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:773
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:777
 msgid "I have explored some caves before. That is certainly why I have been chosen to travel with you."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:777
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:781
 msgid "Thank you. I am sure you will be a great help to us."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:781
+#: The_Earths_Gut/scenarios/06_The_great_gates.cfg:785
 msgid "Onward, men. I suspect we have much to reconquer."
 msgstr ""
 
