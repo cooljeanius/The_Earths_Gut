@@ -1,17 +1,19 @@
 # Petr Šlejhar (Septim) <septim@centrum.cz>, 2023.
+# Michal Žejdl <lachim@emer.cz>, 2023
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-10-22 08:16 UTC\n"
-"PO-Revision-Date: 2023-08-20 17:16+0200\n"
-"Last-Translator: Septim <septim@centrum.cz>\n"
+"PO-Revision-Date: 2023-10-30 21:56+0100\n"
+"Last-Translator: Michal Žejdl <lachim@emer.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #. [editor_group]: id=earthsgut
 #. since this is the first string to get put into the potfile, a general translation note:
@@ -30,19 +32,6 @@ msgstr "Útroby země"
 #. an example of how it would be put together would be:
 #. "Requires BfW 1.16.0 or greater."
 #: The_Earths_Gut/dist/name_icon_description.cfg:7
-#, fuzzy
-#| msgid ""
-#| "It is 515YW and you are Hamel, a young dwarven leader. Your tribe resides "
-#| "in the Knalga caverns near the Dwarven Doors and is constantly under "
-#| "threat of attack. Resources are also becoming scarce in your area, so you "
-#| "must guide your people on a quest for more minerals. With the new "
-#| "minerals you will be able to forge new weapons and armor to push back "
-#| "your enemies.\n"
-#| "The campaign focuses on 'dwarvish dungeon crawling', and the developer "
-#| "intention is to make it playable for newbies on easy while also keeping "
-#| "it challenging for experienced players on hard. (Beginner level, 23 "
-#| "scenarios (nearly finished, but not quite))\n"
-#| "Requires BfW "
 msgid ""
 "It is 515YW and you are Hamel, a young dwarven leader. Your tribe resides in "
 "the Knalga caverns near the Dwarven Doors and is constantly under threat of "
@@ -555,12 +544,12 @@ msgstr ""
 #. [resistance]: id=extra_steadfast
 #: The_Earths_Gut/utils/amla.cfg:238
 msgid "extra steadfast"
-msgstr "extra vytrvalost"
+msgstr "extra vytrvalý"
 
 #. [resistance]: id=extra_steadfast
 #: The_Earths_Gut/utils/amla.cfg:239
 msgid "female^extra steadfast"
-msgstr "extra vytrvalost"
+msgstr "extra vytrvalá"
 
 #. [resistance]: id=extra_steadfast
 #: The_Earths_Gut/utils/amla.cfg:240
@@ -610,7 +599,7 @@ msgstr "Ašvíra"
 #. well, I'm not quite sure why she'd be along here...
 #: The_Earths_Gut/utils/dialogue.cfg:17
 msgid "Darling! Arrrhhhh!"
-msgstr ""
+msgstr "Drahoušku! Arrrhhhh!"
 
 #: The_Earths_Gut/utils/dialogue.cfg:23
 msgid "$cRacialTrollsToTake[0].number Trolls or Troll Warriors"
@@ -907,18 +896,18 @@ msgstr "bola"
 #. [unit_type]: id=Advanced Dwarvish Fighter
 #: The_Earths_Gut/units/dwarves/Advanced_Fighter.cfg:8
 msgid "Advanced Dwarvish Fighter"
-msgstr ""
+msgstr "Nadaný trpasličí bojovník"
 
 #. [unit_type]: id=Advanced Dwarvish Fighter
 #: The_Earths_Gut/units/dwarves/Advanced_Fighter.cfg:14
 msgid ""
 "Few dwarves are born with the special potential to become leaders someday..."
-msgstr ""
+msgstr "Jen málo trpaslíků se rodí s nadáním stát se jednoho dne vůdci..."
 
 #. [unit_type]: id=Advanced Dwarvish Steelclad
 #: The_Earths_Gut/units/dwarves/Advanced_Steelclad.cfg:8
 msgid "Advanced Dwarvish Steelclad"
-msgstr ""
+msgstr "Nadaný trpasličí těžkooděnec"
 
 #. [unit_type]: id=Advanced Dwarvish Steelclad
 #. describe the unit here rather than using its exact unit type:
@@ -928,6 +917,9 @@ msgid ""
 "using hatchets, much earlier (and to a greater extent) than other dwarves "
 "are."
 msgstr ""
+"Tito nadaní a dobře obrnění bojoví trpaslíci jsou již zruční v používání "
+"seker, neboť si jejich ovládání osvojili mnohem dříve (a ve větší míře) než "
+"ostatní trpaslíci."
 
 #. [attack]: type=blade
 #: The_Earths_Gut/units/dwarves/Advanced_Steelclad.cfg:30
@@ -983,8 +975,9 @@ msgstr "Trpasličí král je nespornou hlavou trpasličí rasy."
 #. [unit_type]: id=Dwarvish Flamethrower, race=dwarf
 #: The_Earths_Gut/units/dwarves/Flamethrower.cfg:6
 msgid "Dwarvish Flamethrower"
-msgstr ""
+msgstr "Trpasličí vrhač plamene"
 
+# Vše převedeno do množného čísla.
 #. [unit_type]: id=Dwarvish Flamethrower, race=dwarf
 #: The_Earths_Gut/units/dwarves/Flamethrower.cfg:21
 msgid ""
@@ -993,11 +986,15 @@ msgid ""
 "thunderous noise and shooting a projectile, their weapon generates a "
 "continuous tongue of flame."
 msgstr ""
+"Říká se, že trpasličí vrhači plamene mají podivné hole ze dřeva a železa, "
+"podobné těm, které mají trpasličí hromová stráže. Ale místo toho, aby "
+"vydávaly hromový rámus a vystřelovaly projektily, vypouští tyto jejich "
+"zbraně kontinuální ohnivé jazyky."
 
 #. [attack]: type=fire
 #: The_Earths_Gut/units/dwarves/Flamethrower.cfg:40
 msgid "firestick"
-msgstr ""
+msgstr "ohňová hůl"
 
 #. [unit_type]: id=Dwarvish High Lord
 #: The_Earths_Gut/units/dwarves/High_Lord.cfg:8
@@ -1011,6 +1008,9 @@ msgid ""
 "steelclads become extraordinary leaders of the dwarvish race when they "
 "finally move up in the ranks."
 msgstr ""
+"Když nadaní trpasličí těžkooděnci projdou dlouhým výcvikem pro získání "
+"zkušeností a poté co mohou konečně postoupit v hierarchii vzhůru, stávají se "
+"mimořádnými vůdci trpasličí rasy."
 
 #. [unit_type]: id=Galley, race=mechanical
 #: The_Earths_Gut/units/ships/Galley.cfg:5
@@ -1155,7 +1155,7 @@ msgstr ""
 #. [unit_type]: id=Elder Wose Shaman, race=wose
 #: The_Earths_Gut/units/woses/Elder_Wose_Shaman.cfg:5
 msgid "Elder Wose Shaman"
-msgstr ""
+msgstr "Starý stromový šaman"
 
 #. [unit_type]: id=Elder Wose Shaman, race=wose
 #: The_Earths_Gut/units/woses/Elder_Wose_Shaman.cfg:20
@@ -1163,6 +1163,8 @@ msgid ""
 "These woses are able to command forest plants such as vines and creepers to "
 "hinder their enemies."
 msgstr ""
+"Tito stromoví muži jsou schopni přikázat lesním rostlinám, jako je réva a "
+"jiné popínavky, aby blokovaly nepřátele."
 
 #. [unit_type]: id=Test
 #: The_Earths_Gut/units/test/Test.cfg:10
@@ -1367,19 +1369,22 @@ msgstr ""
 #. [unit_type]: id=Fire, race=monster
 #: The_Earths_Gut/units/Fire.cfg:5
 msgid "Fire"
-msgstr ""
+msgstr "Oheň"
 
+# kupodivu
 #. [unit_type]: id=Fire, race=monster
 #: The_Earths_Gut/units/Fire.cfg:21
 msgid ""
 "Fire is a chemical reaction. It cannot be fought traditionally, but one way "
 "to extinguish it is lowering the temperature with water."
 msgstr ""
+"Oheň je živel poháněný chemickou reakcí. Tradičně se s ním bojovat nedá. Ale "
+"jedním ze způsobů, jak jej uhasit, je snížení teploty reakce vodou."
 
 #. [unit_type]: id=Young Gryphon
 #: The_Earths_Gut/units/Young_Gryphon.cfg:8
 msgid "Young Gryphon"
-msgstr ""
+msgstr "Mladý gryf"
 
 #. [unit_type]: id=Young Gryphon
 #: The_Earths_Gut/units/Young_Gryphon.cfg:16
@@ -1391,11 +1396,16 @@ msgid ""
 "to a painful death at the youthful Gryphon's claws, or a fall from the "
 "mountain while trying to escape."
 msgstr ""
+"Během svého mládí jsou gryfové pokryti bílým a šedým prachovým peřím. "
+"Jakmile jsou schopni létat, brání svá hnízda a útočí na vetřelce. Přestože "
+"tito mladí gryfové ještě nejsou tak mocní jako ti dospělí, mnoho pytláků "
+"udělalo tu chybu, že je podcenili, což je často přivedlo k bolestivé smrti v "
+"drápech mladého gryfa nebo k pádu z hory při pokusu o útěk."
 
 #. [unit_type]: id=Spider Hatchling, race=monster
 #: The_Earths_Gut/units/Spider_Hatchling.cfg:5
 msgid "Spider Hatchling"
-msgstr ""
+msgstr "Pavoučí mládě"
 
 #. [unit_type]: id=Spider Hatchling, race=monster
 #: The_Earths_Gut/units/Spider_Hatchling.cfg:19
@@ -1403,6 +1413,8 @@ msgid ""
 "The progeny of the Spider Queen. They are not yet adults, but still pose a "
 "threat to all but the most hardened adventurer."
 msgstr ""
+"Mláďata jsou potomky pavoučí královny. Nejsou ještě dospělá, ale stále "
+"představují pro všechny kromě nejotrlejších dobrodruhů hrozbu."
 
 #. [attack]: type=blade
 #: The_Earths_Gut/units/Spider_Hatchling.cfg:23
@@ -1444,7 +1456,7 @@ msgstr ""
 #. [terrain_type]: id=grassland_flowers
 #: The_Earths_Gut/terrain/terrain-definitions.cfg:58
 msgid "green grass with flowers"
-msgstr ""
+msgstr "zelená tráva s květinami"
 
 #. [scenario]: id=04_Up_the_mountain
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:30
@@ -1483,7 +1495,7 @@ msgstr "Hamel"
 #. [side]: type=Rogue, type=Assassin, id=Lidda
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:89
 msgid "Lidda"
-msgstr ""
+msgstr "Lidda"
 
 #. [side]: type=Ogre, type=Yeti, id=Uga_Uga
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:169
@@ -1634,7 +1646,7 @@ msgstr ""
 msgid ""
 "The bright sun has cleared the fog. Do you see those snowy mountains in the "
 "distance now?"
-msgstr ""
+msgstr "Jasné slunce protrhalo mlhu. Vidíš teď ty zasněžené hory v dálce?"
 
 #. [message]: id=Dulatus
 #. NORMAL difficulty; this is dawn:
@@ -1643,11 +1655,12 @@ msgid ""
 "The rising sun has cleared the fog. Do you see those snowy mountains in the "
 "distance now?"
 msgstr ""
+"Vycházející slunce protrhalo mlhu. Vidíš teď ty zasněžené hory v dálce?"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:569
 msgid "Our aim is to make it to the other side."
-msgstr ""
+msgstr "Naším cílem je dostat se na druhou stranu."
 
 #. [message]: id=Lidda
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:575
@@ -1659,12 +1672,12 @@ msgstr ""
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:579
 msgid "You'll get no gold from us, filthy thief!"
-msgstr ""
+msgstr "Žádné zlato od nás nedostaneš, špinavý zloději!"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:583
 msgid "All you will get from us is the cold steel of our axes!"
-msgstr ""
+msgstr "Vše, co od nás dostaneš, je ochutnávka chladné oceli našich seker!"
 
 #. [message]: id=Clarissa
 #. "radiance" should cover both "fire" and "light", since Clarissa has 2 separate
@@ -1674,28 +1687,30 @@ msgid ""
 "And the wrathful radiance of my spells, which even the fastest foe cannot "
 "avoid!"
 msgstr ""
+"A hněvem rozžhavené záření mých kouzel, kterému se nevyhne ani ten "
+"nejrychlejší nepřítel!"
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:614
 msgid "Huh?"
-msgstr ""
+msgstr "Co?"
 
 #. [message]: id=Dulatus
 #. NORMAL difficulty; this is first watch:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:620
 msgid "The fog seems to come back every night..."
-msgstr ""
+msgstr "Vypadá to, že se mlha vrací každou noc..."
 
 #. [message]: id=Dulatus
 #. HARD difficulty; this is dusk:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:626
 msgid "The fog seems to come back every evening..."
-msgstr ""
+msgstr "Vypadá to, že se mlha vrací každý večer..."
 
 #. [message]: id=Uga_Uga
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:654
 msgid "Uh, who comes to Uga Uga?"
-msgstr ""
+msgstr "Uh, kdo k Uga Uga přicházet?"
 
 #. [message]: speaker=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:658
@@ -1703,6 +1718,8 @@ msgid ""
 "We are dwarvish travelers, great monster. We only wish to travel over the "
 "mountains."
 msgstr ""
+"Jsme trpasličí cestovatelé, ó velká monstróznosti. Chceme jen přejít přes "
+"hory."
 
 #. [message]: id=Uga_Uga
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:662
@@ -1710,11 +1727,13 @@ msgid ""
 "Heh heh! These mountains belong to Uga Uga! I will smash you to pieces if "
 "you don't pay me $i_Fee| gold pieces."
 msgstr ""
+"He he! Tyto hory Uga Uga patřit! Vy $i_Fee| zlatých Uga Uga zaplatit, nebo "
+"vás na kusy Uga Uga rozbít."
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:666
 msgid "Bothersome monsters! Do we really have to come this way, Dulatus?"
-msgstr ""
+msgstr "Jak dokážou být ta monstra otravná! Opravdu tudy musíme jít, Dulate?"
 
 #. [message]: id=Dulatus
 #. a bit of a hint that Uga Uga might have something for the player:
@@ -1724,12 +1743,15 @@ msgid ""
 "us! Think of all the previous travelers this beast has shaken down who we "
 "now have a chance to avenge!"
 msgstr ""
+"Ach, nestěžuj si tolik, Aiglathingu! Jaká příležitost je to před námi! "
+"Vzpomeň si na všechny předchozí cestovatele, které tato bestie smetla, na "
+"všechny ty, co máme nyní šanci pomstít!"
 
 #. [message]: id=Aiglathing
 #. this was previously part of Dulatus's previous line, but I split it off because it was getting too long:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:676
 msgid "In any case, it seems we have a decision to make."
-msgstr ""
+msgstr "Každopádně to vypadá, že se musíme rozhodnout."
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:680
@@ -1740,7 +1762,7 @@ msgstr "Musím si to promyslet..."
 #. "pay" option:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:683
 msgid "I do not wish to fight you, Uga Uga. I will pay the fee."
-msgstr ""
+msgstr "Nechci s tebou bojovat, Uga Uga. Zaplatím poplatek."
 
 #. [option]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:683
@@ -1749,12 +1771,15 @@ msgid ""
 "<small>(Defeat the bandits; you will be allowed to freely choose the next "
 "scenario.)</small>"
 msgstr ""
+"\n"
+"<small>(Poraz bandity. Budeš si moct svobodně vybrat další scénář.)</small>"
 
 #. [option]
 #. "fight" option:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:693
 msgid "Who are you to say these mountains belong to you, monster?"
 msgstr ""
+"Kdo jsi, abys mohl tvrdit, že ti tyto hory patří, ty přerostlý potvore?"
 
 #. [option]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:693
@@ -1762,6 +1787,8 @@ msgid ""
 "\n"
 "This is the domain of the dwarves, and we will travel wherever we want!"
 msgstr ""
+"\n"
+"Tohle je trpasličí území a my budeme cestovat, kam budeme chtít!"
 
 #. [option]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:694
@@ -1770,17 +1797,22 @@ msgid ""
 "<small>(Defeat the monsters or defeat the bandits, the next scenario is "
 "decided by whom you defeat.)</small>"
 msgstr ""
+"\n"
+"<small>(Poraz monstra nebo bandity. O dalším scénáři rozhodne to, koho "
+"porazíš.)</small>"
 
 #. [message]: id=Uga_Uga
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:699
 msgid "Hah! If you attack Uga Uga, you'll be smashed to bits!"
-msgstr ""
+msgstr "Ha! Pokud vy na Uga Uga zaútočit, vy na kousky od Uga Uga rozbít být!"
 
 #. [message]: id=Uga_Uga
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:745
 msgid ""
 "Heh, good choice! Uga Uga loves bright gold more than smashing tiny dwarves."
 msgstr ""
+"He, dobrá volba zvolit! Zářivé zlato Uga Uga víc milovat, než malých "
+"trpaslíků rozbití dělat."
 
 #. [message]: id=Dulatus
 #. by "enemies" Dulatus means the bandits:
@@ -1789,6 +1821,8 @@ msgid ""
 "The path up the mountain is free now, but we shouldn't leave enemies alive "
 "who could flank us from behind."
 msgstr ""
+"Cesta do hor je nyní volná. Neměli bychom ale nechávat naživu nepřátele, "
+"kteří by nás mohli obejít zezadu."
 
 #. [objectives]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:763
@@ -1814,13 +1848,13 @@ msgstr ""
 #: The_Earths_Gut/scenarios/02_Towards_the_west_gate.cfg:68
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:2026
 msgid "Final Objectives:"
-msgstr ""
+msgstr "Finální cíle:"
 
 #. [objectives]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:764
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:819
 msgid "The turn limit has been set to $final_turn_limit|."
-msgstr ""
+msgstr "Limit počtu kol byl nastaven na $final_turn_limit|."
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:766
@@ -1832,26 +1866,28 @@ msgstr "Poraz bandity"
 msgid ""
 "You stupid dwarves can't trick Uga Uga! Gimme all the gold I want, or die!"
 msgstr ""
+"Hloupí trpaslíci nemoct Uga Uga oklamat! Všechno zlato, co Uga Uga chtít, to "
+"Uga Uga dát, nebo od Uga Uga zemřít!"
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:821
 msgid "Defeat the monsters (Next scenario is 'Blowing Snow'.)"
-msgstr ""
+msgstr "Poraz mostra (Příští scénář bude „Sněhová vánice“.)"
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:825
 msgid "Defeat the bandits (Next scenario is 'Unknown Tunnels'.)"
-msgstr ""
+msgstr "Poraz bandity (Příští scénář bude „Neznámé tunely“.)"
 
 #. [message]: id=Lidda
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:848
 msgid "Uarghh! I cannot die to these halflings..."
-msgstr ""
+msgstr "Uarghh! Nemůžu umřít kvůli těmhle zakrslíkům..."
 
 #. [message]: id=Uga_Uga
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:866
 msgid "All Uga Uga ever wanted was bright gold!"
-msgstr ""
+msgstr "Vše co Uga Uga chtít, to zářivé zlato být!"
 
 #. [message]: speaker=second_unit
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:874
@@ -1974,6 +2010,8 @@ msgid ""
 "\n"
 "<small>(Next scenario is 'Blowing snow'.)</small>"
 msgstr ""
+"\n"
+"<small>(Příští scénář bude „Sněhová vánice“.)</small>"
 
 #. [message]: id=Dulatus
 #. [message]: speaker=unit
@@ -1988,7 +2026,7 @@ msgstr ""
 msgid ""
 "We will be able to travel faster through those caves than over those "
 "mountains."
-msgstr ""
+msgstr "Těmi jeskyněmi budeme moct cestovat rychleji než přes ty hory."
 
 #. [option]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1057
@@ -1996,6 +2034,8 @@ msgid ""
 "\n"
 "<small>(Next scenario is 'Unknown tunnels'.)</small>"
 msgstr ""
+"\n"
+"<small>(Příští scénář bude „Neznámé tunely“.)</small>"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1062
@@ -2077,6 +2117,7 @@ msgstr "Epilog"
 msgid ""
 "And thus Dulatus retrieved the Hammer of Thursagan and returned it to Hamel."
 msgstr ""
+"A tak Dulatus získal Thursaganovo kladivo a přinesl ho zpět k Hamelovi."
 
 #. [part]
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:19
@@ -2085,6 +2126,8 @@ msgid ""
 "in fact the Hammer of Thursagan, the two of them decided to bring it to "
 "Relgorn."
 msgstr ""
+"Poté, co Hamel potvrdil, že kladivo, s nímž se Dulatus vrátil, je ve "
+"skutečnosti Thursaganovo kladivo, se oba rozhodli ho předložit Relgornovi."
 
 #. [side]: type=Dwarvish Lord, id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:49
@@ -2102,12 +2145,12 @@ msgstr "Aiglathing"
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:299
 msgid "Let's send the hammer to Karrag in Kal Kartha."
-msgstr ""
+msgstr "Pojďme poslat kladivo Karragovi do Kal Karthy."
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:303
 msgid "Okay."
-msgstr ""
+msgstr "Souhlasím."
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:378
@@ -2115,16 +2158,18 @@ msgid ""
 "The fate met by the hammer in Kal Kartha is described in the campaign 'The "
 "Hammer of Thursagan'."
 msgstr ""
+"Osud, který potkal kladivo v citadele Kal Kartha, je popsán v tažení "
+"„Thursaganovo kladivo“."
 
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:395
 msgid "Oh, by the way, I'm retiring."
-msgstr ""
+msgstr "Och a mimochodem, odcházím na odpočinek."
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:399
 msgid "But, my lord..."
-msgstr ""
+msgstr "Ale můj pane..."
 
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:403
@@ -2132,11 +2177,13 @@ msgid ""
 "Ha, do not worry, young Hamel! I have a well-qualified successor in mind to "
 "replace me."
 msgstr ""
+"Ha, neboj se, mladý Hameli! Už mám rozmyšleno, kdo bude tím dobře "
+"kvalifikovaným nástupcem, co mě nahradí."
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:407
 msgid "...and that successor would be...?"
-msgstr ""
+msgstr "... a tím by měl být...?"
 
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:411
@@ -2144,11 +2191,13 @@ msgid ""
 "...why, you, of course, Hamel! I hereby name you Lord of Knalga, and bestow "
 "upon you all privileges and responsibilities associated with the title."
 msgstr ""
+"... proč se ptáš, samozřejmě, že ty Hameli! Tímto tě jmenuji vládcem Knalgy "
+"a uděluji ti všechna privilegia a povinnosti spojené s tímto titulem."
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:415
 msgid "...my lord!"
-msgstr ""
+msgstr "... můj pane!"
 
 #. [message]: id=Relgorn
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:419
@@ -2157,26 +2206,29 @@ msgid ""
 "hands. You'll be more than up to the job. And besides, you'll have "
 "Aiglathing and Dulatus to help you!"
 msgstr ""
+"Neboj se, mladý Hameli, jsem si jist, že Knalga bude v tvých schopných rukou "
+"v pořádku. Jsi více než připraven pro tento post. A kromě toho ti Aiglathing "
+"i Dulatus budou nápomocni!"
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:423
 msgid "That's right."
-msgstr ""
+msgstr "To je pravda."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:427
 msgid "Indeed."
-msgstr ""
+msgstr "Přesně."
 
 #. [message]: speaker=Clarissa
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:434
 msgid "Don't forget about us!"
-msgstr ""
+msgstr "Nezapomínej na nás!"
 
 #. [message]: speaker=Celylia
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:439
 msgid "Your elf allies will be available for whenever you need us!"
-msgstr ""
+msgstr "Tví elfí spojenci budou k dispozici, kdykoli nás budeš potřebovat!"
 
 #. [message]: speaker=Pelcatlus
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:444
@@ -2184,6 +2236,8 @@ msgid ""
 "Call on me, if you ever need someone to crack the skulls of a few more "
 "baddies!"
 msgstr ""
+"Dej mi vědět, kdybys někdy potřeboval někoho na rozbíjení lebek nějakých "
+"dalších padouchů!"
 
 #. [message]: speaker=Krolock
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:449
@@ -6528,7 +6582,7 @@ msgstr ""
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:204
 msgid "Fog, endless fog..."
-msgstr ""
+msgstr "Mlha, nekonečná mlha..."
 
 #. [message]: id=Narcatsol
 #: The_Earths_Gut/scenarios/05a_Blowing_snow.cfg:214
