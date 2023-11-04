@@ -1,11 +1,11 @@
 --- /Users/ericgallager/Downloads/TEG_old.pot	2021-10-03 20:48:44.000000000 -0400
-+++ TEG.pot	2023-10-22 04:16:00.000000000 -0400
++++ TEG.pot	2023-11-03 20:46:37.000000000 -0400
 @@ -2,7 +2,7 @@
  msgstr ""
  "Project-Id-Version: PACKAGE VERSION\n"
  "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 -"POT-Creation-Date: 2021-07-05 04:04 UTC\n"
-+"POT-Creation-Date: 2023-10-22 08:16 UTC\n"
++"POT-Creation-Date: 2023-11-04 00:46 UTC\n"
  "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
  "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
  "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4583,76 +4583,76 @@
  
  #. [message]: speaker=second_unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:528
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:570
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:571
  msgid "What? Who are you?"
  msgstr ""
  
  #. [message]: id=Clarissa
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:532
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:574
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:575
  msgid "I am the mage Clarissa... and who are you? Wait... small and hairy men... are you dwarves?"
  msgstr ""
  
  #. [role_message]: type=fighter
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:540
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:582
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:583
  msgid "(<i>mumbling</i>) Let me tell you something about the small axes we little men carry..."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:544
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:586
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:587
  msgid "We are indeed dwarves, young mage. Why are you here in the mountains, far north of the Wesnothian Kingdom?"
  msgstr ""
  
  #. [message]: id=Clarissa
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:548
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:590
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:591
  msgid "A few months ago, I had graduated from the Academy of Alduin. I chose to journey to these mountains to study dwarven folk like you, and I was captured by those orcs for reasons unknown to me. I see you have defeated them. (<i>smiles</i>)"
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:552
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:594
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:595
  msgid "Yes indeed. Now that you are free, will you continue to journey alone in these dangerous mountains?"
  msgstr ""
  
  #. [message]: id=Clarissa
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:556
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:598
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:599
  msgid "Perhaps. I've always loved adventure, yet now I see that I can't protect myself very well alone."
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:560
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:602
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:603
  msgid "We are on a somewhat exciting adventure ourselves, in search of new mines. Would you care to join us?"
  msgstr ""
  
  #. [message]: id=Clarissa
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:564
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:606
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:607
  msgid "I'd love to."
  msgstr ""
  
  #. [message]: id=The_Usual_Monster
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:577
 +#. The monster's last breath:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:620
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:621
  msgid "Sss... happens every time! Why... (<i>gurgle</i>)..."
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:590
 +#. "It" = the monster:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:635
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:636
  msgid "It will be there again next time..."
  msgstr ""
  
  #. [message]: speaker=second_unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:628
 +#. The monster dropped its ring of regeneration:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:674
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:675
  msgid "Look! It has dropped something... I can hardly see it through the water."
  msgstr ""
  
@@ -4660,8 +4660,8 @@
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:648
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:700
 +#. The monster dropped its ring of regeneration:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:695
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:748
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:696
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:749
  msgid "Look! It has dropped something..."
  msgstr ""
  
@@ -4669,103 +4669,104 @@
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:658
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:710
 -msgid "Probably the magical item that healed it. Monsters cannot heal themselves..."
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:705
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:758
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:706
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:759
 +msgid "Probably the magical item that healed it. Monsters cannot usually heal themselves..."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:662
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:709
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:710
  msgid "Whatever it is... get it quickly, it may corrode!"
  msgstr ""
  
  #. [message]: speaker=second_unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:680
 +#. The monster dropped its ring of regeneration:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:728
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:729
  msgid "Look! It has dropped something, it looks like a small ring."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:714
 +#. "it" = the ring:
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:763
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:764
  msgid "Get it!"
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:760
- #: The_Earths_Gut/scenarios/03_Breakthrough.cfg:809
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:859
+-#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:809
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:810
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:860
  msgid "Let me see this... it appears to be a ring!"
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:764
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:813
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:814
  msgid "What is this? It has rusted so quickly, that I cannot get it onto my finger!"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:768
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:817
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:818
  msgid "We were too slow. Magical rings corrode very fast. I'll take that ring and keep it safe. I may be able to restore it if I can ever find a proper forge."
  msgstr ""
  
  #. [message]: role=role_InsolentGuy
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:785
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:834
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:835
  msgid "He he, $unit.name| has thick fingers!"
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:789
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:838
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:839
  msgid "Shut up!"
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:815
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:837
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:865
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:888
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:866
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:889
  msgid "Wow, I feel different with this ring on! In fact, I feel stronger!"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:819
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:869
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:870
  msgid "Then it is a magic ring, as I thought. Good thing we were fast enough to retrieve it before it corroded."
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:831
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:882
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:883
  msgid "I'll take this ring."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:854
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:906
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:907
  msgid "Well, we have made it this far already."
  msgstr ""
  
  #. [message]: id=Aiglathing
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:858
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:910
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:911
  msgid "Until recently, I would never have imagined I would travel so far from home as even this."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:862
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:914
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:915
  msgid "And who knows how much farther we have to go..."
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:882
-+#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:934
++#: The_Earths_Gut/scenarios/03_Breakthrough.cfg:935
  msgid "There should be a mountain pass towards the west. We need to cross it."
  msgstr ""
  
