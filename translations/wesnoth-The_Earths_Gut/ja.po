@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-11-04 00:46 UTC\n"
+"POT-Creation-Date: 2023-11-04 17:37 UTC\n"
 "PO-Revision-Date: 2023-08-31 22:30+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -21,7 +21,7 @@ msgstr ""
 #. Also, a note about the title: "The Earth's Gut" is a poetic way of saying "Deep in the Earth";
 #. if you are localizing the title in translation, it doesn't need to literally be "gut" but rather
 #. can be some other form of poetic/figurative speaking that makes more sense in your language:
-#: The_Earths_Gut/dist/name_icon_description.cfg:2 The_Earths_Gut/_main.cfg:136
+#: The_Earths_Gut/dist/name_icon_description.cfg:2 The_Earths_Gut/_main.cfg:142
 msgid "The Earth's Gut"
 msgstr "地球のはらわた"
 
@@ -273,7 +273,7 @@ msgstr "こいつは最後まで立派に戦ったよ。"
 #. [message]: id=Dulatus
 #. "he" = Pelcatlus, an ulfserker:
 #: The_Earths_Gut/utils/deaths.cfg:164 The_Earths_Gut/utils/deaths.cfg:292
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1778
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1777
 msgid "He was the most frenzied dwarf I've ever seen..."
 msgstr "俺の知る限り、コイツはドワーフで一番凶暴なヤツだったよ..."
 
@@ -313,7 +313,7 @@ msgstr "この先、大変な困難が待っているかもしれない..."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/utils/deaths.cfg:244
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1756
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1755
 msgid "Uahh! The cave has finished me..."
 msgstr "ウワァーッ！洞窟が洞窟が俺を..."
 
@@ -2973,8 +2973,12 @@ msgstr ""
 #. [message]: speaker=narrator
 #. debug message:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1496
+#, fuzzy
+#| msgid ""
+#| "spawning flying enemies at $possible_bat_locs[$random].x,"
+#| "$possible_bat_locs[$random].y"
 msgid ""
-"spawning flying enemies at $possible_bat_locs[$random].x,"
+"Debug message: spawning flying enemies at $possible_bat_locs[$random].x,"
 "$possible_bat_locs[$random].y"
 msgstr ""
 "飛行する敵を $possible_bat_locs[$random].x,$possible_bat_locs[$random].y に生"
@@ -2983,36 +2987,40 @@ msgstr ""
 #. [message]: speaker=narrator
 #. debug message:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1508
-msgid "oops, there's nowhere left to spawn additional flying enemies"
+#, fuzzy
+#| msgid "oops, there's nowhere left to spawn additional flying enemies"
+msgid ""
+"Debug message: oops, there's nowhere left to spawn additional flying enemies"
 msgstr "しまった、飛行する敵を生成するヘクスが残っていません"
 
 #. [message]: speaker=narrator
 #. [wml_message]
-#. debug message; $s4_units.length will be off-by-one but whatever;
-#. if someone is playing with debug mode on, they ought to be able to figure it out.
+#. debug message; WIP: attempting to fix an off-by-one error
 #. TODO: change once Wesnoth issue 1135 is fixed: https://github.com/wesnoth/wesnoth/issues/1135
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1536
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1544
-msgid "side 4 still has $s4_units.length unit(s) left"
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1535
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1543
+#, fuzzy
+#| msgid "side 4 still has $s4_units.length unit(s) left"
+msgid "Debug message: side 4 still has $($s4_units.length - 1) unit(s) left"
 msgstr "side 4 にはまだ $s4_units.length 体のユニットが残ってます"
 
 #. [message]: speaker=troll_outpost_leader
 #. this line is said when an undead unit from side 4 attacks your allied troll leader:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1579
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1578
 msgid "Argh, these undead have gotten peskier as of late!"
 msgstr "しっかし、ここのところ、アンデッドが厄介になってきたもんだな！"
 
 #. [set_menu_item]: id=lost_help
 #. [set_menu_item]: id=ferry_crossing_help
 #. contextual menu option:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1598
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1597
 #: The_Earths_Gut/scenarios/16_Ferry_crossing.cfg:311
 msgid "help"
 msgstr "ヘルプ"
 
 #. [message]: speaker=narrator
 #. string splicing here:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1609
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1608
 msgid "Troll recruitment hint:"
 msgstr "トロル雇用のヒント："
 
@@ -3021,7 +3029,7 @@ msgstr "トロル雇用のヒント："
 # ”\n
 # After a following scenario, you will only be allowed to keep in your recall list at maximum”
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1609
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1608
 msgid ""
 "\n"
 "After a following scenario, there will be an interlude scenario in which you "
@@ -3031,7 +3039,7 @@ msgstr ""
 "以降のシナリオ終了時では、召喚リストには以下の数までしか保存されません"
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1611
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1610
 msgid ""
 "\n"
 "in addition to Krolock. Remaining available Trolls, Troll Warriors, "
@@ -3050,17 +3058,17 @@ msgstr ""
 "能です。"
 
 #. [unit]: type=TEG Troll Shaman, id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1639
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1638
 msgid "Tunnel Guard"
 msgstr "坑道衛兵"
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1651
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1650
 msgid "Thank you, friends."
 msgstr "友だちの皆さん、ありがとう。"
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1655
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1654
 msgid ""
 "The tunnel in the southwest of this base leads to a former dwarvish "
 "settlement, as far as I can tell."
@@ -3068,7 +3076,7 @@ msgstr ""
 "この拠点の南西にある坑道は、以前はドワーフの村につながっていたと思った。"
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1659
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1658
 msgid ""
 "Wait a moment, these are the dwarves that saved your life? Our patrol told "
 "me about that."
@@ -3077,12 +3085,12 @@ msgstr ""
 "言ってた。"
 
 #. [message]: id=Krolock
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1663
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1662
 msgid "Yes. They-"
 msgstr "うん、彼らが ―"
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1667
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1666
 msgid ""
 "Then you all take the way to the northwest; the leader of our tribe wants to "
 "know the dwarves who saved his son's life."
@@ -3092,29 +3100,29 @@ msgstr ""
 
 #. [message]: id=Krolock
 #. this is the last breath of the troll outpost leader:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1719
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1718
 msgid "Uncle, noooo!"
 msgstr "叔父さん、死んじゃダメだー！"
 
 #. [message]: id=troll_outpost_leader
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1723
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1722
 msgid "Arghhh..."
 msgstr "ああぁ..."
 
 #. [message]: id=Dulatus
 #. this is Krolock's last breath:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1738
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1737
 msgid "Our last chance to get out is destroyed..."
 msgstr "我々が抜け出す最後の機会が消えてしまった..."
 
 #. [message]: id=Pelcatlus
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1742
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1741
 msgid "Anyway, let's return to my home."
 msgstr "とにかく、我らが故郷に帰るとしよう。"
 
 #. [message]: id=Pelcatlus
 #. "His friends" = the other dwarves; "Him" = Dulatus:
-#: The_Earths_Gut/scenarios/08_Lost.cfg:1765
+#: The_Earths_Gut/scenarios/08_Lost.cfg:1764
 msgid "His friends will never see him again..."
 msgstr "彼の友人たちは二度と彼に会えないんだな..."
 
