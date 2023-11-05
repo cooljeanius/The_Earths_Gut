@@ -5,7 +5,7 @@ Credits for where art came from:
   by kurt, CC-BY 3.0
 - foom_0.wav is from opengameart.org: https://opengameart.org/content/spell-4-fire
   by Bart K., available under multiple licenses
-- Hamel_young.png is by Mells/ohlyf/OneHourLate
+- Hamel_young.png and Clarissa.png are by Mells/ohlyf/OneHourLate
 - correct_sound_effect.wav and wrong_sound_effect.wav are from opengameart.org:
   https://opengameart.org/content/correct-and-wrong-sound-effect
   by KonitaTutorials, CC0

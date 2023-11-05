@@ -5,8 +5,6 @@ PORTRAITS
 ---------
 * unique portrait for Relgorn (He currently uses Hamel's from THoT)
 * unique portrait for Dulatus (He currently uses Baglur's from SoF)
-* unique portrait for Clarissa (She currently uses the default mage portraits)
-  (N.B. Clarissa may be changing unit type in the future; see issue 52 on GitHub)
 * unique portrait for Celylia (She currently uses Anlindë's from IftU)
 * unique portrait for Pelcatlus (He currently uses Stalrag's from NR)
 * unique portrait for Krolock (He currently uses Grüü's from SotBE)
