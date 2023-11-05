@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-11-04 17:37 UTC\n"
+"POT-Creation-Date: 2023-11-05 02:01 UTC\n"
 "PO-Revision-Date: 2023-08-31 22:30+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -163,13 +163,13 @@ msgstr "操作盤の開閉器が動作した。 "
 #. [message]: id=Dulatus
 #. this is Hamel's last breath, so Dulatus is referring to him:
 #: The_Earths_Gut/utils/deaths.cfg:12
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1120
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1148
 msgid "Oh no! I failed in my duty to protect the next king!"
 msgstr "なんてことだ！王様の後継者をお守りする責務が果たせなかった！"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/utils/deaths.cfg:16
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1112
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1140
 msgid "Argh! My tribe will vanish!"
 msgstr "グワーッ！我が一族が滅びてしまう！"
 
@@ -181,13 +181,13 @@ msgstr "ダメだよ、 Hamel ！ 君がいなけりゃ！"
 #. [message]: id=Clarissa
 #. "He" = Hamel:
 #: The_Earths_Gut/utils/deaths.cfg:29
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1124
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1152
 msgid "He really had potential..."
 msgstr "彼は本当に可能性を持っていたの..."
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/utils/deaths.cfg:33
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1128
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1156
 msgid "We are lost..."
 msgstr "我々は路頭に迷っている..."
 
@@ -4423,20 +4423,39 @@ msgstr ""
 msgid "Move on! The castle is just ahead."
 msgstr "前進するんだ！城はすぐ目の前だ。"
 
+#. [message]: speaker=unit
+#. speaker = side 1 unit who has reached Hamel's castle before Dulatus has:
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:950
+msgid "Dulatus! Hurry up and join me here!"
+msgstr ""
+
+#. [message]: speaker=Hamel
+#. remember, Hamel still thinks Dulatus is dead at this point, so he would be
+#. very confused here, and he'd be assuming he just misheard:
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:956
+msgid "...who was that you just called out to?! Do my ears deceive me?!"
+msgstr ""
+
+#. [message]: speaker=unit
+#. not literally a "second", just a figure of speech for a short amount of time:
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:961
+msgid "You'll see in a second!"
+msgstr ""
+
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:946
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:974
 msgid "Dulatus!?! You live!?"
 msgstr "Dulatus ？！　生きていたのか！？"
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:951
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:979
 msgid ""
 "It is a VERY long story. And I've brought your lost expeditioners with me."
 msgstr ""
 "これが、まあ長い長い話なんだな。それから、迷子になったお前の遠征隊も一緒だ。"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1002
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1030
 msgid ""
 "What? Trolls and dwarves together? You're not our enemy, leave these dwarves "
 "and begone."
@@ -4445,7 +4464,7 @@ msgstr ""
 "から離れて立ち去るがいい。"
 
 #. [message]: race=troll
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1007
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1035
 msgid ""
 "These dwarves saved my life and are my friends. If you fight them, you'll "
 "have to fight me."
@@ -4454,33 +4473,33 @@ msgstr ""
 "俺と戦うってことだ。"
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1011
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1039
 msgid "Traitor! Then you'll all die with them."
 msgstr "この、裏切り者め！ならばお前も、そいつらと一緒に死ぬがいい。"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1025
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1053
 msgid "Ouch! The enemy attacks me, my reservists must join the fight!"
 msgstr "痛い！敵が攻撃している、我が予備兵たちも戦闘に加われ！"
 
 #. [message]: role=r_Speaker
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1045
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1073
 msgid "Let the battle begin!"
 msgstr "さあ、戦闘開始だ！"
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1049
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1085
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1077
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1113
 msgid "Who speaks there?"
 msgstr "そこで話しているのは誰なの？"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1061
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1089
 msgid "Time for me to fight! My reservists must join me!"
 msgstr "戦いの時がやって来た！予備兵たちよ、我が隊に集結せよ！"
 
 #. [message]: role=r_Speaker
-#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1081
+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1109
 msgid "Let the battle commence!"
 msgstr "さあ、戦闘の始まりだ！"
 

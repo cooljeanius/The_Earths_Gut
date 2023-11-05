@@ -1,11 +1,11 @@
 --- /Users/ericgallager/Downloads/TEG_old.pot	2021-10-03 20:48:44.000000000 -0400
-+++ TEG.pot	2023-11-04 13:37:53.000000000 -0400
++++ TEG.pot	2023-11-04 22:01:57.000000000 -0400
 @@ -2,7 +2,7 @@
  msgstr ""
  "Project-Id-Version: PACKAGE VERSION\n"
  "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 -"POT-Creation-Date: 2021-07-05 04:04 UTC\n"
-+"POT-Creation-Date: 2023-11-04 17:37 UTC\n"
++"POT-Creation-Date: 2023-11-05 02:01 UTC\n"
  "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
  "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
  "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,7 +130,7 @@
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1023
 +#. this is Hamel's last breath, so Dulatus is referring to him:
 +#: The_Earths_Gut/utils/deaths.cfg:12
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1120
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1148
  msgid "Oh no! I failed in my duty to protect the next king!"
  msgstr ""
  
@@ -138,7 +138,7 @@
 -#: The_Earths_Gut/utils/deaths.cfg:15
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1015
 +#: The_Earths_Gut/utils/deaths.cfg:16
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1112
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1140
  msgid "Argh! My tribe will vanish!"
  msgstr ""
  
@@ -153,7 +153,7 @@
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1027
 +#. "He" = Hamel:
 +#: The_Earths_Gut/utils/deaths.cfg:29
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1124
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1152
  msgid "He really had potential..."
  msgstr ""
  
@@ -161,7 +161,7 @@
 -#: The_Earths_Gut/utils/deaths.cfg:31
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1031
 +#: The_Earths_Gut/utils/deaths.cfg:33
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1128
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1156
  msgid "We are lost..."
  msgstr ""
  
@@ -2852,11 +2852,9 @@
 +#. [message]: id=Hamel
 +#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:156
 +msgid "Now Dulatus, didn't you say something about Thursagan also having a book that one would need in order to use the Hammer?"
- msgstr ""
- 
- #. [message]: id=Dulatus
--#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:154
--msgid "From all what we know of the old lore, inscriptions and tales, the last known place the Hammer did go to have been the caverns of flame. It is said that the greatest of all runesmiths, Thursagan, died there alongside his tribe, and the hammer-"
++msgstr ""
++
++#. [message]: id=Dulatus
 +#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:160
 +msgid "Yes, we should try to find that, too. Although I doubt he kept the two of them together. And if we find the Hammer without also finding the book, then we can just store the Hammer in a chest without actually using it."
 +msgstr ""
@@ -2864,9 +2862,11 @@
 +#. [message]: id=Hamel
 +#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:164
 +msgid "Ah, it sounds like you have a plan!"
-+msgstr ""
-+
-+#. [message]: id=Dulatus
+ msgstr ""
+ 
+ #. [message]: id=Dulatus
+-#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:154
+-msgid "From all what we know of the old lore, inscriptions and tales, the last known place the Hammer did go to have been the caverns of flame. It is said that the greatest of all runesmiths, Thursagan, died there alongside his tribe, and the hammer-"
 +#: The_Earths_Gut/scenarios/20t_A_cry_for_help.cfg:168
 +msgid "Yes. In any case, from all what we know of the old lore, inscriptions and tales, the last known place the Hammer did go to was said to have been the Caverns of Flame. It is said that the greatest of all runesmiths, Thursagan, died there alongside his tribe, and the hammer-"
  msgstr ""
@@ -3146,7 +3146,7 @@
  #: The_Earths_Gut/scenarios/17_Return.cfg:10
  msgid "Eowariand"
  msgstr ""
-@@ -2389,525 +2788,564 @@
+@@ -2389,525 +2788,583 @@
  msgstr ""
  
  #. [event]: id=Delfador, id=Kalenz, id=Parandra
@@ -3758,69 +3758,88 @@
  msgid "Move on! The castle is just ahead."
  msgstr ""
  
++#. [message]: speaker=unit
++#. speaker = side 1 unit who has reached Hamel's castle before Dulatus has:
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:950
++msgid "Dulatus! Hurry up and join me here!"
++msgstr ""
++
++#. [message]: speaker=Hamel
++#. remember, Hamel still thinks Dulatus is dead at this point, so he would be
++#. very confused here, and he'd be assuming he just misheard:
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:956
++msgid "...who was that you just called out to?! Do my ears deceive me?!"
++msgstr ""
++
++#. [message]: speaker=unit
++#. not literally a "second", just a figure of speech for a short amount of time:
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:961
++msgid "You'll see in a second!"
++msgstr ""
++
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:849
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:946
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:974
  msgid "Dulatus!?! You live!?"
  msgstr ""
  
  #. [message]: id=Dulatus
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:854
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:951
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:979
  msgid "It is a VERY long story. And I've brought your lost expeditioners with me."
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:905
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1002
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1030
  msgid "What? Trolls and dwarves together? You're not our enemy, leave these dwarves and begone."
  msgstr ""
  
  #. [message]: race=troll
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:910
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1007
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1035
  msgid "These dwarves saved my life and are my friends. If you fight them, you'll have to fight me."
  msgstr ""
  
  #. [message]: speaker=unit
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:914
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1011
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1039
  msgid "Traitor! Then you'll all die with them."
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:928
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1025
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1053
  msgid "Ouch! The enemy attacks me, my reservists must join the fight!"
  msgstr ""
  
  #. [message]: role=r_Speaker
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:948
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1045
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1073
  msgid "Let the battle begin!"
  msgstr ""
  
  #. [message]: id=Clarissa
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:952
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:988
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1049
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1085
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1077
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1113
  msgid "Who speaks there?"
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:964
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1061
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1089
  msgid "Time for me to fight! My reservists must join me!"
  msgstr ""
  
  #. [message]: role=r_Speaker
 -#: The_Earths_Gut/scenarios/10_Old_friends.cfg:984
-+#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1081
++#: The_Earths_Gut/scenarios/10_Old_friends.cfg:1109
  msgid "Let the battle commence!"
  msgstr ""
  
-@@ -2922,423 +3360,467 @@
+@@ -2922,423 +3379,467 @@
  msgstr ""
  
  #. [side]: type=Troll Warrior, id=Reck
@@ -4382,7 +4401,7 @@
  msgid "Save the sequoia tree for me please..."
  msgstr ""
  
-@@ -3353,306 +3835,322 @@
+@@ -3353,306 +3854,322 @@
  msgstr ""
  
  #. [side]: type=Orcish Crossbowman, type=Orcish Slurbow, id=Woomtshak
@@ -4776,7 +4795,7 @@
  msgid "test"
  msgstr ""
  
-@@ -3662,341 +4160,414 @@
+@@ -3662,341 +4179,414 @@
  msgstr ""
  
  #. [message]: id=Hamel
@@ -5076,8 +5095,7 @@
 +msgid "In particular, that nearby ravine may lead to the depths where that echo came from..."
 +msgstr ""
 +
- #. [message]: speaker=unit
--#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1059
++#. [message]: speaker=unit
 +#. Hint that this way is the way to the lava and drakes:
 +#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1188
 +msgid "Hm, the air seems slightly warmer here... Let's not try this way just yet, though; we can come back to it after exploring other options."
@@ -5089,7 +5107,8 @@
 +msgid "Hm, the air seems slightly more moist here... Let's not try this way just yet, though; we can come back to it after exploring other options."
 +msgstr ""
 +
-+#. [message]: speaker=unit
+ #. [message]: speaker=unit
+-#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1059
 +#: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1223
  msgid "Well now, it seems our small foe has left us some valuables..."
  msgstr ""
@@ -5269,7 +5288,7 @@
  msgid "Uffff"
  msgstr ""
  
-@@ -4012,281 +4583,305 @@
+@@ -4012,281 +4602,305 @@
  
  #. [part]
  #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:36
@@ -5634,7 +5653,7 @@
  msgid "Onward, men. I suspect we have much to reconquer."
  msgstr ""
  
-@@ -4296,364 +4891,553 @@
+@@ -4296,364 +4910,553 @@
  msgstr ""
  
  #. [unit]: type=Grand Marshal, id=Asheviere's new Flame
@@ -6275,7 +6294,7 @@
  msgid "I think we're done here. Let's look after the prisoners."
  msgstr ""
  
-@@ -4668,503 +5452,535 @@
+@@ -4668,503 +5471,535 @@
  msgstr ""
  
  #. [objective]: condition=win
@@ -6918,7 +6937,7 @@
  msgid "...let's return to Weldyn then..."
  msgstr ""
  
-@@ -5178,363 +5994,387 @@
+@@ -5178,363 +6013,387 @@
  msgid "There seems to be an exit in this direction."
  msgstr ""
  
@@ -7383,7 +7402,7 @@
  msgid "You receive $i_GeneralBonusGold| gold pieces!"
  msgstr ""
  
-@@ -5545,12 +6385,12 @@
+@@ -5545,12 +6404,12 @@
  
  #. [scenario]: id=01t_The_old_home
  #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:14
@@ -7398,7 +7417,7 @@
  msgstr ""
  
  #. [part]
-@@ -5614,253 +6454,260 @@
+@@ -5614,253 +6473,260 @@
  msgid "It was about the year 515YW when the worst of the attacks came, and the orcs fought with astounding brutality. Several surface outposts had been overwhelmed, and the orcs slowly advanced deeper into the caverns. It was during this time of conflict that Lord Relgorn of Knalga gathered a council of his most trusted warriors in the deepest caverns, and discussed the situation..."
  msgstr ""
  
@@ -7718,7 +7737,7 @@
  msgid "Best wishes for you three. See you all in a few years."
  msgstr ""
  
-@@ -5875,410 +6722,548 @@
+@@ -5875,410 +6741,548 @@
  msgstr ""
  
  #. [side]: type=Fugitive, id=Anne Bonny
@@ -8361,7 +8380,7 @@
  msgid "What the...!? I think I just saw a lich appear out of nowhere!? Now they no longer even need their monoliths!?"
  msgstr ""
  
-@@ -6332,980 +7317,1131 @@
+@@ -6332,980 +7336,1131 @@
  msgstr ""
  
  #. [unit]: type=Death Knight, id=executioner
