@@ -6,14 +6,15 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-11-21 08:43 UTC\n"
-"PO-Revision-Date: 2023-10-30 21:56+0100\n"
-"Last-Translator: Michal Žejdl <lachim@emer.cz>\n"
+"PO-Revision-Date: 2023-11-08 23:11+0100\n"
+"Last-Translator: Septim <septim@centrum.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 3.4\n"
 
 #. [editor_group]: id=earthsgut
 #. since this is the first string to get put into the potfile, a general translation note:
@@ -858,11 +859,13 @@ msgstr ""
 msgid ""
 "You may end the scenario at any time via the right-click menu from now on."
 msgstr ""
+"Od této chvíle můžeš scénář kdykoli ukončit pomocí nabídky po kliknutí "
+"pravým tlačítkem."
 
 #. [set_menu_item]: id=end_scenario
 #: The_Earths_Gut/utils/misc.cfg:446
 msgid "End the scenario."
-msgstr ""
+msgstr "Ukončit scénář."
 
 #. [check_version]
 #. multi-part string with {~add-ons/The_Earths_Gut/dist/required_version} interpolated in between the two parts:
@@ -888,7 +891,7 @@ msgstr ""
 #. [unit_type]: id=Master of Alchemy, race=dwarf
 #: The_Earths_Gut/units/dwarves/Master_of_Alchemy.cfg:5
 msgid "Master of Alchemy"
-msgstr ""
+msgstr "Alchymistický mistr"
 
 #. [unit_type]: id=Master of Alchemy, race=dwarf
 #: The_Earths_Gut/units/dwarves/Master_of_Alchemy.cfg:29
@@ -902,6 +905,14 @@ msgid ""
 "a Master in battle is considered an honor reserved for only the bravest of "
 "dwarvish warriors."
 msgstr ""
+"Po nejméně pěti desetiletích zkušeností může alchymista konečně získat titul "
+"„alchymistický mistr“, který se každoročně uděluje starším alchymistům, "
+"kteří prokázali svou hodnotu na bitevním poli. Těch velmi málo, co dosáhnou "
+"této úrovně zkušeností, často odchází do ústraní, aby trénovali "
+"alchymistické učedníky. Jen někteří zůstávají a působí na bitevním poli "
+"ještě několik dalších desetiletí. Mistři alchymie jsou uctíváni i těmi "
+"nejsilnějšími trpasličími lordy a ochrana mistra v bitvě je považována za "
+"čest vyhrazenou pouze pro nejstatečnější z trpasličích válečníků."
 
 #. [attack]: type=impact
 #: The_Earths_Gut/units/dwarves/Master_of_Alchemy.cfg:45
@@ -968,11 +979,20 @@ msgid ""
 "Alchemist has learned the basics of the practice, and can heal wounded units "
 "around himself, while preventing poisoned units from weakening."
 msgstr ""
+"Praxe alchymie začala mezi trpaslíky pokusy vyrábět zlato a další cenné "
+"zdroje z bezcenného kamení. Setkalo se to s tristním neúspěchem. Mnozí se "
+"této praxi vyhýbali a zesměšňovali ji. Navzdory tomu mnoho trpaslíků "
+"pokračovalo ve studiu a objevilo způsoby, jak používat své lektvary k "
+"léčení. Podle tradice každý trpaslík, který si osvojí tuto profesi, začíná "
+"jako alchymista a očekává se, že bude schopen vyrobit si vlastní lektvary a "
+"chytré směsi, než se bude moci učit další triky svého řemesla. Alchymista se "
+"naučil základy této praxe a zvládne léčit zraněné sousedící jednotky a "
+"zároveň zabránit oslabení těch otrávených."
 
 #. [unit_type]: id=Potion Smith, race=dwarf
 #: The_Earths_Gut/units/dwarves/Potion_Smith.cfg:5
 msgid "Potion Smith"
-msgstr ""
+msgstr "Litec lektvarů"
 
 #. [unit_type]: id=Potion Smith, race=dwarf
 #: The_Earths_Gut/units/dwarves/Potion_Smith.cfg:25
@@ -985,6 +1005,13 @@ msgid ""
 "of poison is the accomplishment of any Alchemist who becomes a Potion Smith, "
 "and their skills make them in high demand."
 msgstr ""
+"První „litci lektvarů“ byli tímto označením posměšně pojmenováni "
+"konkurenčními runovými kováři, kteří věřili, že věnovat čas studiu míchání "
+"lektvarů a bylinných směsí je bezcenná snaha. Jak čas plynul, toto jméno jim "
+"zůstalo. Nyní je udělováno jako čestný titul alchymistům, kteří dostatečně "
+"pokročili ve svých dovednostech, aby si vysloužili renomé na bitevním poli. "
+"Porazit účinky jedu je úspěchem všech alchymistů, kteří se stanou litci "
+"lektvarů, a jsou tak díky svým schopnostem velmi žádaní."
 
 #. [unit_type]: id=Dwarvish King
 #: The_Earths_Gut/units/dwarves/Dwarvish_King.cfg:8
@@ -1062,7 +1089,7 @@ msgstr "kloun"
 #. We are using the GOT stuff as a stand in for now.
 #: The_Earths_Gut/units/ships/Galley.cfg:54
 msgid "Wildfire"
-msgstr ""
+msgstr "Divoký oheň"
 
 #. [unit_type]: id=Transport Ship, race=mechanical
 #: The_Earths_Gut/units/ships/Transport_Ship.cfg:6
@@ -2353,50 +2380,53 @@ msgid ""
 "hall, no further enemies challenged them. Upon returning, they took a break "
 "and made themselves familiar with the new surroundings."
 msgstr ""
+"Hamel a jeho přátelé měli štěstí. Po zbytek jejich zpáteční cesty do hlavní "
+"síně jim žádní další nepřátelé nezkřížili cestu. Po návratu si odpočinuli a "
+"seznámili se s novým prostředím."
 
 #. [part]
 #: The_Earths_Gut/scenarios/08_Lost.cfg:130
 msgid "The story continues now with someone from the past..."
-msgstr ""
+msgstr "Příběh nyní pokračuje s někým z minulosti..."
 
 #. [message]: speaker=narrator
 #. this is Dulatus speaking, but the player isn't supposed to know that yet:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:459
 msgid "Ahhh... "
-msgstr ""
+msgstr "Áách..."
 
 #. [message]: speaker=narrator
 #. again, Dulatus speaking, but the player isn't supposed to know that yet:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:465
 msgid "Everything is dark..."
-msgstr ""
+msgstr "Vše zastírá tma..."
 
 #. [message]: speaker=narrator
 #. again, Dulatus speaking, but even Dulatus isn't supposed to know that, much less the player:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:471
 msgid "Who am I?"
-msgstr ""
+msgstr "Kdo vlastně jsem?"
 
 #. [message]: speaker=narrator
 #. again, Dulatus speaking, but his identity still hasn't been revealed to anyone yet:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:477
 msgid "And WHERE am I?"
-msgstr ""
+msgstr "A KDE to vlastně jsem?"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:501
 msgid "Oh god... I must have been unconscious... how long... I have no idea..."
-msgstr ""
+msgstr "Bože... musel jsem být v bezvědomí... nemám ponětí... jak dlouho..."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:505
 msgid "My head is spinning like hell."
-msgstr ""
+msgstr "Hlava se mi točí jak čert."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:509
 msgid "Looks like the situation is hopeless..."
-msgstr ""
+msgstr "Situace vypadá beznadějně..."
 
 #. [message]: id=Dulatus
 #. The "water" to which he is referring is the river from S05a, "Blowing Snow":
@@ -2406,6 +2436,8 @@ msgid ""
 "There is no way back against that tough stream. I hope the others have "
 "survived."
 msgstr ""
+"Ta zatracená voda mě stáhla až sem hluboko dolů. Cesta zpět proti tomu "
+"prudkému proudu je nemožná. Doufám, že ostatní přežili."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:533
@@ -2413,6 +2445,8 @@ msgid ""
 "Pheew, the river runs into that chasm, but luckily, some rocks protected me "
 "from falling down."
 msgstr ""
+"Fuj, řeka teče do té propasti, ale naštěstí mě nějaké kameny uchránily před "
+"pádem."
 
 #. [message]: id=Dulatus
 #. The "earthquake" to which he is referring is from the end of S05b, "Unknown tunnels":
@@ -2421,6 +2455,8 @@ msgid ""
 "That earthquake let the ceiling collapse... the way back is destroyed. I "
 "hope the others have survived."
 msgstr ""
+"To zemětřesení způsobilo, že se strop zhroutil... cesta zpět je zničená. "
+"Doufám, že ostatní přežili."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:544
@@ -2428,11 +2464,14 @@ msgid ""
 "I wonder where these undead have come from and why the trolls have been "
 "fighting against them."
 msgstr ""
+"Zajímalo by mě, odkud se tito nemrtví vzali a proč proti nim trollové bojují."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:550
 msgid "My friends can only suppose I'm dead... I'll see if they are right..."
 msgstr ""
+"Moji přátelé si asi myslí, že jsem mrtvý... Uvidím, jestli budou mít "
+"pravdu..."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:554
@@ -2440,11 +2479,13 @@ msgid ""
 "Anyway, it seems they left me back here, or rather, had no other choice but "
 "to do so."
 msgstr ""
+"Každopádně to vypadá, že mě tady nechali, nebo spíš neměli jinou možnost, "
+"než to udělat."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:558
 msgid "Now let's see where this tunnel goes."
-msgstr ""
+msgstr "Teď se podíváme, kam tento tunel vede."
 
 #. [event]
 #: The_Earths_Gut/scenarios/08_Lost.cfg:569
@@ -3435,6 +3476,8 @@ msgid ""
 "Marshal! Sorry to interrupt, but a dwarvish scout was so bold to enter the "
 "very heart of our forest. I thought I'd better ask before arresting him."
 msgstr ""
+"Maršále! Promiňte, že ruším, ale trpasličí zvěd byl tak smělý a vstoupil do "
+"samotného nitra našeho lesa. Myslel jsem, že se radši zeptám, než ho zatknu."
 
 #. [message]: id=Kalenz
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:220
@@ -3447,7 +3490,7 @@ msgstr ""
 #. [message]: id=Eowariand
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:224
 msgid "Let him come to us."
-msgstr ""
+msgstr "Nechte ho k nám přijít."
 
 #. [message]: id=Parandra
 #: The_Earths_Gut/scenarios/13t_Elvish_conference.cfg:228
@@ -3866,12 +3909,12 @@ msgstr ""
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:680
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:686
 msgid "It seems the rocks are moving..."
-msgstr ""
+msgstr "Zdá se, že se skály pohybují..."
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:798
 msgid "?!? I don't get it... isn't this Dulatus?"
-msgstr ""
+msgstr "?!? Nechápu to... není to Dulatus?"
 
 #. [message]: id=extra_fighter
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:802
@@ -4142,12 +4185,12 @@ msgstr ""
 #. [trait]: id=gluttonous
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:421
 msgid "gluttonous"
-msgstr ""
+msgstr "nenasytný"
 
 #. [trait]: id=gluttonous
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:422
 msgid "This unit likes to eat a lot."
-msgstr ""
+msgstr "Tato jednotka ráda hodně jí."
 
 #. [message]: speaker=narrator
 #. debug message intended for players who might accidentally have turned it on:
@@ -4406,7 +4449,7 @@ msgstr ""
 #. [scenario]: id=14_Forest_fire
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:173
 msgid "Forest Fire"
-msgstr ""
+msgstr "Lesní požár"
 
 #. [side]: type=Orcish Warlord, id=Higdush
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:205
@@ -4416,17 +4459,17 @@ msgstr ""
 #. [side]: type=Elder Wose, id=Bregalad
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:228
 msgid "Bregalad"
-msgstr ""
+msgstr "Bregalad"
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:259
 msgid "Extinguish the forest fire."
-msgstr ""
+msgstr "Uhas lesní požár"
 
 #. [objective]: condition=lose
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:263
 msgid "Death of the giant sequoia tree"
-msgstr ""
+msgstr "Velká sekvoje zajde"
 
 #. [objective]: condition=lose
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:271
@@ -4451,7 +4494,7 @@ msgstr ""
 #. map label:
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:330
 msgid "the giant sequoia"
-msgstr ""
+msgstr "velká sekvoje"
 
 #. [event]
 #. map label:
@@ -4465,6 +4508,7 @@ msgid ""
 "What's this? Axes in my forest? Keep out! I've enough problems here "
 "currently."
 msgstr ""
+"Co je to? Sekery v mém lese? Držte se dál! Problémů tu mám momentálně dost."
 
 #. [message]: id=Kalenz
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:402
@@ -4472,11 +4516,13 @@ msgid ""
 "Ho, Bregalad. How are you? We're on our way back to Elensefar. This dwarf is "
 "our, the elves', friend. He won't harm you."
 msgstr ""
+"Ahoj, Bregalade. Jak se máš? Jsme na cestě zpět do Elensefaru. Tento "
+"trpaslík patří k nám, je to elfí přítel. Neublíží ti."
 
 #. [message]: id=Bregalad
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:409
 msgid "Really? ... (<i>looks distrustfully at Hamel's axe</i>)"
-msgstr ""
+msgstr "Opravdu...? (<i>nedůvěřivě se dívá na Hamelovu sekeru</i>)"
 
 #. [message]: id=Delfador
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:416
