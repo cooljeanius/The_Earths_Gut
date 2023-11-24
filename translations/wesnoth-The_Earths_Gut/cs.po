@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-11-24 04:46 UTC\n"
+"POT-Creation-Date: 2023-11-24 06:58 UTC\n"
 "PO-Revision-Date: 2023-11-08 23:11+0100\n"
 "Last-Translator: Septim <septim@centrum.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
@@ -795,9 +795,9 @@ msgstr "Díky."
 #: The_Earths_Gut/scenarios/14_Forest_fire.cfg:267
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:265
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:289
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:210
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:710
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:845
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:211
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:711
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:846
 #: The_Earths_Gut/scenarios/17_Return.cfg:217
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:200
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:646
@@ -823,9 +823,9 @@ msgstr "Dulatus zemře"
 #: The_Earths_Gut/utils/misc.cfg:288 The_Earths_Gut/utils/misc.cfg:298
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:269
 #: The_Earths_Gut/scenarios/21_Wesnoth_soldiers.cfg:294
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:214
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:714
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:849
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:215
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:715
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:850
 #: The_Earths_Gut/scenarios/17_Return.cfg:221
 #: The_Earths_Gut/scenarios/19_Prison.cfg:242
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1331
@@ -5590,7 +5590,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:381
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:538
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:539
 msgid ""
 "Debug mode is on; skipping opening dialogue. Restart this scenario with "
 "debug mode turned off to see the intro cutscene."
@@ -6062,21 +6062,21 @@ msgid ""
 msgstr ""
 
 #. [objectives]
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:204
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:704
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:839
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:205
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:705
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:840
 msgid "Current Objectives:"
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:206
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:207
 msgid "Investigate and look for survivors!"
 msgstr ""
 
 #. [objective]: condition=lose
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:218
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:718
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:853
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:219
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:719
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:854
 #: The_Earths_Gut/scenarios/17_Return.cfg:225
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:204
 #: The_Earths_Gut/scenarios/15_Save_the_heir.cfg:650
@@ -6089,7 +6089,7 @@ msgid "Death of Elara"
 msgstr ""
 
 #. [objectives]
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:227
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:228
 msgid ""
 "The scenario ends once all enemy units in the chambers with doors are dead "
 "and you have freed all survivors. Remember that enemies may hide via "
@@ -6097,41 +6097,41 @@ msgid ""
 msgstr ""
 
 #. [event]: id=magically_sealed_door
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:315
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:316
 msgid "magically sealed door"
 msgstr ""
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:500
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:501
 msgid "to before Elara is attacking the magically sealed door."
 msgstr ""
 
 #. [option]
 #. debug option; completes sentence starting with "Set scenario status to...":
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:516
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:517
 msgid "to after Elara was attacking the magically sealed door."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:543
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:544
 msgid "The main hall is just ahead. What the heck has happened here?"
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:547
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:548
 msgid ""
 "Apparently most of the undead that were following us have withdrawn or we've "
 "defeated them outside."
 msgstr ""
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:551
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:552
 msgid "How was the opposition so strong it overran you, Aiglathing?"
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:555
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:556
 msgid ""
 "We were on an expedition quite a distance to the north from here. Lots of "
 "evil monoliths appeared during the night out of nowhere - if one can say "
@@ -6139,63 +6139,63 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:559
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:560
 msgid "They spawned numerous undead of all kinds."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:569
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:570
 msgid ""
 "Our magi tried to break their foul magic - with limited success. I hope they "
 "survived, somehow..."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:575
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:576
 msgid ""
 "We withdrew first to the main hall. That's when we lost some of our people, "
 "and then to the elves. There may be survivors hiding here...."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:579
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:580
 msgid "The buildings appear to be heavily damaged, however..."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:584
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:585
 msgid ""
 "Until further notice, you neither get any income, nor do your units require "
 "any upkeep. There may be villages which still grant healing, however."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:592
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:593
 msgid "Look! The castle lies in ruins."
 msgstr ""
 
 #. [message]: id=Hamel
 #. he had to think for a second before realizing this; see preceding delay:
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:604
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:605
 msgid "Damn! Where do I get recruits from now?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:617
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:618
 msgid "The doors to the exterior rooms are closed."
 msgstr ""
 
 #. [message]: id=Hamel
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:629
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:635
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:630
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:636
 msgid ""
 "We should search the rooms, but be careful, we don't know what's lurking "
 "behind those doors."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:651
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:652
 msgid ""
 "The door is firmly closed. There doesn't seem to be an obvious way to open "
 "it."
@@ -6203,212 +6203,212 @@ msgstr ""
 
 #. [message]: id=Aiglathing
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:663
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:669
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:664
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:670
 msgid "Well, then just cut it down."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:685
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:686
 msgid ""
 "This door looks massive and it pulsates with a light bluish hue. There "
 "doesn't seem to be an obvious way to open it."
 msgstr ""
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:689
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:690
 msgid ""
 "I think that it's a magically sealed door which will probably not break from "
 "normal damage."
 msgstr ""
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:699
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:700
 msgid ""
 "I do not yet have a means to open it. Perhaps if I can get to a source of "
 "fire..."
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:706
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:707
 msgid "Investigate and look for survivors; move Elara to a source of fire!"
 msgstr ""
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:731
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:732
 msgid "I'll have to use fire on it!"
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:753
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:754
 msgid ""
 "Ah, the forge. Our smiths used to make fire there to craft fine armor and "
 "weapons."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:772
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:773
 msgid "And some nasties are polluting it."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:776
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:777
 msgid "Kill them."
 msgstr ""
 
 #. [message]: speaker=Elara
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:782
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:783
 msgid "And some nasties are polluting it; you'd better kill them!"
 msgstr ""
 
 #. [message]: speaker=unit
 #. "unit" is Elara here:
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:808
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:809
 msgid "Let me gain some fire energy..."
 msgstr ""
 
 #. [message]: speaker=unit
 #. "unit" is Elara here:
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:833
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:834
 msgid "Ah, I feel like I can handle every door now..."
 msgstr ""
 
 #. [objective]: condition=win
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:841
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:842
 msgid ""
 "Investigate and look for survivors; use Elara to attack indestructible doors!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:899
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:900
 msgid "I bet Elara could make use of this brazier..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:905
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:906
 msgid ""
 "It's the brazier Elara got fire energy from; I wonder if I could get some "
 "from it, too... nah, probably not."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:913
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:914
 msgid "Hm, a brazier... wasn't there something we needed fire energy for?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:921
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:922
 msgid ""
 "It's the brazier Elara used to break down that magical door; hopefully we "
 "won't need to use it again!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:936
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:937
 msgid ""
 "Argh, they broke the kiln! It looks as though the brazier standing next to "
 "it still works, though..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:947
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:948
 msgid "This hammer isn't much use to us now..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:958
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:959
 msgid ""
 "It's not a wishing well, just a regular well for drawing water from. You "
 "know, to cool the metal after it's been heated."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:969
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:970
 msgid "We can't make much use of this armor now..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:980
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:981
 msgid ""
 "It's just a display stand; it's not like it's a magic quintain or anything..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1011
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1012
 msgid ""
 "I'm sorry, but my fire magic isn't strong enough to overpower this door's "
 "magic; Elara should really try finding a fire source instead."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1017
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1018
 msgid ""
 "I'm sorry, but my fire magic isn't strong enough to overpower this door's "
 "magic; let's have Elara try opening it instead."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1095
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1096
 msgid "Now it opens!"
 msgstr ""
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1124
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1125
 msgid "Oh! Who are you?"
 msgstr ""
 
 #. [message]: id=Celylia,Clarissa
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1131
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1132
 msgid "Ooohh... finally... someone... please help me..."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1135
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1136
 msgid ""
 "I'm very glad to see you alive! Elara, do as she says, she's our friend."
 msgstr ""
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1153
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1154
 msgid "Do you feel better now?"
 msgstr ""
 
 #. [message]: id=Celylia,Clarissa
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1157
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1158
 msgid ""
 "Yes. I was seriously wounded and hiding here. Luckily, the undead didn't "
 "find me. My strong spell kept that door safely closed."
 msgstr ""
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1166
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1167
 msgid "Wait... I know you... can it be true?"
 msgstr ""
 
 #. [message]: id=Clarissa
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1170
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1171
 msgid ""
 "Yes, I recognize you too. You were in the third class at Alduin when I "
 "graduated. Nice to see you."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1174
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1175
 msgid "You know each other?"
 msgstr ""
 
 #. [message]: id=Elara
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1178
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1179
 msgid "Clarissa was my mentor at Alduin, for quite some time."
 msgstr ""
 
 #. [message]: id=Aiglathing
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1201
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1202
 msgid "Tell us -  what has happened here?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1205
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1206
 msgid ""
 "When we were retreating and could no longer hold the undead off, I was "
 "separated from Aiglathing and the others who retreated outside. I hid here "
@@ -6416,12 +6416,12 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1209
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1210
 msgid "Where are all the others?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1213
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1214
 msgid ""
 "Some may still be hiding here, but many of the others were captured. If I "
 "noticed it correctly in the heat of the battle, they were put in chains and "
@@ -6430,129 +6430,129 @@ msgstr ""
 
 #. [message]: id=Elara
 #. FIXME: possible bug here?
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1218
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1219
 msgid "They take prisoners...? At least some of our comrades are still alive."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1231
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1232
 msgid "Nothing in here..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1243
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1244
 msgid "Well, at least you had some books to read..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1254
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1255
 msgid ""
 "This book fell off the shelf. We've got more important things to do than put "
 "it back, though."
 msgstr ""
 
 #. [message]: speaker=Elara
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1271
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1272
 msgid "Hm, maybe we should take this green cloak..."
 msgstr ""
 
 #. [message]: id=Celylia,Clarissa
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1275
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1276
 msgid ""
 "I was using it as a bedsheet and haven't had a chance to wash it in all the "
 "time since Hamel has been gone, so..."
 msgstr ""
 
 #. [message]: speaker=Elara
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1279
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1280
 msgid "You're right, I guess we'd better just leave it for now..."
 msgstr ""
 
 #. [message]: id=Celylia,Clarissa
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1285
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1286
 msgid "Yeah... let's leave that here, shall we?"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1321
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1322
 msgid "A dragonguard is here!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1332
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1333
 msgid "A thunderguard is here!"
 msgstr ""
 
 #. [message]: speaker=second_unit
 #. it ought to be safe to assume that it is a Thunderer if it is neither a Dragonguard nor Thunderguard:
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1340
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1341
 msgid "A thunderer is here!"
 msgstr ""
 
 #. [message]: role=weakenedThunderer
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1381
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1382
 msgid "Thank goodness, I am finally cured!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1451
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1497
 msgid "This troll... it's Krolock!"
 msgstr ""
 
 #. [message]: speaker=Krolock
 #. "again" = reference back to S08, "Lost":
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1456
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1502
 msgid ""
 "Saved by dwarves again... I really need to take better care of myself! In "
 "any case, thank you, small friends!"
 msgstr ""
 
 #. [message]: speaker=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1460
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1506
 msgid "It's good to see you again, Krolock."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1472
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1518
 msgid "Ah, Krolock, it's you!"
 msgstr ""
 
 #. [message]: speaker=Krolock
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1476
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1522
 msgid ""
 "Thank you for rescuing me, my good troll! I'm glad I can count on my fellow "
 "trolls!"
 msgstr ""
 
 #. [message]: speaker=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1480
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1526
 msgid "...and dwarves?"
 msgstr ""
 
 #. [message]: speaker=Krolock
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1484
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1530
 msgid ""
 "...oh! Hamel, of course, I should have realized! Yes, yes, anything for my "
 "dwarf friends!"
 msgstr ""
 
 #. [message]: speaker=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1488
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1534
 msgid "(<i>laughs</i>) It's good to see you again, Krolock."
 msgstr ""
 
 #. [message]: speaker=Krolock
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1495
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1541
 msgid "Uh... thank you?"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1504
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1550
 msgid "It appears that they have taken trolls as prisoners, too!"
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1604
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1650
 msgid "I think we're done here. Let's look after the prisoners."
 msgstr ""
 
@@ -9196,17 +9196,25 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Dulatus
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1397
-msgid "Thank god you have arrived in time!"
+#. "Thank the earth" was previously "Thank god", but that's probably not a saying that dwarves would use:
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1398
+msgid "Thank the earth you have arrived in time!"
+msgstr ""
+
+#. [message]: speaker=Hamel
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1402
+msgid ""
+"I think we should be safe now, but there might be a few more things to "
+"check... be on your guards just in case there are any of them left..."
 msgstr ""
 
 #. [role_message]: type=scout
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1410
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1420
 msgid "We're done here."
 msgstr ""
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1414
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1424
 msgid ""
 "This was certainly not their main camp, there were too few here... let's "
 "hope that the liches capable of creating the portals don't notice we're back "
@@ -9215,7 +9223,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #. "They" = the dwarves:
-#: The_Earths_Gut/scenarios/19_Prison.cfg:1427
+#: The_Earths_Gut/scenarios/19_Prison.cfg:1437
 msgid ""
 "They freed the rest of their kinsmen and turned around back to the main hall."
 msgstr ""
