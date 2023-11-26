@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-11-24 06:58 UTC\n"
+"POT-Creation-Date: 2023-11-26 06:37 UTC\n"
 "PO-Revision-Date: 2023-08-31 22:30+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
@@ -672,7 +672,7 @@ msgid "deny passenger"
 msgstr "乗車を拒否する"
 
 #. [floating_text]
-#: The_Earths_Gut/utils/units.cfg:752
+#: The_Earths_Gut/utils/units.cfg:753
 msgid "+$experience_gained| exp"
 msgstr ""
 
@@ -7178,14 +7178,14 @@ msgid "Yeah... let's leave that here, shall we?"
 msgstr "ねえ... ここはもういいわよね、そうしましょう？"
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1322
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1323
 #, fuzzy
 #| msgid "A dragon approaches!"
 msgid "A dragonguard is here!"
 msgstr "ドラゴンが来るぞ！"
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1333
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1335
 #, fuzzy
 #| msgid "A thunderer is here!"
 msgid "A thunderguard is here!"
@@ -7193,25 +7193,25 @@ msgstr "ここに銃撃兵がいる！"
 
 #. [message]: speaker=second_unit
 #. it ought to be safe to assume that it is a Thunderer if it is neither a Dragonguard nor Thunderguard:
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1341
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1343
 #, fuzzy
 #| msgid "A thunderer is here!"
 msgid "A thunderer is here!"
 msgstr "ここに銃撃兵がいる！"
 
 #. [message]: role=weakenedThunderer
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1382
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1384
 msgid "Thank goodness, I am finally cured!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1497
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1499
 msgid "This troll... it's Krolock!"
 msgstr "このトロルは... Krolock だ！"
 
 #. [message]: speaker=Krolock
 #. "again" = reference back to S08, "Lost":
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1502
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1504
 msgid ""
 "Saved by dwarves again... I really need to take better care of myself! In "
 "any case, thank you, small friends!"
@@ -7220,17 +7220,17 @@ msgstr ""
 "ね！とにかく有難うございます、小さなご友人！"
 
 #. [message]: speaker=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1506
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1508
 msgid "It's good to see you again, Krolock."
 msgstr "また会えて良かったよ、Krolock 。"
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1518
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1520
 msgid "Ah, Krolock, it's you!"
 msgstr "おぅ、Krolock 、君か！"
 
 #. [message]: speaker=Krolock
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1522
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1524
 msgid ""
 "Thank you for rescuing me, my good troll! I'm glad I can count on my fellow "
 "trolls!"
@@ -7239,12 +7239,12 @@ msgstr ""
 "当に良かった！"
 
 #. [message]: speaker=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1526
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1528
 msgid "...and dwarves?"
 msgstr "...それと、ドワーフもだろ？"
 
 #. [message]: speaker=Krolock
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1530
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1532
 msgid ""
 "...oh! Hamel, of course, I should have realized! Yes, yes, anything for my "
 "dwarf friends!"
@@ -7253,22 +7253,22 @@ msgstr ""
 "ためなら！"
 
 #. [message]: speaker=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1534
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1536
 msgid "(<i>laughs</i>) It's good to see you again, Krolock."
 msgstr "（<i>ハッハッハ </i>）また会えて良かったよ、Krolock 。"
 
 #. [message]: speaker=Krolock
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1541
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1543
 msgid "Uh... thank you?"
 msgstr "あ... 有難う、あれ？"
 
 #. [message]: speaker=second_unit
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1550
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1552
 msgid "It appears that they have taken trolls as prisoners, too!"
 msgstr "奴ら、トロルまで捕虜にしたみたいだ！"
 
 #. [message]: id=Hamel
-#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1650
+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1652
 msgid "I think we're done here. Let's look after the prisoners."
 msgstr "もう、ここでやれることは無いな。捕虜たちの面倒を見るとしよう。"
 

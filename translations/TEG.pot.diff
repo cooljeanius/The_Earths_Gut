@@ -1,11 +1,11 @@
 --- /Users/ericgallager/Downloads/TEG_old.pot	2021-10-03 20:48:44.000000000 -0400
-+++ TEG.pot	2023-11-24 01:58:29.000000000 -0500
++++ TEG.pot	2023-11-26 01:37:00.000000000 -0500
 @@ -2,7 +2,7 @@
  msgstr ""
  "Project-Id-Version: PACKAGE VERSION\n"
  "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 -"POT-Creation-Date: 2021-07-05 04:04 UTC\n"
-+"POT-Creation-Date: 2023-11-24 06:58 UTC\n"
++"POT-Creation-Date: 2023-11-26 06:37 UTC\n"
  "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
  "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
  "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -713,7 +713,7 @@
  msgstr ""
  
 +#. [floating_text]
-+#: The_Earths_Gut/utils/units.cfg:752
++#: The_Earths_Gut/utils/units.cfg:753
 +msgid "+$experience_gained| exp"
 +msgstr ""
 +
@@ -6281,7 +6281,7 @@
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:872
 -msgid "I'm very glad to see you alive! Elara, do as she says, she's our friend."
 +#. [message]: speaker=second_unit
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1322
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1323
 +msgid "A dragonguard is here!"
  msgstr ""
  
@@ -6289,7 +6289,7 @@
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:890
 -msgid "Do you feel better now?"
 +#. [message]: speaker=second_unit
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1333
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1335
 +msgid "A thunderguard is here!"
  msgstr ""
  
@@ -6298,7 +6298,7 @@
 -msgid "Yes. I was seriously wounded and hiding here. Luckily, the undead didn't find me. My strong spell kept that door safely closed."
 +#. [message]: speaker=second_unit
 +#. it ought to be safe to assume that it is a Thunderer if it is neither a Dragonguard nor Thunderguard:
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1341
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1343
 +msgid "A thunderer is here!"
  msgstr ""
  
@@ -6306,7 +6306,7 @@
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:903
 -msgid "Wait... I know you... can it be true?"
 +#. [message]: role=weakenedThunderer
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1382
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1384
 +msgid "Thank goodness, I am finally cured!"
  msgstr ""
  
@@ -6314,7 +6314,7 @@
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:907
 -msgid "Yes, I recognize you too. You were in the third class at Alduin when I graduated. Nice to see you."
 +#. [message]: speaker=second_unit
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1497
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1499
 +msgid "This troll... it's Krolock!"
  msgstr ""
  
@@ -6323,7 +6323,7 @@
 -msgid "You know each other?"
 +#. [message]: speaker=Krolock
 +#. "again" = reference back to S08, "Lost":
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1502
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1504
 +msgid "Saved by dwarves again... I really need to take better care of myself! In any case, thank you, small friends!"
  msgstr ""
  
@@ -6331,7 +6331,7 @@
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:915
 -msgid "Clarissa was my mentor at Alduin, for quite some time."
 +#. [message]: speaker=Hamel
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1506
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1508
 +msgid "It's good to see you again, Krolock."
  msgstr ""
  
@@ -6339,7 +6339,7 @@
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:937
 -msgid "Tell us -  what has happened here?"
 +#. [message]: speaker=second_unit
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1518
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1520
 +msgid "Ah, Krolock, it's you!"
  msgstr ""
  
@@ -6347,7 +6347,7 @@
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:941
 -msgid "When we were retreating and could no longer hold the undead off, I was separated from Aiglathing and the others who retreated outside. I hid here until your arrival."
 +#. [message]: speaker=Krolock
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1522
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1524
 +msgid "Thank you for rescuing me, my good troll! I'm glad I can count on my fellow trolls!"
  msgstr ""
  
@@ -6355,7 +6355,7 @@
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:945
 -msgid "Where are all the others?"
 +#. [message]: speaker=Hamel
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1526
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1528
 +msgid "...and dwarves?"
  msgstr ""
  
@@ -6363,7 +6363,7 @@
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:949
 -msgid "Some may still be hiding here, but many of the others were captured. If I noticed it correctly in the heat of the battle, they were put in chains and forced to go with the undead."
 +#. [message]: speaker=Krolock
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1530
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1532
 +msgid "...oh! Hamel, of course, I should have realized! Yes, yes, anything for my dwarf friends!"
  msgstr ""
  
@@ -6371,25 +6371,25 @@
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:953
 -msgid "They take prisoners...? At least some of our comrades are still alive."
 +#. [message]: speaker=Hamel
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1534
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1536
 +msgid "(<i>laughs</i>) It's good to see you again, Krolock."
 +msgstr ""
 +
 +#. [message]: speaker=Krolock
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1541
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1543
 +msgid "Uh... thank you?"
  msgstr ""
  
  #. [message]: speaker=second_unit
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:971
 -msgid "A thunderer is here!"
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1550
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1552
 +msgid "It appears that they have taken trolls as prisoners, too!"
  msgstr ""
  
  #. [message]: id=Hamel
 -#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1130
-+#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1650
++#: The_Earths_Gut/scenarios/18_The_investigation.cfg:1652
  msgid "I think we're done here. Let's look after the prisoners."
  msgstr ""
  
