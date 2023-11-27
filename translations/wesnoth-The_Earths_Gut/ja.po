@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-11-26 06:37 UTC\n"
-"PO-Revision-Date: 2023-08-31 22:30+0900\n"
+"PO-Revision-Date: 2023-11-27 13:21+0900\n"
 "Last-Translator: konami,k <konamit2008@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #. [editor_group]: id=earthsgut
 #. since this is the first string to get put into the potfile, a general translation note:
@@ -29,19 +29,6 @@ msgstr "地球のはらわた"
 #. an example of how it would be put together would be:
 #. "Requires BfW 1.16.0 or greater."
 #: The_Earths_Gut/dist/name_icon_description.cfg:7
-#, fuzzy
-#| msgid ""
-#| "It is 515YW and you are Hamel, a young dwarven leader. Your tribe resides "
-#| "in the Knalga caverns near the Dwarven Doors and is constantly under "
-#| "threat of attack. Resources are also becoming scarce in your area, so you "
-#| "must guide your people on a quest for more minerals. With the new "
-#| "minerals you will be able to forge new weapons and armor to push back "
-#| "your enemies.\n"
-#| "The campaign focuses on 'dwarvish dungeon crawling', and the developer "
-#| "intention is to make it playable for newbies on easy while also keeping "
-#| "it challenging for experienced players on hard. (Beginner level, 23 "
-#| "scenarios (nearly finished, but not quite))\n"
-#| "Requires BfW "
 msgid ""
 "It is 515YW and you are Hamel, a young dwarven leader. Your tribe resides in "
 "the Knalga caverns near the Dwarven Doors and is constantly under threat of "
@@ -60,18 +47,11 @@ msgstr ""
 "入手できれば新しい鎧や武器の鍛造が可能になり、敵対者を撃退できるようになるの"
 "です。\n"
 "このキャンペーンはドワーフ流のダンジョン巡りに焦点が当たっていて、初心者でも"
-"熟練者でも楽しめるように、というのが開発者の意図です。（初心者向け 23シナリオ"
-"（未完ですが、もう少しで完成します）\n"
+"熟練者でも楽しめるように、というのが開発者の意図です。（初心者向け 23シナリ"
+"オ <small>（未完ですが、もう少しで完成します）</small>)\n"
 "以下のBfWが必要です。 "
 
 #: The_Earths_Gut/dist/name_icon_description.cfg:9
-#, fuzzy
-#| msgid ""
-#| " or greater. Requires 'The Hammer of Thursagan' to be installed (which is "
-#| "part of mainline now, so it should already be there unless you've deleted "
-#| "it or something).\n"
-#| "Former working title: 'Dwarven Kingdom' (which is now the title of a "
-#| "separate campaign by Ashmyr/Myrian)."
 msgid ""
 " or greater. Requires 'The Hammer of Thursagan' to be installed "
 "<small>(which is part of mainline now, so it should already be there unless "
@@ -82,8 +62,8 @@ msgid ""
 msgstr ""
 " 又は、それ以降。”Thursaganの槌” がインストールされている必要があります（標準"
 "付属の公式キャンペーンですので、削除等を行なっていない限りは大丈夫です）。\n"
-"旧タイトル： 'Dwarven Kingdom'（現在は Ashmyr/Myrian 氏によって別キャンペーン"
-"になっています）"
+"旧タイトル： 'Dwarven Kingdom'<small>（現在は Ashmyr/Myrian 氏によって別キャ"
+"ンペーンになっています）</small>"
 
 #. [terrain_type]: id=stone-bridge-s-n
 #. [terrain_type]: id=stone-bridge-sw-ne
@@ -342,12 +322,12 @@ msgstr ""
 #. [dummy]: id=teaching
 #: The_Earths_Gut/utils/teaching.cfg:10
 msgid "teaching"
-msgstr ""
+msgstr "指導"
 
 #. [dummy]: id=teaching
 #: The_Earths_Gut/utils/teaching.cfg:11
 msgid "female^teaching"
-msgstr ""
+msgstr "指導"
 
 #. [dummy]: id=teaching
 #. similar string in UtBS:
@@ -357,11 +337,13 @@ msgid ""
 "all the units of the same side adjacent to it. If no suitable unit is "
 "adjacent, its experience just goes back to zero."
 msgstr ""
+"毎ターンの開始時に、このユニットは隣接する同陣営のユニットに経験値（XP）を配"
+"ります。該当するユニットがいない場合、XP は単に 0 になります。"
 
 #. Floating text shown when Delfador's teaching ability transfers experience points
 #: The_Earths_Gut/utils/teaching.cfg:85
 msgid "+$amount XP"
-msgstr ""
+msgstr "+$amount XP"
 
 #. [dummy]: id=teg_ability_dungeon_survival
 #: The_Earths_Gut/utils/abilities.cfg:11
@@ -674,7 +656,7 @@ msgstr "乗車を拒否する"
 #. [floating_text]
 #: The_Earths_Gut/utils/units.cfg:753
 msgid "+$experience_gained| exp"
-msgstr ""
+msgstr "+$experience_gained| exp"
 
 #. [message]: id=Hamel
 #. this is in a "time over" event that results in defeat:
@@ -1042,8 +1024,8 @@ msgid ""
 "continuous tongue of flame."
 msgstr ""
 "ドワーフの火炎放射兵（ Dwarven Flamethrower ）は、木と鉄の奇妙な杖を持ってい"
-"て、その杖はサンダーガードに似ていますが、雷鳴を轟かせ弾丸を射出する代わり"
-"に、火炎の帯を連続放射することができます。"
+"て、その杖は熟練銃撃兵に似ていますが、雷鳴を轟かせ弾丸を射出する代わりに、火"
+"炎の帯を連続放射することができます。"
 
 #. [attack]: type=fire
 #: The_Earths_Gut/units/dwarves/Flamethrower.cfg:40
@@ -1543,7 +1525,7 @@ msgstr "壁"
 #. [terrain_type]: id=grassland_flowers
 #: The_Earths_Gut/terrain/terrain-definitions.cfg:58
 msgid "green grass with flowers"
-msgstr ""
+msgstr "草花"
 
 #. [scenario]: id=04_Up_the_mountain
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:30
@@ -1839,23 +1821,20 @@ msgstr "邪魔くさいモンスターだな！ Dulatus 、ほんとにこの道
 #. [message]: id=Dulatus
 #. a bit of a hint that Uga Uga might have something for the player:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:671
-#, fuzzy
-#| msgid ""
-#| "Ach, don't complain so much, Aiglathing! This could be an opportunity "
-#| "before us! In any case, it seems we have a decision to make."
 msgid ""
 "Ach, don't complain so much, Aiglathing! This could be an opportunity before "
 "us! Think of all the previous travelers this beast has shaken down who we "
 "now have a chance to avenge!"
 msgstr ""
 "まあ、そう文句を言わないでくれよ、Aiglathing！これは、いい機会かもしれないん"
-"だ！とにかく、どうするか決めないといけない気がする。"
+"だ！この野獣に振り回されてる旅人たちのことを思えば、今こそ、敵討ちのいい機会"
+"なんだよ！"
 
 #. [message]: id=Aiglathing
 #. this was previously part of Dulatus's previous line, but I split it off because it was getting too long:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:676
 msgid "In any case, it seems we have a decision to make."
-msgstr ""
+msgstr "とにかく、どうするか決めないといけないと思うんだ。"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:680
@@ -2997,25 +2976,19 @@ msgstr ""
 #. [message]: speaker=narrator
 #. debug message:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1497
-#, fuzzy
-#| msgid ""
-#| "spawning flying enemies at $possible_bat_locs[$random].x,"
-#| "$possible_bat_locs[$random].y"
 msgid ""
 "Debug message: spawning flying enemies at $possible_bat_locs[$random].x,"
 "$possible_bat_locs[$random].y"
 msgstr ""
-"飛行する敵を $possible_bat_locs[$random].x,$possible_bat_locs[$random].y に生"
-"成します"
+"デバッグ用表示： 飛行する敵を $possible_bat_locs[$random].x,"
+"$possible_bat_locs[$random].y に生成します"
 
 #. [message]: speaker=narrator
 #. debug message:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1509
-#, fuzzy
-#| msgid "oops, there's nowhere left to spawn additional flying enemies"
 msgid ""
 "Debug message: oops, there's nowhere left to spawn additional flying enemies"
-msgstr "しまった、飛行する敵を生成するヘクスが残っていません"
+msgstr "デバッグ用表示：しまった、飛行する敵を生成するヘクスが残っていません"
 
 #. [message]: speaker=narrator
 #. [wml_message]
@@ -3023,10 +2996,8 @@ msgstr "しまった、飛行する敵を生成するヘクスが残っていま
 #. TODO: change once Wesnoth issue 1135 is fixed: https://github.com/wesnoth/wesnoth/issues/1135
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1536
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1544
-#, fuzzy
-#| msgid "side 4 still has $s4_units.length unit(s) left"
 msgid "Debug message: side 4 still has $($s4_units.length - 1) unit(s) left"
-msgstr "side 4 にはまだ $s4_units.length 体のユニットが残ってます"
+msgstr "side 4 にはまだ $($s4_units.length 1 ) 体のユニットが残ってます"
 
 #. [message]: speaker=troll_outpost_leader
 #. this line is said when an undead unit from side 4 attacks your allied troll leader:
@@ -4451,20 +4422,20 @@ msgstr "前進するんだ！城はすぐ目の前だ。"
 #. speaker = side 1 unit who has reached Hamel's castle before Dulatus has:
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:950
 msgid "Dulatus! Hurry up and join me here!"
-msgstr ""
+msgstr "Dulatus! 急ぐんだ、加勢してくれ!"
 
 #. [message]: speaker=Hamel
 #. remember, Hamel still thinks Dulatus is dead at this point, so he would be
 #. very confused here, and he'd be assuming he just misheard:
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:956
 msgid "...who was that you just called out to?! Do my ears deceive me?!"
-msgstr ""
+msgstr "...誰か、いま、俺の名前を呼んだか？！俺の耳がおかしいのかな？！"
 
 #. [message]: speaker=unit
 #. not literally a "second", just a figure of speech for a short amount of time:
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:961
 msgid "You'll see in a second!"
-msgstr ""
+msgstr "すぐに分かるさ！"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:974
@@ -5949,7 +5920,7 @@ msgstr "残念だが、良質な鉱石でできた鎧を付けられるのは、
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1315
 msgid "I think we have enough fine ore left here for $i_Guards more of them."
-msgstr ""
+msgstr "あと、$i_Guards 人分以上は十分残っていると思うぞ。"
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/07_The_bridge_is_broken.cfg:1340
@@ -6254,7 +6225,7 @@ msgstr ""
 #. [floating_text]
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:455
 msgid "Hiss!"
-msgstr ""
+msgstr "シューー！"
 
 #. [message]: id=Clarissa
 #: The_Earths_Gut/scenarios/06_The_great_gates.cfg:481
@@ -7179,30 +7150,24 @@ msgstr "ねえ... ここはもういいわよね、そうしましょう？"
 
 #. [message]: speaker=second_unit
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:1323
-#, fuzzy
-#| msgid "A dragon approaches!"
 msgid "A dragonguard is here!"
-msgstr "ドラゴンが来るぞ！"
+msgstr "ドラゴン衛兵が来るぞ！"
 
 #. [message]: speaker=second_unit
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:1335
-#, fuzzy
-#| msgid "A thunderer is here!"
 msgid "A thunderguard is here!"
-msgstr "ここに銃撃兵がいる！"
+msgstr "ここに熟練銃撃兵がいる！"
 
 #. [message]: speaker=second_unit
 #. it ought to be safe to assume that it is a Thunderer if it is neither a Dragonguard nor Thunderguard:
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:1343
-#, fuzzy
-#| msgid "A thunderer is here!"
 msgid "A thunderer is here!"
 msgstr "ここに銃撃兵がいる！"
 
 #. [message]: role=weakenedThunderer
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:1384
 msgid "Thank goodness, I am finally cured!"
-msgstr ""
+msgstr "うわぁ有り難い、遂に治ったぞ！"
 
 #. [message]: speaker=second_unit
 #: The_Earths_Gut/scenarios/18_The_investigation.cfg:1499
@@ -7301,6 +7266,7 @@ msgid ""
 "Reminder that debug mode being defined causes Elara to get re-created from "
 "scratch here."
 msgstr ""
+"デバッグモードに設定されている場合、Elara がゼロから再創造されることに注意。"
 
 #. [message]: id=Eowariand
 #: The_Earths_Gut/scenarios/17_Return.cfg:296
@@ -8030,7 +7996,7 @@ msgstr "こちらに出口が有るようです。"
 #. [floating_text]
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:58
 msgid "Keep going!"
-msgstr ""
+msgstr "そのまま行くのだ！"
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:69
@@ -8040,15 +8006,13 @@ msgstr "道を抜けながら戦って、Hamel を外に脱出させよう。"
 #. [message]: speaker=unit
 #. hint that this is the wrong way:
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:89
-#, fuzzy
-#| msgid "I hardly notice the smell of stale air here."
 msgid "I can somewhat notice the smell of stale air here."
-msgstr "ここは臭さが酷くて、ほとんど匂いが分からないな。"
+msgstr "なんだかここは、イヤな空気の匂いがするな。"
 
 #. [floating_text]
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:98
 msgid "Wrong way!"
-msgstr ""
+msgstr "道を間違ったな！"
 
 #. [role_message]: type=alchemist
 #: The_Earths_Gut/scenarios/05b_Unknown_tunnels.cfg:139
@@ -8461,28 +8425,16 @@ msgstr "故郷をあとに"
 
 #. [scenario]: id=01t_The_old_home
 #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:14
-#, fuzzy
-#| msgid ""
-#| "Since you have the add-on 'UMC Music' installed, its music will be used "
-#| "in this campaign."
 msgid ""
 "Since you have (at least) the add-on 'UMC Music Book 01' installed, its "
 "music (and music from any other UMC Music Books found) will be used in this "
 "campaign."
 msgstr ""
-"UMC Music アドオンがインストールされていますので、その曲が使用されます。"
+"（少なくとも）UMC Music Book 01 アドオンがインストールされていますので、その"
+"曲（及び、見つかった他の UMC Music Book の音楽）が使用されます。"
 
 #. [scenario]: id=01t_The_old_home
 #: The_Earths_Gut/scenarios/01t_The_old_home.cfg:16
-#, fuzzy
-#| msgid ""
-#| "If you install the add-on 'UMC Music', its music will be used in this "
-#| "campaign. It is not required - it's just not used if you don't have it. "
-#| "In case that it's not available from the add-ons server, it probably "
-#| "works to copy it from an older Wesnoth version into your userdata folder. "
-#| "Note that the installation paths for the UMC Music add-on may have "
-#| "changed between versions, so even if you have it installed, you still "
-#| "might see this text if its path is wrong."
 msgid ""
 "If you install any of the 'UMC Music Book' add-ons, their music will be used "
 "in this campaign. They are not required - they're just not used if you don't "
@@ -10232,10 +10184,8 @@ msgstr ""
 #. [message]: id=Dulatus
 #. "Thank the earth" was previously "Thank god", but that's probably not a saying that dwarves would use:
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1398
-#, fuzzy
-#| msgid "Thank god you have arrived in time!"
 msgid "Thank the earth you have arrived in time!"
-msgstr "いやあ、ありがとう、ギリギリで間に合ったな！"
+msgstr "いやあ、大地よ、ありがとう、ギリギリで間に合ったな！"
 
 #. [message]: speaker=Hamel
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1402
@@ -10243,6 +10193,8 @@ msgid ""
 "I think we should be safe now, but there might be a few more things to "
 "check... be on your guards just in case there are any of them left..."
 msgstr ""
+"これで安全に違いないとは思うが、いくつか確かめたいことがあるんだ... ひょっと"
+"したら残党がいるかもしれん、油断するなよ..."
 
 #. [role_message]: type=scout
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1420
@@ -10257,8 +10209,8 @@ msgid ""
 "too soon..."
 msgstr ""
 "これが奴らの本丸で無いのは確かだ、人数が少なすぎる... あの、アンデッドの出口"
-"を作れるリッチどもが、我々が戻ったことにすぐには気付いていないことを皆で祈る"
-"としよう..."
+"を作れるリッチどもが、我々が戻ったことにすぐに気付かないことを、皆で祈るとし"
+"ようか..."
 
 #. [message]: speaker=narrator
 #. "They" = the dwarves:
@@ -10457,7 +10409,7 @@ msgstr ""
 #. read it backwards:
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:93
 msgid "Senim Airom"
-msgstr ""
+msgstr "Senim Airom"
 
 #. [object]: id=swlich_firepower
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:206
@@ -10468,7 +10420,7 @@ msgstr "炎の支配者"
 #. "Muff" because this lich is too old to use the "Mal" prefix, and "Gorlab" because, well, read it backwards:
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:273
 msgid "Muff Gorlab"
-msgstr ""
+msgstr "Muff Gorlab"
 
 #. [objective]: condition=win
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:361
@@ -10985,10 +10937,8 @@ msgstr "見つけた！"
 #. [unit]: type=Undead Dwarvish Rune Lord, id=dwarflich
 #. "Kal Torlat" is named after him:
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1930
-#, fuzzy
-#| msgid "Dulatus"
 msgid "Torlatus"
-msgstr "Dulatus"
+msgstr "Torlatus"
 
 #. [message]: speaker=dwarflich
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1945
