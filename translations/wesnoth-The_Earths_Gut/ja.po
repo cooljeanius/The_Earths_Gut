@@ -2997,7 +2997,7 @@ msgstr "デバッグ用表示：しまった、飛行する敵を生成するヘ
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1536
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1544
 msgid "Debug message: side 4 still has $($s4_units.length - 1) unit(s) left"
-msgstr "side 4 にはまだ $($s4_units.length 1 ) 体のユニットが残ってます"
+msgstr "side 4 にはまだ $($s4_units.length - 1) 体のユニットが残ってます"
 
 #. [message]: speaker=troll_outpost_leader
 #. this line is said when an undead unit from side 4 attacks your allied troll leader:
