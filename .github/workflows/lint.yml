@@ -1,0 +1,24 @@
+name: lint
+
+on: [push, pull_request]
+
+env:
+  WESNOTH_VERSION: 1.16.10
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Lint WML
+      uses: czyzby/wesnoth-wml-linter@v1
+      with:
+        wesnoth-version: ${{ env.WESNOTH_VERSION }}
+        spellcheck: false
+    - name: Verify resources scope
+      uses: czyzby/wesnoth-wml-scope@v1
+      if: always()
+      with:
+        wesnoth-version: ${{ env.WESNOTH_VERSION }}
