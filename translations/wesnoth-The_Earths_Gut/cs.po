@@ -1,12 +1,12 @@
-# Petr Šlejhar (Septim) <septim@centrum.cz>, 2023.
-# Michal Žejdl <lachim@emer.cz>, 2023
+# Petr Šlejhar (Septim) <septim@centrum.cz>, 2023, 2024
+# Michal Žejdl <lachim@emer.cz>, 2023, 2024
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-11-26 06:37 UTC\n"
-"PO-Revision-Date: 2023-11-08 23:11+0100\n"
+"PO-Revision-Date: 2024-02-15 17:34+0100\n"
 "Last-Translator: Septim <septim@centrum.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. [editor_group]: id=earthsgut
 #. since this is the first string to get put into the potfile, a general translation note:
@@ -58,13 +58,6 @@ msgstr ""
 "Tažení je téměř dokončeno, ale ne úplně. Tažení vyžaduje BoW verze "
 
 #: The_Earths_Gut/dist/name_icon_description.cfg:9
-#, fuzzy
-#| msgid ""
-#| " or greater. Requires 'The Hammer of Thursagan' to be installed (which is "
-#| "part of mainline now, so it should already be there unless you've deleted "
-#| "it or something).\n"
-#| "Former working title: 'Dwarven Kingdom' (which is now the title of a "
-#| "separate campaign by Ashmyr/Myrian)."
 msgid ""
 " or greater. Requires 'The Hammer of Thursagan' to be installed "
 "<small>(which is part of mainline now, so it should already be there unless "
@@ -74,11 +67,11 @@ msgid ""
 "separate campaign by Ashmyr/Myrian)</small>."
 msgstr ""
 " nebo vyšší.\n"
-"Vyžaduje instalaci kampaně „Thursaganovo kladivo“ (která je nyní součástí "
-"hlavní instalace, takže by ve hře měla být obsažena, pokud nebyla ručně "
-"smazána nebo tak něco).\n"
-"Bývalý pracovní název: „Trpasličí království“ (což je nyní název "
-"samostatného tažení od Ashmyr/Myrian)."
+"Vyžaduje instalaci kampaně „Thursaganovo kladivo“ <small>(která je nyní "
+"součástí hlavní instalace, takže by ve hře měla být obsažena, pokud nebyla "
+"ručně smazána nebo tak něco)</small>.\n"
+"Bývalý pracovní název: „Trpasličí království“ <small>(což je nyní název "
+"samostatného tažení od Ashmyr/Myrian)</small>."
 
 #. [terrain_type]: id=stone-bridge-s-n
 #. [terrain_type]: id=stone-bridge-sw-ne
@@ -309,7 +302,7 @@ msgstr "Můžeme mít velké potíže..."
 #: The_Earths_Gut/utils/deaths.cfg:244
 #: The_Earths_Gut/scenarios/08_Lost.cfg:1756
 msgid "Uahh! The cave has finished me..."
-msgstr ""
+msgstr "Uahh! Ta jeskyně mě dostala..."
 
 #. [message]: id=Krolock
 #. "His friends" = the other dwarves; "Him" = Dulatus:
@@ -335,12 +328,12 @@ msgstr "Vím, že jsme vůči magii nedůvěřiví, ale byla v ní prostě skvě
 #. [dummy]: id=teaching
 #: The_Earths_Gut/utils/teaching.cfg:10
 msgid "teaching"
-msgstr ""
+msgstr "vyučující"
 
 #. [dummy]: id=teaching
 #: The_Earths_Gut/utils/teaching.cfg:11
 msgid "female^teaching"
-msgstr ""
+msgstr "vyučující"
 
 #. [dummy]: id=teaching
 #. similar string in UtBS:
@@ -350,11 +343,14 @@ msgid ""
 "all the units of the same side adjacent to it. If no suitable unit is "
 "adjacent, its experience just goes back to zero."
 msgstr ""
+"Na začátku každého kola tato jednotka přerozdělí své zkušenosti všem "
+"sousedícím spřáteleným jednotkám. Pokud s ní žádná vhodná jednotka "
+"nesousedí, její zkušenost se pouze sníží na nulu."
 
 #. Floating text shown when Delfador's teaching ability transfers experience points
 #: The_Earths_Gut/utils/teaching.cfg:85
 msgid "+$amount XP"
-msgstr ""
+msgstr "+$amount XP"
 
 # Něco jako zálesáctví, ale v podzemí.
 #. [dummy]: id=teg_ability_dungeon_survival
@@ -2106,6 +2102,10 @@ msgid ""
 "against the dwarves were still great. So unfortunately, most of them were "
 "leaving when the group came into range of old dwarvish buildings again."
 msgstr ""
+"Trollové zavedli Dulata do tunelu vedoucího na jihozápad, který začínal na "
+"známé základně. Navzdory společnému vítězství byly mezi trolly výhrady proti "
+"trpaslíkům stále velké. Takže se bohužel většina z nich odpojila, když se "
+"skupina znovu dostala do dosahu starých trpasličích budov."
 
 #. [side]: type=Dwarvish Stalwart, id=Dulatus
 #. [side]: type=Dulatus Level Three, id=Dulatus
@@ -2519,19 +2519,21 @@ msgid ""
 "It seems that southern path has caved in. I wonder where it had been leading "
 "to. There's no way to get through."
 msgstr ""
+"Zdá se, že jižní cesta je zavalená. Zajímalo by mě, kam vedla. Neexistuje "
+"způsob, jak projít."
 
 #. [message]: id=$unit.id
 #. "$unit.id" is most likely Dulatus here:
 #: The_Earths_Gut/scenarios/08_Lost.cfg:747
 msgid "I hear a roaring sound down in this chasm... it must be water."
-msgstr ""
+msgstr "Slyším dole v té propasti dunivý zvuk... to musí být voda."
 
 #. [message]: id=Dulatus
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/08_Lost.cfg:779
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:887
 msgid "What? Who's there?"
-msgstr ""
+msgstr "Co? Kdo je tam?"
 
 #. [unit]: type=Dwarvish Ulfserker, id=Pelcatlus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:790
@@ -2541,7 +2543,7 @@ msgstr "Pelcatlus"
 #. [message]: id=Pelcatlus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:811
 msgid "You stinky creature dare to disturb me! I'll - oh -"
-msgstr ""
+msgstr "Jak se opovažuješ mě rušit, ty smradlavé stvoření! Já ti... och..."
 
 #. [message]: id=Pelcatlus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:815
@@ -2549,12 +2551,15 @@ msgid ""
 "It's been a long time that I've seen any other LIVING being except a troll "
 "every now and then... and you're even a dwarf! Welcome to my mediocre home."
 msgstr ""
+"Už je to dlouho, co jsem tu a tam spatřil nějakou jinou ŽIVOU bytost kromě "
+"trolla... a tys dokonce trpaslík! Vítej v mém nevznešeném sídle."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:819
 msgid ""
 "Thanks, I'd thought I'd die all alone down here... now we'll die together..."
 msgstr ""
+"Díky, myslel jsem, že tady dole umřu úplně sám... teď tu umřeme spolu..."
 
 #. [message]: id=Pelcatlus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:823
@@ -2562,6 +2567,8 @@ msgid ""
 "It is possible to survive. The fish from that lake and my mushroom 'garden' "
 "kept me alive."
 msgstr ""
+"Dá se tu přežít. Ryby z toho jezera a moje houbová „zahrádka“ mě udržely při "
+"životě."
 
 #. [message]: id=Pelcatlus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:827
@@ -2569,18 +2576,20 @@ msgid ""
 "All those years here have only toughened me, I'm guessing. And I can no "
 "longer stop once I've started a fight until my opponent is dead."
 msgstr ""
+"Všechny ty roky tady mě, hádám, jen zocelily. A jakmile začnu bojovat, "
+"nemůžu už přestat, dokud můj protivník nezemře."
 
 #. [message]: id=Pelcatlus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:831
 msgid ""
 "There's a river running into the cave, it washed me down once ago... you may "
 "have noticed it."
-msgstr ""
+msgstr "Do jeskyně teče řeka, ta mě kdysi spláchla... Možná sis jí všiml."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:841
 msgid "Yes, the same thing happened to me."
-msgstr ""
+msgstr "Ano, stalo se mi to samé."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:847
@@ -2588,11 +2597,13 @@ msgid ""
 "I've heard its roar in the chasm. I've come through the southern tunnel, but "
 "now it has collapsed."
 msgstr ""
+"Slyšel jsem její hučení v propasti. Prošel jsem jižním tunelem, ale ten teď "
+"už nestojí."
 
 #. [message]: id=Pelcatlus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:851
 msgid "Is that so? I've explored that passage a thousand times."
-msgstr ""
+msgstr "Opravdu? Ten úsek jsem prozkoumal tisíckrát."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/08_Lost.cfg:855
@@ -3919,27 +3930,27 @@ msgstr "?!? Nechápu to... není to Dulatus?"
 #. [message]: id=extra_fighter
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:802
 msgid "We thought you're dead!?"
-msgstr ""
+msgstr "Mysleli jsme, že jsi mrtvý!?"
 
 #. [message]: id=Celylia
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:812
 msgid "This is a friend of yours!?"
-msgstr ""
+msgstr "To je váš přítel!?"
 
 #. [message]: id=extra_scout
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:818
 msgid "What are you doing here?"
-msgstr ""
+msgstr "Co tady děláš?"
 
 #. [message]: id=Clarissa
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:822
 msgid "I'm so happy to see you alive... but how did you survive?"
-msgstr ""
+msgstr "Jsem tak ráda, že tě vidím živého... ale jak jsi přežil?"
 
 #. [message]: id=Krolock
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:826
 msgid "These are your friends, Dulatus?"
-msgstr ""
+msgstr "To být tvý přátelé, Dulate?"
 
 #. [message]: id=Pelcatlus
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:830
@@ -4049,26 +4060,26 @@ msgstr ""
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:930
 msgid "Move on! The castle is just ahead."
-msgstr ""
+msgstr "Pojďme! Hrad je těsně před námi."
 
 #. [message]: speaker=unit
 #. speaker = side 1 unit who has reached Hamel's castle before Dulatus has:
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:950
 msgid "Dulatus! Hurry up and join me here!"
-msgstr ""
+msgstr "Dulate! Pospěš si a přidej se tu ke mně!"
 
 #. [message]: speaker=Hamel
 #. remember, Hamel still thinks Dulatus is dead at this point, so he would be
 #. very confused here, and he'd be assuming he just misheard:
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:956
 msgid "...who was that you just called out to?! Do my ears deceive me?!"
-msgstr ""
+msgstr "... na koho jsi to právě volal?! Klamou mě snad mé uši?!"
 
 #. [message]: speaker=unit
 #. not literally a "second", just a figure of speech for a short amount of time:
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:961
 msgid "You'll see in a second!"
-msgstr ""
+msgstr "Hned uvidíš!"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:974
@@ -4080,6 +4091,8 @@ msgstr "Dulate?! Ty žiješ?"
 msgid ""
 "It is a VERY long story. And I've brought your lost expeditioners with me."
 msgstr ""
+"To je VELMI dlouhý příběh. A přivedl jsem s sebou druhy z tvé ztracené "
+"expedice."
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:1030
@@ -4087,6 +4100,8 @@ msgid ""
 "What? Trolls and dwarves together? You're not our enemy, leave these dwarves "
 "and begone."
 msgstr ""
+"Co? Trollové a trpaslíci dohromady? Nejsi náš nepřítel, jdi pryč a nech ty "
+"trpaslíky."
 
 #. [message]: race=troll
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:1035
@@ -4094,11 +4109,13 @@ msgid ""
 "These dwarves saved my life and are my friends. If you fight them, you'll "
 "have to fight me."
 msgstr ""
+"Tyhle trpaslíci mi zachránit život. My přátelé. Pokud ty s nimi bojovat, tak "
+"muset bojovat i s já."
 
 #. [message]: speaker=unit
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:1039
 msgid "Traitor! Then you'll all die with them."
-msgstr ""
+msgstr "Zrádče! Pak tedy všichni zemřete s nimi."
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:1053
@@ -4114,7 +4131,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:1077
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:1113
 msgid "Who speaks there?"
-msgstr ""
+msgstr "Kdo to tam mluví?"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/10_Old_friends.cfg:1089
@@ -4180,7 +4197,7 @@ msgstr ""
 #. map label:
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:398
 msgid "The Troll Settlement"
-msgstr ""
+msgstr "Osada trollů"
 
 #. [trait]: id=gluttonous
 #: The_Earths_Gut/scenarios/09_Unusual_allies.cfg:421
@@ -9873,10 +9890,8 @@ msgstr ""
 #. [unit]: type=Undead Dwarvish Rune Lord, id=dwarflich
 #. "Kal Torlat" is named after him:
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1930
-#, fuzzy
-#| msgid "Dulatus"
 msgid "Torlatus"
-msgstr "Dulatus"
+msgstr "Torlatus"
 
 #. [message]: speaker=dwarflich
 #: The_Earths_Gut/scenarios/22_The_caverns_of_flame.cfg:1945
@@ -10062,13 +10077,13 @@ msgstr "Pomoc s programováním WML"
 #. credits entry:
 #: The_Earths_Gut/about.cfg:30
 msgid "Ideas, suggestions, corrections, testing"
-msgstr ""
+msgstr "Nápady, návrhy, opravy a testování"
 
 #. [about]
 #. credits entry:
 #: The_Earths_Gut/about.cfg:37
 msgid "Many text and grammar corrections, some ideas"
-msgstr ""
+msgstr "Mnohé textové a gramatické opravy a některé nápady"
 
 #. [about]
 #. credits entry:
@@ -10098,7 +10113,7 @@ msgstr ""
 #. credits entry:
 #: The_Earths_Gut/about.cfg:98
 msgid "Other contributions"
-msgstr ""
+msgstr "Další podpora"
 
 #. [about]
 #. credits entry:
@@ -10109,10 +10124,8 @@ msgstr "Japonský překlad"
 #. [about]
 #. credits entry:
 #: The_Earths_Gut/about.cfg:113
-#, fuzzy
-#| msgid "Japanese Translation"
 msgid "Czech Translation"
-msgstr "Japonský překlad"
+msgstr "Český překlad"
 
 #~ msgid "dagger"
 #~ msgstr "dýka"
