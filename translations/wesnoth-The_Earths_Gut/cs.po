@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-11-26 06:37 UTC\n"
-"PO-Revision-Date: 2024-02-15 17:34+0100\n"
+"PO-Revision-Date: 2024-06-08 16:00+0200\n"
 "Last-Translator: Septim <septim@centrum.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #. [editor_group]: id=earthsgut
 #. since this is the first string to get put into the potfile, a general translation note:
@@ -679,7 +679,7 @@ msgstr "Trpaslíci jsou příliš pomalí!"
 #. we are inside the definition of the GO_HERE_RUNES macro here:
 #: The_Earths_Gut/utils/misc.cfg:38
 msgid "I feel that this spot has a strong connection to some mystic runes:"
-msgstr ""
+msgstr "Mám pocit, že toto místo má silnou vazbu na nějaké mystické runy:"
 
 #. [message]: speaker=unit
 #. DEBUG_MODE is on, so there's a bit of fourth-wall breaking here
@@ -691,7 +691,7 @@ msgstr ""
 #. [message]: speaker=unit
 #: The_Earths_Gut/utils/misc.cfg:48
 msgid "...followed by some numbers."
-msgstr ""
+msgstr "... následované několika čísly."
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/utils/misc.cfg:52
@@ -719,7 +719,6 @@ msgstr "Prsten regenerace"
 #. [object]
 #. leading space is intentional; string is spliced on after NAME_STRING:
 #: The_Earths_Gut/utils/misc.cfg:77
-#, fuzzy
 msgid " now heals 8 hitpoints per turn."
 msgstr " si nyní léčí až 8 životů za kolo."
 
@@ -1090,7 +1089,7 @@ msgstr "Divoký oheň"
 #. [unit_type]: id=Transport Ship, race=mechanical
 #: The_Earths_Gut/units/ships/Transport_Ship.cfg:6
 msgid "Transport Ship"
-msgstr ""
+msgstr "Transportní loď"
 
 #. [unit_type]: id=Transport Ship, race=mechanical
 #: The_Earths_Gut/units/ships/Transport_Ship.cfg:21
@@ -1098,12 +1097,14 @@ msgid ""
 "Transport Ships are used to carry units, though they lack good offensive "
 "capability, and their wide hull and heavy load makes them slow."
 msgstr ""
+"Transportní lodě slouží k přepravě jednotek. Postrádají dobré útočné "
+"schopnosti a kvůli širokému trupu a těžkému nákladu bývají pomalé."
 
 #. [attack]: type=blade
 #: The_Earths_Gut/units/ships/Transport_Ship.cfg:39
 #: The_Earths_Gut/units/ships/Battleship.cfg:38
 msgid "fighting crew"
-msgstr ""
+msgstr "bojující posádka"
 
 #. [unit_type]: id=Battleship, race=mechanical
 #: The_Earths_Gut/units/ships/Battleship.cfg:5
@@ -1241,8 +1242,9 @@ msgstr "kousnutí"
 #. [unit_type]: id=Apprentice Shaman, race=troll
 #: The_Earths_Gut/units/trolls/Apprentice_Shaman.cfg:5
 msgid "Apprentice Shaman"
-msgstr ""
+msgstr "Učeň trollího šamana"
 
+# Converted to plural.
 #. [unit_type]: id=Apprentice Shaman, race=troll
 #: The_Earths_Gut/units/trolls/Apprentice_Shaman.cfg:20
 msgid ""
@@ -1250,6 +1252,9 @@ msgid ""
 "trolls. Though not as strong or tough as other trolls, its true power lies "
 "in its fire magic, which it uses to burn its enemies."
 msgstr ""
+"Učni trollích šamanů mají potenciál stát se mystickými vůdci trollů. I když "
+"nejsou tak silní ani houževnatí jako ostatní trollové, jejich skutečná síla "
+"spočívá v jejich ohnivé magii, kterou používají ke spalování svých nepřátel."
 
 #. [attack]: type=impact
 #: The_Earths_Gut/units/trolls/Apprentice_Shaman.cfg:31
@@ -1295,7 +1300,7 @@ msgstr "mrazivý dech"
 #. [unit_type]: id=Troll Frost Wizard, race=troll
 #: The_Earths_Gut/units/trolls/Troll_Frost_Wizard.cfg:5
 msgid "Troll Frost Wizard"
-msgstr ""
+msgstr "Trollí mrazivý čaroděj"
 
 #. [unit_type]: id=Troll Frost Wizard, race=troll
 #: The_Earths_Gut/units/trolls/Troll_Frost_Wizard.cfg:19
@@ -1306,6 +1311,12 @@ msgid ""
 "coating of ice. Their low body temperature allows Troll Frost Wizards to "
 "spend more energy on movement, making them faster than most other trolls."
 msgstr ""
+"Jen málo trollů se rozhodne praktikovat tento druh magie. Trollí mraziví "
+"čarodějové jsou ledoví trollové, kteří stále pilují svůj vnitřní chlad. Ten "
+"používají k vyfukování chladivých dechů mrazu na své nepřátele, zmrazujíce "
+"je ve vrstvě ledu. Nízká tělesná teplota trollích mrazivých čarodějů jim "
+"umožňuje spotřebovat více energie na pohyb, díky čemuž jsou rychlejší než "
+"většina ostatních trollů."
 
 #. [attack]: type=impact
 #: The_Earths_Gut/units/trolls/Troll_Frost_Wizard.cfg:30
@@ -1346,7 +1357,7 @@ msgstr "prak"
 #. [unit_type]: id=Undead Dwarf, race=undead
 #: The_Earths_Gut/units/undead/Undead_Dwarf.cfg:6
 msgid "Undead Dwarf"
-msgstr ""
+msgstr "Nemrtvý trpaslík"
 
 #. [unit_type]: id=Undead Dwarf, race=undead
 #: The_Earths_Gut/units/undead/Undead_Dwarf.cfg:18
@@ -1354,6 +1365,8 @@ msgid ""
 "These are former dwarves, raised into unlife. They retain the power of "
 "dwarves, but also their lack of speed."
 msgstr ""
+"Jsou to bývalí trpaslíci, kteří byli vyvoláni do neživota. Zachovají si "
+"trpasličí sílu, ale i malou rychlost pohybu."
 
 #. [attack]: type=blade
 #: The_Earths_Gut/units/undead/Undead_Dwarf.cfg:31
@@ -1396,10 +1409,13 @@ msgstr "Dveře"
 #. let's hold off on revising this one until we have figured it out
 #. (specifically, unless WHO are struck down by their enemies first? The doors, or their owners?)
 #: The_Earths_Gut/units/fake/Door.cfg:21
+#, fuzzy
 msgid ""
 "The door will open only to those who are allied with its owners, unless "
 "struck down by their enemies first."
 msgstr ""
+"Dveře se otevřou pouze těm, kteří jsou spřízněni s jejich vlastníky, tedy "
+"pokud nejsou vyraženy."
 
 #. [unit_type]: id=Indestructible_Door
 #: The_Earths_Gut/units/fake/Indestructible_Door.cfg:5
@@ -1652,23 +1668,23 @@ msgstr ""
 #. debug option:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:373
 msgid "Lidda's death."
-msgstr ""
+msgstr "Lidda zemře"
 
 #. [option]
 #. debug option:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:384
 msgid "Uga's death."
-msgstr ""
+msgstr "Uga Uga zemře"
 
 #. [unit]: type=Gryphon Rider, id=Narcatsol
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:417
 msgid "Narcatsol"
-msgstr ""
+msgstr "Narkatsol"
 
 #. [role_message]: type=scout
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:432
 msgid "Ho! It seems that one of the scouts has found a pet!"
-msgstr ""
+msgstr "Hola! Zdá se, že jeden z průzkumníků našel mazlíčka!"
 
 #. [message]: id=Narcatsol
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:436
@@ -1680,12 +1696,12 @@ msgstr ""
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:538
 msgid "What is this? I can see much more clearly now."
-msgstr ""
+msgstr "Co se děje? Teď vidím mnohem jasněji."
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:542
 msgid "The mist has withdrawn to the mountain tops."
-msgstr ""
+msgstr "Mlha se stáhla na vrcholky hor."
 
 #. [message]: id=Dulatus
 #. HARD difficulty; this is morning:
@@ -1715,6 +1731,8 @@ msgid ""
 "My, my, here come some puny dwarves! They always have bright gold and fine "
 "gems. Attack, fellows!"
 msgstr ""
+"Hej ty i ty, přicházejí sem malí trpaslíci! Vždycky mívají zářivé zlato a "
+"pěkné drahokamy. Do útoku, přátelé!"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:579
@@ -1942,21 +1960,23 @@ msgid ""
 "Look, there is something on the ground where the monster fell! It's a large "
 "purse full of gold!"
 msgstr ""
+"Podívejte, tam, jak padla ta příšera, je něco na zemi! Je to kabela plná "
+"zlata!"
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:886
 msgid "The purse contains $i_UgaUgaPurse| gold pieces!"
-msgstr ""
+msgstr "Kabela obsahuje $i_UgaUgaPurse| zlatých!"
 
 #. [message]: speaker=second_unit
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:890
 msgid "I wish every monster was so rich!"
-msgstr ""
+msgstr "Jó, kdyby tak všechny monstra byly tak bohatý!"
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:895
 msgid "I wonder how long that brute has forced travelers to pay..."
-msgstr ""
+msgstr "Zajímalo by mě, jak dlouho ten surovec nutil pocestné platit..."
 
 #. [message]: id=Dulatus
 #. time over: If we paid, Lidda must be the remaining enemy.
@@ -1964,12 +1984,12 @@ msgstr ""
 #. Otherwise, the leader death events would have ended the scenario.
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:912
 msgid "We cannot continue with enemies behind us..."
-msgstr ""
+msgstr "Nemůžem pokračovat s nepřáteli za zády..."
 
 #. [role_message]: type=fighter
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:924
 msgid "Where do we go from here now?"
-msgstr ""
+msgstr "Kam odsud teď půjdem?"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:928
@@ -1977,21 +1997,23 @@ msgid ""
 "There must be a cave entrance here, somewhere below the mountains! I faintly "
 "remember it being discovered years ago."
 msgstr ""
+"Tady někde pod horama musí být vchod do jeskyně! Matně si pamatuju, jak byl "
+"před lety objeven."
 
 #. [message]: id=04_Up_the_mountain_cave_discoverer
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:960
 msgid "Yes, I've seen it, here it is!"
-msgstr ""
+msgstr "Jo, mám to, tady to je!"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:967
 msgid "Does it look like our kind has been there before?"
-msgstr ""
+msgstr "A nevypadá to, jako by tu už trpaslíci byli?"
 
 #. [message]: id=04_Up_the_mountain_cave_discoverer
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:971
 msgid "Maybe... there are some ruins at the opening."
-msgstr ""
+msgstr "Možná... u vstupu jsou nějaký ruiny."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:975
@@ -1999,17 +2021,21 @@ msgid ""
 "I am not sure, but it could be a path to the mines that were rumored to be "
 "in those mountains. Those ruins could indeed be dwarvish."
 msgstr ""
+"Nejsem si jistý, ale mohla by to být cesta k dolům, o kterých se vyprávělo, "
+"že jsou v těch horách. Ty ruiny by skutečně mohly být trpasličí."
 
 #. [role_message]: type=fighter
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:980
 msgid "Shall we take this way?"
-msgstr ""
+msgstr "Vezmeme to tudy?"
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:989
 msgid ""
 "Since the monsters are still blocking the pass, we have no choice, so... yes."
 msgstr ""
+"Vzhledem k tomu, že příšery furt blokujou průchod, nemáme na výběr, takže... "
+"ano."
 
 #. [message]: id=Clarissa
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:993
@@ -2018,6 +2044,8 @@ msgid ""
 "I do not mean to sound like a coward, but I dread entering that cave. I feel "
 "a strong evil lurks inside."
 msgstr ""
+"Nechci, aby to znělo, že jsem zbabělec, ale bojím se do té jeskyně vstoupit. "
+"Cítím, že se uvnitř skrývá velké zlo."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1013
@@ -2025,6 +2053,8 @@ msgid ""
 "Since the monsters are gone, the pass is free, so we'd better choose this "
 "way. Likely the bandits won't dare to follow."
 msgstr ""
+"Vzhledem k tomu, že potvory jsou fuč, je průsmyk volný. Proto radši zvolíme "
+"tuhle cestu. Bandité se pravděpodobně neodváží nás sledovat."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1035
@@ -2032,6 +2062,8 @@ msgid ""
 "Since the monsters and the bandits are gone, we are free to decide which "
 "path to take."
 msgstr ""
+"Vzhledem k tomu, že potvory i banditi jsou fuč, můžem se svobodně "
+"rozhodnout, kterou cestou se vydat."
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1039
@@ -2087,7 +2119,7 @@ msgstr ""
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1062
 msgid "I hope it is safe."
-msgstr ""
+msgstr "Doufám, že je to bezpečné."
 
 #. [scenario]: id=09i_Trolls_leave
 #: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:49
