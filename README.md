@@ -1,5 +1,5 @@
 # The_Earths_Gut
-A Wesnoth add-on campaign, copied from the BfW 1.12 add-on server to forward-port to 1.14, and then to 1.16.
+The Earth's Gut (TEG) is a Wesnoth add-on campaign, copied from the BfW 1.12 add-on server to forward-port to 1.14, and then to 1.16, and eventually to later Wesnoth versions, too.
 
 It is 515YW and you are Hamel, a young dwarven leader.
 Your tribe resides in the Knalga caverns near the Dwarven Doors and is constantly under threat of attack.
