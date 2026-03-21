@@ -1,4 +1,4 @@
-# Petr Šlejhar (Septim) <septim@centrum.cz>, 2023, 2024
+# Petr Šlejhar (Septim) <septim@centrum.cz>, 2023, 2024, 2026
 # Michal Žejdl <lachim@emer.cz>, 2023, 2024
 #
 msgid ""
@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-11-26 06:37 UTC\n"
-"PO-Revision-Date: 2024-06-08 16:00+0200\n"
+"PO-Revision-Date: 2026-03-21 22:16+0100\n"
 "Last-Translator: Septim <septim@centrum.cz>\n"
 "Language-Team: Czech https://wiki.wesnoth.org/CzechTranslation\n"
 "Language: cs\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.9\n"
 
 #. [editor_group]: id=earthsgut
 #. since this is the first string to get put into the potfile, a general translation note:
@@ -1611,19 +1611,19 @@ msgstr "Co teď budeme dělat?"
 #. and one more north-northwest, so averaging the two as just "northwest" is fine:
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:325
 msgid "We need to travel somewhat northwest. However, we must be careful."
-msgstr ""
+msgstr "Potřebujeme se dostat trochu severozápadně. Musíme však být opatrní."
 
 #. [message]: id=Aiglathing
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:329
 msgid ""
 "Would it be better to travel south? Along the mountains, rather than through "
 "them?"
-msgstr ""
+msgstr "Nebylo by lepší cestovat na jih? Podél hor, než přes ně?"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:333
 msgid "It would at least be easier to see our way..."
-msgstr ""
+msgstr "Aspoň by nám to líp určovalo cestu..."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:337
@@ -1632,11 +1632,14 @@ msgid ""
 "escape them only to go back towards more. I insist we travel the mountains, "
 "where at least we can fight well!"
 msgstr ""
+"Tím směrem není nic než močály, lesy a další skřeti. Neutekl jsem jim jen "
+"proto, abych se vrátil k dalším. Trvám na tom, abychom putovali do hor, kde "
+"alespoň můžeme dobře bojovat!"
 
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:341
 msgid "I will accept your advice once again, Dulatus."
-msgstr ""
+msgstr "Ještě jednou dám na tvou radu, Dulate."
 
 #. [message]: id=Dulatus
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:345
@@ -1644,6 +1647,8 @@ msgid ""
 "As for this fog, do not worry. Some of my scouts have caught up with us, and "
 "they will help us find our way."
 msgstr ""
+"Nemějte obavy ohledně té mlhy. Někteří z mých zvědů nás dohnali a pomohou "
+"nám najít cestu."
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:350
@@ -2068,12 +2073,12 @@ msgstr ""
 #. [message]: id=Hamel
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1039
 msgid "Shall we travel over the mountains, or explore the cave?"
-msgstr ""
+msgstr "Půjdeme přes hory, nebo prozkoumáme jeskyni?"
 
 #. [option]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1041
 msgid "There is something disturbing about that cave."
-msgstr ""
+msgstr "Na té jeskyni je něco znepokojivého."
 
 #. [option]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1041
@@ -2082,6 +2087,9 @@ msgid ""
 "While I do not fear danger, I feel it would be better for all of us to "
 "travel over the mountains instead."
 msgstr ""
+"\n"
+"Ačkoli mě nebezpečí neděsí, myslím, že pro nás všechny by bylo lepší vydat "
+"se radši přes hory."
 
 #. [option]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1042
@@ -2098,7 +2106,7 @@ msgstr ""
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1047
 #: The_Earths_Gut/scenarios/19_Prison.cfg:1119
 msgid "So be it."
-msgstr ""
+msgstr "Budiž."
 
 #. [option]
 #: The_Earths_Gut/scenarios/04_Up_the_mountain.cfg:1057
@@ -2124,7 +2132,7 @@ msgstr "Doufám, že je to bezpečné."
 #. [scenario]: id=09i_Trolls_leave
 #: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:49
 msgid "Trolls Leave"
-msgstr ""
+msgstr "Odchod trollů"
 
 #. [part]
 #: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:57
@@ -2176,7 +2184,7 @@ msgstr ""
 #. [note]
 #: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:109
 msgid "Recalling is free in this interlude scenario."
-msgstr ""
+msgstr "V tomto mezi herním scénáři je povolávání zdarma."
 
 #. [message]: speaker=narrator
 #: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:143
@@ -2189,6 +2197,8 @@ msgstr ""
 #: The_Earths_Gut/scenarios/09i_Trolls_leave.cfg:229
 msgid "You have enough castle hexes to recall all units required in one turn!"
 msgstr ""
+"Ovládáš dostatek hradních polí, abys mohl/a v jednom tahu povolat všechny "
+"potřebné jednotky!"
 
 #. [scenario]: id=23_Epilogue
 #: The_Earths_Gut/scenarios/23_Epilogue.cfg:5
